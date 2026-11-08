@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shoppie – Nákupný zoznam, ktorý sa učí</title>
+  <meta name="description" content="Shoppie – nákupný zoznam pre iPhone, ktorý sa učí. Shoppie – the shopping list for iPhone that learns.">
+  <meta name="color-scheme" content="light dark">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Shoppie">
+  <meta property="og:title" content="Shoppie – Nákupný zoznam, ktorý sa učí">
+  <meta property="og:description" content="Nákupný zoznam pre iPhone, ktorý sa učí z tvojich nákupov.">
+  <meta property="og:image" content="assets/icon-512.png">
+  <!-- <meta name="apple-itunes-app" content="app-id="> -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="alternate" hreflang="sk" href="sk/">
+  <link rel="alternate" hreflang="cs" href="cs/">
+  <link rel="alternate" hreflang="en" href="en/">
+  <link rel="alternate" hreflang="x-default" href="sk/">
+  <link rel="stylesheet" href="assets/style.css">
+  <script>
+    // Jediný JavaScript na webe: presmeruje podľa jazyka prehliadača (predvolene slovenčina).
+    (function () {
+      var supported = ["sk", "cs", "en"], target = "sk";
+      var langs = navigator.languages || [navigator.language || ""];
+      for (var i = 0; i < langs.length; i++) {
+        var code = String(langs[i]).toLowerCase().slice(0, 2);
+        if (supported.indexOf(code) !== -1) { target = code; break; }
+      }
+      location.replace(target + "/");
+    })();
+  </script>
+</head>
+<body>
+  <main class="chooser">
+    <div>
+      <img src="assets/logo.svg" alt="" width="96" height="96">
+      <h1>Shoppie</h1>
+      <p>Vyber jazyk · Choose your language</p>
+      <ul>
+        <li><a href="sk/" hreflang="sk" lang="sk">Slovenčina</a></li>
+        <li><a href="cs/" hreflang="cs" lang="cs">Čeština</a></li>
+        <li><a href="en/" hreflang="en" lang="en">English</a></li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
