@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Shoppie – The shopping list that learns</title>
-  <meta name="description" content="Shoppie is a shopping list for iPhone that learns from your shopping. Share with your family via iCloud, scan receipts, track best-before dates and add recurring items. Free, with no ads.">
+  <meta name="description" content="Shoppie is a shopping list for iPhone that learns from your shopping. Receipt scanning, Pantry, warranties, recurring items and family sharing via iCloud. Free, with no ads.">
   <meta name="author" content="Christián Marušák">
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
@@ -12,8 +12,8 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Shoppie">
   <meta property="og:title" content="Shoppie – The shopping list that learns">
-  <meta property="og:description" content="Shoppie is a shopping list for iPhone that learns from your shopping. Share with your family via iCloud, scan receipts, track best-before dates and add recurring items. Free, with no ads.">
-  <meta property="og:image" content="../assets/icon-512.png">
+  <meta property="og:description" content="Shoppie is a shopping list for iPhone that learns from your shopping. Receipt scanning, Pantry, warranties, recurring items and family sharing via iCloud. Free, with no ads.">
+  <meta property="og:image" content="https://shoppieapp.eu/assets/icon-512.png">
   <meta property="og:locale" content="en_US">
   <!-- Po vydaní appky doplň číslo (App ID) z App Store Connect a odkomentuj:
   <meta name="apple-itunes-app" content="app-id=">
@@ -32,11 +32,18 @@
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="index.html"><img src="../assets/logo.svg" alt="" width="32" height="32"><span>Shoppie</span></a>
-    <nav aria-label="Language">
-      <ul class="lang">
-        <li><a href="../sk/index.html" hreflang="sk" lang="sk" title="Slovenčina"><span aria-hidden="true">SK</span><span class="sr-only">Slovenčina</span></a></li><li><a href="../cs/index.html" hreflang="cs" lang="cs" title="Čeština"><span aria-hidden="true">CS</span><span class="sr-only">Čeština</span></a></li><li><a href="../en/index.html" hreflang="en" lang="en" title="English" aria-current="true"><span aria-hidden="true">EN</span><span class="sr-only">English</span></a></li>
-      </ul>
-    </nav>
+    <nav class="main-nav" aria-label="Main menu"><a href="index.html" aria-current="page">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+    <div class="header-end">
+      <nav aria-label="Language">
+        <ul class="lang">
+          <li><a href="../sk/index.html" hreflang="sk" lang="sk" title="Slovenčina"><span aria-hidden="true">SK</span><span class="sr-only">Slovenčina</span></a></li><li><a href="../cs/index.html" hreflang="cs" lang="cs" title="Čeština"><span aria-hidden="true">CS</span><span class="sr-only">Čeština</span></a></li><li><a href="../en/index.html" hreflang="en" lang="en" title="English" aria-current="true"><span aria-hidden="true">EN</span><span class="sr-only">English</span></a></li>
+        </ul>
+      </nav>
+      <details class="menu-toggle">
+        <summary aria-label="Menu"><span class="burger" aria-hidden="true"></span></summary>
+        <nav class="menu-panel" aria-label="Main menu"><a href="index.html" aria-current="page">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+      </details>
+    </div>
   </div>
 </header>
 <main id="main">
@@ -59,12 +66,12 @@
   <section aria-labelledby="shots-h">
     <h2 id="shots-h" class="section-title">Take a look</h2>
     <ul class="shots" aria-label="Screenshots – swipe sideways on mobile" tabindex="0">
-    <li><img src="../assets/img/en/en_1.png" width="600" height="1303" alt="Groceries list with suggestions of what is running low" loading="lazy"></li>
-    <li><img src="../assets/img/en/en_2.png" width="600" height="1303" alt="Wheel of favourite items after holding the + button" loading="lazy"></li>
-    <li><img src="../assets/img/en/en_3.png" width="600" height="1303" alt="A scanned receipt with items and prices" loading="lazy"></li>
-    <li><img src="../assets/img/en/en_4.png" width="600" height="1303" alt="Best before overview with food expiry dates" loading="lazy"></li>
-    <li><img src="../assets/img/en/en_5.png" width="600" height="1303" alt="Recurring items: coffee, toilet paper and dishwasher tablets" loading="lazy"></li>
-    <li><img src="../assets/img/en/en_6.png" width="600" height="1303" alt="Warranties for a coffee machine, a washing machine and a TV" loading="lazy"></li>
+    <li><img src="../assets/img/en/en_1.png" width="600" height="1304" alt="Groceries list with suggestions of what is running low" loading="lazy"></li>
+    <li><img src="../assets/img/en/en_2.png" width="600" height="1304" alt="Quick-add wheel with favourite items after holding the + button" loading="lazy"></li>
+    <li><img src="../assets/img/en/en_3.png" width="600" height="1304" alt="A scanned receipt with recognised items and prices" loading="lazy"></li>
+    <li><img src="../assets/img/en/en_4.png" width="600" height="1304" alt="Pantry with best-before dates of food" loading="lazy"></li>
+    <li><img src="../assets/img/en/en_5.png" width="600" height="1304" alt="Recurring items: coffee, toilet paper and dishwasher tablets" loading="lazy"></li>
+    <li><img src="../assets/img/en/en_6.png" width="600" height="1304" alt="Shopping history with stores, number of items and totals" loading="lazy"></li>
     </ul>
   </section>
 
@@ -72,14 +79,56 @@
     <div class="wrap">
       <h2 id="feat-h" class="section-title">What Shoppie does</h2>
       <ul class="features">
-    <li class="card"><span class="emoji" aria-hidden="true">🛒</span><h3>Quick adding</h3><p>Tap + to add an item. Press and hold + to open a wheel with your favourite items.</p></li>
-    <li class="card"><span class="emoji" aria-hidden="true">✨</span><h3>Knows what you're running low on</h3><p>Shoppie learns from your completed shopping trips and suggests what you probably need.</p></li>
-    <li class="card"><span class="emoji" aria-hidden="true">🔁</span><h3>Recurring items</h3><p>Coffee every 2 weeks, toilet paper every month. They add themselves to your list.</p></li>
-    <li class="card"><span class="emoji" aria-hidden="true">👨‍👩‍👧</span><h3>Shared household</h3><p>Share your shopping with your family via iCloud. Everyone sees the changes.</p></li>
-    <li class="card"><span class="emoji" aria-hidden="true">🧾</span><h3>Receipt scanning</h3><p>Snap a receipt or pick one from your photos. It's read right on your iPhone with Apple Intelligence.</p></li>
-    <li class="card"><span class="emoji" aria-hidden="true">🥛</span><h3>Best before</h3><p>Best-before dates and morning reminders, so nothing goes to waste.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true">🛒</span><h3>Quick adding</h3><p>Tap + and type what you need. Shoppie knows about 540 common products and sorts them into categories for you. You can add a quantity and a note too.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true">🎡</span><h3>Favourites wheel</h3><p>Press and hold + and pick what you buy most often from the wheel. You choose what the wheel offers.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true">✨</span><h3>Knows what you’re running low on</h3><p>Shoppie learns from your shopping and suggests what you probably need.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true">🧾</span><h3>Receipt scanning</h3><p>Snap a receipt and Shoppie recognises products and prices, including discounts. Right on your iPhone, even offline.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true">🥛</span><h3>Pantry</h3><p>Food you buy shows up on its own with a best-before date. Each morning Shoppie reminds you what to eat soon, and it can remove expired food for you.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true">🔁</span><h3>Recurring items</h3><p>Coffee every 2 weeks, toilet paper every month. They’re added to your list on the day you choose.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true">🛡️</span><h3>Warranties</h3><p>All your warranties in one place, with a photo of the receipt. You get a reminder before a warranty ends.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true">👨‍👩‍👧</span><h3>Shared household</h3><p>Invite your family via iCloud. Everyone sees changes to your lists right away.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true">🕘</span><h3>History and multiple lists</h3><p>Every shopping trip with the store and number of items. Swipe right to add an item again. Keep as many lists as you need.</p></li>
       </ul>
-      <p class="meta" style="text-align:center;margin-top:20px">Plus shopping history and optional Warranties.</p>
+    </div>
+  </section>
+
+  <section class="duo-section" aria-labelledby="duo-h">
+    <div class="duo-sticky">
+      <h2 id="duo-h">Designed for iPhone Duo too</h2>
+      <p class="hint-scroll">Keep scrolling to unfold it. Shoppie moves from the outer display to the large inner display.</p>
+      <p class="hint-static">On an unfolded iPhone Duo, Shoppie uses the entire large inner display.</p>
+      <div class="duo-scene" role="img" aria-label="3D model of iPhone Duo: closed, it shows Shoppie on the outer display, and as you scroll it opens like a book to the large inner display with the shopping list">
+        <div class="duo-floor"></div>
+        <div class="duo" style="--inner: url('../assets/img/en/duo_inner.jpg'); --outer: url('../assets/img/en/duo_outer.jpg')">
+          <div class="duo-half duo-base"><i class="duo-slice" style="--k:0.042;--c:hsl(38 10% 96%)"></i><i class="duo-slice" style="--k:0.125;--c:hsl(38 10% 90%)"></i><i class="duo-slice" style="--k:0.208;--c:hsl(38 10% 70%)"></i><i class="duo-slice" style="--k:0.292;--c:hsl(38 10% 48%)"></i><i class="duo-slice" style="--k:0.375;--c:hsl(38 10% 62%)"></i><i class="duo-slice" style="--k:0.458;--c:hsl(38 10% 88%)"></i><i class="duo-slice" style="--k:0.542;--c:hsl(38 10% 88%)"></i><i class="duo-slice" style="--k:0.625;--c:hsl(38 10% 62%)"></i><i class="duo-slice" style="--k:0.708;--c:hsl(38 10% 48%)"></i><i class="duo-slice" style="--k:0.792;--c:hsl(38 10% 70%)"></i><i class="duo-slice" style="--k:0.875;--c:hsl(38 10% 90%)"></i><i class="duo-slice" style="--k:0.958;--c:hsl(38 10% 96%)"></i><div class="duo-back"></div><div class="duo-front"></div><i class="duo-btn"></i><i class="duo-btn"></i></div>
+          <div class="duo-half duo-lid"><i class="duo-slice" style="--k:0.042;--c:hsl(38 10% 96%)"></i><i class="duo-slice" style="--k:0.125;--c:hsl(38 10% 90%)"></i><i class="duo-slice" style="--k:0.208;--c:hsl(38 10% 70%)"></i><i class="duo-slice" style="--k:0.292;--c:hsl(38 10% 48%)"></i><i class="duo-slice" style="--k:0.375;--c:hsl(38 10% 62%)"></i><i class="duo-slice" style="--k:0.458;--c:hsl(38 10% 88%)"></i><i class="duo-slice" style="--k:0.542;--c:hsl(38 10% 88%)"></i><i class="duo-slice" style="--k:0.625;--c:hsl(38 10% 62%)"></i><i class="duo-slice" style="--k:0.708;--c:hsl(38 10% 48%)"></i><i class="duo-slice" style="--k:0.792;--c:hsl(38 10% 70%)"></i><i class="duo-slice" style="--k:0.875;--c:hsl(38 10% 90%)"></i><i class="duo-slice" style="--k:0.958;--c:hsl(38 10% 96%)"></i><div class="duo-back"></div><div class="duo-front"></div></div>
+          <div class="duo-spine"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="extras-h">
+    <div class="wrap">
+      <h2 id="extras-h" class="section-title">And more</h2>
+      <ul class="extras">
+        <li>Slovak, Czech and English</li>
+        <li>Dark Mode</li>
+        <li>Larger text and VoiceOver</li>
+        <li>Landscape</li>
+        <li>iPhone Duo</li>
+        <li>iCloud sync</li>
+        <li>Animated welcome tour</li>
+        <li>No ads, no sign-up</li>
+      </ul>
+    </div>
+  </section>
+
+  <section aria-labelledby="priv-h">
+    <div class="wrap privacy-note">
+      <h2 id="priv-h">Your data stays yours</h2>
+      <p>Shoppie collects no data. No accounts, no ads, no tracking. Everything stays on your iPhone and in your iCloud.</p>
+      <a href="privacy.html">Privacy Policy</a>
     </div>
   </section>
 </main>

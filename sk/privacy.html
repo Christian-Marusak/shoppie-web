@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ochrana súkromia – Shoppie</title>
-  <meta name="description" content="Zásady ochrany súkromia appky Shoppie: appka nezbiera žiadne údaje, všetko zostáva v tvojom iPhone a tvojom iCloude.">
+  <meta name="description" content="Zásady ochrany súkromia aplikácie Shoppie: aplikácia nezbiera žiadne údaje, nemá server ani účty. Všetko zostáva vo vašom iPhone a vo vašom iCloude.">
   <meta name="author" content="Christián Marušák">
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
@@ -12,8 +12,8 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Shoppie">
   <meta property="og:title" content="Ochrana súkromia – Shoppie">
-  <meta property="og:description" content="Zásady ochrany súkromia appky Shoppie: appka nezbiera žiadne údaje, všetko zostáva v tvojom iPhone a tvojom iCloude.">
-  <meta property="og:image" content="../assets/icon-512.png">
+  <meta property="og:description" content="Zásady ochrany súkromia aplikácie Shoppie: aplikácia nezbiera žiadne údaje, nemá server ani účty. Všetko zostáva vo vašom iPhone a vo vašom iCloude.">
+  <meta property="og:image" content="https://shoppieapp.eu/assets/icon-512.png">
   <meta property="og:locale" content="sk_SK">
   <!-- Po vydaní appky doplň číslo (App ID) z App Store Connect a odkomentuj:
   <meta name="apple-itunes-app" content="app-id=">
@@ -32,62 +32,71 @@
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="index.html"><img src="../assets/logo.svg" alt="" width="32" height="32"><span>Shoppie</span></a>
-    <nav aria-label="Jazyk">
-      <ul class="lang">
-        <li><a href="../sk/privacy.html" hreflang="sk" lang="sk" title="Slovenčina" aria-current="true"><span aria-hidden="true">SK</span><span class="sr-only">Slovenčina</span></a></li><li><a href="../cs/privacy.html" hreflang="cs" lang="cs" title="Čeština"><span aria-hidden="true">CS</span><span class="sr-only">Čeština</span></a></li><li><a href="../en/privacy.html" hreflang="en" lang="en" title="English"><span aria-hidden="true">EN</span><span class="sr-only">English</span></a></li>
-      </ul>
-    </nav>
+    <nav class="main-nav" aria-label="Hlavné menu"><a href="index.html">Úvod</a><a href="support.html">Podpora</a><a href="privacy.html" aria-current="page">Súkromie</a></nav>
+    <div class="header-end">
+      <nav aria-label="Jazyk">
+        <ul class="lang">
+          <li><a href="../sk/privacy.html" hreflang="sk" lang="sk" title="Slovenčina" aria-current="true"><span aria-hidden="true">SK</span><span class="sr-only">Slovenčina</span></a></li><li><a href="../cs/privacy.html" hreflang="cs" lang="cs" title="Čeština"><span aria-hidden="true">CS</span><span class="sr-only">Čeština</span></a></li><li><a href="../en/privacy.html" hreflang="en" lang="en" title="English"><span aria-hidden="true">EN</span><span class="sr-only">English</span></a></li>
+        </ul>
+      </nav>
+      <details class="menu-toggle">
+        <summary aria-label="Menu"><span class="burger" aria-hidden="true"></span></summary>
+        <nav class="menu-panel" aria-label="Hlavné menu"><a href="index.html">Úvod</a><a href="support.html">Podpora</a><a href="privacy.html" aria-current="page">Súkromie</a></nav>
+      </details>
+    </div>
   </div>
 </header>
 <main id="main" class="page">
   <div class="wrap">
     <h1>Ochrana súkromia</h1>
-    <p class="meta">Účinné od 8. novembra 2026 · Vývojár: Christián Marušák</p>
-    <p class="lead">Krátko: Shoppie o tebe nič nezbiera. Tvoje údaje sú v tvojom iPhone a v tvojom iCloude, nie u mňa.</p>
-    <section class="card">
-      <h2>Stručne</h2>
-      <ul><li>Žiadna analytika, žiadne sledovanie, žiadne reklamy.</li><li>Žiadne SDK ani služby tretích strán.</li><li>Bez registrácie a bez prihlasovania.</li><li>Ja ako vývojár k tvojim údajom nemám prístup.</li></ul>
-    </section>
-    <section class="card">
-      <h2>Aké údaje zbieram</h2>
-      <p><strong>Žiadne.</strong> Appka Shoppie neposiela vývojárovi nijaké údaje o tebe ani o tom, ako appku používaš.</p>
-    </section>
-    <section class="card">
-      <h2>Kde sú uložené tvoje údaje</h2>
-      <p>Všetko, čo v appke máš – zoznamy, položky, história nákupov, spotreba, pravidelné položky, záruky a nastavenia – je uložené v tvojom zariadení a synchronizuje sa cez tvoj <strong>súkromný iCloud</strong> (Apple CloudKit).</p><p>Na tieto údaje sa vzťahujú <a href="https://www.apple.com/legal/privacy/">zásady ochrany súkromia spoločnosti Apple</a>.</p>
-    </section>
-    <section class="card">
-      <h2>Zdieľanie domácnosti</h2>
-      <p>Ak niekoho pozveš do svojej domácnosti, pozvaní členovia vidia a môžu upravovať zdieľané údaje domácnosti: <strong>zoznamy, históriu, spotrebu a pravidelné položky</strong>.</p><p><strong>Záruky a nastavenia sa nezdieľajú.</strong></p><p>Zdieľanie prebieha cez iCloud. Člen môže domácnosť kedykoľvek opustiť a vlastník môže členov odobrať.</p>
-    </section>
-    <section class="card">
-      <h2>Fotoaparát a fotky</h2>
-      <p>Fotoaparát a fotky sa používajú <strong>len na sken bločku</strong>. Text z bločku sa prečíta priamo v iPhone pomocou Apple Intelligence. Fotka sa nikam neposiela ani neukladá – do histórie sa uložia len prečítané položky a ceny.</p>
-    </section>
-    <section class="card">
-      <h2>Notifikácie</h2>
-      <p>Pripomienky spotreby sú <strong>lokálne</strong> – naplánuje si ich priamo tvoj iPhone. Neposielam žiadne push správy.</p>
-    </section>
-    <section class="card">
-      <h2>Ako vymazať údaje</h2>
-      <ul><li>V appke v Nastaveniach: <em>Vymazať históriu nákupov</em> a <em>Vymazať spotrebu</em>.</li><li>Vymazaním jednotlivých položiek v appke.</li><li>Odstránením appky a jej údajov z iCloudu: Nastavenia iPhonu → [tvoje meno] → iCloud → Spravovať úložisko.</li></ul>
-    </section>
-    <section class="card">
-      <h2>Deti</h2>
-      <p>Shoppie nie je určený špeciálne deťom a nezbiera údaje o nikom – ani o deťoch.</p>
-    </section>
-    <section class="card">
-      <h2>Tento web</h2>
+    <p class="meta">Účinné od 18. novembra 2026 · Vývojár: Christián Marušák</p>
+    <p class="lead">Stručne: Shoppie o vás nič nezbiera. Vaše údaje sú vo vašom iPhone a vo vašom iCloude, nie u nás.</p>
+    <article class="card policy">
+      <section>
+        <h2>Stručne</h2>
+      <ul><li>Žiadne účty, registrácia ani prihlasovanie.</li><li>Žiadna analytika, žiadne sledovanie (tracking), žiadne reklamy.</li><li>Žiadne SDK ani služby tretích strán.</li><li>Žiadny server – aplikácia nám neposiela nijaké údaje.</li><li>K vašim údajom nemáme prístup.</li></ul>
+      </section>
+      <section>
+        <h2>Aké údaje zbierame</h2>
+      <p><strong>Žiadne.</strong> Shoppie nám neposiela nijaké údaje o vás ani o tom, ako aplikáciu používate. Nemáme žiadny server, na ktorý by sa údaje mohli posielať.</p><p>Preto má Shoppie v App Store označenie, že <strong>nezhromažďuje žiadne údaje</strong> (Data Not Collected).</p>
+      </section>
+      <section>
+        <h2>Kde sú uložené vaše údaje</h2>
+      <p>Všetko, čo v aplikácii máte – zoznamy, história nákupov, Spotreba, pravidelné položky, záruky, fotky bločkov a nastavenia – je uložené <strong>vo vašom zariadení</strong> a synchronizuje sa cez váš <strong>súkromný iCloud</strong> (Apple CloudKit) medzi vašimi zariadeniami.</p><p>K týmto údajom nemáme prístup. Vzťahujú sa na ne <a href="https://www.apple.com/legal/privacy/">zásady ochrany súkromia spoločnosti Apple</a>.</p>
+      </section>
+      <section>
+        <h2>Zdieľanie domácnosti</h2>
+      <p>Ak niekoho pozvete do svojej domácnosti cez iCloud, člen domácnosti vidí a môže upravovať <strong>zoznamy, históriu nákupov, Spotrebu a pravidelné položky</strong>.</p><p><strong>Záruky (vrátane ich fotiek bločkov) a nastavenia ostávajú súkromné.</strong> Výnimkou je nastavenie automatického odstránenia v Spotrebe, ktoré platí pre celú domácnosť.</p><p>Vlastník môže zdieľanie kedykoľvek ukončiť alebo odobrať jednotlivého člena. Člen môže domácnosť kedykoľvek opustiť.</p>
+      </section>
+      <section>
+        <h2>Fotoaparát a fotky</h2>
+      <p>Fotoaparát (a fotky, ak bloček vyberiete z galérie) sa používa <strong>len na skenovanie bločkov</strong>.</p><p>Text z bločku sa číta <strong>priamo v iPhone</strong> pomocou Apple Vision. Na iPhonoch s Apple Intelligence ho navyše spracuje model Apple priamo v zariadení. <strong>Nič sa neposiela na internet.</strong></p><p>Fotky bločkov, ktoré si uložíte (napríklad pri záruke), sú len vo vašom zariadení a vo vašom súkromnom iCloude.</p>
+      </section>
+      <section>
+        <h2>Notifikácie</h2>
+      <p>Pripomienky dátumu spotreby a konca záruky sú <strong>lokálne</strong> – naplánuje si ich priamo váš iPhone. Neposielame žiadne push správy. Notifikácie môžete kedykoľvek vypnúť v Nastaveniach iPhonu.</p>
+      </section>
+      <section>
+        <h2>Ako vymazať údaje</h2>
+      <ul><li><strong>V aplikácii:</strong> v nastaveniach vymažete históriu nákupov alebo Spotrebu; jednotlivé položky a záruky zmažete priamo v aplikácii.</li><li><strong>V iCloude:</strong> Nastavenia iPhonu → [vaše meno] → iCloud → Spravovať úložisko → Shoppie.</li><li><strong>Zmazaním aplikácie</strong> z iPhonu sa odstránia údaje uložené v zariadení. Kópiu v iCloude odstránite cez Spravovať úložisko (bod vyššie).</li></ul><p>Keďže o vás nemáme žiadne údaje, nemáme vám čo poskytnúť ani vymazať – všetky svoje údaje máte pod kontrolou vy.</p>
+      </section>
+      <section>
+        <h2>Deti</h2>
+      <p>Shoppie nie je určený špeciálne deťom a nezbiera nič od nikoho – ani od detí.</p>
+      </section>
+      <section>
+        <h2>Tento web</h2>
       <p>Táto stránka nepoužíva cookies, analytiku ani externé písma. Je hostovaná na GitHub Pages; GitHub môže z bezpečnostných dôvodov zaznamenávať technické údaje, napríklad IP adresu návštevníka.</p>
-    </section>
-    <section class="card">
-      <h2>Zmeny zásad</h2>
-      <p>Ak sa tieto zásady zmenia, novú verziu zverejním na tejto stránke a upravím dátum účinnosti.</p>
-    </section>
-    <section class="card">
-      <h2>Kontakt</h2>
-      <p>Otázky o súkromí mi napíš na <a href="mailto:christianm@outlook.sk">christianm@outlook.sk</a>.</p>
-    </section>
+      </section>
+      <section>
+        <h2>Zmeny tejto politiky</h2>
+      <p>Ak sa táto politika zmení, novú verziu zverejníme na tejto stránke a upravíme dátum účinnosti hore.</p>
+      </section>
+      <section>
+        <h2>Kontakt</h2>
+      <p>Otázky o súkromí nám napíšte na <a href="mailto:christianm@outlook.sk">christianm@outlook.sk</a>.</p>
+      </section>
+    </article>
   </div>
 </main>
 <footer class="site-footer">

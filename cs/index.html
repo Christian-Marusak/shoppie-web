@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Shoppie – Nákupní seznam, který se učí</title>
-  <meta name="description" content="Shoppie je nákupní seznam pro iPhone, který se učí z tvých nákupů. Sdílení s rodinou přes iCloud, sken účtenky, spotřeba a pravidelné položky. Zdarma a bez reklam.">
+  <meta name="description" content="Shoppie je nákupní seznam pro iPhone, který se učí z vašich nákupů. Sken účtenky, Spotřeba, záruky, pravidelné položky a sdílení s rodinou přes iCloud. Zdarma, bez reklam.">
   <meta name="author" content="Christián Marušák">
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
@@ -12,8 +12,8 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Shoppie">
   <meta property="og:title" content="Shoppie – Nákupní seznam, který se učí">
-  <meta property="og:description" content="Shoppie je nákupní seznam pro iPhone, který se učí z tvých nákupů. Sdílení s rodinou přes iCloud, sken účtenky, spotřeba a pravidelné položky. Zdarma a bez reklam.">
-  <meta property="og:image" content="../assets/icon-512.png">
+  <meta property="og:description" content="Shoppie je nákupní seznam pro iPhone, který se učí z vašich nákupů. Sken účtenky, Spotřeba, záruky, pravidelné položky a sdílení s rodinou přes iCloud. Zdarma, bez reklam.">
+  <meta property="og:image" content="https://shoppieapp.eu/assets/icon-512.png">
   <meta property="og:locale" content="cs_CZ">
   <!-- Po vydaní appky doplň číslo (App ID) z App Store Connect a odkomentuj:
   <meta name="apple-itunes-app" content="app-id=">
@@ -32,11 +32,18 @@
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="index.html"><img src="../assets/logo.svg" alt="" width="32" height="32"><span>Shoppie</span></a>
-    <nav aria-label="Jazyk">
-      <ul class="lang">
-        <li><a href="../sk/index.html" hreflang="sk" lang="sk" title="Slovenčina"><span aria-hidden="true">SK</span><span class="sr-only">Slovenčina</span></a></li><li><a href="../cs/index.html" hreflang="cs" lang="cs" title="Čeština" aria-current="true"><span aria-hidden="true">CS</span><span class="sr-only">Čeština</span></a></li><li><a href="../en/index.html" hreflang="en" lang="en" title="English"><span aria-hidden="true">EN</span><span class="sr-only">English</span></a></li>
-      </ul>
-    </nav>
+    <nav class="main-nav" aria-label="Hlavní menu"><a href="index.html" aria-current="page">Úvod</a><a href="support.html">Podpora</a><a href="privacy.html">Soukromí</a></nav>
+    <div class="header-end">
+      <nav aria-label="Jazyk">
+        <ul class="lang">
+          <li><a href="../sk/index.html" hreflang="sk" lang="sk" title="Slovenčina"><span aria-hidden="true">SK</span><span class="sr-only">Slovenčina</span></a></li><li><a href="../cs/index.html" hreflang="cs" lang="cs" title="Čeština" aria-current="true"><span aria-hidden="true">CS</span><span class="sr-only">Čeština</span></a></li><li><a href="../en/index.html" hreflang="en" lang="en" title="English"><span aria-hidden="true">EN</span><span class="sr-only">English</span></a></li>
+        </ul>
+      </nav>
+      <details class="menu-toggle">
+        <summary aria-label="Menu"><span class="burger" aria-hidden="true"></span></summary>
+        <nav class="menu-panel" aria-label="Hlavní menu"><a href="index.html" aria-current="page">Úvod</a><a href="support.html">Podpora</a><a href="privacy.html">Soukromí</a></nav>
+      </details>
+    </div>
   </div>
 </header>
 <main id="main">
@@ -58,13 +65,13 @@
 
   <section aria-labelledby="shots-h">
     <h2 id="shots-h" class="section-title">Jak to vypadá</h2>
-    <ul class="shots" aria-label="Snímky obrazovky – na mobilu posouvej do strany" tabindex="0">
-    <li><img src="../assets/img/cs/cs_1.png" width="600" height="1303" alt="Seznam Potraviny s návrhy, co asi dochází" loading="lazy"></li>
-    <li><img src="../assets/img/cs/cs_2.png" width="600" height="1303" alt="Kolečko s oblíbenými položkami po podržení tlačítka +" loading="lazy"></li>
-    <li><img src="../assets/img/cs/cs_3.png" width="600" height="1303" alt="Naskenovaná účtenka s položkami a cenami" loading="lazy"></li>
-    <li><img src="../assets/img/cs/cs_4.png" width="600" height="1303" alt="Přehled Spotřeba s daty spotřeby jídla" loading="lazy"></li>
-    <li><img src="../assets/img/cs/cs_5.png" width="600" height="1303" alt="Pravidelné položky: káva, toaletní papír a tablety do myčky" loading="lazy"></li>
-    <li><img src="../assets/img/cs/cs_6.png" width="600" height="1303" alt="Záruky na kávovar, pračku a televizi" loading="lazy"></li>
+    <ul class="shots" aria-label="Snímky obrazovky – na mobilu posouvejte do strany" tabindex="0">
+    <li><img src="../assets/img/cs/cs_1.png" width="600" height="1304" alt="Nákupní seznam Potraviny s návrhy, co asi dochází" loading="lazy"></li>
+    <li><img src="../assets/img/cs/cs_2.png" width="600" height="1304" alt="Kolečko rychlého přidávání s oblíbenými položkami po podržení tlačítka +" loading="lazy"></li>
+    <li><img src="../assets/img/cs/cs_3.png" width="600" height="1304" alt="Naskenovaná účtenka s rozpoznanými položkami a cenami" loading="lazy"></li>
+    <li><img src="../assets/img/cs/cs_4.png" width="600" height="1304" alt="Spotřeba s daty spotřeby potravin" loading="lazy"></li>
+    <li><img src="../assets/img/cs/cs_5.png" width="600" height="1304" alt="Pravidelné položky: káva, toaletní papír a tablety do myčky" loading="lazy"></li>
+    <li><img src="../assets/img/cs/cs_6.png" width="600" height="1304" alt="Historie nákupů s obchody, počtem položek a částkami" loading="lazy"></li>
     </ul>
   </section>
 
@@ -72,14 +79,56 @@
     <div class="wrap">
       <h2 id="feat-h" class="section-title">Co Shoppie umí</h2>
       <ul class="features">
-    <li class="card"><span class="emoji" aria-hidden="true">🛒</span><h3>Rychlé přidávání</h3><p>Ťukni na + a přidej položku. Podrž + a otevře se kolečko s tvými oblíbenými věcmi.</p></li>
-    <li class="card"><span class="emoji" aria-hidden="true">✨</span><h3>Ví, co ti dochází</h3><p>Shoppie se učí z dokončených nákupů a navrhne, co asi bude potřeba koupit.</p></li>
-    <li class="card"><span class="emoji" aria-hidden="true">🔁</span><h3>Pravidelné položky</h3><p>Káva každé 2 týdny, papír každý měsíc. Přidají se do seznamu samy.</p></li>
-    <li class="card"><span class="emoji" aria-hidden="true">👨‍👩‍👧</span><h3>Společná domácnost</h3><p>Sdílej nákupy s rodinou přes iCloud. Změny vidí všichni.</p></li>
-    <li class="card"><span class="emoji" aria-hidden="true">🧾</span><h3>Sken účtenky</h3><p>Vyfoť účtenku nebo ji vyber z galerie. Přečte se přímo v iPhonu pomocí Apple Intelligence.</p></li>
-    <li class="card"><span class="emoji" aria-hidden="true">🥛</span><h3>Spotřeba</h3><p>Data spotřeby a ranní připomínky, aby se nic nezkazilo.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true">🛒</span><h3>Rychlé přidávání</h3><p>Ťukněte na + a napište, co je potřeba. Shoppie zná asi 540 běžných produktů a sám je zařadí do kategorie. Přidáte i množství a poznámku.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true">🎡</span><h3>Kolečko oblíbených</h3><p>Podržte + a vyberte z kolečka, co kupujete nejčastěji. Co kolečko nabízí, si nastavíte sami.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true">✨</span><h3>Ví, co vám dochází</h3><p>Shoppie se učí z vašich nákupů a navrhne, co asi bude potřeba koupit.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true">🧾</span><h3>Sken účtenky</h3><p>Vyfoťte účtenku a Shoppie rozpozná produkty i ceny včetně slev. Přímo v iPhonu, i offline.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true">🥛</span><h3>Spotřeba</h3><p>Koupené potraviny se objeví samy i s datem spotřeby. Ráno vám připomene, co je potřeba sníst, a potraviny po datu může sám odstranit.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true">🔁</span><h3>Pravidelné položky</h3><p>Káva každé 2 týdny, papír každý měsíc. Ve zvolený den se přidají do seznamu samy.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true">🛡️</span><h3>Záruky</h3><p>Záruky i s fotkou účtenky na jednom místě. Před koncem záruky dostanete připomínku.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true">👨‍👩‍👧</span><h3>Společná domácnost</h3><p>Pozvěte rodinu přes iCloud. Změny v seznamech vidí všichni hned.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true">🕘</span><h3>Historie a víc seznamů</h3><p>Všechny nákupy s obchodem a počtem položek. Přetažením doprava položku znovu přidáte. Seznamů můžete mít víc.</p></li>
       </ul>
-      <p class="meta" style="text-align:center;margin-top:20px">A k tomu historie nákupů a volitelné Záruky.</p>
+    </div>
+  </section>
+
+  <section class="duo-section" aria-labelledby="duo-h">
+    <div class="duo-sticky">
+      <h2 id="duo-h">Navrženo i pro iPhone Duo</h2>
+      <p class="hint-scroll">Posouvejte dál a rozložte ho. Shoppie se z vnějšího displeje přesune na velký vnitřní displej.</p>
+      <p class="hint-static">Na rozloženém iPhonu Duo využije Shoppie celý velký vnitřní displej.</p>
+      <div class="duo-scene" role="img" aria-label="3D model iPhonu Duo: zavřený telefon ukazuje Shoppie na vnějším displeji a při posouvání stránky se otevře jako kniha na velký vnitřní displej s nákupním seznamem">
+        <div class="duo-floor"></div>
+        <div class="duo" style="--inner: url('../assets/img/cs/duo_inner.jpg'); --outer: url('../assets/img/cs/duo_outer.jpg')">
+          <div class="duo-half duo-base"><i class="duo-slice" style="--k:0.042;--c:hsl(38 10% 96%)"></i><i class="duo-slice" style="--k:0.125;--c:hsl(38 10% 90%)"></i><i class="duo-slice" style="--k:0.208;--c:hsl(38 10% 70%)"></i><i class="duo-slice" style="--k:0.292;--c:hsl(38 10% 48%)"></i><i class="duo-slice" style="--k:0.375;--c:hsl(38 10% 62%)"></i><i class="duo-slice" style="--k:0.458;--c:hsl(38 10% 88%)"></i><i class="duo-slice" style="--k:0.542;--c:hsl(38 10% 88%)"></i><i class="duo-slice" style="--k:0.625;--c:hsl(38 10% 62%)"></i><i class="duo-slice" style="--k:0.708;--c:hsl(38 10% 48%)"></i><i class="duo-slice" style="--k:0.792;--c:hsl(38 10% 70%)"></i><i class="duo-slice" style="--k:0.875;--c:hsl(38 10% 90%)"></i><i class="duo-slice" style="--k:0.958;--c:hsl(38 10% 96%)"></i><div class="duo-back"></div><div class="duo-front"></div><i class="duo-btn"></i><i class="duo-btn"></i></div>
+          <div class="duo-half duo-lid"><i class="duo-slice" style="--k:0.042;--c:hsl(38 10% 96%)"></i><i class="duo-slice" style="--k:0.125;--c:hsl(38 10% 90%)"></i><i class="duo-slice" style="--k:0.208;--c:hsl(38 10% 70%)"></i><i class="duo-slice" style="--k:0.292;--c:hsl(38 10% 48%)"></i><i class="duo-slice" style="--k:0.375;--c:hsl(38 10% 62%)"></i><i class="duo-slice" style="--k:0.458;--c:hsl(38 10% 88%)"></i><i class="duo-slice" style="--k:0.542;--c:hsl(38 10% 88%)"></i><i class="duo-slice" style="--k:0.625;--c:hsl(38 10% 62%)"></i><i class="duo-slice" style="--k:0.708;--c:hsl(38 10% 48%)"></i><i class="duo-slice" style="--k:0.792;--c:hsl(38 10% 70%)"></i><i class="duo-slice" style="--k:0.875;--c:hsl(38 10% 90%)"></i><i class="duo-slice" style="--k:0.958;--c:hsl(38 10% 96%)"></i><div class="duo-back"></div><div class="duo-front"></div></div>
+          <div class="duo-spine"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="extras-h">
+    <div class="wrap">
+      <h2 id="extras-h" class="section-title">A ještě</h2>
+      <ul class="extras">
+        <li>Slovenština, čeština, angličtina</li>
+        <li>Tmavý režim</li>
+        <li>Velké písmo a VoiceOver</li>
+        <li>Režim na šířku</li>
+        <li>iPhone Duo</li>
+        <li>Synchronizace přes iCloud</li>
+        <li>Úvodní průvodce s animacemi</li>
+        <li>Bez reklam a registrace</li>
+      </ul>
+    </div>
+  </section>
+
+  <section aria-labelledby="priv-h">
+    <div class="wrap privacy-note">
+      <h2 id="priv-h">Vaše data patří jen vám</h2>
+      <p>Shoppie nesbírá žádná data. Žádné účty, reklamy ani sledování. Vše je ve vašem iPhonu a ve vašem iCloudu.</p>
+      <a href="privacy.html">Ochrana soukromí</a>
     </div>
   </section>
 </main>

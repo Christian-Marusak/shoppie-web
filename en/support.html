@@ -13,7 +13,7 @@
   <meta property="og:site_name" content="Shoppie">
   <meta property="og:title" content="Support – Shoppie">
   <meta property="og:description" content="Help and frequently asked questions for Shoppie, the shopping list for iPhone.">
-  <meta property="og:image" content="../assets/icon-512.png">
+  <meta property="og:image" content="https://shoppieapp.eu/assets/icon-512.png">
   <meta property="og:locale" content="en_US">
   <!-- Po vydaní appky doplň číslo (App ID) z App Store Connect a odkomentuj:
   <meta name="apple-itunes-app" content="app-id=">
@@ -32,91 +32,194 @@
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="index.html"><img src="../assets/logo.svg" alt="" width="32" height="32"><span>Shoppie</span></a>
-    <nav aria-label="Language">
-      <ul class="lang">
-        <li><a href="../sk/support.html" hreflang="sk" lang="sk" title="Slovenčina"><span aria-hidden="true">SK</span><span class="sr-only">Slovenčina</span></a></li><li><a href="../cs/support.html" hreflang="cs" lang="cs" title="Čeština"><span aria-hidden="true">CS</span><span class="sr-only">Čeština</span></a></li><li><a href="../en/support.html" hreflang="en" lang="en" title="English" aria-current="true"><span aria-hidden="true">EN</span><span class="sr-only">English</span></a></li>
-      </ul>
-    </nav>
+    <nav class="main-nav" aria-label="Main menu"><a href="index.html">Home</a><a href="support.html" aria-current="page">Support</a><a href="privacy.html">Privacy</a></nav>
+    <div class="header-end">
+      <nav aria-label="Language">
+        <ul class="lang">
+          <li><a href="../sk/support.html" hreflang="sk" lang="sk" title="Slovenčina"><span aria-hidden="true">SK</span><span class="sr-only">Slovenčina</span></a></li><li><a href="../cs/support.html" hreflang="cs" lang="cs" title="Čeština"><span aria-hidden="true">CS</span><span class="sr-only">Čeština</span></a></li><li><a href="../en/support.html" hreflang="en" lang="en" title="English" aria-current="true"><span aria-hidden="true">EN</span><span class="sr-only">English</span></a></li>
+        </ul>
+      </nav>
+      <details class="menu-toggle">
+        <summary aria-label="Menu"><span class="burger" aria-hidden="true"></span></summary>
+        <nav class="menu-panel" aria-label="Main menu"><a href="index.html">Home</a><a href="support.html" aria-current="page">Support</a><a href="privacy.html">Privacy</a></nav>
+      </details>
+    </div>
   </div>
 </header>
 <main id="main" class="page">
   <div class="wrap">
     <h1>Support</h1>
-    <p class="lead">Something not working, or have an idea? I'm happy to help.</p>
+    <p class="lead">Something not working, or have an idea? We’re happy to help.</p>
 
     <section class="card contact" aria-labelledby="contact-h">
       <h2 id="contact-h">Get in touch</h2>
-      <p>I usually reply within a few days. It helps if you include your iPhone model and iOS version.</p>
+      <p>We usually reply within a few days. It helps if you include your iPhone model and iOS version.</p>
       <a class="btn" href="mailto:christianm@outlook.sk?subject=Shoppie">christianm@outlook.sk</a>
     </section>
 
     <h2 id="faq-h" style="margin-top:32px">Frequently asked questions</h2>
+    <h3 class="faq-group" id="faq-1">Shopping list</h3>
     <div class="card faq">
       <details>
-        <summary>How do I add an item, and how does the wheel work?</summary>
+        <summary>How do I add an item?</summary>
         <div class="answer">
-<p>Tap the green <strong>+</strong> button at the bottom and type what you want to buy.</p>
-<p>Press and hold <strong>+</strong> to open a wheel with your favourite items. Pick one and it's on your list.</p>
+          <p>Tap the green <strong>+</strong> button at the bottom and type what you want to buy. Shoppie knows common products (a catalogue of about 540 items), so it picks the category for you.</p>
+          <p>You can also add a quantity and a note.</p>
         </div>
       </details>
       <details>
-        <summary>Why doesn't Shoppie suggest anything?</summary>
+        <summary>How does the quick-add wheel work?</summary>
         <div class="answer">
-<p>Suggestions come from your <strong>completed shopping trips</strong>. Shoppie needs a few of them to learn what you buy and how often.</p>
-<p>Just shop as usual and complete each trip at the end. Suggestions will start to appear on their own.</p>
+          <p>Press and hold <strong>+</strong> to open a wheel with the things you buy most often. Pick one and it’s on your list.</p>
+          <p>You can choose what the wheel offers.</p>
         </div>
       </details>
       <details>
-        <summary>How do I invite my family to my household, and what is shared?</summary>
+        <summary>Can I have more than one list?</summary>
         <div class="answer">
-<p>You send the household invitation right from the app. Sharing works through iCloud, so the person you invite needs an iPhone signed in to an Apple Account with iCloud turned on.</p>
-<p>Household members can see and edit <strong>lists, shopping history, best-before items and recurring items</strong>.</p>
-<p><strong>Warranties and settings are not shared</strong> – they stay personal.</p>
-<p>A member can leave the household at any time, and the owner can remove members.</p>
+          <p>Yes. Tap the <strong>list name at the top</strong> to switch between your lists.</p>
         </div>
       </details>
       <details>
-        <summary>Why can't I see my partner's changes?</summary>
+        <summary>What happens when I complete a shopping trip?</summary>
         <div class="answer">
-<p>Please check that:</p>
-<ul><li>you both have <strong>iCloud</strong> turned on (iPhone Settings → [your name] → iCloud),</li><li>you are both in the <strong>same household</strong>,</li><li>both iPhones are <strong>connected to the internet</strong>,</li><li>and <strong>pull down</strong> on the list to refresh.</li></ul>
-<p>iCloud sync usually takes a few seconds, sometimes a little longer.</p>
+          <p>Checked-off items are saved to <strong>History</strong> and removed from the list.</p>
+          <p>History shows all your trips with the store and number of items. <strong>Swipe an item to the right</strong> to add it back to your list.</p>
         </div>
       </details>
       <details>
-        <summary>Why can't I scan receipts?</summary>
+        <summary>Why doesn’t Shoppie suggest anything?</summary>
         <div class="answer">
-<p>Receipt scanning reads the text right on your iPhone using <strong>Apple Intelligence</strong>, so it only works on iPhone models that support Apple Intelligence.</p>
-<p>If your iPhone supports it, make sure Apple Intelligence is turned on in iPhone Settings (Apple Intelligence &amp; Siri). All other Shoppie features work on any iPhone with iOS 26.</p>
+          <p>Suggestions come from your <strong>completed shopping trips</strong>. Shoppie needs a few of them to learn what you buy and how often.</p>
+          <p>Just shop as usual and complete each trip at the end. Suggestions will start to appear on their own.</p>
         </div>
       </details>
       <details>
-        <summary>How do best-before reminders work, and why am I not getting them?</summary>
+        <summary>How do recurring items work?</summary>
         <div class="answer">
-<p>Each morning Shoppie reminds you about food that is close to its best-before date. The reminders are scheduled on your iPhone itself – nothing is sent from a server.</p>
-<p>If they don't arrive:</p>
-<ul><li>allow notifications: iPhone Settings → Apps → Shoppie → Notifications,</li><li>check the reminder time in the app's <strong>Settings</strong>,</li><li>make sure the item has a best-before date,</li><li>and check that a Focus mode isn't hiding notifications.</li></ul>
+          <p>For things you buy regularly (say, coffee every 2 weeks), set how often you buy them. Shoppie <strong>adds them to your list automatically</strong> on the day you choose.</p>
+        </div>
+      </details>
+    </div>
+    <h3 class="faq-group" id="faq-2">Receipt scanning</h3>
+    <div class="card faq">
+      <details>
+        <summary>How does receipt scanning work?</summary>
+        <div class="answer">
+          <p>Take a photo of a receipt and Shoppie recognises the products and prices, including discounts.</p>
+          <p>The text is read <strong>right on your iPhone</strong> using Apple Vision, so scanning works on any iPhone with iOS 26, even offline. On iPhones with Apple Intelligence, Apple’s on-device model additionally processes it. Nothing is sent to the internet.</p>
         </div>
       </details>
       <details>
-        <summary>How do I see the introduction again?</summary>
+        <summary>The scan didn’t recognise everything. What can I do?</summary>
         <div class="answer">
-<p>In the app, open <strong>Settings → Show Introduction</strong>.</p>
+          <p>It helps if:</p>
+          <ul><li>the receipt is flat and fully in the frame,</li><li>there’s enough light and the photo isn’t blurry,</li><li>the receipt isn’t faded or crumpled.</li></ul>
+          <p>Check the items before saving and correct them if needed.</p>
         </div>
       </details>
       <details>
-        <summary>How do I delete my data?</summary>
+        <summary>The scanner won’t start or I can’t see the camera</summary>
         <div class="answer">
-<p>You have several options:</p>
-<ul><li>in the app's <strong>Settings</strong>: <em>Delete Shopping History</em> and <em>Delete Best Before</em>,</li><li>delete individual items in the app,</li><li>or everything at once: remove the app and its data from iCloud – iPhone Settings → [your name] → iCloud → Manage Storage → Shoppie.</li></ul>
-<p>More in the <a href="privacy.html">privacy policy</a>.</p>
+          <p>Shoppie needs camera access. Allow it in iPhone Settings → Apps → Shoppie → Camera.</p>
+        </div>
+      </details>
+    </div>
+    <h3 class="faq-group" id="faq-3">Pantry and reminders</h3>
+    <div class="card faq">
+      <details>
+        <summary>How does Pantry work?</summary>
+        <div class="answer">
+          <p>Food you buy appears in Pantry automatically, with an estimated best-before date or one you enter.</p>
+          <p>When you finish something, mark it as <strong>eaten</strong>; if you have to throw it away, mark it as <strong>thrown away</strong>.</p>
+        </div>
+      </details>
+      <details>
+        <summary>What is auto-remove?</summary>
+        <div class="answer">
+          <p>Food past its best-before date can be removed from Pantry automatically after <strong>1, 2, 3 or 7 days</strong>. You choose whether it counts as eaten, thrown away, or is simply deleted.</p>
+          <p>It is <strong>off by default</strong>. The setting applies to the whole household, so to all members.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Why am I not getting reminders?</summary>
+        <div class="answer">
+          <p>Shoppie sends <strong>one notification in the morning</strong> listing food you should eat soon, plus a reminder before a warranty ends. Notifications are scheduled on your iPhone itself.</p>
+          <p>If they don’t arrive:</p>
+          <ul><li>allow notifications: iPhone Settings → Apps → Shoppie → Notifications,</li><li>in the app’s settings, check when you want to be reminded (on the day or a few days before),</li><li>make sure the food has a best-before date,</li><li>and check that a Focus mode isn’t hiding notifications.</li></ul>
+        </div>
+      </details>
+    </div>
+    <h3 class="faq-group" id="faq-4">Warranties</h3>
+    <div class="card faq">
+      <details>
+        <summary>How do warranties work?</summary>
+        <div class="answer">
+          <p>Save a warranty for anything you buy, together with a <strong>photo of the receipt</strong>. Shoppie reminds you before the warranty ends.</p>
+          <p>In the EU, new goods come with a warranty of at least 24 months.</p>
+          <p>Warranties are <strong>private</strong> – they are not shared with your household. If you don’t use them, you can hide the Warranties tab in settings.</p>
+        </div>
+      </details>
+    </div>
+    <h3 class="faq-group" id="faq-5">Household and sync</h3>
+    <div class="card faq">
+      <details>
+        <summary>How do I invite my family, and what is shared?</summary>
+        <div class="answer">
+          <p>You send the household invitation right from the app. Sharing works through iCloud, so the person you invite needs an iPhone signed in to an Apple Account with iCloud turned on.</p>
+          <p>Household members can see and edit <strong>lists, shopping history, Pantry and recurring items</strong>. You can also see the list of members in the app.</p>
+          <p><strong>Warranties and settings are not shared</strong> (except the Pantry auto-remove setting).</p>
+        </div>
+      </details>
+      <details>
+        <summary>Why can’t I see my partner’s changes?</summary>
+        <div class="answer">
+          <p>Please check that:</p>
+          <ul><li>you both have <strong>iCloud</strong> turned on (iPhone Settings → [your name] → iCloud),</li><li>you are both in the <strong>same household</strong>,</li><li>both iPhones are <strong>connected to the internet</strong>,</li><li>and <strong>pull down</strong> on the list to refresh.</li></ul>
+          <p>iCloud sync usually takes a few seconds, sometimes a little longer.</p>
+        </div>
+      </details>
+      <details>
+        <summary>How do I stop sharing or leave a household?</summary>
+        <div class="answer">
+          <p>The household owner can stop sharing or remove an individual member at any time. A member can leave the household at any time.</p>
         </div>
       </details>
       <details>
         <summary>What happens to my data when I leave a household?</summary>
         <div class="answer">
-<p>Once you leave a household, you no longer see its shared data (lists, history, best-before items and recurring items). The other members keep it.</p>
-<p>Your warranties and settings were never shared, so you keep them.</p>
+          <p>Once you leave, you no longer see the household’s shared data (lists, history, Pantry and recurring items). The other members keep it.</p>
+          <p>Your warranties and settings were never shared, so you keep them.</p>
+        </div>
+      </details>
+    </div>
+    <h3 class="faq-group" id="faq-6">Other</h3>
+    <div class="card faq">
+      <details>
+        <summary>Which devices does Shoppie work on?</summary>
+        <div class="answer">
+          <p>Shoppie is for <strong>iPhone with iOS 26 or later</strong>, including the foldable iPhone, and works in landscape too. It’s free.</p>
+          <p>Your data syncs through iCloud across all your iPhones.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Does Shoppie support VoiceOver and larger text?</summary>
+        <div class="answer">
+          <p>Yes. Shoppie supports <strong>VoiceOver</strong>, <strong>larger text</strong> and <strong>Dark Mode</strong>. It’s available in Slovak, Czech and English and follows your iPhone’s language. To use Shoppie in a different language from the rest of your iPhone, go to iPhone Settings → Apps → Shoppie → Language.</p>
+        </div>
+      </details>
+      <details>
+        <summary>How do I see the introduction again?</summary>
+        <div class="answer">
+          <p>You’ll find an option to show the introduction again in the <strong>app’s settings</strong>.</p>
+        </div>
+      </details>
+      <details>
+        <summary>How do I delete my data?</summary>
+        <div class="answer">
+          <p>You have several options:</p>
+          <ul><li><strong>in the app</strong>: delete your shopping history or Pantry in settings; delete individual items and warranties directly in the app,</li><li><strong>in iCloud</strong>: iPhone Settings → [your name] → iCloud → Manage Storage → Shoppie,</li><li><strong>by deleting the app</strong> from your iPhone (then remove the iCloud copy via Manage Storage).</li></ul>
+          <p>More in the <a href="privacy.html">privacy policy</a>.</p>
         </div>
       </details>
     </div>

@@ -217,3 +217,213 @@ h2 { font-size: clamp(26px, 4.4vw, 34px); line-height: 1.15; letter-spacing: -0.
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
 }
+
+/* Skupiny otázok v Podpore */
+.faq-group { font-size: 20px; margin: 28px 0 10px; }
+.faq + .faq-group { margin-top: 28px; }
+
+/* iPhone Duo – 3D model podľa predlohy Apple (čisté CSS, bez JavaScriptu, ovládané skrolovaním).
+   Postup: zatvorený telefón spredu (vonkajší displej) → otvorenie ako kniha do mierneho „V“.
+   Rozmery podľa Apple: zatvorený 84,1 × 117,8 × 11,3 mm, otvorený 164,6 × 117,8 × 5,2 mm. 1 mm = var(--u). */
+@property --glare { syntax: "<percentage>"; inherits: true; initial-value: -60%; }
+
+.duo-section { position: relative; height: 300vh; view-timeline-name: --duo; }
+.duo-sticky {
+  position: sticky; top: 0; height: 100vh; height: 100svh; overflow: hidden;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;
+}
+.duo-sticky h2 { margin-bottom: 6px; }
+.duo-sticky p { color: var(--text-2); margin: 0 auto; max-width: 560px; padding: 0 20px; }
+.duo-scene {
+  --h: min(52svh, 60vw, 500px);
+  --u: calc(var(--h) / 117.8);
+  --t: calc(var(--u) * 5.2);     /* hrúbka jednej polovice */
+  --g: calc(var(--u) * 0.9);     /* medzera medzi polovicami v zatvorenom stave */
+  --b: calc(var(--u) * 1.9);     /* čierny okraj displeja */
+  --rim: calc(var(--u) * 0.6);   /* titánový lem okolo skla */
+  --r: calc(var(--u) * 13);      /* zaoblenie vonkajších rohov */
+  --rh: calc(var(--u) * 1.6);    /* strana pri pánte je rovná, rohy takmer ostré */
+  position: relative;
+  width: calc(var(--u) * 164.6); height: var(--h);
+  margin-top: 8vh;
+  perspective: calc(var(--h) * 4.5);
+}
+.duo, .duo-half { transform-style: preserve-3d; }
+.duo { position: absolute; inset: 0; transform-origin: 75% 50%; }
+.duo-half { position: absolute; top: 0; width: 50%; height: 100%; }
+.duo-base { left: 50%; }
+.duo-lid  { left: 0; transform-origin: 100% 50% 0; }   /* os pántu presne na hrane displeja – medzi polovicami nevznikne medzera */
+
+/* vrstvy rámu z lešteného titánu */
+.duo-slice { position: absolute; inset: 0; transform: translateZ(calc(var(--t) * var(--k) * -1)); background: var(--c); }
+.duo-base .duo-slice { border-radius: var(--rh) var(--r) var(--r) var(--rh); }
+.duo-lid  .duo-slice { border-radius: var(--r) var(--rh) var(--rh) var(--r); }
+
+/* displeje */
+.duo-front, .duo-back {
+  position: absolute; inset: var(--rim); overflow: hidden;
+  border: var(--b) solid #050506; background-color: #050506;
+  background-repeat: no-repeat; background-origin: content-box; background-clip: content-box;
+  -webkit-backface-visibility: hidden; backface-visibility: hidden;
+}
+/* vnútorný displej je cez pánt súvislý */
+.duo-base .duo-front { left: 0; border-left-width: 0; border-radius: 0 calc(var(--r) - var(--rim)) calc(var(--r) - var(--rim)) 0;
+  background-image: var(--inner); background-size: 200% 100%; background-position: right center; }
+.duo-lid  .duo-front { right: -1px; border-right-width: 0; border-radius: calc(var(--r) - var(--rim)) 0 0 calc(var(--r) - var(--rim));
+  background-image: var(--inner); background-size: 200% 100%; background-position: left center; }
+.duo-back { transform: translateZ(calc(var(--t) * -1)) rotateY(180deg); }
+/* vonkajší displej – všetky rohy rovnako zaoblené */
+.duo-lid .duo-back { border-radius: var(--rh) calc(var(--r) - var(--rim)) calc(var(--r) - var(--rim)) var(--rh); background-image: var(--outer); background-size: cover; background-position: center; }
+.duo-lid .duo-back::before {   /* Dynamic Island na boku vonkajšieho displeja */
+  content: ""; position: absolute; z-index: 2;
+  top: calc(var(--u) * 5.2); right: calc(var(--u) * 5.2);
+  width: calc(var(--u) * 6); height: calc(var(--u) * 6); border-radius: 50%;
+  background: radial-gradient(circle at 38% 38%, #1E2230, #000 62%);
+}
+/* zadná strana – keramika Star White */
+.duo-base .duo-back {
+  inset: 0; border: 0; border-radius: var(--r) var(--rh) var(--rh) var(--r);
+  background: radial-gradient(120% 90% at 30% 20%, #FCFBF9, #EAE6E0 70%, #DCD7CF);
+}
+/* dve tlačidlá na hornej hrane */
+.duo-btn {
+  position: absolute; top: calc(var(--u) * -0.75); width: calc(var(--u) * 9); height: calc(var(--u) * 1.5);
+  border-radius: calc(var(--u) * 0.75); transform: translateZ(calc(var(--t) * -0.5));
+  background: linear-gradient(180deg, #FFFFFF, #B9B2A6 55%, #F3EFE8);
+}
+.duo-btn { left: calc(var(--u) * 39); }
+.duo-btn + .duo-btn { left: calc(var(--u) * 50); }
+/* odlesk skla, tiene a pregib */
+.duo-front::before, .duo-lid .duo-back::after { content: ""; position: absolute; inset: 0; pointer-events: none; }
+.duo-lid .duo-front::before {
+  background: linear-gradient(105deg, transparent calc(var(--glare) * 2 - 28%), rgba(255,255,255,.4) calc(var(--glare) * 2), transparent calc(var(--glare) * 2 + 28%));
+}
+.duo-base .duo-front::before {
+  background: linear-gradient(105deg, transparent calc(var(--glare) * 2 - 128%), rgba(255,255,255,.4) calc(var(--glare) * 2 - 100%), transparent calc(var(--glare) * 2 - 72%));
+}
+.duo-lid .duo-back::after   { background: linear-gradient(125deg, rgba(255,255,255,.18), transparent 40%, rgba(0,0,0,.18)); }
+
+/* kryt pántu (chrbát) */
+.duo-spine {
+  position: absolute; top: var(--rh); bottom: var(--rh);
+  left: calc(50% - var(--u) * 5.65); width: calc(var(--u) * 11.3);
+  transform: translateZ(calc(var(--g) / 2)) rotateY(-90deg);
+  border-radius: calc(var(--u) * 1.2);
+  background: linear-gradient(90deg, #9C968C, #CFC9BF 20%, #DDD8CF 50%, #CBC5BB 80%, #958F85);
+  -webkit-backface-visibility: hidden; backface-visibility: hidden;
+}
+.duo-floor {
+  position: absolute; left: 0; right: 0; bottom: calc(var(--h) * -0.17); height: calc(var(--h) * 0.14);
+  background: radial-gradient(closest-side, rgba(0,0,0,.28), transparent);
+  transform-origin: 75% 50%;
+}
+@media (prefers-color-scheme: dark) { .duo-floor { background: radial-gradient(closest-side, rgba(255,255,255,.10), transparent); } }
+
+@supports (animation-timeline: view()) {
+  .duo, .duo-lid, .duo-floor, .duo-spine {
+    animation-timing-function: linear; animation-fill-mode: both;
+    animation-timeline: --duo; animation-range: contain 0% contain 100%;
+  }
+  .duo { animation-name: duo-turn, duo-glare; animation-timeline: --duo, --duo; }
+  .duo-lid { animation-name: duo-open; }
+  .duo-floor { animation-name: duo-floor; }
+  .duo-spine { animation-name: duo-spine; }
+  .duo-section .hint-static { display: none; }
+}
+/* 0–14 %: zatvorený telefón spredu · 14–80 %: otvorenie do „V“ · 80–100 %: odlesk skla */
+@keyframes duo-turn {
+  0%   { transform: translateX(-25%) rotateX(-8deg) rotateY(26deg); }
+  14%  { transform: translateX(-25%) rotateX(-9deg) rotateY(16deg); animation-timing-function: cubic-bezier(.45,0,.25,1); }
+  80%, 100% { transform: translateX(0) rotateX(-10deg) rotateY(-11deg); }
+}
+@keyframes duo-open {
+  0%, 14% { transform: rotateY(180deg); animation-timing-function: cubic-bezier(.45,0,.25,1); }
+  80%, 100% { transform: rotateY(22deg); }
+}
+@keyframes duo-glare { 0%, 80% { --glare: -60%; } 100% { --glare: 160%; } }
+@keyframes duo-floor {
+  0%, 14% { transform: translateX(-25%) scaleX(.5); animation-timing-function: cubic-bezier(.45,0,.25,1); }
+  80%, 100% { transform: none; }
+}
+@keyframes duo-spine { 0%, 38% { opacity: 1; } 52%, 100% { opacity: 0; } }
+
+/* Bez podpory skrolovacích animácií alebo s „Obmedziť pohyb“: otvorený telefón bez pohybu */
+@supports not (animation-timeline: view()) {
+  .duo-section { height: auto; }
+  .duo-sticky { position: static; height: auto; padding: 32px 0 64px; }
+  .duo { transform: rotateX(-10deg) rotateY(-11deg); }
+  .duo-lid { transform: rotateY(22deg); }
+  .duo-spine { display: none; }
+  .duo-section .hint-scroll { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .duo-section { height: auto; }
+  .duo-sticky { position: static; height: auto; padding: 32px 0 64px; }
+  .duo { animation: none !important; transform: rotateX(-10deg) rotateY(-11deg) !important; }
+  .duo-lid { animation: none !important; transform: rotateY(22deg) !important; }
+  .duo-floor { animation: none !important; transform: none !important; }
+  .duo-spine { display: none; }
+  .duo-section .hint-scroll { display: none; }
+  .duo-section .hint-static { display: block; }
+}
+
+/* „A ešte“ – zoznam menších funkcií */
+.extras { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; list-style: none; padding: 0; margin: 0; }
+.extras li { background: var(--card); box-shadow: var(--shadow); border-radius: 999px; padding: 8px 16px; font-size: 15px; }
+.privacy-note { text-align: center; max-width: 640px; margin: 0 auto; }
+.privacy-note p { color: var(--text-2); margin: 0 0 10px; }
+
+/* Ochrana súkromia – celý text v jednej karte */
+.policy { padding: 32px 36px; }
+.policy section + section { border-top: 1px solid var(--line); margin-top: 26px; padding-top: 26px; }
+.policy h2 { font-size: 21px; margin: 0 0 8px; }
+.policy p:last-child, .policy ul:last-child { margin-bottom: 0; }
+@media (max-width: 480px) { .policy { padding: 22px 20px; } }
+
+/* Hlavné menu – na počítači v strede hlavičky, na mobile pod tlačidlom ☰ (bez JavaScriptu) */
+.site-header .wrap { position: relative; min-height: 60px; }
+.brand { flex-shrink: 0; }
+.brand img { max-width: none; }
+.header-end { display: flex; align-items: center; gap: 10px; }
+.main-nav { position: absolute; left: 50%; top: 0; bottom: 0; transform: translateX(-50%); display: flex; gap: 34px; }
+.main-nav a {
+  position: relative; display: flex; align-items: center; height: 100%;
+  font-size: 15px; font-weight: 500; color: var(--text-2);
+}
+.main-nav a:hover { text-decoration: none; color: var(--text); }
+.main-nav a[aria-current="page"] { color: var(--text); font-weight: 600; }
+.main-nav a[aria-current="page"]::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 2px; border-radius: 2px; background: var(--link);
+}
+
+.menu-toggle { display: none; }
+.menu-toggle summary {
+  list-style: none; cursor: pointer; width: 40px; height: 40px; border-radius: 50%;
+  display: grid; place-items: center; background: var(--card); box-shadow: var(--shadow);
+}
+.menu-toggle summary::-webkit-details-marker { display: none; }
+.burger, .burger::before, .burger::after {
+  display: block; width: 18px; height: 2px; border-radius: 2px; background: var(--text); content: "";
+  transition: transform .2s, background-color .2s;
+}
+.burger { position: relative; }
+.burger::before { position: absolute; top: -6px; }
+.burger::after  { position: absolute; top: 6px; }
+.menu-toggle[open] .burger { background: transparent; }
+.menu-toggle[open] .burger::before { transform: translateY(6px) rotate(45deg); }
+.menu-toggle[open] .burger::after  { transform: translateY(-6px) rotate(-45deg); }
+.menu-panel {
+  position: absolute; left: 12px; right: 12px; top: calc(100% + 8px);
+  background: var(--card); border-radius: 18px; box-shadow: 0 12px 40px rgba(0,0,0,.18);
+  padding: 6px 0; display: flex; flex-direction: column;
+}
+.menu-panel a { padding: 14px 20px; font-size: 17px; font-weight: 500; color: var(--text); }
+.menu-panel a + a { border-top: 1px solid var(--line); }
+.menu-panel a:hover { text-decoration: none; background: color-mix(in srgb, var(--text) 5%, transparent); }
+.menu-panel a[aria-current="page"] { color: var(--link); font-weight: 600; }
+
+@media (max-width: 720px) {
+  .main-nav { display: none; }
+  .menu-toggle { display: block; }
+}
+@media (max-width: 360px) { .brand span { display: none; } }

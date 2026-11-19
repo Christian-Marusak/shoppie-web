@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Podpora – Shoppie</title>
-  <meta name="description" content="Pomoc a časté otázky k appke Shoppie – nákupný zoznam pre iPhone.">
+  <meta name="description" content="Pomoc a časté otázky k aplikácii Shoppie – nákupný zoznam pre iPhone.">
   <meta name="author" content="Christián Marušák">
   <meta name="color-scheme" content="light dark">
   <meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
@@ -12,8 +12,8 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Shoppie">
   <meta property="og:title" content="Podpora – Shoppie">
-  <meta property="og:description" content="Pomoc a časté otázky k appke Shoppie – nákupný zoznam pre iPhone.">
-  <meta property="og:image" content="../assets/icon-512.png">
+  <meta property="og:description" content="Pomoc a časté otázky k aplikácii Shoppie – nákupný zoznam pre iPhone.">
+  <meta property="og:image" content="https://shoppieapp.eu/assets/icon-512.png">
   <meta property="og:locale" content="sk_SK">
   <!-- Po vydaní appky doplň číslo (App ID) z App Store Connect a odkomentuj:
   <meta name="apple-itunes-app" content="app-id=">
@@ -32,91 +32,194 @@
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="index.html"><img src="../assets/logo.svg" alt="" width="32" height="32"><span>Shoppie</span></a>
-    <nav aria-label="Jazyk">
-      <ul class="lang">
-        <li><a href="../sk/support.html" hreflang="sk" lang="sk" title="Slovenčina" aria-current="true"><span aria-hidden="true">SK</span><span class="sr-only">Slovenčina</span></a></li><li><a href="../cs/support.html" hreflang="cs" lang="cs" title="Čeština"><span aria-hidden="true">CS</span><span class="sr-only">Čeština</span></a></li><li><a href="../en/support.html" hreflang="en" lang="en" title="English"><span aria-hidden="true">EN</span><span class="sr-only">English</span></a></li>
-      </ul>
-    </nav>
+    <nav class="main-nav" aria-label="Hlavné menu"><a href="index.html">Úvod</a><a href="support.html" aria-current="page">Podpora</a><a href="privacy.html">Súkromie</a></nav>
+    <div class="header-end">
+      <nav aria-label="Jazyk">
+        <ul class="lang">
+          <li><a href="../sk/support.html" hreflang="sk" lang="sk" title="Slovenčina" aria-current="true"><span aria-hidden="true">SK</span><span class="sr-only">Slovenčina</span></a></li><li><a href="../cs/support.html" hreflang="cs" lang="cs" title="Čeština"><span aria-hidden="true">CS</span><span class="sr-only">Čeština</span></a></li><li><a href="../en/support.html" hreflang="en" lang="en" title="English"><span aria-hidden="true">EN</span><span class="sr-only">English</span></a></li>
+        </ul>
+      </nav>
+      <details class="menu-toggle">
+        <summary aria-label="Menu"><span class="burger" aria-hidden="true"></span></summary>
+        <nav class="menu-panel" aria-label="Hlavné menu"><a href="index.html">Úvod</a><a href="support.html" aria-current="page">Podpora</a><a href="privacy.html">Súkromie</a></nav>
+      </details>
+    </div>
   </div>
 </header>
 <main id="main" class="page">
   <div class="wrap">
     <h1>Podpora</h1>
-    <p class="lead">Niečo nefunguje alebo máš nápad? Rád pomôžem.</p>
+    <p class="lead">Niečo nefunguje alebo máte nápad? Radi pomôžeme.</p>
 
     <section class="card contact" aria-labelledby="contact-h">
-      <h2 id="contact-h">Napíš mi</h2>
-      <p>Odpovedám zvyčajne do pár dní. Pomôže, ak napíšeš model iPhonu a verziu iOS.</p>
+      <h2 id="contact-h">Napíšte nám</h2>
+      <p>Odpovedáme zvyčajne do pár dní. Pomôže, ak uvediete model iPhonu a verziu iOS.</p>
       <a class="btn" href="mailto:christianm@outlook.sk?subject=Shoppie">christianm@outlook.sk</a>
     </section>
 
     <h2 id="faq-h" style="margin-top:32px">Časté otázky</h2>
+    <h3 class="faq-group" id="faq-1">Nákupný zoznam</h3>
     <div class="card faq">
       <details>
-        <summary>Ako pridať položku a ako funguje koliesko?</summary>
+        <summary>Ako pridať položku?</summary>
         <div class="answer">
-<p>Ťukni na zelené tlačidlo <strong>+</strong> dole a napíš, čo chceš kúpiť.</p>
-<p>Keď tlačidlo <strong>+</strong> podržíš, otvorí sa koliesko s tvojimi obľúbenými vecami. Vyber z neho položku a je v zozname.</p>
+          <p>Ťuknite na zelené tlačidlo <strong>+</strong> dole a napíšte, čo chcete kúpiť. Shoppie bežné produkty pozná (katalóg približne 540 položiek), takže im sám priradí kategóriu.</p>
+          <p>K položke môžete zadať aj množstvo a poznámku.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Ako funguje koliesko rýchleho pridávania?</summary>
+        <div class="answer">
+          <p>Keď tlačidlo <strong>+</strong> podržíte, otvorí sa koliesko s ponukou vecí, ktoré kupujete najčastejšie. Vyberte položku a je v zozname.</p>
+          <p>Čo koliesko ponúka, si môžete nastaviť.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Ako mať viac zoznamov?</summary>
+        <div class="answer">
+          <p>Ťuknite na <strong>názov zoznamu hore</strong> – tam medzi zoznamami prepínate.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Čo sa stane, keď dokončím nákup?</summary>
+        <div class="answer">
+          <p>Odškrtnuté položky sa uložia do <strong>Histórie</strong> a zo zoznamu zmiznú.</p>
+          <p>V Histórii vidíte všetky nákupy s obchodom a počtom položiek. Keď položku <strong>potiahnete doprava</strong>, znova sa pridá do zoznamu.</p>
         </div>
       </details>
       <details>
         <summary>Prečo mi Shoppie nič nenavrhuje?</summary>
         <div class="answer">
-<p>Návrhy vznikajú z tvojich <strong>dokončených nákupov</strong>. Shoppie ich potrebuje niekoľko, aby vedel, čo a ako často kupuješ.</p>
-<p>Stačí nakupovať ako zvyčajne a nákup na konci dokončiť. Návrhy sa začnú objavovať samy.</p>
+          <p>Návrhy vznikajú z vašich <strong>dokončených nákupov</strong>. Shoppie ich potrebuje niekoľko, aby vedel, čo a ako často kupujete.</p>
+          <p>Stačí nakupovať ako zvyčajne a nákup na konci dokončiť. Návrhy sa začnú objavovať samy.</p>
         </div>
       </details>
       <details>
+        <summary>Ako fungujú pravidelné položky?</summary>
+        <div class="answer">
+          <p>Pre veci, ktoré kupujete pravidelne (napríklad káva každé 2 týždne), nastavíte, ako často ich kupujete. Shoppie ich v zvolený deň <strong>sám pridá do zoznamu</strong>.</p>
+        </div>
+      </details>
+    </div>
+    <h3 class="faq-group" id="faq-2">Skenovanie bločkov</h3>
+    <div class="card faq">
+      <details>
+        <summary>Ako funguje sken bločku?</summary>
+        <div class="answer">
+          <p>Odfoťte bloček a Shoppie z neho rozpozná produkty a ceny vrátane zliav.</p>
+          <p>Text sa číta <strong>priamo v iPhone</strong> pomocou Apple Vision, takže sken funguje na každom iPhone s iOS 26 aj bez internetu. Na iPhonoch s Apple Intelligence ho navyše spracuje model Apple v zariadení. Nič sa neposiela na internet.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Sken nerozpoznal všetko správne. Čo s tým?</summary>
+        <div class="answer">
+          <p>Pomôže, ak:</p>
+          <ul><li>je bloček vyrovnaný a celý v zábere,</li><li>máte dostatok svetla a fotka nie je rozmazaná,</li><li>bloček nie je vyblednutý alebo pokrčený.</li></ul>
+          <p>Pred uložením si položky skontrolujte a prípadne opravte.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Sken sa nespustí alebo nevidím fotoaparát</summary>
+        <div class="answer">
+          <p>Shoppie potrebuje prístup k fotoaparátu. Povolíte ho v Nastaveniach iPhonu → Aplikácie → Shoppie → Fotoaparát.</p>
+        </div>
+      </details>
+    </div>
+    <h3 class="faq-group" id="faq-3">Spotreba a pripomienky</h3>
+    <div class="card faq">
+      <details>
+        <summary>Ako funguje Spotreba?</summary>
+        <div class="answer">
+          <p>Kúpené potraviny sa v Spotrebe objavia samy, s odhadovaným alebo vami zadaným dátumom spotreby.</p>
+          <p>Keď potravinu spotrebujete, označte ju ako <strong>zjedenú</strong>; keď ju musíte vyhodiť, ako <strong>vyhodenú</strong>.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Čo je automatické odstránenie?</summary>
+        <div class="answer">
+          <p>Potraviny po dátume spotreby sa môžu po <strong>1, 2, 3 alebo 7 dňoch</strong> zo Spotreby odstrániť samy. Vyberiete si, či sa započítajú ako zjedené, vyhodené, alebo sa len vymažú.</p>
+          <p>Funkcia je <strong>predvolene vypnutá</strong>. Nastavenie platí pre celú domácnosť, teda pre všetkých členov.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Prečo mi neprichádzajú pripomienky?</summary>
+        <div class="answer">
+          <p>Shoppie posiela <strong>ráno jednu notifikáciu</strong> s potravinami, ktoré treba čoskoro zjesť, a pripomienku pred koncom záruky. Notifikácie si plánuje priamo váš iPhone.</p>
+          <p>Ak neprichádzajú:</p>
+          <ul><li>povoľte notifikácie: Nastavenia iPhonu → Aplikácie → Shoppie → Hlásenia,</li><li>v nastaveniach aplikácie skontrolujte, kedy chcete pripomienku dostať (v deň spotreby alebo niekoľko dní vopred),</li><li>skontrolujte, či má potravina dátum spotreby,</li><li>a či notifikácie neskrýva režim Sústredenie.</li></ul>
+        </div>
+      </details>
+    </div>
+    <h3 class="faq-group" id="faq-4">Záruky</h3>
+    <div class="card faq">
+      <details>
+        <summary>Ako fungujú záruky?</summary>
+        <div class="answer">
+          <p>Ku každej veci si môžete uložiť záruku aj s <strong>fotkou bločku</strong>. Pred koncom záruky vám Shoppie pošle pripomienku.</p>
+          <p>V EÚ je záruka na nový tovar minimálne 24 mesiacov.</p>
+          <p>Záruky sú <strong>súkromné</strong> – nezdieľajú sa s domácnosťou. Ak ich nepoužívate, kartu Záruky môžete v nastaveniach skryť.</p>
+        </div>
+      </details>
+    </div>
+    <h3 class="faq-group" id="faq-5">Domácnosť a synchronizácia</h3>
+    <div class="card faq">
+      <details>
         <summary>Ako pozvať rodinu do domácnosti a čo sa zdieľa?</summary>
         <div class="answer">
-<p>Pozvánku do domácnosti pošleš priamo z appky. Zdieľanie prebieha cez iCloud, takže pozvaný potrebuje iPhone s prihláseným Apple účtom a zapnutým iCloudom.</p>
-<p>Členovia domácnosti vidia a môžu upravovať <strong>zoznamy, históriu nákupov, spotrebu a pravidelné položky</strong>.</p>
-<p><strong>Záruky a nastavenia sa nezdieľajú</strong> – tie má každý len pre seba.</p>
-<p>Člen môže domácnosť kedykoľvek opustiť a vlastník môže členov odobrať.</p>
+          <p>Pozvánku do domácnosti pošlete priamo z aplikácie. Zdieľanie prebieha cez iCloud, takže pozvaný potrebuje iPhone s prihláseným Apple účtom a zapnutým iCloudom.</p>
+          <p>Členovia domácnosti vidia a môžu upravovať <strong>zoznamy, históriu nákupov, Spotrebu a pravidelné položky</strong>. V aplikácii vidíte aj zoznam členov.</p>
+          <p><strong>Záruky a nastavenia sa nezdieľajú</strong> (okrem nastavenia automatického odstránenia v Spotrebe).</p>
         </div>
       </details>
       <details>
         <summary>Prečo nevidím zmeny od partnera?</summary>
         <div class="answer">
-<p>Skontroluj, prosím:</p>
-<ul><li>či máte obaja zapnutý <strong>iCloud</strong> (Nastavenia iPhonu → [tvoje meno] → iCloud),</li><li>či ste obaja v <strong>rovnakej domácnosti</strong>,</li><li>či sú oba iPhony <strong>pripojené na internet</strong>,</li><li>a v zozname <strong>potiahni nadol</strong> – tým sa údaje obnovia.</li></ul>
-<p>Synchronizácia cez iCloud zvyčajne trvá pár sekúnd, niekedy aj trochu dlhšie.</p>
+          <p>Skontrolujte, prosím:</p>
+          <ul><li>či máte obaja zapnutý <strong>iCloud</strong> (Nastavenia iPhonu → [vaše meno] → iCloud),</li><li>či ste obaja v <strong>rovnakej domácnosti</strong>,</li><li>či sú oba iPhony <strong>pripojené na internet</strong>,</li><li>a v zozname <strong>potiahnite nadol</strong> – tým sa údaje obnovia.</li></ul>
+          <p>Synchronizácia cez iCloud zvyčajne trvá pár sekúnd, niekedy aj trochu dlhšie.</p>
         </div>
       </details>
       <details>
-        <summary>Prečo nemôžem skenovať bločky?</summary>
+        <summary>Ako ukončiť zdieľanie alebo odísť z domácnosti?</summary>
         <div class="answer">
-<p>Sken bločku číta text priamo v iPhone pomocou <strong>Apple Intelligence</strong>. Funguje preto len na iPhonoch, ktoré Apple Intelligence podporujú.</p>
-<p>Ak tvoj iPhone Apple Intelligence podporuje, skontroluj, či ju máš zapnutú v Nastaveniach iPhonu (Apple Intelligence a Siri). Ostatné funkcie Shoppie fungujú na každom iPhone s iOS 26.</p>
-        </div>
-      </details>
-      <details>
-        <summary>Ako fungujú pripomienky spotreby a prečo mi neprichádzajú?</summary>
-        <div class="answer">
-<p>Ráno ti Shoppie pripomenie potraviny, ktorým sa blíži dátum spotreby. Pripomienky si plánuje priamo tvoj iPhone, nič sa neposiela zo servera.</p>
-<p>Ak neprichádzajú:</p>
-<ul><li>povoľ notifikácie: Nastavenia iPhonu → Aplikácie → Shoppie → Hlásenia,</li><li>v <strong>Nastaveniach v appke</strong> skontroluj čas pripomienky,</li><li>skontroluj, či položka má zadaný dátum spotreby,</li><li>a či notifikácie neskrýva režim Sústredenie.</li></ul>
-        </div>
-      </details>
-      <details>
-        <summary>Ako opakovane zobraziť úvod?</summary>
-        <div class="answer">
-<p>V appke otvor <strong>Nastavenia → Zobraziť úvod</strong>.</p>
-        </div>
-      </details>
-      <details>
-        <summary>Ako vymazať svoje údaje?</summary>
-        <div class="answer">
-<p>Máš viac možností:</p>
-<ul><li>v appke v <strong>Nastaveniach</strong>: <em>Vymazať históriu nákupov</em> a <em>Vymazať spotrebu</em>,</li><li>vymazaním jednotlivých položiek priamo v appke,</li><li>alebo všetko naraz: odstráň appku a jej údaje z iCloudu – Nastavenia iPhonu → [tvoje meno] → iCloud → Spravovať úložisko → Shoppie.</li></ul>
-<p>Viac v <a href="privacy.html">zásadách ochrany súkromia</a>.</p>
+          <p>Vlastník domácnosti môže zdieľanie kedykoľvek ukončiť alebo odobrať jednotlivého člena. Člen môže domácnosť kedykoľvek opustiť.</p>
         </div>
       </details>
       <details>
         <summary>Čo sa stane s údajmi, keď odídem z domácnosti?</summary>
         <div class="answer">
-<p>Po odchode z domácnosti prestaneš vidieť jej zdieľané údaje (zoznamy, históriu, spotrebu a pravidelné položky). Ostatní členovia ich majú naďalej.</p>
-<p>Tvoje záruky a nastavenia sa nikdy nezdieľali, takže ti zostávajú.</p>
+          <p>Po odchode prestanete vidieť zdieľané údaje domácnosti (zoznamy, históriu, Spotrebu a pravidelné položky). Ostatní členovia ich majú naďalej.</p>
+          <p>Vaše záruky a nastavenia sa nikdy nezdieľali, takže vám zostávajú.</p>
+        </div>
+      </details>
+    </div>
+    <h3 class="faq-group" id="faq-6">Ostatné</h3>
+    <div class="card faq">
+      <details>
+        <summary>Na akých zariadeniach Shoppie funguje?</summary>
+        <div class="answer">
+          <p>Shoppie je pre <strong>iPhone s iOS 26 alebo novším</strong>, vrátane skladacieho iPhonu, a funguje aj na šírku. Je zadarmo.</p>
+          <p>Údaje sa cez iCloud synchronizujú medzi všetkými vašimi iPhonmi.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Podporuje Shoppie VoiceOver a veľké písmo?</summary>
+        <div class="answer">
+          <p>Áno. Shoppie podporuje <strong>VoiceOver</strong>, <strong>veľké písmo</strong> aj <strong>tmavý režim</strong>. Je v slovenčine, češtine a angličtine – jazyk sa riadi nastavením iPhonu. Ak chcete Shoppie v inom jazyku ako zvyšok iPhonu, zmeníte ho v Nastaveniach iPhonu → Aplikácie → Shoppie → Jazyk.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Ako opakovane zobraziť úvod?</summary>
+        <div class="answer">
+          <p>V aplikácii otvorte <strong>Nastavenia → Zobraziť úvod</strong>.</p>
+        </div>
+      </details>
+      <details>
+        <summary>Ako vymazať svoje údaje?</summary>
+        <div class="answer">
+          <p>Máte viac možností:</p>
+          <ul><li><strong>v aplikácii</strong>: v nastaveniach vymažete históriu nákupov alebo Spotrebu; jednotlivé položky a záruky zmažete priamo v aplikácii,</li><li><strong>v iCloude</strong>: Nastavenia iPhonu → [vaše meno] → iCloud → Spravovať úložisko → Shoppie,</li><li><strong>zmazaním aplikácie</strong> z iPhonu (kópiu v iCloude potom zmažete cez Spravovať úložisko).</li></ul>
+          <p>Viac v <a href="privacy.html">zásadách ochrany súkromia</a>.</p>
         </div>
       </details>
     </div>
