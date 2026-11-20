@@ -103,15 +103,16 @@ img { max-width: 100%; height: auto; }
 .hero .subtitle { font-size: clamp(20px, 3.4vw, 26px); color: var(--text-2); margin: 0 0 12px; }
 .hero .facts { color: var(--text-2); font-size: 15px; margin: 0 0 28px; }
 
-.store-badge {
-  display: inline-flex; align-items: center; gap: 10px;
-  padding: 12px 22px; border-radius: 14px;
-  background: var(--text); color: var(--bg);
-  font-weight: 600; font-size: 17px;
-}
-.store-badge svg { width: 22px; height: 22px; fill: currentColor; }
-.store-badge:hover { text-decoration: none; }
-.store-badge.soon { opacity: .85; cursor: default; }
+/* Oficiálny odznak App Store – nemeniť; voľné miesto okolo ≥ 1/4 výšky, výška ≥ 40 px */
+.store-badge { display: inline-block; margin: 14px; line-height: 0; border-radius: 9px; }
+.store-badge img { display: block; height: 54px; width: auto; min-height: 40px; }
+.store-badge:focus-visible { outline: 3px solid var(--green); outline-offset: 4px; }
+
+.get-app { text-align: center; }
+.get-app p { color: var(--text-2); margin: 0 0 4px; }
+section.get-app { padding: 24px 0 56px; }
+.support-get { margin: 0 0 24px; text-align: left; }
+.support-get .store-badge { margin-left: 0; }
 
 .hero-links { margin-top: 18px; font-size: 15px; }
 .hero-links a { margin: 0 8px; }
