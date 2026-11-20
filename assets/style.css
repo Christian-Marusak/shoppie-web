@@ -427,3 +427,13 @@ h2 { font-size: clamp(26px, 4.4vw, 34px); line-height: 1.15; letter-spacing: -0.
   .menu-toggle { display: block; }
 }
 @media (max-width: 360px) { .brand span { display: none; } }
+
+/* Podpora – karta s nápadmi a návrhmi */
+.ideas { text-align: center; }
+.ideas-icon { display: block; font-size: 34px; line-height: 1; margin-bottom: 6px; }
+.ideas p { color: var(--text-2); max-width: 520px; margin-left: auto; margin-right: auto; }
+.btn-outline {
+  display: inline-block; margin-top: 6px; padding: 11px 22px; border-radius: 14px;
+  border: 1.5px solid var(--link); color: var(--link); font-weight: 600;
+}
+.btn-outline:hover { text-decoration: none; background: color-mix(in srgb, var(--link) 10%, transparent); }
