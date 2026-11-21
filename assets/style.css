@@ -509,3 +509,5 @@ html.xmas body::after {
 .rm-end { padding-bottom: 0; }
 .rm-end-text { margin: 0 0 4px; font-style: italic; color: var(--text-2); filter: blur(.4px); }
 .rm-end a { font-weight: 600; }
+
+.roadmap { scroll-margin-top: 64px; }
