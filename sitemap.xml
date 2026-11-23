@@ -5,21 +5,21 @@
     <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/"/>
   </url>
   <url>
     <loc>https://shoppieapp.eu/cs/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/"/>
   </url>
   <url>
     <loc>https://shoppieapp.eu/en/</loc>
     <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/"/>
   </url>
   <url>
     <loc>https://shoppieapp.eu/sk/support.html</loc>

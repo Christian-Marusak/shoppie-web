@@ -430,7 +430,8 @@ def build_sitemap(posts):
     out = []
     for g in groups:
         alts = "".join(f'\n    <xhtml:link rel="alternate" hreflang="{l}" href="{u}"/>' for l, u in g.items())
-        alts += f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{g["sk"]}"/>'
+        xd = f"{SITE}/" if g["sk"] == f"{SITE}/sk/" else g["sk"]
+        alts += f'\n    <xhtml:link rel="alternate" hreflang="x-default" href="{xd}"/>'
         for u in g.values():
             lm = f"\n    <lastmod>{lastmod[u]}</lastmod>" if u in lastmod else ""
             out.append(f"  <url>\n    <loc>{u}</loc>{lm}{alts}\n  </url>")
