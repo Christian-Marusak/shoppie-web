@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /_blog/
+
+Sitemap: https://shoppieapp.eu/sitemap.xml

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog – Shoppie</title>
+    <link>https://shoppieapp.eu/cs/blog/</link>
+    <description>Tipy na nákupy, šetření a méně vyhazování jídla od tvůrců aplikace Shoppie.</description>
+    <language>cs</language>
+    <atom:link href="https://shoppieapp.eu/cs/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Vánoční nákupní seznam: jak nakoupit na svátky a nevyhodit jídlo</title>
+      <link>https://shoppieapp.eu/cs/blog/vanocni-nakupni-seznam.html</link>
+      <guid isPermaLink="true">https://shoppieapp.eu/cs/blog/vanocni-nakupni-seznam.html</guid>
+      <pubDate>Mon, 23 Nov 2026 08:00:00 +0000</pubDate>
+      <description>Jak sestavit vánoční nákupní seznam, kdy co koupit a jak o svátcích neplýtvat jídlem. Postup v 6 krocích s časovým plánem nákupu.</description>
+    </item>
+  </channel>
+</rss>
