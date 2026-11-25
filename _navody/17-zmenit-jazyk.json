@@ -19,12 +19,12 @@
       "steps": [
         {
           "title": "Otvorte Nastavenia iPhonu",
-          "text": "<p>Otvorte <strong>Nastavenia iPhonu → Apky → Shoppie</strong> a ťuknite na <strong>Preferovaný jazyk</strong>.</p>",
+          "text": "<p>Otvorte <strong>Nastavenia iPhonu → Apky → Shoppie</strong> a ťuknite na <strong>Preferovaný jazyk → Jazyk</strong>.</p>",
           "img": "17-1"
         },
         {
           "title": "Vyberte jazyk",
-          "text": "<p>Vyberte <strong>Slovenčina</strong>, <strong>Čeština</strong> alebo <strong>English</strong>. Shoppie sa prepne pri ďalšom otvorení.</p>",
+          "text": "<p>V zozname <strong>Navrhované jazyky</strong> vyberte <strong>Slovenčina</strong>, <strong>Čeština</strong> alebo <strong>English</strong>. Shoppie sa prepne pri ďalšom otvorení.</p>",
           "img": "17-2"
         }
       ],
@@ -52,12 +52,12 @@
       "steps": [
         {
           "title": "Otevřete Nastavení iPhonu",
-          "text": "<p>Otevřete <strong>Nastavení iPhonu → Aplikace → Shoppie</strong> a klepněte na <strong>Preferovaný jazyk</strong>.</p>",
+          "text": "<p>Otevřete <strong>Nastavení iPhonu → Aplikace → Shoppie</strong> a klepněte na <strong>Preferovaný jazyk → Jazyk</strong>.</p>",
           "img": "17-1"
         },
         {
           "title": "Vyberte jazyk",
-          "text": "<p>Vyberte <strong>Slovenčina</strong>, <strong>Čeština</strong> nebo <strong>English</strong>. Shoppie se přepne při dalším otevření.</p>",
+          "text": "<p>V seznamu <strong>Navržené jazyky</strong> vyberte <strong>Slovenčina</strong>, <strong>Čeština</strong> nebo <strong>English</strong>. Shoppie se přepne při dalším otevření.</p>",
           "img": "17-2"
         }
       ],
@@ -85,12 +85,12 @@
       "steps": [
         {
           "title": "Open iPhone Settings",
-          "text": "<p>Open <strong>iPhone Settings → Apps → Shoppie</strong> and tap <strong>Preferred Language</strong>.</p>",
+          "text": "<p>Open <strong>iPhone Settings → Apps → Shoppie</strong> and tap <strong>Preferred Language → Language</strong>.</p>",
           "img": "17-1"
         },
         {
           "title": "Choose a language",
-          "text": "<p>Choose <strong>Slovenčina</strong>, <strong>Čeština</strong> or <strong>English</strong>. Shoppie switches the next time you open it.</p>",
+          "text": "<p>Under <strong>Suggested Languages</strong>, choose <strong>Slovenčina</strong>, <strong>Čeština</strong> or <strong>English</strong>. Shoppie switches the next time you open it.</p>",
           "img": "17-2"
         }
       ],
