@@ -47,6 +47,15 @@ def check(path):
         if f.resolve() != Path(path).resolve():
             o = json.loads(f.read_text(encoding="utf-8"))
             others[o["id"]] = o
+    img = p.get("image")
+    if img:
+        for k in ("file", "thumb", "share"):
+            if not (ROOT / img.get(k, "")).is_file():
+                errors.append(f"obrázok '{img.get(k)}' neexistuje")
+        for l in LANGS:
+            alt = p["langs"].get(l, {}).get("image_alt", "")
+            if not alt or len(alt) > 200:
+                errors.append(f"[{l}] image_alt chýba alebo je dlhší ako 200 znakov")
     if p["id"] in others:
         errors.append(f"id '{p['id']}' už existuje")
     for l in LANGS:

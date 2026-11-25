@@ -219,7 +219,7 @@ def footer(lang, up):
 </footer>"""
 
 
-def head(lang, title, desc, canonical, alternates, og_type, extra="", up="../"):
+def head(lang, title, desc, canonical, alternates, og_type, extra="", up="../", og=None):
     t = T[lang]
     a = "../" + up
     alts = "\n".join(f'  <link rel="alternate" hreflang="{l}" href="{u}">' for l, u in alternates.items())
@@ -240,10 +240,10 @@ def head(lang, title, desc, canonical, alternates, og_type, extra="", up="../"):
   <meta property="og:title" content="{e(title)}">
   <meta property="og:description" content="{e(desc)}">
   <meta property="og:url" content="{canonical}">
-  <meta property="og:image" content="{SITE}/assets/og-{lang}.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="{e(t['og_alt'])}">
+  <meta property="og:image" content="{og['url'] if og else f'{SITE}/assets/og-{lang}.png'}">
+  <meta property="og:image:width" content="{og['w'] if og else 1200}">
+  <meta property="og:image:height" content="{og['h'] if og else 630}">
+  <meta property="og:image:alt" content="{e(og['alt'] if og else t['og_alt'])}">
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:locale" content="{t['locale']}">
   <meta name="apple-itunes-app" content="app-id=6832107172">
@@ -295,7 +295,7 @@ def build_article(p, lang):
         "author": {"@type": "Person", "name": AUTHOR},
         "publisher": {"@type": "Organization", "name": "Shoppie",
                       "logo": {"@type": "ImageObject", "url": f"{SITE}/assets/icon-512.png"}},
-        "image": f"{SITE}/assets/og-{lang}.png",
+        "image": f"{SITE}/{p['image'].get('share') or p['image']['file']}" if p.get("image") else f"{SITE}/assets/og-{lang}.png",
         "mainEntityOfPage": canonical,
         "keywords": ", ".join(L.get("keywords", [])),
         "wordCount": total_words,
@@ -330,15 +330,22 @@ def build_article(p, lang):
             f'\n        <details><summary>{e(q["q"])}</summary><div class="answer"><p>{q["a"]}</p></div></details>'
             for q in faq)
         faq_html = f'\n      <section class="post-faq" aria-labelledby="faq-h">\n        <h2 id="faq-h">{t["faq"]}</h2>\n        <div class="card faq">{items}\n        </div>\n      </section>'
+    img = p.get("image")
+    og = hero = None
+    if img:
+        alt = L.get("image_alt", "")
+        og = {"url": f"{SITE}/{img.get('share') or img['file']}", "w": img["width"], "h": img["height"], "alt": alt}
+        hero = (f'\n      <figure class="post-hero"><img src="../../{img["file"]}" alt="{e(alt)}" '
+                f'width="{img["width"]}" height="{img["height"]}" fetchpriority="high"></figure>')
     upd = (f' · {t["updated"]} <time datetime="{updated}">{fmt_date(updated, lang)}</time>' if updated else "")
-    return head(lang, f'{L["title"]} – Shoppie', L["description"], canonical, alternates, "article", extra) + \
+    return head(lang, f'{L["title"]} – Shoppie', L["description"], canonical, alternates, "article", extra, og=og) + \
         header(lang, "blog", alt_rel, "../") + f"""
 <main id="main" class="page post">
   <div class="wrap">
     <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">{t['home']}</a> › <a href="index.html">{t['blog']}</a></nav>
     <article>
       <h1>{e(L['title'])}</h1>
-      <p class="meta">{t['published']} <time datetime="{p['date']}">{fmt_date(p['date'], lang)}</time>{upd} · {minutes} {t['read']}</p>
+      <p class="meta">{t['published']} <time datetime="{p['date']}">{fmt_date(p['date'], lang)}</time>{upd} · {minutes} {t['read']}</p>{hero or ""}
       <aside class="post-summary" aria-label="{t['summary']}"><h2>{t['summary']}</h2><p>{L['summary']}</p></aside>{toc_html}
       <div class="post-body">
 {body}
@@ -355,13 +362,22 @@ def build_article(p, lang):
 """ + footer(lang, "../") + "\n</body>\n</html>\n"
 
 
+def thumb(p):
+    img = p.get("image")
+    if not img:
+        return ""
+    src = img.get("thumb") or img["file"]
+    w, h = (640, round(640 * img["height"] / img["width"])) if img.get("thumb") else (img["width"], img["height"])
+    return f'\n          <img class="post-thumb" src="../../{src}" alt="" width="{w}" height="{h}" loading="lazy">'
+
+
 def build_index(posts, lang):
     t = T[lang]
     canonical = f"{SITE}/{lang}/blog/"
     alternates = {l: f"{SITE}/{l}/blog/" for l in LANGS}
     alt_rel = {l: f"../../{l}/blog/index.html" for l in LANGS}
     cards = "".join(
-        f"""<li class="card post-card">
+        f"""<li class="card post-card">{thumb(p)}
           <p class="meta"><time datetime="{p['date']}">{fmt_date(p['date'], lang)}</time></p>
           <h2><a href="{p['langs'][lang]['slug']}.html">{e(p['langs'][lang]['title'])}</a></h2>
           <p>{e(p['langs'][lang]['description'])}</p>

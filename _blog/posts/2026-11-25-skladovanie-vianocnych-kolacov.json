@@ -32,7 +32,8 @@
           "q": "Treba dávať vianočné koláče do chladničky?",
           "a": "Suché pečivo nie, v chladničke môže zvlhnúť a nasať pachy. Do chladničky patria koláče s krémom, tvarohom alebo šľahačkou."
         }
-      ]
+      ],
+      "image_alt": "Plechové dózy s vianočnými koláčmi preloženými papierom na pečenie: linecké koláčiky, vanilkové rožky a medovníky"
     },
     "cs": {
       "slug": "jak-skladovat-cukrovi",
@@ -64,7 +65,8 @@
           "q": "Patří cukroví do lednice?",
           "a": "Suché cukroví ne, v lednici může zvlhnout a nasát pachy. Do lednice patří cukroví s krémem, tvarohem nebo šlehačkou."
         }
-      ]
+      ],
+      "image_alt": "Plechové dózy s vánočním cukrovím proloženým pečicím papírem: linecké cukroví, vanilkové rohlíčky a perníčky"
     },
     "en": {
       "slug": "how-to-store-christmas-cookies",
@@ -96,7 +98,15 @@
           "q": "Should Christmas cookies be stored in the fridge?",
           "a": "Dry cookies shouldn't, as the fridge can make them soft and they absorb smells. Only cookies with cream, cream cheese or whipped cream belong there."
         }
-      ]
+      ],
+      "image_alt": "Tin boxes of Christmas cookies layered with baking paper: jam-filled linzer cookies, vanilla crescents and gingerbread"
     }
+  },
+  "image": {
+    "file": "assets/blog/skladovanie-vianocnych-kolacov.webp",
+    "thumb": "assets/blog/skladovanie-vianocnych-kolacov-640.webp",
+    "width": 1376,
+    "height": 768,
+    "share": "assets/blog/skladovanie-vianocnych-kolacov.jpg"
   }
 }

@@ -33,6 +33,7 @@ https://shoppieapp.eu/sk/blog/. Pravidlá tu sú záväzné.
 }
 ```
 
+- Voliteľne `"image"` (vytvorí ho `_blog/image.py`) a v každom jazyku `"image_alt"` – popis fotky.
 - `body` je HTML. Povolené značky: `p, h2, h3, ul, ol, li, strong, em, a, table, tr, th, td, blockquote`.
   Žiadne `h1` (nadpis robí šablóna), žiadne obrázky, skripty ani štýly.
 - Obsah článku a kotvy k nadpisom `h2` sa vytvoria automaticky.
@@ -51,8 +52,17 @@ https://shoppieapp.eu/sk/blog/. Pravidlá tu sú záväzné.
    Vyber **jedno hlavné kľúčové slovo** na jazyk a 3–5 vedľajších.
 3. **Napíš článok** v slovenčine, potom v češtine a angličtine. Nie doslovný preklad:
    každý jazyk má vlastné kľúčové slová a miestne reálie (SK: kapustnica, CS: rybí polévka, cukroví; EN: všeobecné).
-4. **Vytvor súbor**, spusti `python3 _blog/check.py …` a `python3 _blog/build.py`.
-5. Ďalší postup (schválenie alebo zverejnenie) určuje zadanie úlohy.
+4. **Vytvor súbor** článku.
+5. **Fotka k článku** (ak je nastavená premenná `GEMINI_API_KEY`):
+   - do každého jazyka doplň `image_alt` – stručný popis toho, čo je na fotke (max. 200 znakov),
+   - spusti `python3 _blog/image.py _blog/posts/<súbor>.json "<popis scény po anglicky>"`.
+     Popis opisuje fotku k téme článku (napr. potraviny, kuchyňa, nákup, špajza), stredoeurópske prostredie.
+     Pravidlá „bez textu, log, ľudí a telefónov“ pridá skript sám.
+   - Pozri si vytvorenú fotku (`assets/blog/<id>.webp`). Ak je na nej text, logo, človek, telefón, alebo nesedí
+     k téme či k `image_alt`, spusti skript znova (najviac 2-krát) alebo uprav `image_alt` podľa skutočnej fotky.
+   - Ak kľúč chýba (kód 2) alebo Gemini zlyhá, pokračuj bez fotky a napíš to v záverečnej správe.
+6. Spusti `python3 _blog/check.py …` a `python3 _blog/build.py`.
+7. Ďalší postup (schválenie alebo zverejnenie) určuje zadanie úlohy.
 
 ## Témy (striedaj ich)
 

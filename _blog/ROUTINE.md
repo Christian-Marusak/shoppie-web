@@ -19,15 +19,17 @@ Napíš a priprav jeden nový článok na blog v slovenčine, češtine a angli�
    SEO kľúčové slová (návrhy Google, „Ľudia sa tiež pýtajú“) a AIO otázky (AI prehľady, ChatGPT, Perplexity)
    pre každý jazyk. Sezónne témy píš 2–3 týždne vopred.
 4. Vytvor `_blog/posts/<dnešný dátum>-<id>.json` s `date` = dnešný dátum.
-5. Spusti `python3 _blog/check.py <súbor>`. Opravuj, kým nevypíše `OK` (najviac 3 pokusy).
-6. Spusti `python3 _blog/build.py`.
-7. Ďalej podľa dnešného dátumu:
+5. Vytvor fotku k článku podľa kroku 5 v README (`_blog/image.py`). Ak sa nedá, článok vyjde bez nej.
+6. Spusti `python3 _blog/check.py <súbor>`. Opravuj, kým nevypíše `OK` (najviac 3 pokusy).
+7. Spusti `python3 _blog/build.py`.
+8. Ďalej podľa dnešného dátumu:
 
 ### A) Do 8. 12. 2026 vrátane – SCHVAĽOVANIE
 
 - Vytvor vetvu `blog/<id>`, commitni (`Blog: <slovenský nadpis>`) a pushni ju. Do `main` zatiaľ nič nedávaj.
 - Ukonči odpoveď správou pre používateľa:
   - nadpis v SK, CS, EN, hlavné a vedľajšie kľúčové slová a prečo si zvolil túto tému (1–2 vety),
+  - či má článok fotku (a jej slovenský popis), alebo prečo nie,
   - celý slovenský text článku ako bežný čitateľný text (zhrnutie, nadpisy, odseky, FAQ), nie JSON ani HTML,
   - otázku: „Schvaľujete článok? Odpovedzte **áno** a zverejním ho, alebo napíšte, čo zmeniť.“
 - Keď používateľ odpovie áno: prepni sa na `main`, `git pull`, zlúč vetvu `blog/<id>` (`git merge --ff-only`,
@@ -50,8 +52,9 @@ Napíš a priprav jeden nový článok na blog v slovenčine, češtine a angli�
 
 ## Nikdy
 
-- Neupravuj nič mimo `_blog/posts/`, `sk/blog/`, `cs/blog/`, `en/blog/` a `sitemap.xml`
-  (posledné štyri mení len `build.py`).
-- Nemeň `_blog/README.md`, `_blog/build.py`, `_blog/check.py` ani iné stránky webu.
+- Neupravuj nič mimo `_blog/posts/`, `assets/blog/`, `sk/blog/`, `cs/blog/`, `en/blog/` a `sitemap.xml`
+  (`assets/blog/` mení len `image.py`, posledné štyri len `build.py`).
+- Nemeň `_blog/README.md`, `_blog/build.py`, `_blog/check.py`, `_blog/image.py` ani iné stránky webu.
+- API kľúč nikdy nevypisuj ani neukladaj do repozitára.
 - Nezverejňuj článok, ktorý neprešiel kontrolou, bez súhlasu používateľa.
 - Nevymýšľaj funkcie aplikácie, štatistiky ani zdroje.

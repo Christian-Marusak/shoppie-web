@@ -564,3 +564,12 @@ html.xmas body::after {
 @media (max-width: 620px) {
   .post-cta { grid-template-columns: 1fr; text-align: center; justify-items: center; }
 }
+
+/* Blog – fotka článku a náhľad v zozname */
+.post-hero { margin: 0 0 24px; }
+.post-hero img { display: block; width: 100%; height: auto; border-radius: var(--radius); box-shadow: var(--shadow); }
+.post-card { overflow: hidden; }
+.post-thumb {
+  display: block; width: calc(100% + 48px); max-width: none; height: auto; aspect-ratio: 16 / 9; object-fit: cover;
+  margin: -22px -24px 16px;
+}
