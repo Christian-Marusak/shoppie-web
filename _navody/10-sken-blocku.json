@@ -1,0 +1,127 @@
+{
+  "id": "sken-blocku",
+  "order": 10,
+  "group": "receipts",
+  "related": [
+    "sken-nerozpoznal",
+    "spotreba",
+    "historia-nakupov"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "ako-naskenovat-blocek-iphone",
+      "title": "Ako naskenovať bloček v iPhone",
+      "description": "Ako v Shoppie naskenovať bloček z nákupu: produkty, ceny aj zľavy priamo v iPhone, aj bez internetu.",
+      "keywords": [
+        "skenovanie bločkov",
+        "naskenovať bloček iPhone",
+        "aplikácia na bločky"
+      ],
+      "summary": "Ťuknite na ikonu skenovania, odfoťte bloček alebo ho vyberte z fotiek a Shoppie rozpozná produkty aj ceny vrátane zliav. Text sa číta priamo v iPhone, takže sken funguje aj bez internetu a nič sa nikam neposiela.",
+      "steps": [
+        {
+          "title": "Ťuknite na Skenovať bloček",
+          "text": "<p>V karte Zoznam ťuknite vpravo hore na ikonu <strong>Skenovať bloček</strong> (vedľa ⋯).</p>",
+          "img": "10-1"
+        },
+        {
+          "title": "Odfoťte bloček",
+          "text": "<p>Vyberte <strong>Odfotiť</strong> alebo <strong>Vybrať z galérie</strong>. Bloček vyrovnajte a odfoťte celý.</p>",
+          "img": "10-2"
+        },
+        {
+          "title": "Skontrolujte a uložte",
+          "text": "<p>Shoppie ukáže obchod, dátum, sumu a položky s cenami. Skontrolujte názvy a ťuknite na zelenú fajku <strong>✓</strong> (Uložiť). Nákup sa uloží do Histórie a potraviny do Spotreby. Prepínačom <strong>Odstrániť kúpené položky zo zoznamu</strong> si zoznam rovno vyčistíte.</p>",
+          "img": "10-3"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Funguje sken bez internetu?",
+          "a": "Áno. Bloček sa číta priamo v iPhone a nič sa neodosiela. Na iPhonoch s Apple Intelligence pomáha s názvami produktov aj model Apple v zariadení."
+        },
+        {
+          "q": "Prečo sú niektoré názvy skratky?",
+          "a": "Bločky používajú skratky. Na iPhonoch bez Apple Intelligence môžu niektoré ostať tak, ako sú na bločku – pred uložením ich preto skontrolujte."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "jak-naskenovat-uctenku-iphone",
+      "title": "Jak naskenovat účtenku v iPhonu",
+      "description": "Jak v Shoppie naskenovat účtenku z nákupu: produkty, ceny i slevy přímo v iPhonu, i bez internetu.",
+      "keywords": [
+        "skenování účtenek",
+        "naskenovat účtenku iPhone",
+        "aplikace na účtenky"
+      ],
+      "summary": "Klepněte na ikonu skenování, vyfoťte účtenku nebo ji vyberte z fotek a Shoppie rozpozná produkty i ceny včetně slev. Text se čte přímo v iPhonu, takže sken funguje i bez internetu a nic se nikam neposílá.",
+      "steps": [
+        {
+          "title": "Klepněte na Skenovat účtenku",
+          "text": "<p>V kartě Seznam klepněte vpravo nahoře na ikonu <strong>Skenovat účtenku</strong> (vedle ⋯).</p>",
+          "img": "10-1"
+        },
+        {
+          "title": "Vyfoťte účtenku",
+          "text": "<p>Vyberte <strong>Vyfotit</strong> nebo <strong>Vybrat z galerie</strong>. Účtenku vyrovnejte a vyfoťte celou.</p>",
+          "img": "10-2"
+        },
+        {
+          "title": "Zkontrolujte a uložte",
+          "text": "<p>Shoppie ukáže obchod, datum, částku a položky s cenami. Zkontrolujte názvy a klepněte na zelenou fajfku <strong>✓</strong> (Uložit). Nákup se uloží do Historie a potraviny do Spotřeby. Přepínačem <strong>Odstranit koupené položky ze seznamu</strong> si seznam rovnou vyčistíte.</p>",
+          "img": "10-3"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Funguje sken bez internetu?",
+          "a": "Ano. Účtenka se čte přímo v iPhonu a nic se neodesílá. Na iPhonech s Apple Intelligence pomáhá s názvy produktů i model Apple v zařízení."
+        },
+        {
+          "q": "Proč jsou některé názvy zkratky?",
+          "a": "Účtenky používají zkratky. Na iPhonech bez Apple Intelligence mohou některé zůstat tak, jak jsou na účtence – před uložením je proto zkontrolujte."
+        }
+      ]
+    },
+    "en": {
+      "slug": "how-to-scan-a-receipt-iphone",
+      "title": "How to scan a receipt on iPhone",
+      "description": "How to scan a shopping receipt with Shoppie: products, prices and discounts right on your iPhone, even offline.",
+      "keywords": [
+        "receipt scanning",
+        "scan receipt iPhone",
+        "receipt scanner app"
+      ],
+      "summary": "Tap the scan icon, take a photo of the receipt or pick it from your photos, and Shoppie recognises the products and prices, including discounts. The text is read on your iPhone, so it works offline and nothing is sent anywhere.",
+      "steps": [
+        {
+          "title": "Tap Scan Receipt",
+          "text": "<p>On the List tab, tap the <strong>Scan Receipt</strong> icon at the top right (next to ⋯).</p>",
+          "img": "10-1"
+        },
+        {
+          "title": "Photograph the receipt",
+          "text": "<p>Choose <strong>Take Photo</strong> or <strong>Choose from Library</strong>. Flatten the receipt and photograph all of it.</p>",
+          "img": "10-2"
+        },
+        {
+          "title": "Check and save",
+          "text": "<p>Shoppie shows the store, date, total and items with prices. Check the names and tap the green <strong>✓</strong> (Save). The trip goes to History and the food to Pantry. Turn on <strong>Remove bought items from the list</strong> to clear your list at the same time.</p>",
+          "img": "10-3"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does scanning work offline?",
+          "a": "Yes. The receipt is read on your iPhone and nothing is uploaded. On iPhones with Apple Intelligence, Apple’s on-device model also helps with product names."
+        },
+        {
+          "q": "Why are some names abbreviated?",
+          "a": "Receipts use abbreviations. On iPhones without Apple Intelligence some may stay as printed, so check them before saving."
+        }
+      ]
+    }
+  },
+  "updated": "2026-11-26"
+}

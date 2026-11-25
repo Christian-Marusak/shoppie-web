@@ -1,0 +1,118 @@
+{
+  "id": "zdielat-zoznam",
+  "order": 7,
+  "group": "family",
+  "related": [
+    "odobrat-clena",
+    "synchronizacia",
+    "viac-zoznamov"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "zdielat-nakupny-zoznam-s-rodinou-iphone",
+      "title": "Ako zdieľať nákupný zoznam s rodinou na iPhone",
+      "description": "Ako v Shoppie pozvať rodinu do spoločnej domácnosti cez iCloud a zdieľať nákupný zoznam – zmeny vidia všetci hneď.",
+      "keywords": [
+        "zdieľaný nákupný zoznam",
+        "spoločný nákupný zoznam pre rodinu",
+        "zdieľať nákupný zoznam iPhone"
+      ],
+      "summary": "V Nastaveniach v časti Zdieľanie ťuknite na Pozvať do domácnosti a pošlite pozvánku, napríklad cez Správy. Zdieľanie prebieha cez iCloud, takže stačí, aby mal každý iPhone s prihláseným iCloudom. Zdieľa sa všetko okrem záruk a nastavení.",
+      "steps": [
+        {
+          "title": "Otvorte Zdieľanie",
+          "text": "<p>V karte <strong>Nastavenia</strong> nájdite sekciu <strong>Zdieľanie</strong>. Ak vidíte výzvu na prihlásenie, prihláste sa do iCloudu v Nastaveniach iPhonu.</p>"
+        },
+        {
+          "title": "Pošlite pozvánku",
+          "text": "<p>Ťuknite na <strong>Pozvať do domácnosti</strong> a vyberte, ako pozvánku pošlete – napríklad Správy alebo Mail. Pozvaný ju otvorí na svojom iPhone a pridá sa. Pozývať môže len vlastník domácnosti.</p>"
+        },
+        {
+          "title": "Skontrolujte členov",
+          "text": "<p>V sekcii <strong>Členovia domácnosti</strong> vidíte, kto sa pridal. Pri pozvanom, ktorý sa ešte nepridal, je „Ešte neprijal(a) pozvánku“. Ďalšieho člena pridáte cez <strong>Pozvať ďalšieho</strong>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Čo všetko sa s domácnosťou zdieľa?",
+          "a": "Všetko okrem záruk a nastavení – zoznamy, história nákupov, Spotreba a pravidelné položky. Kto sa pridá, prinesie si aj svoje zoznamy."
+        },
+        {
+          "q": "Potrebuje pozvaný aplikáciu?",
+          "a": "Áno, pozvaný potrebuje iPhone so Shoppie a prihlásený iCloud."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "sdilet-nakupni-seznam-s-rodinou-iphone",
+      "title": "Jak sdílet nákupní seznam s rodinou na iPhonu",
+      "description": "Jak v Shoppie pozvat rodinu do společné domácnosti přes iCloud a sdílet nákupní seznam – změny vidí všichni hned.",
+      "keywords": [
+        "sdílený nákupní seznam",
+        "společný nákupní seznam pro rodinu",
+        "sdílet nákupní seznam iPhone"
+      ],
+      "summary": "V Nastavení v části Sdílení klepněte na Pozvat do domácnosti a pošlete pozvánku, například přes Zprávy. Sdílení probíhá přes iCloud, takže stačí, aby měl každý iPhone s přihlášeným iCloudem. Sdílí se vše kromě záruk a nastavení.",
+      "steps": [
+        {
+          "title": "Otevřete Sdílení",
+          "text": "<p>V kartě <strong>Nastavení</strong> najděte sekci <strong>Sdílení</strong>. Pokud vidíte výzvu k přihlášení, přihlaste se k iCloudu v Nastavení iPhonu.</p>"
+        },
+        {
+          "title": "Pošlete pozvánku",
+          "text": "<p>Klepněte na <strong>Pozvat do domácnosti</strong> a vyberte, jak pozvánku pošlete – například Zprávy nebo Mail. Pozvaný ji otevře na svém iPhonu a přidá se. Zvát může jen vlastník domácnosti.</p>"
+        },
+        {
+          "title": "Zkontrolujte členy",
+          "text": "<p>V sekci <strong>Členové domácnosti</strong> vidíte, kdo se přidal. U pozvaného, který se ještě nepřidal, je „Ještě nepřijal(a) pozvánku“. Dalšího člena přidáte přes <strong>Pozvat dalšího</strong>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Co všechno se s domácností sdílí?",
+          "a": "Vše kromě záruk a nastavení – seznamy, historie nákupů, Spotřeba a pravidelné položky. Kdo se přidá, přinese si i své seznamy."
+        },
+        {
+          "q": "Potřebuje pozvaný aplikaci?",
+          "a": "Ano, pozvaný potřebuje iPhone se Shoppie a přihlášený iCloud."
+        }
+      ]
+    },
+    "en": {
+      "slug": "share-shopping-list-with-family-iphone",
+      "title": "How to share a shopping list with your family on iPhone",
+      "description": "How to invite your family to a shared household in Shoppie via iCloud and share your shopping list – everyone sees changes straight away.",
+      "keywords": [
+        "shared shopping list",
+        "family shopping list app",
+        "share shopping list iPhone"
+      ],
+      "summary": "In Settings, under Sharing, tap Invite to Household and send the invitation, for example via Messages. Sharing works through iCloud, so everyone just needs an iPhone signed in to iCloud. Everything is shared except warranties and settings.",
+      "steps": [
+        {
+          "title": "Open Sharing",
+          "text": "<p>On the <strong>Settings</strong> tab, find the <strong>Sharing</strong> section. If you see a prompt to sign in, sign in to iCloud in iPhone Settings.</p>"
+        },
+        {
+          "title": "Send an invitation",
+          "text": "<p>Tap <strong>Invite to Household</strong> and choose how to send it – for example Messages or Mail. They open it on their iPhone and join. Only the household owner can invite.</p>"
+        },
+        {
+          "title": "Check the members",
+          "text": "<p><strong>Household Members</strong> shows who has joined. Someone who hasn’t joined yet shows “Hasn’t accepted yet”. Add more people with <strong>Invite Someone Else</strong>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What is shared with the household?",
+          "a": "Everything except warranties and settings – lists, shopping history, Pantry and regular items. Whoever joins brings their own lists too."
+        },
+        {
+          "q": "Does the person I invite need the app?",
+          "a": "Yes – an iPhone with Shoppie, signed in to iCloud."
+        }
+      ]
+    }
+  },
+  "updated": "2026-11-26"
+}

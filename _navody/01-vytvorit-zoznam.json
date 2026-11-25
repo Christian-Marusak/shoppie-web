@@ -1,0 +1,148 @@
+{
+  "id": "vytvorit-zoznam",
+  "order": 1,
+  "group": "list",
+  "related": [
+    "kolesko-oblubenych",
+    "viac-zoznamov",
+    "navrhy"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "ako-vytvorit-nakupny-zoznam-iphone",
+      "title": "Ako vytvoriť nákupný zoznam na iPhone",
+      "description": "Návod krok za krokom: ako v aplikácii Shoppie vytvoriť nákupný zoznam na iPhone, pridať položky aj množstvo.",
+      "keywords": [
+        "nákupný zoznam iPhone",
+        "aplikácia na nákupný zoznam",
+        "ako vytvoriť nákupný zoznam"
+      ],
+      "summary": "V Shoppie je nákupný zoznam pripravený hneď po spustení. Ťuknite na zelené tlačidlo +, napíšte, čo chcete kúpiť, a položka sa pridá aj s kategóriou. Množstvo nastavíte tlačidlami − a + pri položke.",
+      "steps": [
+        {
+          "title": "Otvorte nákupný zoznam",
+          "text": "<p>Po spustení Shoppie ste rovno v karte <strong>Zoznam</strong> s predvoleným zoznamom <strong>Potraviny</strong>. Netreba nič zakladať ani sa registrovať.</p>",
+          "img": "01-1"
+        },
+        {
+          "title": "Ťuknite na +",
+          "text": "<p>Ťuknite na zelené tlačidlo <strong>+</strong> dole. Otvorí sa okno <strong>Pridať položku</strong>.</p>"
+        },
+        {
+          "title": "Napíšte názov a množstvo",
+          "text": "<p>Do poľa <strong>Názov</strong> napíšte, čo chcete kúpiť, napríklad <em>citróny</em>. Množstvo nastavíte zelenými tlačidlami − a + a vyberiete jednotku (ks, bal, kg, g, l, ml). Kategóriu Shoppie pri bežných produktoch doplní sám.</p>",
+          "img": "01-2"
+        },
+        {
+          "title": "Potvrďte",
+          "text": "<p>Ťuknite na zelenú fajku <strong>✓</strong> vpravo hore, alebo stlačte Enter na klávesnici. Položka je v zozname.</p>"
+        },
+        {
+          "title": "V obchode položky odškrtávajte",
+          "text": "<p>Keď vec vložíte do košíka, ťuknite na krúžok pri položke. Presunie sa do časti <strong>V košíku</strong>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Je aplikácia Shoppie zadarmo?",
+          "a": "Áno. Shoppie je zadarmo, bez reklám a bez registrácie. Funguje na iPhone s iOS 26 a novším."
+        },
+        {
+          "q": "Musím sa registrovať?",
+          "a": "Nie. Shoppie nepotrebuje účet. Údaje sú vo vašom iPhone a vo vašom súkromnom iCloude."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "jak-vytvorit-nakupni-seznam-iphone",
+      "title": "Jak vytvořit nákupní seznam na iPhonu",
+      "description": "Návod krok za krokem: jak v aplikaci Shoppie vytvořit nákupní seznam na iPhonu, přidat položky i množství.",
+      "keywords": [
+        "nákupní seznam iPhone",
+        "aplikace na nákupní seznam",
+        "jak vytvořit nákupní seznam"
+      ],
+      "summary": "V Shoppie je nákupní seznam připravený hned po spuštění. Klepněte na zelené tlačítko +, napište, co chcete koupit, a položka se přidá i s kategorií. Množství nastavíte tlačítky − a + u položky.",
+      "steps": [
+        {
+          "title": "Otevřete nákupní seznam",
+          "text": "<p>Po spuštění Shoppie jste rovnou v kartě <strong>Seznam</strong> s výchozím seznamem <strong>Potraviny</strong>. Nic nemusíte zakládat ani se registrovat.</p>",
+          "img": "01-1"
+        },
+        {
+          "title": "Klepněte na +",
+          "text": "<p>Klepněte na zelené tlačítko <strong>+</strong> dole. Otevře se okno <strong>Přidat položku</strong>.</p>"
+        },
+        {
+          "title": "Napište název a množství",
+          "text": "<p>Do pole <strong>Název</strong> napište, co chcete koupit, například <em>citrony</em>. Množství nastavíte zelenými tlačítky − a + a vyberete jednotku (ks, bal, kg, g, l, ml). Kategorii Shoppie u běžných produktů doplní sám.</p>",
+          "img": "01-2"
+        },
+        {
+          "title": "Potvrďte",
+          "text": "<p>Klepněte na zelenou fajfku <strong>✓</strong> vpravo nahoře, nebo stiskněte Enter na klávesnici. Položka je v seznamu.</p>"
+        },
+        {
+          "title": "V obchodě položky odškrtávejte",
+          "text": "<p>Když věc vložíte do košíku, klepněte na kroužek u položky. Přesune se do části <strong>V košíku</strong>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Je aplikace Shoppie zdarma?",
+          "a": "Ano. Shoppie je zdarma, bez reklam a bez registrace. Funguje na iPhonu s iOS 26 a novějším."
+        },
+        {
+          "q": "Musím se registrovat?",
+          "a": "Ne. Shoppie nepotřebuje účet. Data jsou ve vašem iPhonu a ve vašem soukromém iCloudu."
+        }
+      ]
+    },
+    "en": {
+      "slug": "how-to-make-a-shopping-list-on-iphone",
+      "title": "How to make a shopping list on iPhone",
+      "description": "Step-by-step guide: how to create a shopping list on iPhone with Shoppie and add items and quantities.",
+      "keywords": [
+        "shopping list iPhone",
+        "shopping list app",
+        "how to make a shopping list"
+      ],
+      "summary": "Shoppie has a shopping list ready as soon as you open it. Tap the green + button, type what you need, and the item is added with its category. Change the quantity with the − and + buttons next to the item.",
+      "steps": [
+        {
+          "title": "Open your shopping list",
+          "text": "<p>When you open Shoppie, you start on the <strong>List</strong> tab with the default <strong>Groceries</strong> list. Nothing to set up and no sign-up.</p>",
+          "img": "01-1"
+        },
+        {
+          "title": "Tap +",
+          "text": "<p>Tap the green <strong>+</strong> button at the bottom. The <strong>Add Item</strong> sheet opens.</p>"
+        },
+        {
+          "title": "Type the name and quantity",
+          "text": "<p>In <strong>Name</strong>, type what you need, for example <em>lemons</em>. Set the quantity with the green − and + buttons and pick a unit (pcs, pack, kg, g, l, ml). For common products, Shoppie fills in the category for you.</p>",
+          "img": "01-2"
+        },
+        {
+          "title": "Confirm",
+          "text": "<p>Tap the green <strong>✓</strong> at the top right, or press Return on the keyboard. The item is on your list.</p>"
+        },
+        {
+          "title": "Tick items off in the shop",
+          "text": "<p>When something is in your basket, tap the circle next to it. It moves to <strong>In Cart</strong>.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is Shoppie free?",
+          "a": "Yes. Shoppie is free, with no ads and no sign-up. It works on iPhone with iOS 26 or later."
+        },
+        {
+          "q": "Do I need an account?",
+          "a": "No. Shoppie doesn’t need an account. Your data stays on your iPhone and in your private iCloud."
+        }
+      ]
+    }
+  },
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,120 @@
+{
+  "id": "navrhy",
+  "order": 3,
+  "group": "list",
+  "related": [
+    "vytvorit-zoznam",
+    "historia-nakupov"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "navrhy-co-dochadza",
+      "title": "Ako Shoppie navrhuje, čo vám dochádza",
+      "description": "Ako fungujú návrhy v aplikácii Shoppie: učí sa z vašich nákupov a sám navrhne, čo asi treba kúpiť.",
+      "keywords": [
+        "aplikácia, ktorá pripomenie, čo kúpiť",
+        "návrhy nákupu",
+        "čo mi dochádza"
+      ],
+      "summary": "Shoppie sa učí z vašich dokončených nákupov. Keď sa blíži čas, keď zvyčajne niečo kupujete, zobrazí to hore v zozname v časti „Možno ti chýba“. Jednou položkou alebo všetkými naraz ich pridáte do zoznamu.",
+      "steps": [
+        {
+          "title": "Nakupujte ako zvyčajne",
+          "text": "<p>Návrhy vznikajú z vašich <strong>dokončených nákupov</strong>. Po niekoľkých nákupoch Shoppie vie, čo a ako často kupujete.</p>"
+        },
+        {
+          "title": "Pozrite si návrhy",
+          "text": "<p>Hore v zozname sa zobrazí riadok <strong>„Možno ti chýba“</strong> s vecami, ktoré vám asi dochádzajú.</p>",
+          "img": "03-1"
+        },
+        {
+          "title": "Pridajte ich do zoznamu",
+          "text": "<p>Ťuknite na <strong>+</strong> pri jednej položke, alebo na <strong>Pridať všetko</strong>, ak chcete pridať všetky návrhy naraz.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Prečo mi Shoppie nič nenavrhuje?",
+          "a": "Návrhy potrebujú niekoľko dokončených nákupov. Nakupujte ako zvyčajne a nákup na konci dokončite – návrhy sa začnú objavovať samy."
+        },
+        {
+          "q": "Posiela Shoppie moje nákupy niekam na server?",
+          "a": "Nie. Návrhy sa počítajú priamo vo vašom iPhone a nič sa nikam neposiela."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "navrhy-co-dochazi",
+      "title": "Jak Shoppie navrhuje, co vám dochází",
+      "description": "Jak fungují návrhy v aplikaci Shoppie: učí se z vašich nákupů a sám navrhne, co asi koupit.",
+      "keywords": [
+        "aplikace, která připomene, co koupit",
+        "návrhy nákupu",
+        "co mi dochází"
+      ],
+      "summary": "Shoppie se učí z vašich dokončených nákupů. Když se blíží čas, kdy obvykle něco kupujete, zobrazí to nahoře v seznamu v části „Možná ti chybí“. Jednou položkou nebo všemi najednou je přidáte do seznamu.",
+      "steps": [
+        {
+          "title": "Nakupujte jako obvykle",
+          "text": "<p>Návrhy vznikají z vašich <strong>dokončených nákupů</strong>. Po několika nákupech Shoppie ví, co a jak často kupujete.</p>"
+        },
+        {
+          "title": "Podívejte se na návrhy",
+          "text": "<p>Nahoře v seznamu se zobrazí řádek <strong>„Možná ti chybí“</strong> s věcmi, které vám asi docházejí.</p>",
+          "img": "03-1"
+        },
+        {
+          "title": "Přidejte je do seznamu",
+          "text": "<p>Klepněte na <strong>+</strong> u jedné položky, nebo na <strong>Přidat vše</strong>, pokud chcete přidat všechny návrhy najednou.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Proč mi Shoppie nic nenavrhuje?",
+          "a": "Návrhy potřebují několik dokončených nákupů. Nakupujte jako obvykle a nákup na konci dokončete – návrhy se začnou objevovat samy."
+        },
+        {
+          "q": "Posílá Shoppie moje nákupy někam na server?",
+          "a": "Ne. Návrhy se počítají přímo ve vašem iPhonu a nic se nikam neposílá."
+        }
+      ]
+    },
+    "en": {
+      "slug": "suggestions-what-you-are-running-out-of",
+      "title": "How Shoppie suggests what you’re running out of",
+      "description": "How suggestions work in Shoppie: it learns from your shopping and suggests what you probably need to buy.",
+      "keywords": [
+        "app that reminds you what to buy",
+        "shopping suggestions",
+        "what am I running out of"
+      ],
+      "summary": "Shoppie learns from your finished shopping trips. When it’s about time you usually buy something, it shows up at the top of your list under “You might need”. Add them one by one or all at once.",
+      "steps": [
+        {
+          "title": "Shop as usual",
+          "text": "<p>Suggestions come from your <strong>finished shopping trips</strong>. After a few trips, Shoppie knows what you buy and how often.</p>"
+        },
+        {
+          "title": "See the suggestions",
+          "text": "<p>At the top of your list you’ll see <strong>“You might need”</strong> with things you’re probably running out of.</p>",
+          "img": "03-1"
+        },
+        {
+          "title": "Add them to your list",
+          "text": "<p>Tap <strong>+</strong> next to an item, or <strong>Add All</strong> to add every suggestion at once.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why doesn’t Shoppie suggest anything?",
+          "a": "Suggestions need a few finished shopping trips. Shop as usual and finish each trip – suggestions will start to appear."
+        },
+        {
+          "q": "Does Shoppie send my shopping to a server?",
+          "a": "No. Suggestions are calculated on your iPhone and nothing is sent anywhere."
+        }
+      ]
+    }
+  },
+  "updated": "2026-11-26"
+}

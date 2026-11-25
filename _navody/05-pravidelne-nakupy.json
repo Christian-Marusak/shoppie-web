@@ -1,0 +1,123 @@
+{
+  "id": "pravidelne-nakupy",
+  "order": 5,
+  "group": "list",
+  "related": [
+    "navrhy",
+    "vytvorit-zoznam"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "pravidelne-nakupy-opakovane-polozky",
+      "title": "Ako nastaviť pravidelné nákupy",
+      "description": "Ako v Shoppie nastaviť pravidelné položky – napríklad kávu každé 2 týždne –, ktoré sa samy pridajú do nákupného zoznamu.",
+      "keywords": [
+        "pravidelné nákupy",
+        "opakované položky v nákupnom zozname",
+        "pripomienka nákupu"
+      ],
+      "summary": "Pri veciach, ktoré kupujete pravidelne, nastavíte, ako často ich kupujete. Shoppie ich potom v zvolený deň sám pridá do nákupného zoznamu.",
+      "steps": [
+        {
+          "title": "Otvorte pravidelné položky",
+          "text": "<p>V karte Zoznam ťuknite vpravo hore na <strong>⋯</strong> a vyberte <strong>Pravidelné položky</strong>. Alebo podržte položku v zozname a zvoľte <strong>Pridávať pravidelne</strong>.</p>",
+          "img": "05-1"
+        },
+        {
+          "title": "Nastavte, ako často",
+          "text": "<p>Ťuknite na <strong>+</strong> (Pridať pravidelnú položku), zadajte položku, zapnite <strong>Opakovať</strong> a nastavte napríklad <em>každé 2 týždne</em> (Dni / Týždne / Mesiace). V riadku <strong>Nabudúce</strong> vidíte, kedy sa pridá.</p>",
+          "img": "05-2"
+        },
+        {
+          "title": "Shoppie ju pridá sám",
+          "text": "<p>V zvolený deň sa položka objaví v nákupnom zozname. Pozastaviť ju môžete potiahnutím doprava.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Pridajú sa pravidelné položky aj rodine?",
+          "a": "Áno. Pravidelné položky sa zdieľajú s domácnosťou, takže sa objavia v zozname všetkým členom."
+        },
+        {
+          "q": "Dá sa funkcia vypnúť?",
+          "a": "Áno, v Nastavenia → Funkcie → Pravidelné položky."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "pravidelne-nakupy-opakovane-polozky",
+      "title": "Jak nastavit pravidelné nákupy",
+      "description": "Jak v Shoppie nastavit pravidelné položky – například kávu každé 2 týdny –, které se samy přidají do nákupního seznamu.",
+      "keywords": [
+        "pravidelné nákupy",
+        "opakované položky v nákupním seznamu",
+        "připomínka nákupu"
+      ],
+      "summary": "U věcí, které kupujete pravidelně, nastavíte, jak často je kupujete. Shoppie je pak ve zvolený den sám přidá do nákupního seznamu.",
+      "steps": [
+        {
+          "title": "Otevřete pravidelné položky",
+          "text": "<p>V kartě Seznam klepněte vpravo nahoře na <strong>⋯</strong> a vyberte <strong>Pravidelné položky</strong>. Nebo podržte položku v seznamu a zvolte <strong>Přidávat pravidelně</strong>.</p>",
+          "img": "05-1"
+        },
+        {
+          "title": "Nastavte, jak často",
+          "text": "<p>Klepněte na <strong>+</strong> (Přidat pravidelnou položku), zadejte položku, zapněte <strong>Opakovat</strong> a nastavte například <em>každé 2 týdny</em> (Dny / Týdny / Měsíce). V řádku <strong>Příště</strong> vidíte, kdy se přidá.</p>",
+          "img": "05-2"
+        },
+        {
+          "title": "Shoppie ji přidá sám",
+          "text": "<p>Ve zvolený den se položka objeví v nákupním seznamu. Pozastavit ji můžete potažením doprava.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Přidají se pravidelné položky i rodině?",
+          "a": "Ano. Pravidelné položky se sdílí s domácností, takže se objeví v seznamu všem členům."
+        },
+        {
+          "q": "Dá se funkce vypnout?",
+          "a": "Ano, v Nastavení → Funkce → Pravidelné položky."
+        }
+      ]
+    },
+    "en": {
+      "slug": "regular-items-repeat-purchases",
+      "title": "How to set up regular items",
+      "description": "How to set up regular items in Shoppie – such as coffee every 2 weeks – that are added to your shopping list automatically.",
+      "keywords": [
+        "regular items shopping list",
+        "repeat purchases",
+        "recurring shopping list items"
+      ],
+      "summary": "For things you buy regularly, set how often you buy them. Shoppie then adds them to your shopping list on the chosen day.",
+      "steps": [
+        {
+          "title": "Open Regular Items",
+          "text": "<p>On the List tab, tap <strong>⋯</strong> at the top right and choose <strong>Regular Items</strong>. Or touch and hold an item on your list and choose <strong>Add Regularly</strong>.</p>",
+          "img": "05-1"
+        },
+        {
+          "title": "Set how often",
+          "text": "<p>Tap <strong>+</strong> (Add Regular Item), enter the item, turn on <strong>Repeat</strong> and set, for example, <em>every 2 weeks</em> (Days / Weeks / Months). <strong>Next time</strong> shows when it will be added.</p>",
+          "img": "05-2"
+        },
+        {
+          "title": "Shoppie adds it for you",
+          "text": "<p>On the chosen day, the item appears on your list. Swipe right to pause it.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Are regular items added for my family too?",
+          "a": "Yes. Regular items are shared with your household, so they appear on everyone’s list."
+        },
+        {
+          "q": "Can I turn the feature off?",
+          "a": "Yes, in Settings → Features → Regular Items."
+        }
+      ]
+    }
+  },
+  "updated": "2026-11-26"
+}

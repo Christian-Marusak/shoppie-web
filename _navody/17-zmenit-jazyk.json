@@ -1,0 +1,110 @@
+{
+  "id": "zmenit-jazyk",
+  "order": 17,
+  "group": "other",
+  "related": [
+    "pristupnost"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "zmenit-jazyk-aplikacie-iphone",
+      "title": "Ako zmeniť jazyk Shoppie",
+      "description": "Ako prepnúť jazyk aplikácie Shoppie (slovenčina, čeština, angličtina) nezávisle od jazyka iPhonu.",
+      "keywords": [
+        "zmeniť jazyk aplikácie iPhone",
+        "jazyk Shoppie",
+        "aplikácia po slovensky"
+      ],
+      "summary": "Shoppie je v slovenčine, češtine a angličtine a jazyk sa riadi iPhonom. Ak ho chcete inak, otvorte Nastavenia iPhonu → Apky → Shoppie → Preferovaný jazyk a vyberte jazyk. Vo vlastných nastaveniach Shoppie výber jazyka nie je.",
+      "steps": [
+        {
+          "title": "Otvorte Nastavenia iPhonu",
+          "text": "<p>Otvorte <strong>Nastavenia iPhonu → Apky → Shoppie</strong> a ťuknite na <strong>Preferovaný jazyk</strong>.</p>",
+          "img": "17-1"
+        },
+        {
+          "title": "Vyberte jazyk",
+          "text": "<p>Vyberte <strong>Slovenčina</strong>, <strong>Čeština</strong> alebo <strong>English</strong>. Shoppie sa prepne pri ďalšom otvorení.</p>",
+          "img": "17-2"
+        }
+      ],
+      "faq": [
+        {
+          "q": "V akých jazykoch je Shoppie?",
+          "a": "V slovenčine, češtine a angličtine."
+        },
+        {
+          "q": "Prečo nevidím voľbu jazyka?",
+          "a": "iPhone ju ukáže, keď máte v Nastavenia → Všeobecné → Jazyk a oblasť pridaných viac jazykov."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "zmenit-jazyk-aplikace-iphone",
+      "title": "Jak změnit jazyk Shoppie",
+      "description": "Jak přepnout jazyk aplikace Shoppie (slovenština, čeština, angličtina) nezávisle na jazyku iPhonu.",
+      "keywords": [
+        "změnit jazyk aplikace iPhone",
+        "jazyk Shoppie",
+        "aplikace česky"
+      ],
+      "summary": "Shoppie je ve slovenštině, češtině a angličtině a jazyk se řídí iPhonem. Pokud ho chcete jinak, otevřete Nastavení iPhonu → Aplikace → Shoppie → Preferovaný jazyk a vyberte jazyk. Ve vlastním nastavení Shoppie výběr jazyka není.",
+      "steps": [
+        {
+          "title": "Otevřete Nastavení iPhonu",
+          "text": "<p>Otevřete <strong>Nastavení iPhonu → Aplikace → Shoppie</strong> a klepněte na <strong>Preferovaný jazyk</strong>.</p>",
+          "img": "17-1"
+        },
+        {
+          "title": "Vyberte jazyk",
+          "text": "<p>Vyberte <strong>Slovenčina</strong>, <strong>Čeština</strong> nebo <strong>English</strong>. Shoppie se přepne při dalším otevření.</p>",
+          "img": "17-2"
+        }
+      ],
+      "faq": [
+        {
+          "q": "V jakých jazycích je Shoppie?",
+          "a": "Ve slovenštině, češtině a angličtině."
+        },
+        {
+          "q": "Proč nevidím volbu jazyka?",
+          "a": "iPhone ji ukáže, když máte v Nastavení → Obecné → Jazyk a oblast přidaných víc jazyků."
+        }
+      ]
+    },
+    "en": {
+      "slug": "change-app-language-iphone",
+      "title": "How to change Shoppie’s language",
+      "description": "How to switch Shoppie’s language (Slovak, Czech or English) independently of your iPhone’s language.",
+      "keywords": [
+        "change app language iPhone",
+        "Shoppie language",
+        "app language settings"
+      ],
+      "summary": "Shoppie is in Slovak, Czech and English and follows your iPhone’s language. To change it just for Shoppie, open iPhone Settings → Apps → Shoppie → Preferred Language. There’s no language option inside Shoppie’s own settings.",
+      "steps": [
+        {
+          "title": "Open iPhone Settings",
+          "text": "<p>Open <strong>iPhone Settings → Apps → Shoppie</strong> and tap <strong>Preferred Language</strong>.</p>",
+          "img": "17-1"
+        },
+        {
+          "title": "Choose a language",
+          "text": "<p>Choose <strong>Slovenčina</strong>, <strong>Čeština</strong> or <strong>English</strong>. Shoppie switches the next time you open it.</p>",
+          "img": "17-2"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which languages is Shoppie available in?",
+          "a": "Slovak, Czech and English."
+        },
+        {
+          "q": "Why don’t I see a language option?",
+          "a": "Your iPhone shows it when more than one language is added in Settings → General → Language & Region."
+        }
+      ]
+    }
+  },
+  "updated": "2026-11-26"
+}

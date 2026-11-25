@@ -1,0 +1,111 @@
+{
+  "id": "kolesko-oblubenych",
+  "order": 2,
+  "group": "list",
+  "related": [
+    "vytvorit-zoznam",
+    "navrhy"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "kolesko-oblubenych-rychle-pridavanie",
+      "title": "Ako rýchlo pridávať položky cez koliesko obľúbených",
+      "description": "Ako v Shoppie pridať do nákupného zoznamu najčastejšie veci jedným ťuknutím cez koliesko obľúbených a ako si ho nastaviť.",
+      "keywords": [
+        "rýchle pridávanie do nákupného zoznamu",
+        "koliesko obľúbených",
+        "obľúbené položky"
+      ],
+      "summary": "Podržte zelené tlačidlo +, posuňte prst na bublinu s položkou a pustite – položka je v zozname. Koliesko sa objaví po prvom dokončenom nákupe, lebo sa učí z vašej histórie. Čo ponúka, nastavíte v Nastavenia → Zoznam → Koliesko rýchleho pridávania.",
+      "steps": [
+        {
+          "title": "Podržte tlačidlo +",
+          "text": "<p>Namiesto ťuknutia <strong>podržte</strong> zelené tlačidlo <strong>+</strong>. Okolo neho sa objaví koliesko s bublinami.</p>",
+          "img": "02-1"
+        },
+        {
+          "title": "Posuňte prst a pustite",
+          "text": "<p>Bez zdvihnutia prsta ho posuňte na bublinu s položkou, napríklad rožky, a pustite. Položka sa hneď pridá do zoznamu.</p>"
+        },
+        {
+          "title": "Vyberte, čo koliesko ponúka",
+          "text": "<p>V <strong>Nastavenia → Zoznam → Koliesko rýchleho pridávania</strong> vyberte <strong>Odporúčané</strong>, <strong>Naposledy kúpené</strong> alebo <strong>Najčastejšie</strong>.</p>",
+          "img": "02-2"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Prečo sa mi koliesko nezobrazuje?",
+          "a": "Koliesko sa učí z vašich nákupov, preto sa objaví, až keď je v Histórii aspoň jeden dokončený nákup."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "kolecko-oblibenych-rychle-pridavani",
+      "title": "Jak rychle přidávat položky přes kolečko oblíbených",
+      "description": "Jak v Shoppie přidat do nákupního seznamu nejčastější věci jedním klepnutím přes kolečko oblíbených a jak si ho nastavit.",
+      "keywords": [
+        "rychlé přidávání do nákupního seznamu",
+        "kolečko oblíbených",
+        "oblíbené položky"
+      ],
+      "summary": "Podržte zelené tlačítko +, posuňte prst na bublinu s položkou a pusťte – položka je v seznamu. Kolečko se objeví po prvním dokončeném nákupu, protože se učí z vaší historie. Co nabízí, nastavíte v Nastavení → Seznam → Kolečko rychlého přidávání.",
+      "steps": [
+        {
+          "title": "Podržte tlačítko +",
+          "text": "<p>Místo klepnutí <strong>podržte</strong> zelené tlačítko <strong>+</strong>. Kolem něj se objeví kolečko s bublinami.</p>",
+          "img": "02-1"
+        },
+        {
+          "title": "Posuňte prst a pusťte",
+          "text": "<p>Bez zvednutí prstu ho posuňte na bublinu s položkou, například rohlíky, a pusťte. Položka se hned přidá do seznamu.</p>"
+        },
+        {
+          "title": "Vyberte, co kolečko nabízí",
+          "text": "<p>V <strong>Nastavení → Seznam → Kolečko rychlého přidávání</strong> vyberte <strong>Doporučené</strong>, <strong>Naposledy koupené</strong> nebo <strong>Nejčastější</strong>.</p>",
+          "img": "02-2"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Proč se mi kolečko nezobrazuje?",
+          "a": "Kolečko se učí z vašich nákupů, proto se objeví, až když je v Historii alespoň jeden dokončený nákup."
+        }
+      ]
+    },
+    "en": {
+      "slug": "quick-add-wheel-favourites",
+      "title": "How to add items fast with the favourites wheel",
+      "description": "How to add your most frequent items to the Shoppie shopping list with one tap using the favourites wheel, and how to set it up.",
+      "keywords": [
+        "quick add shopping list",
+        "favourites wheel",
+        "favourite items"
+      ],
+      "summary": "Touch and hold the green + button, slide your finger to an item bubble and let go – it’s on your list. The wheel appears after your first finished trip, because it learns from your history. Choose what it offers in Settings → List → Quick add wheel.",
+      "steps": [
+        {
+          "title": "Touch and hold +",
+          "text": "<p>Instead of tapping, <strong>touch and hold</strong> the green <strong>+</strong> button. A wheel of bubbles appears around it.</p>",
+          "img": "02-1"
+        },
+        {
+          "title": "Slide and let go",
+          "text": "<p>Without lifting your finger, slide to an item bubble, for example bread rolls, and let go. The item is added straight away.</p>"
+        },
+        {
+          "title": "Choose what the wheel offers",
+          "text": "<p>In <strong>Settings → List → Quick add wheel</strong>, choose <strong>Suggested</strong>, <strong>Recently bought</strong> or <strong>Most frequent</strong>.</p>",
+          "img": "02-2"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why don’t I see the wheel?",
+          "a": "The wheel learns from your shopping, so it appears once there’s at least one finished trip in History."
+        }
+      ]
+    }
+  },
+  "updated": "2026-11-26"
+}

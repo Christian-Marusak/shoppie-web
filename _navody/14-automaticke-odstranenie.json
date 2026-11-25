@@ -1,0 +1,99 @@
+{
+  "id": "automaticke-odstranenie",
+  "order": 14,
+  "group": "pantry",
+  "related": [
+    "spotreba",
+    "ranna-pripomienka"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "automaticke-odstranenie-potravin-po-datume",
+      "title": "Ako zapnúť automatické odstránenie potravín po dátume",
+      "description": "Ako v Shoppie zapnúť automatické odstránenie potravín po dátume spotreby zo Spotreby po 1, 2, 3 alebo 7 dňoch.",
+      "keywords": [
+        "automatické odstránenie potravín",
+        "potraviny po dátume spotreby",
+        "menej plytvania jedlom"
+      ],
+      "summary": "V Nastavenia → Spotreba → Odstrániť zo Spotreby vyberte, po koľkých dňoch po dátume spotreby má potravina sama zmiznúť (po 1, 2, 3 alebo 7 dňoch), a či sa započíta ako Spotrebované alebo Vyhodené. Predvolene je nastavené Nikdy a nastavenie platí pre celú domácnosť.",
+      "steps": [
+        {
+          "title": "Otvorte Odstrániť zo Spotreby",
+          "text": "<p>V karte <strong>Nastavenia</strong> v sekcii <strong>Spotreba</strong> ťuknite na <strong>Odstrániť zo Spotreby</strong> a namiesto <strong>Nikdy</strong> vyberte, po koľkých dňoch (po 1, 2, 3 alebo 7 dňoch).</p>",
+          "img": "14-1"
+        },
+        {
+          "title": "Vyberte, ako sa započíta",
+          "text": "<p>V riadku <strong>Započítať ako</strong> zvoľte <strong>Spotrebované</strong> alebo <strong>Vyhodené</strong>. Riadok sa ukáže, až keď vyberiete počet dní.</p>",
+          "img": "14-2"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Platí nastavenie aj pre rodinu?",
+          "a": "Áno. Automatické odstránenie platí pre celú domácnosť. Funguje aj pri odhadovaných dátumoch."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "automaticke-odstraneni-potravin-po-datu",
+      "title": "Jak zapnout automatické odstranění potravin po datu",
+      "description": "Jak v Shoppie zapnout automatické odstranění potravin po datu spotřeby ze Spotřeby po 1, 2, 3 nebo 7 dnech.",
+      "keywords": [
+        "automatické odstranění potravin",
+        "potraviny po datu spotřeby",
+        "méně plýtvání jídlem"
+      ],
+      "summary": "V Nastavení → Spotřeba → Odstranit ze Spotřeby vyberte, po kolika dnech po datu spotřeby má potravina sama zmizet (po 1, 2, 3 nebo 7 dnech), a jestli se započítá jako Spotřebováno, nebo Vyhozeno. Výchozí je Nikdy a nastavení platí pro celou domácnost.",
+      "steps": [
+        {
+          "title": "Otevřete Odstranit ze Spotřeby",
+          "text": "<p>V kartě <strong>Nastavení</strong> v sekci <strong>Spotřeba</strong> klepněte na <strong>Odstranit ze Spotřeby</strong> a místo <strong>Nikdy</strong> vyberte, po kolika dnech (po 1, 2, 3 nebo 7 dnech).</p>",
+          "img": "14-1"
+        },
+        {
+          "title": "Vyberte, jak se započítá",
+          "text": "<p>V řádku <strong>Započítat jako</strong> zvolte <strong>Spotřebováno</strong>, nebo <strong>Vyhozeno</strong>. Řádek se ukáže, až když vyberete počet dní.</p>",
+          "img": "14-2"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Platí nastavení i pro rodinu?",
+          "a": "Ano. Automatické odstranění platí pro celou domácnost. Funguje i u odhadovaných dat."
+        }
+      ]
+    },
+    "en": {
+      "slug": "auto-remove-food-after-best-before",
+      "title": "How to turn on auto-remove for food past its date",
+      "description": "How to have Shoppie remove food from Pantry automatically 1, 2, 3 or 7 days after its best-before date.",
+      "keywords": [
+        "auto remove expired food",
+        "food past best before date",
+        "reduce food waste"
+      ],
+      "summary": "In Settings → Pantry → Remove from Pantry, choose how many days after the use-by date food should disappear on its own (after 1, 2, 3 or 7 days) and whether it counts as Used Up or Thrown Away. The default is Never, and the setting applies to the whole household.",
+      "steps": [
+        {
+          "title": "Open Remove from Pantry",
+          "text": "<p>On the <strong>Settings</strong> tab, under <strong>Pantry</strong>, tap <strong>Remove from Pantry</strong> and change <strong>Never</strong> to a number of days (after 1, 2, 3 or 7 days).</p>",
+          "img": "14-1"
+        },
+        {
+          "title": "Choose how it counts",
+          "text": "<p>In <strong>Count as</strong>, choose <strong>Used Up</strong> or <strong>Thrown Away</strong>. This row appears once you’ve picked a number of days.</p>",
+          "img": "14-2"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does the setting apply to my family too?",
+          "a": "Yes. Auto-remove applies to the whole household, and it works with estimated dates too."
+        }
+      ]
+    }
+  },
+  "updated": "2026-11-26"
+}

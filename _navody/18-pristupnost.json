@@ -1,0 +1,122 @@
+{
+  "id": "pristupnost",
+  "order": 18,
+  "group": "other",
+  "related": [
+    "zmenit-jazyk"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "pristupnost-voiceover-velke-pismo-tmavy-rezim",
+      "title": "Shoppie pre každého: VoiceOver, veľké písmo a tmavý režim",
+      "description": "Shoppie podporuje VoiceOver, veľké písmo, tmavý režim a režim na šírku. Ako ich zapnúť na iPhone.",
+      "keywords": [
+        "prístupná aplikácia na nákupy",
+        "VoiceOver nákupný zoznam",
+        "veľké písmo iPhone"
+      ],
+      "summary": "Shoppie podporuje VoiceOver, veľké písmo aj tmavý režim a funguje aj na šírku. Všetko sa riadi nastaveniami iPhonu, takže v aplikácii netreba nič nastavovať.",
+      "steps": [
+        {
+          "title": "Veľké písmo",
+          "text": "<p>V <strong>Nastaveniach iPhonu → Zobrazenie a jas → Veľkosť textu</strong> zväčšite písmo. Shoppie ho prevezme.</p>",
+          "img": "18-1"
+        },
+        {
+          "title": "Tmavý režim",
+          "text": "<p>V <strong>Nastaveniach iPhonu → Zobrazenie a jas</strong> zvoľte <strong>Tmavý</strong>. Shoppie sa prispôsobí.</p>",
+          "img": "18-2"
+        },
+        {
+          "title": "VoiceOver",
+          "text": "<p>V <strong>Nastaveniach iPhonu → Prístupnosť → VoiceOver</strong> zapnite čítačku obrazovky. Položky, tlačidlá aj návrhy v Shoppie sú popísané.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Funguje Shoppie aj na šírku?",
+          "a": "Áno, Shoppie funguje aj v režime na šírku a podporuje aj skladací iPhone."
+        },
+        {
+          "q": "Prečo sa pri veľkom písme Dokončiť zmenilo na ikonu?",
+          "a": "Aby sa zmestil text položiek. Ikona ✓ robí to isté a jej popis sa ukáže po podržaní."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "pristupnost-voiceover-velke-pismo-tmavy-rezim",
+      "title": "Shoppie pro každého: VoiceOver, velké písmo a tmavý režim",
+      "description": "Shoppie podporuje VoiceOver, velké písmo, tmavý režim a režim na šířku. Jak je zapnout na iPhonu.",
+      "keywords": [
+        "přístupná aplikace na nákupy",
+        "VoiceOver nákupní seznam",
+        "velké písmo iPhone"
+      ],
+      "summary": "Shoppie podporuje VoiceOver, velké písmo i tmavý režim a funguje i na šířku. Vše se řídí nastavením iPhonu, takže v aplikaci není nic potřeba nastavovat.",
+      "steps": [
+        {
+          "title": "Velké písmo",
+          "text": "<p>V <strong>Nastavení iPhonu → Zobrazení a jas → Velikost textu</strong> zvětšete písmo. Shoppie ho převezme.</p>",
+          "img": "18-1"
+        },
+        {
+          "title": "Tmavý režim",
+          "text": "<p>V <strong>Nastavení iPhonu → Zobrazení a jas</strong> zvolte <strong>Tmavý</strong>. Shoppie se přizpůsobí.</p>",
+          "img": "18-2"
+        },
+        {
+          "title": "VoiceOver",
+          "text": "<p>V <strong>Nastavení iPhonu → Zpřístupnění → VoiceOver</strong> zapněte čtečku obrazovky. Položky, tlačítka i návrhy v Shoppie jsou popsané.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Funguje Shoppie i na šířku?",
+          "a": "Ano, Shoppie funguje i v režimu na šířku a podporuje i skládací iPhone."
+        },
+        {
+          "q": "Proč se u velkého písma Dokončit změnilo na ikonu?",
+          "a": "Aby se vešel text položek. Ikona ✓ dělá totéž a její popis se ukáže po podržení."
+        }
+      ]
+    },
+    "en": {
+      "slug": "accessibility-voiceover-larger-text-dark-mode",
+      "title": "Shoppie for everyone: VoiceOver, larger text and Dark Mode",
+      "description": "Shoppie supports VoiceOver, larger text, Dark Mode and landscape. How to turn them on on iPhone.",
+      "keywords": [
+        "accessible shopping list app",
+        "VoiceOver shopping list",
+        "larger text iPhone"
+      ],
+      "summary": "Shoppie supports VoiceOver, larger text and Dark Mode, and works in landscape too. It all follows your iPhone settings, so there’s nothing to set up in the app.",
+      "steps": [
+        {
+          "title": "Larger text",
+          "text": "<p>In <strong>iPhone Settings → Display &amp; Brightness → Text Size</strong>, make the text bigger. Shoppie follows it.</p>",
+          "img": "18-1"
+        },
+        {
+          "title": "Dark Mode",
+          "text": "<p>In <strong>iPhone Settings → Display &amp; Brightness</strong>, choose <strong>Dark</strong>. Shoppie adapts.</p>",
+          "img": "18-2"
+        },
+        {
+          "title": "VoiceOver",
+          "text": "<p>In <strong>iPhone Settings → Accessibility → VoiceOver</strong>, turn on the screen reader. Items, buttons and suggestions in Shoppie are all labelled.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does Shoppie work in landscape?",
+          "a": "Yes, Shoppie works in landscape and supports the foldable iPhone too."
+        },
+        {
+          "q": "Why is Finish just an icon with larger text?",
+          "a": "To leave room for your items. The ✓ icon does the same, and holding it shows the label."
+        }
+      ]
+    }
+  },
+  "updated": "2026-11-26"
+}

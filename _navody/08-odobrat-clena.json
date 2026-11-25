@@ -1,0 +1,105 @@
+{
+  "id": "odobrat-clena",
+  "order": 8,
+  "group": "family",
+  "related": [
+    "zdielat-zoznam",
+    "synchronizacia"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "odobrat-clena-opustit-domacnost",
+      "title": "Ako odobrať člena alebo opustiť domácnosť",
+      "description": "Ako v Shoppie ukončiť zdieľanie nákupného zoznamu: vlastník môže odobrať člena, člen môže domácnosť opustiť.",
+      "keywords": [
+        "ukončiť zdieľanie nákupného zoznamu",
+        "odobrať člena domácnosti",
+        "opustiť domácnosť"
+      ],
+      "summary": "V Nastaveniach v sekcii Členovia domácnosti ťuknite na ⋯ pri mene. Vlastník môže člena odstrániť z domácnosti alebo zrušiť zdieľanie, člen môže z domácnosti odísť.",
+      "steps": [
+        {
+          "title": "Otvorte Členov domácnosti",
+          "text": "<p>V karte <strong>Nastavenia</strong> nájdite sekciu <strong>Členovia domácnosti</strong> a ťuknite na <strong>⋯</strong> pri mene.</p>"
+        },
+        {
+          "title": "Vlastník: odstrániť člena alebo zrušiť zdieľanie",
+          "text": "<p>Vyberte <strong>Odstrániť z domácnosti</strong> – zoznamy zostanú u vás a z druhého iPhonu zmiznú. Alebo <strong>Zrušiť zdieľanie</strong> – ostatní stratia prístup a vaše zoznamy zostanú u vás.</p>"
+        },
+        {
+          "title": "Člen: odísť z domácnosti",
+          "text": "<p>Vyberte <strong>Odísť z domácnosti</strong>. Zoznamy zostanú vlastníkovi domácnosti a vy začnete s prázdnym zoznamom.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Čo sa stane s mojimi zárukami, keď odídem?",
+          "a": "Záruky a nastavenia sa nikdy nezdieľali, takže vám zostávajú."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "odebrat-clena-opustit-domacnost",
+      "title": "Jak odebrat člena nebo opustit domácnost",
+      "description": "Jak v Shoppie ukončit sdílení nákupního seznamu: vlastník může odebrat člena, člen může domácnost opustit.",
+      "keywords": [
+        "ukončit sdílení nákupního seznamu",
+        "odebrat člena domácnosti",
+        "opustit domácnost"
+      ],
+      "summary": "V Nastavení v sekci Členové domácnosti klepněte na ⋯ u jména. Vlastník může člena odebrat z domácnosti nebo zrušit sdílení, člen může z domácnosti odejít.",
+      "steps": [
+        {
+          "title": "Otevřete Členy domácnosti",
+          "text": "<p>V kartě <strong>Nastavení</strong> najděte sekci <strong>Členové domácnosti</strong> a klepněte na <strong>⋯</strong> u jména.</p>"
+        },
+        {
+          "title": "Vlastník: odebrat člena nebo zrušit sdílení",
+          "text": "<p>Vyberte <strong>Odebrat z domácnosti</strong> – seznamy zůstanou u vás a z druhého iPhonu zmizí. Nebo <strong>Zrušit sdílení</strong> – ostatní ztratí přístup a vaše seznamy zůstanou u vás.</p>"
+        },
+        {
+          "title": "Člen: odejít z domácnosti",
+          "text": "<p>Vyberte <strong>Odejít z domácnosti</strong>. Seznamy zůstanou vlastníkovi domácnosti a vy začnete s prázdným seznamem.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Co se stane s mými zárukami, když odejdu?",
+          "a": "Záruky a nastavení se nikdy nesdílely, takže vám zůstávají."
+        }
+      ]
+    },
+    "en": {
+      "slug": "remove-member-leave-household",
+      "title": "How to remove a member or leave a household",
+      "description": "How to stop sharing a shopping list in Shoppie: the owner can remove a member, and a member can leave the household.",
+      "keywords": [
+        "stop sharing shopping list",
+        "remove household member",
+        "leave household"
+      ],
+      "summary": "In Settings, under Household Members, tap ⋯ next to a name. The owner can remove a member or stop sharing; a member can leave the household.",
+      "steps": [
+        {
+          "title": "Open Household Members",
+          "text": "<p>On the <strong>Settings</strong> tab, find <strong>Household Members</strong> and tap <strong>⋯</strong> next to a name.</p>"
+        },
+        {
+          "title": "Owner: remove a member or stop sharing",
+          "text": "<p>Choose <strong>Remove from Household</strong> – the lists stay with you and disappear from the other iPhone. Or <strong>Stop Sharing</strong> – everyone else loses access and your lists stay with you.</p>"
+        },
+        {
+          "title": "Member: leave the household",
+          "text": "<p>Choose <strong>Leave Household</strong>. The lists stay with the household’s owner and you start with an empty list.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "What happens to my warranties when I leave?",
+          "a": "Warranties and settings were never shared, so they stay with you."
+        }
+      ]
+    }
+  },
+  "updated": "2026-11-26"
+}

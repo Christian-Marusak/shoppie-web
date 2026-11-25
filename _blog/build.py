@@ -41,7 +41,7 @@ MONTHS = {
 T = {
     "sk": dict(
         locale="sk_SK", skip="Preskočiť na obsah", menu="Hlavné menu", lang_label="Jazyk",
-        home="Úvod", roadmap="Čo chystáme", blog="Blog", support="Podpora", privacy="Súkromie",
+        home="Úvod", roadmap="Čo chystáme", guides="Návody", blog="Blog", support="Podpora", privacy="Súkromie",
         blog_title="Blog – Shoppie",
         blog_desc="Tipy na nákupy, šetrenie a menej vyhadzovania jedla od tvorcov aplikácie Shoppie.",
         blog_lead="Tipy na nákupy, šetrenie a menej vyhadzovania jedla. Pravidelne nové články.",
@@ -57,7 +57,7 @@ T = {
     ),
     "cs": dict(
         locale="cs_CZ", skip="Přeskočit na obsah", menu="Hlavní menu", lang_label="Jazyk",
-        home="Úvod", roadmap="Co chystáme", blog="Blog", support="Podpora", privacy="Soukromí",
+        home="Úvod", roadmap="Co chystáme", guides="Návody", blog="Blog", support="Podpora", privacy="Soukromí",
         blog_title="Blog – Shoppie",
         blog_desc="Tipy na nákupy, šetření a méně vyhazování jídla od tvůrců aplikace Shoppie.",
         blog_lead="Tipy na nákupy, šetření a méně vyhazování jídla. Pravidelně nové články.",
@@ -73,7 +73,7 @@ T = {
     ),
     "en": dict(
         locale="en_GB", skip="Skip to content", menu="Main menu", lang_label="Language",
-        home="Home", roadmap="What’s coming", blog="Blog", support="Support", privacy="Privacy",
+        home="Home", roadmap="What’s coming", guides="Guides", blog="Blog", support="Support", privacy="Privacy",
         blog_title="Blog – Shoppie",
         blog_desc="Tips on grocery shopping, saving money and wasting less food from the makers of Shoppie.",
         blog_lead="Tips on grocery shopping, saving money and wasting less food. New articles regularly.",
@@ -170,6 +170,7 @@ def header(lang, current, alt_links, up):
     items = [
         (f"{up}index.html", t["home"], current == "home"),
         (f"{up}index.html#roadmap", t["roadmap"], False),
+        (f"{up}navody/index.html", t["guides"], current == "guides"),
         (f"{up}blog/index.html", t["blog"], current == "blog"),
         (f"{up}support.html", t["support"], False),
         (f"{up}privacy.html", t["privacy"], False),
@@ -209,6 +210,7 @@ def footer(lang, up):
     return f"""<footer class="site-footer">
   <div class="wrap">
     <nav aria-label="Shoppie">
+      <a href="{up}navody/index.html">{t['guides']}</a> ·
       <a href="{up}blog/index.html">{t['blog']}</a> ·
       <a href="{up}support.html">{t['support']}</a> ·
       <a href="{up}privacy.html">{t['privacy']}</a> ·
@@ -432,12 +434,13 @@ def build_feed(posts, lang):
 """
 
 
-def build_sitemap(posts):
+def build_sitemap(posts, extra_groups=(), extra_lastmod=None):
     groups = [{l: f"{SITE}/{l}/" for l in LANGS}]
     for page in ("support", "privacy"):
         groups.append({l: f"{SITE}/{l}/{page}.html" for l in LANGS})
     groups.append({l: f"{SITE}/{l}/blog/" for l in LANGS})
-    lastmod = {}
+    groups += list(extra_groups)
+    lastmod = dict(extra_lastmod or {})
     for p in posts:
         g = {l: post_url(p, l) for l in LANGS}
         groups.append(g)
@@ -475,7 +478,9 @@ def main():
                 f.unlink()
         (d / "index.html").write_text(build_index(pub, lang), encoding="utf-8")
         (d / "feed.xml").write_text(build_feed(pub, lang), encoding="utf-8")
-    (ROOT / "sitemap.xml").write_text(build_sitemap(pub), encoding="utf-8")
+    import guides
+    g_groups, g_lastmod = guides.build_all()
+    (ROOT / "sitemap.xml").write_text(build_sitemap(pub, g_groups, g_lastmod), encoding="utf-8")
     drafts = [p["id"] for p in posts if p.get("draft")]
     print(f"Hotovo: {len(pub)} zverejnených článkov" + (f", koncepty: {', '.join(drafts)}" if drafts else ""))
 

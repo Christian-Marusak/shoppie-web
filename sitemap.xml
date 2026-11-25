@@ -85,6 +85,483 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/blog/"/>
   </url>
   <url>
+    <loc>https://shoppieapp.eu/sk/navody/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/</loc>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/sk/navody/ako-vytvorit-nakupny-zoznam-iphone.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/ako-vytvorit-nakupny-zoznam-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/jak-vytvorit-nakupni-seznam-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/how-to-make-a-shopping-list-on-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/ako-vytvorit-nakupny-zoznam-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/jak-vytvorit-nakupni-seznam-iphone.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/ako-vytvorit-nakupny-zoznam-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/jak-vytvorit-nakupni-seznam-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/how-to-make-a-shopping-list-on-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/ako-vytvorit-nakupny-zoznam-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/how-to-make-a-shopping-list-on-iphone.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/ako-vytvorit-nakupny-zoznam-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/jak-vytvorit-nakupni-seznam-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/how-to-make-a-shopping-list-on-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/ako-vytvorit-nakupny-zoznam-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/sk/navody/kolesko-oblubenych-rychle-pridavanie.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/kolesko-oblubenych-rychle-pridavanie.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/kolecko-oblibenych-rychle-pridavani.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/quick-add-wheel-favourites.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/kolesko-oblubenych-rychle-pridavanie.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/kolecko-oblibenych-rychle-pridavani.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/kolesko-oblubenych-rychle-pridavanie.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/kolecko-oblibenych-rychle-pridavani.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/quick-add-wheel-favourites.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/kolesko-oblubenych-rychle-pridavanie.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/quick-add-wheel-favourites.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/kolesko-oblubenych-rychle-pridavanie.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/kolecko-oblibenych-rychle-pridavani.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/quick-add-wheel-favourites.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/kolesko-oblubenych-rychle-pridavanie.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/sk/navody/navrhy-co-dochadza.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/navrhy-co-dochadza.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/navrhy-co-dochazi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/suggestions-what-you-are-running-out-of.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/navrhy-co-dochadza.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/navrhy-co-dochazi.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/navrhy-co-dochadza.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/navrhy-co-dochazi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/suggestions-what-you-are-running-out-of.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/navrhy-co-dochadza.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/suggestions-what-you-are-running-out-of.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/navrhy-co-dochadza.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/navrhy-co-dochazi.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/suggestions-what-you-are-running-out-of.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/navrhy-co-dochadza.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/sk/navody/viac-nakupnych-zoznamov.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/viac-nakupnych-zoznamov.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/vice-nakupnich-seznamu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/multiple-shopping-lists.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/viac-nakupnych-zoznamov.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/vice-nakupnich-seznamu.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/viac-nakupnych-zoznamov.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/vice-nakupnich-seznamu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/multiple-shopping-lists.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/viac-nakupnych-zoznamov.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/multiple-shopping-lists.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/viac-nakupnych-zoznamov.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/vice-nakupnich-seznamu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/multiple-shopping-lists.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/viac-nakupnych-zoznamov.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/sk/navody/pravidelne-nakupy-opakovane-polozky.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/pravidelne-nakupy-opakovane-polozky.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/pravidelne-nakupy-opakovane-polozky.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/regular-items-repeat-purchases.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/pravidelne-nakupy-opakovane-polozky.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/pravidelne-nakupy-opakovane-polozky.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/pravidelne-nakupy-opakovane-polozky.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/pravidelne-nakupy-opakovane-polozky.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/regular-items-repeat-purchases.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/pravidelne-nakupy-opakovane-polozky.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/regular-items-repeat-purchases.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/pravidelne-nakupy-opakovane-polozky.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/pravidelne-nakupy-opakovane-polozky.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/regular-items-repeat-purchases.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/pravidelne-nakupy-opakovane-polozky.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/sk/navody/dokoncit-nakup-historia-nakupov.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/dokoncit-nakup-historia-nakupov.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/dokoncit-nakup-historie-nakupu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/finish-shopping-shopping-history.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/dokoncit-nakup-historia-nakupov.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/dokoncit-nakup-historie-nakupu.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/dokoncit-nakup-historia-nakupov.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/dokoncit-nakup-historie-nakupu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/finish-shopping-shopping-history.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/dokoncit-nakup-historia-nakupov.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/finish-shopping-shopping-history.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/dokoncit-nakup-historia-nakupov.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/dokoncit-nakup-historie-nakupu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/finish-shopping-shopping-history.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/dokoncit-nakup-historia-nakupov.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/sk/navody/zdielat-nakupny-zoznam-s-rodinou-iphone.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/zdielat-nakupny-zoznam-s-rodinou-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/sdilet-nakupni-seznam-s-rodinou-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/share-shopping-list-with-family-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/zdielat-nakupny-zoznam-s-rodinou-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/sdilet-nakupni-seznam-s-rodinou-iphone.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/zdielat-nakupny-zoznam-s-rodinou-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/sdilet-nakupni-seznam-s-rodinou-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/share-shopping-list-with-family-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/zdielat-nakupny-zoznam-s-rodinou-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/share-shopping-list-with-family-iphone.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/zdielat-nakupny-zoznam-s-rodinou-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/sdilet-nakupni-seznam-s-rodinou-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/share-shopping-list-with-family-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/zdielat-nakupny-zoznam-s-rodinou-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/sk/navody/odobrat-clena-opustit-domacnost.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/odobrat-clena-opustit-domacnost.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/odebrat-clena-opustit-domacnost.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/remove-member-leave-household.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/odobrat-clena-opustit-domacnost.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/odebrat-clena-opustit-domacnost.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/odobrat-clena-opustit-domacnost.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/odebrat-clena-opustit-domacnost.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/remove-member-leave-household.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/odobrat-clena-opustit-domacnost.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/remove-member-leave-household.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/odobrat-clena-opustit-domacnost.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/odebrat-clena-opustit-domacnost.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/remove-member-leave-household.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/odobrat-clena-opustit-domacnost.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/sk/navody/nakupny-zoznam-sa-nesynchronizuje.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/nakupny-zoznam-sa-nesynchronizuje.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/nakupni-seznam-se-nesynchronizuje.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/shopping-list-not-syncing.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/nakupny-zoznam-sa-nesynchronizuje.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/nakupni-seznam-se-nesynchronizuje.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/nakupny-zoznam-sa-nesynchronizuje.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/nakupni-seznam-se-nesynchronizuje.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/shopping-list-not-syncing.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/nakupny-zoznam-sa-nesynchronizuje.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/shopping-list-not-syncing.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/nakupny-zoznam-sa-nesynchronizuje.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/nakupni-seznam-se-nesynchronizuje.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/shopping-list-not-syncing.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/nakupny-zoznam-sa-nesynchronizuje.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/sk/navody/ako-naskenovat-blocek-iphone.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/ako-naskenovat-blocek-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/jak-naskenovat-uctenku-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/how-to-scan-a-receipt-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/ako-naskenovat-blocek-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/jak-naskenovat-uctenku-iphone.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/ako-naskenovat-blocek-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/jak-naskenovat-uctenku-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/how-to-scan-a-receipt-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/ako-naskenovat-blocek-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/how-to-scan-a-receipt-iphone.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/ako-naskenovat-blocek-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/jak-naskenovat-uctenku-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/how-to-scan-a-receipt-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/ako-naskenovat-blocek-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/sk/navody/sken-blocku-nefunguje.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/sken-blocku-nefunguje.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/sken-uctenky-nefunguje.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/receipt-scan-not-working.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/sken-blocku-nefunguje.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/sken-uctenky-nefunguje.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/sken-blocku-nefunguje.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/sken-uctenky-nefunguje.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/receipt-scan-not-working.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/sken-blocku-nefunguje.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/receipt-scan-not-working.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/sken-blocku-nefunguje.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/sken-uctenky-nefunguje.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/receipt-scan-not-working.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/sken-blocku-nefunguje.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/sk/navody/datum-spotreby-potravin-aplikacia.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/datum-spotreby-potravin-aplikacia.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/datum-spotreby-potravin-aplikace.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/track-food-best-before-dates-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/datum-spotreby-potravin-aplikacia.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/datum-spotreby-potravin-aplikace.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/datum-spotreby-potravin-aplikacia.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/datum-spotreby-potravin-aplikace.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/track-food-best-before-dates-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/datum-spotreby-potravin-aplikacia.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/track-food-best-before-dates-app.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/datum-spotreby-potravin-aplikacia.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/datum-spotreby-potravin-aplikace.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/track-food-best-before-dates-app.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/datum-spotreby-potravin-aplikacia.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/sk/navody/pripomienka-datumu-spotreby.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/pripomienka-datumu-spotreby.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/pripominka-data-spotreby.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/best-before-reminder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/pripomienka-datumu-spotreby.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/pripominka-data-spotreby.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/pripomienka-datumu-spotreby.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/pripominka-data-spotreby.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/best-before-reminder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/pripomienka-datumu-spotreby.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/best-before-reminder.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/pripomienka-datumu-spotreby.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/pripominka-data-spotreby.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/best-before-reminder.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/pripomienka-datumu-spotreby.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/sk/navody/automaticke-odstranenie-potravin-po-datume.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/automaticke-odstranenie-potravin-po-datume.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/automaticke-odstraneni-potravin-po-datu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/auto-remove-food-after-best-before.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/automaticke-odstranenie-potravin-po-datume.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/automaticke-odstraneni-potravin-po-datu.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/automaticke-odstranenie-potravin-po-datume.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/automaticke-odstraneni-potravin-po-datu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/auto-remove-food-after-best-before.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/automaticke-odstranenie-potravin-po-datume.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/auto-remove-food-after-best-before.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/automaticke-odstranenie-potravin-po-datume.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/automaticke-odstraneni-potravin-po-datu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/auto-remove-food-after-best-before.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/automaticke-odstranenie-potravin-po-datume.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/sk/navody/ulozit-zaruku-a-blocek-v-iphone.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/ulozit-zaruku-a-blocek-v-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/ulozit-zaruku-a-uctenku-v-iphonu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/save-warranty-and-receipt-on-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/ulozit-zaruku-a-blocek-v-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/ulozit-zaruku-a-uctenku-v-iphonu.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/ulozit-zaruku-a-blocek-v-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/ulozit-zaruku-a-uctenku-v-iphonu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/save-warranty-and-receipt-on-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/ulozit-zaruku-a-blocek-v-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/save-warranty-and-receipt-on-iphone.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/ulozit-zaruku-a-blocek-v-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/ulozit-zaruku-a-uctenku-v-iphonu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/save-warranty-and-receipt-on-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/ulozit-zaruku-a-blocek-v-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/sk/navody/skryt-zobrazit-kartu-zaruky.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/skryt-zobrazit-kartu-zaruky.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/skryt-zobrazit-kartu-zaruky.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/show-hide-warranties-tab.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/skryt-zobrazit-kartu-zaruky.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/skryt-zobrazit-kartu-zaruky.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/skryt-zobrazit-kartu-zaruky.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/skryt-zobrazit-kartu-zaruky.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/show-hide-warranties-tab.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/skryt-zobrazit-kartu-zaruky.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/show-hide-warranties-tab.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/skryt-zobrazit-kartu-zaruky.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/skryt-zobrazit-kartu-zaruky.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/show-hide-warranties-tab.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/skryt-zobrazit-kartu-zaruky.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/sk/navody/zmenit-jazyk-aplikacie-iphone.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/zmenit-jazyk-aplikacie-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/zmenit-jazyk-aplikace-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/change-app-language-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/zmenit-jazyk-aplikacie-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/zmenit-jazyk-aplikace-iphone.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/zmenit-jazyk-aplikacie-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/zmenit-jazyk-aplikace-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/change-app-language-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/zmenit-jazyk-aplikacie-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/change-app-language-iphone.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/zmenit-jazyk-aplikacie-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/zmenit-jazyk-aplikace-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/change-app-language-iphone.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/zmenit-jazyk-aplikacie-iphone.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/sk/navody/pristupnost-voiceover-velke-pismo-tmavy-rezim.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/pristupnost-voiceover-velke-pismo-tmavy-rezim.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/pristupnost-voiceover-velke-pismo-tmavy-rezim.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/accessibility-voiceover-larger-text-dark-mode.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/pristupnost-voiceover-velke-pismo-tmavy-rezim.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/pristupnost-voiceover-velke-pismo-tmavy-rezim.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/pristupnost-voiceover-velke-pismo-tmavy-rezim.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/pristupnost-voiceover-velke-pismo-tmavy-rezim.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/accessibility-voiceover-larger-text-dark-mode.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/pristupnost-voiceover-velke-pismo-tmavy-rezim.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/accessibility-voiceover-larger-text-dark-mode.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/pristupnost-voiceover-velke-pismo-tmavy-rezim.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/pristupnost-voiceover-velke-pismo-tmavy-rezim.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/accessibility-voiceover-larger-text-dark-mode.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/pristupnost-voiceover-velke-pismo-tmavy-rezim.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/sk/navody/vymazat-udaje-shoppie-icloud.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/vymazat-udaje-shoppie-icloud.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/smazat-data-shoppie-icloud.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/delete-shoppie-data-icloud.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/vymazat-udaje-shoppie-icloud.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/cs/navody/smazat-data-shoppie-icloud.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/vymazat-udaje-shoppie-icloud.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/smazat-data-shoppie-icloud.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/delete-shoppie-data-icloud.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/vymazat-udaje-shoppie-icloud.html"/>
+  </url>
+  <url>
+    <loc>https://shoppieapp.eu/en/navody/delete-shoppie-data-icloud.html</loc>
+    <lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/navody/vymazat-udaje-shoppie-icloud.html"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://shoppieapp.eu/cs/navody/smazat-data-shoppie-icloud.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://shoppieapp.eu/en/navody/delete-shoppie-data-icloud.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://shoppieapp.eu/sk/navody/vymazat-udaje-shoppie-icloud.html"/>
+  </url>
+  <url>
     <loc>https://shoppieapp.eu/sk/blog/ako-usetrit-na-vianoce-pri-nakupe-potravin.html</loc>
     <lastmod>2026-11-25</lastmod>
     <xhtml:link rel="alternate" hreflang="sk" href="https://shoppieapp.eu/sk/blog/ako-usetrit-na-vianoce-pri-nakupe-potravin.html"/>

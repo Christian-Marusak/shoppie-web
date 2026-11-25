@@ -1,0 +1,111 @@
+{
+  "id": "vymazat-udaje",
+  "order": 19,
+  "group": "other",
+  "related": [
+    "odobrat-clena",
+    "zmenit-jazyk"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "vymazat-udaje-shoppie-icloud",
+      "title": "Ako vymazať svoje údaje zo Shoppie a z iCloudu",
+      "description": "Ako v Shoppie vymazať históriu nákupov a Spotrebu a ako odstrániť všetky údaje aplikácie z iPhonu aj z iCloudu.",
+      "keywords": [
+        "vymazať údaje aplikácie iCloud",
+        "vymazať históriu nákupov",
+        "spravovať úložisko iCloud"
+      ],
+      "summary": "Históriu nákupov a Spotrebu vymažete v Nastavenia → Dáta. Všetky údaje Shoppie z iCloudu odstránite v Nastaveniach iPhonu → [vaše meno] → iCloud → Spravovať úložisko → Shoppie. Shoppie o vás nič nezbiera, takže všetky údaje máte pod kontrolou vy.",
+      "steps": [
+        {
+          "title": "Vymažte históriu alebo Spotrebu",
+          "text": "<p>V karte <strong>Nastavenia</strong> v sekcii <strong>Dáta</strong> ťuknite na <strong>Vymazať históriu nákupov</strong> alebo <strong>Vymazať spotrebu</strong>.</p>",
+          "img": "19-1"
+        },
+        {
+          "title": "Potvrďte",
+          "text": "<p>Potvrďte <strong>Vymazať</strong>. Pri histórii sa vymažú aj návrhy naučené z nej, pri Spotrebe aj pripomienky. Nedá sa to vrátiť späť. Zoznamy, pravidelné položky a záruky sa tu nemažú – tie zmažete priamo v aplikácii.</p>",
+          "img": "19-2"
+        },
+        {
+          "title": "Vymažte údaje v iCloude",
+          "text": "<p>Všetko ostatné odstránite v <strong>Nastaveniach iPhonu → [vaše meno] → iCloud → Spravovať úložisko → Shoppie</strong>. Zmazaním aplikácie sa odstránia údaje uložené v iPhone.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Máte o mne nejaké údaje?",
+          "a": "Nie. Shoppie nezbiera žiadne údaje a nemá server. Všetko je len vo vašom iPhone a vo vašom súkromnom iCloude."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "smazat-data-shoppie-icloud",
+      "title": "Jak smazat svá data ze Shoppie a z iCloudu",
+      "description": "Jak v Shoppie smazat historii nákupů a Spotřebu a jak odstranit všechna data aplikace z iPhonu i z iCloudu.",
+      "keywords": [
+        "smazat data aplikace iCloud",
+        "smazat historii nákupů",
+        "spravovat úložiště iCloud"
+      ],
+      "summary": "Historii nákupů a Spotřebu smažete v Nastavení → Data. Všechna data Shoppie z iCloudu odstraníte v Nastavení iPhonu → [vaše jméno] → iCloud → Spravovat úložiště → Shoppie. Shoppie o vás nic nesbírá, takže všechna data máte pod kontrolou vy.",
+      "steps": [
+        {
+          "title": "Smažte historii nebo Spotřebu",
+          "text": "<p>V kartě <strong>Nastavení</strong> v sekci <strong>Data</strong> klepněte na <strong>Smazat historii nákupů</strong> nebo <strong>Smazat spotřebu</strong>.</p>",
+          "img": "19-1"
+        },
+        {
+          "title": "Potvrďte",
+          "text": "<p>Potvrďte <strong>Smazat</strong>. U historie se smažou i návrhy naučené z ní, u Spotřeby i připomínky. Nelze to vrátit zpět. Seznamy, pravidelné položky a záruky se tu nemažou – ty smažete přímo v aplikaci.</p>",
+          "img": "19-2"
+        },
+        {
+          "title": "Smažte data v iCloudu",
+          "text": "<p>Vše ostatní odstraníte v <strong>Nastavení iPhonu → [vaše jméno] → iCloud → Spravovat úložiště → Shoppie</strong>. Smazáním aplikace se odstraní data uložená v iPhonu.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Máte o mně nějaká data?",
+          "a": "Ne. Shoppie nesbírá žádná data a nemá server. Vše je jen ve vašem iPhonu a ve vašem soukromém iCloudu."
+        }
+      ]
+    },
+    "en": {
+      "slug": "delete-shoppie-data-icloud",
+      "title": "How to delete your Shoppie data from the app and iCloud",
+      "description": "How to clear your shopping history and Pantry in Shoppie, and how to remove all of the app’s data from your iPhone and iCloud.",
+      "keywords": [
+        "delete app data iCloud",
+        "clear shopping history",
+        "manage iCloud storage"
+      ],
+      "summary": "Clear your shopping history and Pantry in Settings → Data. Remove all Shoppie data from iCloud in iPhone Settings → [your name] → iCloud → Manage Storage → Shoppie. Shoppie collects nothing about you, so you’re in full control of your data.",
+      "steps": [
+        {
+          "title": "Clear history or Pantry",
+          "text": "<p>On the <strong>Settings</strong> tab, under <strong>Data</strong>, tap <strong>Clear Shopping History</strong> or <strong>Clear Pantry</strong>.</p>",
+          "img": "19-1"
+        },
+        {
+          "title": "Confirm",
+          "text": "<p>Confirm with <strong>Delete</strong>. Clearing history also removes the suggestions learned from it; clearing Pantry also removes its reminders. This can’t be undone. Lists, regular items and warranties aren’t deleted here – delete those directly in the app.</p>",
+          "img": "19-2"
+        },
+        {
+          "title": "Delete data in iCloud",
+          "text": "<p>Remove everything else in <strong>iPhone Settings → [your name] → iCloud → Manage Storage → Shoppie</strong>. Deleting the app removes the data stored on your iPhone.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do you hold any data about me?",
+          "a": "No. Shoppie collects no data and has no server. Everything stays on your iPhone and in your private iCloud."
+        }
+      ]
+    }
+  },
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,123 @@
+{
+  "id": "viac-zoznamov",
+  "order": 4,
+  "group": "list",
+  "related": [
+    "vytvorit-zoznam",
+    "zdielat-zoznam"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "viac-nakupnych-zoznamov",
+      "title": "Ako mať viac nákupných zoznamov",
+      "description": "Ako si v Shoppie vytvoriť viac nákupných zoznamov – na potraviny, drogériu aj chatu – a prepínať medzi nimi.",
+      "keywords": [
+        "viac nákupných zoznamov",
+        "nákupný zoznam drogéria",
+        "zoznam na chatu"
+      ],
+      "summary": "Ťuknite na názov zoznamu hore. Otvorí sa prehľad zoznamov, kde medzi nimi prepínate a pridáte nový – napríklad na drogériu alebo na chatu.",
+      "steps": [
+        {
+          "title": "Ťuknite na názov zoznamu",
+          "text": "<p>Hore v karte Zoznam ťuknite na <strong>názov zoznamu</strong> (napríklad <em>Potraviny ˅</em>). Otvorí sa ponuka so zoznamami.</p>",
+          "img": "04-1"
+        },
+        {
+          "title": "Vytvorte nový zoznam",
+          "text": "<p>Ťuknite na <strong>Nový zoznam</strong>, zadajte <strong>Názov</strong> (napríklad <em>Drogéria</em>), vyberte <strong>Ikonu</strong> a potvrďte zelenou fajkou ✓.</p>",
+          "img": "04-2"
+        },
+        {
+          "title": "Prepínajte a spravujte zoznamy",
+          "text": "<p>Rovnakým ťuknutím na názov sa prepnete na iný zoznam. V <strong>Spravovať zoznamy</strong> ich premenujete, presuniete alebo zmažete.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Vidí moje zoznamy aj rodina?",
+          "a": "Áno, ak máte spoločnú domácnosť. Členovia domácnosti vidia všetky zoznamy a zmeny v nich hneď."
+        },
+        {
+          "q": "Dá sa zmazať každý zoznam?",
+          "a": "Áno, okrem posledného – aspoň jeden zoznam musí ostať."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "vice-nakupnich-seznamu",
+      "title": "Jak mít víc nákupních seznamů",
+      "description": "Jak si v Shoppie vytvořit víc nákupních seznamů – na potraviny, drogerii i chalupu – a přepínat mezi nimi.",
+      "keywords": [
+        "více nákupních seznamů",
+        "nákupní seznam drogerie",
+        "seznam na chalupu"
+      ],
+      "summary": "Klepněte na název seznamu nahoře. Otevře se přehled seznamů, kde mezi nimi přepínáte a přidáte nový – například na drogerii nebo na chalupu.",
+      "steps": [
+        {
+          "title": "Klepněte na název seznamu",
+          "text": "<p>Nahoře v kartě Seznam klepněte na <strong>název seznamu</strong> (například <em>Potraviny ˅</em>). Otevře se nabídka se seznamy.</p>",
+          "img": "04-1"
+        },
+        {
+          "title": "Vytvořte nový seznam",
+          "text": "<p>Klepněte na <strong>Nový seznam</strong>, zadejte <strong>Název</strong> (například <em>Drogerie</em>), vyberte <strong>Ikonu</strong> a potvrďte zelenou fajfkou ✓.</p>",
+          "img": "04-2"
+        },
+        {
+          "title": "Přepínejte a spravujte seznamy",
+          "text": "<p>Stejným klepnutím na název se přepnete na jiný seznam. Ve <strong>Spravovat seznamy</strong> je přejmenujete, přesunete nebo smažete.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Vidí moje seznamy i rodina?",
+          "a": "Ano, pokud máte společnou domácnost. Členové domácnosti vidí všechny seznamy a změny v nich hned."
+        },
+        {
+          "q": "Dá se smazat každý seznam?",
+          "a": "Ano, kromě posledního – alespoň jeden seznam musí zůstat."
+        }
+      ]
+    },
+    "en": {
+      "slug": "multiple-shopping-lists",
+      "title": "How to have more than one shopping list",
+      "description": "How to create several shopping lists in Shoppie – for groceries, toiletries or the cottage – and switch between them.",
+      "keywords": [
+        "multiple shopping lists",
+        "separate shopping lists",
+        "shopping list for toiletries"
+      ],
+      "summary": "Tap the list name at the top. You’ll see your lists, where you can switch between them and add a new one – for example for toiletries or a weekend away.",
+      "steps": [
+        {
+          "title": "Tap the list name",
+          "text": "<p>At the top of the List tab, tap the <strong>list name</strong> (for example <em>Groceries ˅</em>). A menu with your lists opens.</p>",
+          "img": "04-1"
+        },
+        {
+          "title": "Create a new list",
+          "text": "<p>Tap <strong>New List</strong>, enter a <strong>Name</strong> (for example <em>Drugstore</em>), pick an <strong>Icon</strong> and confirm with the green ✓.</p>",
+          "img": "04-2"
+        },
+        {
+          "title": "Switch and manage lists",
+          "text": "<p>Tap the name again to switch to another list. In <strong>Manage Lists</strong> you can rename, reorder or delete them.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can my family see my lists?",
+          "a": "Yes, if you share a household. Household members see all lists and changes straight away."
+        },
+        {
+          "q": "Can I delete every list?",
+          "a": "Yes, except the last one – at least one list has to stay."
+        }
+      ]
+    }
+  },
+  "updated": "2026-11-26"
+}

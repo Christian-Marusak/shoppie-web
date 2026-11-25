@@ -1,0 +1,127 @@
+{
+  "id": "zaruka",
+  "order": 15,
+  "group": "warranties",
+  "related": [
+    "karta-zaruky",
+    "ranna-pripomienka",
+    "sken-blocku"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "ulozit-zaruku-a-blocek-v-iphone",
+      "title": "Ako uložiť záruku aj s fotkou bločku",
+      "description": "Ako v Shoppie uložiť záruku na tovar aj s fotkou bločku na jednom mieste a dostať pripomienku pred koncom záruky.",
+      "keywords": [
+        "záruka v mobile",
+        "kde uložiť bloček na záruku",
+        "pripomienka konca záruky"
+      ],
+      "summary": "Najprv zapnite kartu Záruky (Nastavenia → Funkcie → Záruky). Potom v nej ťuknite na +, vyplňte produkt, obchod, dátum nákupu a dĺžku záruky a pridajte fotku bločku. Shoppie vám mesiac pred koncom záruky pripomenie. Záruky sú súkromné a nezdieľajú sa.",
+      "steps": [
+        {
+          "title": "Zapnite kartu Záruky",
+          "text": "<p>Karta je predvolene skrytá. Zapnete ju v <strong>Nastavenia → Funkcie → Záruky</strong> – dole pribudne karta <strong>Záruky</strong>.</p>",
+          "img": "15-1"
+        },
+        {
+          "title": "Pridajte záruku",
+          "text": "<p>V karte Záruky ťuknite na <strong>+</strong>. V okne <strong>Nová záruka</strong> vyplňte produkt, <strong>Obchod</strong>, dátum <strong>Kúpené</strong> a dĺžku <strong>Záruka</strong> (v EÚ aspoň 24 mesiacov). Do <strong>Poznámky</strong> si môžete zapísať napríklad sériové číslo.</p>",
+          "img": "15-2"
+        },
+        {
+          "title": "Priložte bloček a uložte",
+          "text": "<p>V sekcii <strong>Bloček</strong> zvoľte <strong>Odfotiť</strong> alebo <strong>Vybrať z galérie</strong> a uložte zelenou fajkou ✓. Ťuknutím na fotku ju neskôr zobrazíte na celú obrazovku.</p>",
+          "img": "15-3"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kedy mi príde pripomienka?",
+          "a": "Približne mesiac (30 dní) pred koncom záruky, v čase nastavenom v Nastavenia → Notifikácie → Čas. Pripomienka funguje, keď máte povolené notifikácie a zapnuté Pripomienky spotreby."
+        },
+        {
+          "q": "Vidí moje záruky aj rodina?",
+          "a": "Nie. Záruky aj ich fotky sú súkromné a so spoločnou domácnosťou sa nezdieľajú. Fotka ostáva len vo vašom iPhone a vo vašom súkromnom iCloude."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "ulozit-zaruku-a-uctenku-v-iphonu",
+      "title": "Jak uložit záruku i s fotkou účtenky",
+      "description": "Jak v Shoppie uložit záruku na zboží i s fotkou účtenky na jednom místě a dostat připomínku před koncem záruky.",
+      "keywords": [
+        "záruka v mobilu",
+        "kde uložit účtenku na záruku",
+        "připomínka konce záruky"
+      ],
+      "summary": "Nejdřív zapněte kartu Záruky (Nastavení → Funkce → Záruky). Pak v ní klepněte na +, vyplňte produkt, obchod, datum nákupu a délku záruky a přidejte fotku účtenky. Shoppie vám měsíc před koncem záruky připomene. Záruky jsou soukromé a nesdílí se.",
+      "steps": [
+        {
+          "title": "Zapněte kartu Záruky",
+          "text": "<p>Karta je ve výchozím stavu skrytá. Zapnete ji v <strong>Nastavení → Funkce → Záruky</strong> – dole přibude karta <strong>Záruky</strong>.</p>",
+          "img": "15-1"
+        },
+        {
+          "title": "Přidejte záruku",
+          "text": "<p>V kartě Záruky klepněte na <strong>+</strong>. V okně <strong>Nová záruka</strong> vyplňte produkt, <strong>Obchod</strong>, datum <strong>Koupeno</strong> a délku <strong>Záruka</strong> (v EU nejméně 24 měsíců). Do <strong>Poznámky</strong> si můžete zapsat například sériové číslo.</p>",
+          "img": "15-2"
+        },
+        {
+          "title": "Přiložte účtenku a uložte",
+          "text": "<p>V sekci <strong>Účtenka</strong> zvolte <strong>Vyfotit</strong> nebo <strong>Vybrat z galerie</strong> a uložte zelenou fajfkou ✓. Klepnutím na fotku ji později zobrazíte na celou obrazovku.</p>",
+          "img": "15-3"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kdy mi přijde připomínka?",
+          "a": "Přibližně měsíc (30 dní) před koncem záruky, v čase nastaveném v Nastavení → Oznámení → Čas. Připomínka funguje, když máte povolená oznámení a zapnuté Připomínky spotřeby."
+        },
+        {
+          "q": "Vidí moje záruky i rodina?",
+          "a": "Ne. Záruky i jejich fotky jsou soukromé a se společnou domácností se nesdílí. Fotka zůstává jen ve vašem iPhonu a ve vašem soukromém iCloudu."
+        }
+      ]
+    },
+    "en": {
+      "slug": "save-warranty-and-receipt-on-iphone",
+      "title": "How to save a warranty with a receipt photo",
+      "description": "How to keep a product warranty and its receipt photo in one place in Shoppie, with a reminder before the warranty ends.",
+      "keywords": [
+        "warranty app",
+        "where to keep receipts for warranty",
+        "warranty expiry reminder"
+      ],
+      "summary": "First turn on the Warranties tab (Settings → Features → Warranties). Then tap +, fill in the product, store, purchase date and warranty length, and add a receipt photo. Shoppie reminds you a month before the warranty ends. Warranties are private and never shared.",
+      "steps": [
+        {
+          "title": "Turn on the Warranties tab",
+          "text": "<p>The tab is hidden by default. Turn it on in <strong>Settings → Features → Warranties</strong> – a <strong>Warranties</strong> tab appears at the bottom.</p>",
+          "img": "15-1"
+        },
+        {
+          "title": "Add a warranty",
+          "text": "<p>On the Warranties tab, tap <strong>+</strong>. In <strong>New Warranty</strong>, fill in the product, <strong>Store</strong>, <strong>Purchased</strong> date and <strong>Warranty</strong> length (at least 24 months in the EU). Use <strong>Note</strong> for things like a serial number.</p>",
+          "img": "15-2"
+        },
+        {
+          "title": "Attach the receipt and save",
+          "text": "<p>Under <strong>Receipt</strong>, choose <strong>Take Photo</strong> or <strong>Choose from Library</strong> and save with the green ✓. Tap the photo later to see it full screen.</p>",
+          "img": "15-3"
+        }
+      ],
+      "faq": [
+        {
+          "q": "When will I get a reminder?",
+          "a": "About a month (30 days) before the warranty ends, at the time set in Settings → Notifications → Time. It works when notifications are allowed and Use-by reminders are on."
+        },
+        {
+          "q": "Can my family see my warranties?",
+          "a": "No. Warranties and their photos are private and never shared with your household. The photo stays only on your iPhone and in your private iCloud."
+        }
+      ]
+    }
+  },
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,131 @@
+{
+  "id": "sken-nerozpoznal",
+  "order": 11,
+  "group": "receipts",
+  "related": [
+    "sken-blocku"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "sken-blocku-nefunguje",
+      "title": "Čo robiť, keď sken bločku nerozpozná všetko",
+      "description": "Sken bločku v Shoppie nerozpoznal všetky položky? Tipy na lepšiu fotku a ako položky opraviť.",
+      "keywords": [
+        "sken bločku nefunguje",
+        "aplikácia nerozpozná bloček",
+        "lepšia fotka bločku"
+      ],
+      "summary": "Na obrazovke s výsledkom môžete názov položky prepísať, položku vynechať, zmeniť jej kategóriu alebo ju zmazať. Najčastejšie však pomôže lepšia fotka: celý bloček v zábere, dobré svetlo a ostrý obraz.",
+      "steps": [
+        {
+          "title": "Opravte názov",
+          "text": "<p>Ťuknite na názov položky a prepíšte ho, napríklad skratku z bločku na <em>Chlieb</em>.</p>",
+          "img": "11-1"
+        },
+        {
+          "title": "Vynechajte alebo zmeňte kategóriu",
+          "text": "<p>Zelené koliesko pri položke (Zahrnúť do nákupu) ju vynechá z nákupu. Ťuknutím na emoji zmeníte kategóriu, potiahnutím doľava položku zmažete.</p>"
+        },
+        {
+          "title": "Keď sa nenájde nič",
+          "text": "<p>Ak sa zobrazí <strong>Nenašli sa žiadne produkty</strong>, ťuknite na <strong>Skúsiť znova</strong> – celý bloček v zábere a na dobrom svetle. Chýbajúce položky pridáte do zoznamu ručne.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Dá sa na výsledku zmeniť cena alebo množstvo?",
+          "a": "V aktuálnej verzii nie – dá sa zmeniť názov, kategória a položku vynechať alebo zmazať."
+        },
+        {
+          "q": "Prečo Shoppie nerozpozná vyblednutý bloček?",
+          "a": "Termopapier časom bledne. Bloček skenujte čo najskôr po nákupe."
+        },
+        {
+          "q": "Sken sa nespustí – čo s tým?",
+          "a": "Povoľte prístup k fotoaparátu v Nastaveniach iPhonu → Shoppie → Fotoaparát."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "sken-uctenky-nefunguje",
+      "title": "Co dělat, když sken účtenky nerozpozná vše",
+      "description": "Sken účtenky v Shoppie nerozpoznal všechny položky? Tipy na lepší fotku a jak položky opravit.",
+      "keywords": [
+        "sken účtenky nefunguje",
+        "aplikace nerozpozná účtenku",
+        "lepší fotka účtenky"
+      ],
+      "summary": "Na obrazovce s výsledkem můžete název položky přepsat, položku vynechat, změnit její kategorii nebo ji smazat. Nejčastěji ale pomůže lepší fotka: celá účtenka v záběru, dobré světlo a ostrý obraz.",
+      "steps": [
+        {
+          "title": "Opravte název",
+          "text": "<p>Klepněte na název položky a přepište ho, například zkratku z účtenky na <em>Chléb</em>.</p>",
+          "img": "11-1"
+        },
+        {
+          "title": "Vynechejte nebo změňte kategorii",
+          "text": "<p>Zelené kolečko u položky (Zahrnout do nákupu) ji vynechá z nákupu. Klepnutím na emoji změníte kategorii, potažením doleva položku smažete.</p>"
+        },
+        {
+          "title": "Když se nic nenajde",
+          "text": "<p>Pokud se zobrazí <strong>Nenašly se žádné produkty</strong>, klepněte na <strong>Zkusit znovu</strong> – celá účtenka v záběru a na dobrém světle. Chybějící položky přidáte do seznamu ručně.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Dá se na výsledku změnit cena nebo množství?",
+          "a": "V aktuální verzi ne – dá se změnit název, kategorie a položku vynechat nebo smazat."
+        },
+        {
+          "q": "Proč Shoppie nerozpozná vybledlou účtenku?",
+          "a": "Termopapír časem bledne. Účtenku skenujte co nejdřív po nákupu."
+        },
+        {
+          "q": "Sken se nespustí – co s tím?",
+          "a": "Povolte přístup k fotoaparátu v Nastavení iPhonu → Shoppie → Fotoaparát."
+        }
+      ]
+    },
+    "en": {
+      "slug": "receipt-scan-not-working",
+      "title": "What to do when the receipt scan misses something",
+      "description": "Receipt scan in Shoppie didn’t recognise everything? Tips for a better photo and how to correct items.",
+      "keywords": [
+        "receipt scan not working",
+        "app can’t read receipt",
+        "better receipt photo"
+      ],
+      "summary": "On the results screen you can rename an item, leave it out, change its category or delete it. Most often, though, a better photo helps: the whole receipt in frame, good light and a sharp image.",
+      "steps": [
+        {
+          "title": "Fix a name",
+          "text": "<p>Tap an item’s name and edit it, for example turning a receipt abbreviation into <em>Bread</em>.</p>",
+          "img": "11-1"
+        },
+        {
+          "title": "Leave it out or change the category",
+          "text": "<p>The green circle next to an item (Include in purchase) leaves it out. Tap the emoji to change the category, or swipe left to delete it.</p>"
+        },
+        {
+          "title": "When nothing is found",
+          "text": "<p>If you see <strong>No products found</strong>, tap <strong>Try Again</strong> with the whole receipt in good light. Add any missing items to your list by hand.</p>"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I change the price or quantity on the results?",
+          "a": "Not in the current version – you can change the name and category, or leave an item out or delete it."
+        },
+        {
+          "q": "Why can’t Shoppie read a faded receipt?",
+          "a": "Thermal paper fades over time. Scan receipts soon after shopping."
+        },
+        {
+          "q": "The scan won’t start – what now?",
+          "a": "Allow camera access in iPhone Settings → Shoppie → Camera."
+        }
+      ]
+    }
+  },
+  "updated": "2026-11-26"
+}

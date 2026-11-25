@@ -1,0 +1,114 @@
+{
+  "id": "historia-nakupov",
+  "order": 6,
+  "group": "list",
+  "related": [
+    "navrhy",
+    "sken-blocku"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "dokoncit-nakup-historia-nakupov",
+      "title": "Ako dokončiť nákup a nájsť ho v histórii",
+      "description": "Ako v Shoppie dokončiť nákup, kde nájdete históriu nákupov s obchodom a počtom položiek a ako položku znova pridať.",
+      "keywords": [
+        "história nákupov",
+        "čo som kúpil minule",
+        "dokončiť nákup"
+      ],
+      "summary": "Keď máte všetko v košíku, ťuknite na Dokončiť. Nákup sa uloží do Histórie s obchodom a počtom položiek. Potiahnutím položky doprava ju znova pridáte do zoznamu.",
+      "steps": [
+        {
+          "title": "Ťuknite na Dokončiť",
+          "text": "<p>Keď máte odškrtnutú aspoň jednu položku, vpravo od tlačidla + sa objaví <strong>Dokončiť</strong>. Ťuknite naň a potvrďte <strong>Dokončiť nákup</strong>. Odškrtnuté položky sa uložia do histórie a zo zoznamu zmiznú.</p>",
+          "img": "06-1"
+        },
+        {
+          "title": "Otvorte Históriu",
+          "text": "<p>V karte <strong>História</strong> vidíte všetky nákupy s dátumom, obchodom a počtom položiek.</p>",
+          "img": "06-2"
+        },
+        {
+          "title": "Pridajte položku znova",
+          "text": "<p>Otvorte nákup a položku <strong>potiahnite doprava</strong> → <strong>Pridať do zoznamu</strong>. Celý nákup naraz vrátite tlačidlom <strong>Pridať všetko do zoznamu</strong>.</p>",
+          "img": "06-3"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Prečo je dôležité nákup dokončiť?",
+          "a": "Z dokončených nákupov sa Shoppie učí, čo a ako často kupujete, a podľa toho navrhuje, čo vám dochádza."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "dokoncit-nakup-historie-nakupu",
+      "title": "Jak dokončit nákup a najít ho v historii",
+      "description": "Jak v Shoppie dokončit nákup, kde najdete historii nákupů s obchodem a počtem položek a jak položku znovu přidat.",
+      "keywords": [
+        "historie nákupů",
+        "co jsem koupil minule",
+        "dokončit nákup"
+      ],
+      "summary": "Když máte vše v košíku, klepněte na Dokončit. Nákup se uloží do Historie s obchodem a počtem položek. Potažením položky doprava ji znovu přidáte do seznamu.",
+      "steps": [
+        {
+          "title": "Klepněte na Dokončit",
+          "text": "<p>Když máte odškrtnutou alespoň jednu položku, vpravo od tlačítka + se objeví <strong>Dokončit</strong>. Klepněte na něj a potvrďte <strong>Dokončit nákup</strong>. Odškrtnuté položky se uloží do historie a ze seznamu zmizí.</p>",
+          "img": "06-1"
+        },
+        {
+          "title": "Otevřete Historii",
+          "text": "<p>V kartě <strong>Historie</strong> vidíte všechny nákupy s datem, obchodem a počtem položek.</p>",
+          "img": "06-2"
+        },
+        {
+          "title": "Přidejte položku znovu",
+          "text": "<p>Otevřete nákup a položku <strong>přetáhněte doprava</strong> → <strong>Přidat do seznamu</strong>. Celý nákup najednou vrátíte tlačítkem <strong>Přidat vše do seznamu</strong>.</p>",
+          "img": "06-3"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Proč je důležité nákup dokončit?",
+          "a": "Z dokončených nákupů se Shoppie učí, co a jak často kupujete, a podle toho navrhuje, co vám dochází."
+        }
+      ]
+    },
+    "en": {
+      "slug": "finish-shopping-shopping-history",
+      "title": "How to finish shopping and find it in your history",
+      "description": "How to finish a shopping trip in Shoppie, where to find your shopping history with stores and item counts, and how to add an item again.",
+      "keywords": [
+        "shopping history",
+        "what did I buy last time",
+        "finish shopping"
+      ],
+      "summary": "When everything is in your basket, tap Finish. The trip is saved to History with the store and number of items. Swipe an item to the right to add it to your list again.",
+      "steps": [
+        {
+          "title": "Tap Finish",
+          "text": "<p>Once at least one item is ticked, <strong>Finish</strong> appears next to the + button. Tap it and confirm <strong>Finish Shopping</strong>. Ticked items are saved to History and removed from the list.</p>",
+          "img": "06-1"
+        },
+        {
+          "title": "Open History",
+          "text": "<p>The <strong>History</strong> tab shows all your trips with the date, store and number of items.</p>",
+          "img": "06-2"
+        },
+        {
+          "title": "Add an item again",
+          "text": "<p>Open a trip and <strong>swipe an item to the right</strong> → <strong>Add to List</strong>. To bring back the whole trip, use <strong>Add All to List</strong>.</p>",
+          "img": "06-3"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why should I finish each trip?",
+          "a": "Shoppie learns from finished trips what you buy and how often, and uses that to suggest what you’re running out of."
+        }
+      ]
+    }
+  },
+  "updated": "2026-11-26"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "karta-zaruky",
+  "order": 16,
+  "group": "warranties",
+  "related": [
+    "zaruka"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "skryt-zobrazit-kartu-zaruky",
+      "title": "Ako skryť alebo zobraziť kartu Záruky",
+      "description": "Ako v Shoppie skryť kartu Záruky, ak ju nepoužívate, alebo ju znova zobraziť. Skrytím sa nič nezmaže.",
+      "keywords": [
+        "skryť kartu Záruky",
+        "zobraziť záruky Shoppie",
+        "nastavenia Shoppie"
+      ],
+      "summary": "Kartu Záruky zapnete alebo skryjete v Nastavenia → Funkcie → Záruky. Predvolene je vypnutá. Vypnutím sa nič nezmaže – keď ju znova zapnete, záruky tam budú.",
+      "steps": [
+        {
+          "title": "Otvorte Funkcie",
+          "text": "<p>V karte <strong>Nastavenia</strong> nájdite sekciu <strong>Funkcie</strong>.</p>"
+        },
+        {
+          "title": "Prepnite Záruky",
+          "text": "<p>Prepínačom <strong>Záruky</strong> kartu zobrazíte alebo skryjete. Keď je zapnutý, dole pribudne karta Záruky.</p>",
+          "img": "16-1"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Zmažú sa záruky, keď kartu skryjem?",
+          "a": "Nie. Skrytie karty nič nemaže. Záruky aj pripomienky ostávajú."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "skryt-zobrazit-kartu-zaruky",
+      "title": "Jak skrýt nebo zobrazit kartu Záruky",
+      "description": "Jak v Shoppie skrýt kartu Záruky, pokud ji nepoužíváte, nebo ji znovu zobrazit. Skrytím se nic nesmaže.",
+      "keywords": [
+        "skrýt kartu Záruky",
+        "zobrazit záruky Shoppie",
+        "nastavení Shoppie"
+      ],
+      "summary": "Kartu Záruky zapnete nebo skryjete v Nastavení → Funkce → Záruky. Ve výchozím stavu je vypnutá. Vypnutím se nic nesmaže – když ji znovu zapnete, záruky tam budou.",
+      "steps": [
+        {
+          "title": "Otevřete Funkce",
+          "text": "<p>V kartě <strong>Nastavení</strong> najděte sekci <strong>Funkce</strong>.</p>"
+        },
+        {
+          "title": "Přepněte Záruky",
+          "text": "<p>Přepínačem <strong>Záruky</strong> kartu zobrazíte nebo skryjete. Když je zapnutý, dole přibude karta Záruky.</p>",
+          "img": "16-1"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Smažou se záruky, když kartu skryji?",
+          "a": "Ne. Skrytí karty nic nemaže. Záruky i připomínky zůstávají."
+        }
+      ]
+    },
+    "en": {
+      "slug": "show-hide-warranties-tab",
+      "title": "How to show or hide the Warranties tab",
+      "description": "How to hide the Warranties tab in Shoppie if you don’t use it, or show it again. Hiding it deletes nothing.",
+      "keywords": [
+        "hide Warranties tab",
+        "show warranties Shoppie",
+        "Shoppie settings"
+      ],
+      "summary": "Show or hide the Warranties tab in Settings → Features → Warranties. It’s off by default. Turning it off deletes nothing – when you turn it back on, your warranties are still there.",
+      "steps": [
+        {
+          "title": "Open Features",
+          "text": "<p>On the <strong>Settings</strong> tab, find the <strong>Features</strong> section.</p>"
+        },
+        {
+          "title": "Toggle Warranties",
+          "text": "<p>Use the <strong>Warranties</strong> switch to show or hide the tab. When it’s on, a Warranties tab appears at the bottom.</p>",
+          "img": "16-1"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Are my warranties deleted when I hide the tab?",
+          "a": "No. Hiding the tab deletes nothing. Your warranties and reminders stay."
+        }
+      ]
+    }
+  },
+  "updated": "2026-11-26"
+}

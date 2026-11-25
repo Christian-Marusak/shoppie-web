@@ -1,0 +1,115 @@
+{
+  "id": "spotreba",
+  "order": 12,
+  "group": "pantry",
+  "related": [
+    "ranna-pripomienka",
+    "automaticke-odstranenie",
+    "sken-blocku"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "datum-spotreby-potravin-aplikacia",
+      "title": "Ako sledovať dátum spotreby potravín v iPhone",
+      "description": "Ako v Shoppie sledovať dátumy spotreby potravín v karte Spotreba a označiť, čo ste zjedli a čo vyhodili.",
+      "keywords": [
+        "aplikácia na dátum spotreby",
+        "sledovanie dátumu spotreby",
+        "menej vyhodeného jedla"
+      ],
+      "summary": "Kúpené potraviny sa v karte Spotreba objavia samy, s odhadovaným alebo vami zadaným dátumom spotreby. Dlaždice hore ukazujú, čo sa blíži a čo je po dátume. Potiahnutím doprava potravinu označíte ako Spotrebované, doľava ako Vyhodené.",
+      "steps": [
+        {
+          "title": "Otvorte Spotrebu",
+          "text": "<p>Ťuknite na kartu <strong>Spotreba</strong>. Dlaždice <strong>Všetky / Blíži sa / Po dátume / V poriadku</strong> slúžia zároveň ako filter.</p>",
+          "img": "12-1"
+        },
+        {
+          "title": "Označte Spotrebované alebo Vyhodené",
+          "text": "<p>Potravinu <strong>potiahnite doprava</strong> → <strong>Spotrebované</strong>, alebo <strong>doľava</strong> → <strong>Vyhodené</strong>.</p>",
+          "img": "12-2"
+        },
+        {
+          "title": "Upravte dátum v detaile",
+          "text": "<p>Ťuknutím na potravinu otvoríte detail s dátumom <strong>Spotrebovať do</strong> a tlačidlami Spotrebované / Vyhodené. Dátum označený „odhad“ upravte podľa obalu – platí vždy dátum na obale.</p>",
+          "img": "12-3"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Vidí Spotrebu aj rodina?",
+          "a": "Áno, Spotreba sa zdieľa s domácnosťou, takže všetci vidia, čo treba zjesť."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "datum-spotreby-potravin-aplikace",
+      "title": "Jak sledovat datum spotřeby potravin v iPhonu",
+      "description": "Jak v Shoppie sledovat data spotřeby potravin v kartě Spotřeba a označit, co jste snědli a co vyhodili.",
+      "keywords": [
+        "aplikace na datum spotřeby",
+        "sledování data spotřeby",
+        "méně vyhozeného jídla"
+      ],
+      "summary": "Koupené potraviny se v kartě Spotřeba objeví samy, s odhadovaným nebo vámi zadaným datem spotřeby. Dlaždice nahoře ukazují, co se blíží a co je po datu. Potažením doprava potravinu označíte jako Spotřebováno, doleva jako Vyhozeno.",
+      "steps": [
+        {
+          "title": "Otevřete Spotřebu",
+          "text": "<p>Klepněte na kartu <strong>Spotřeba</strong>. Dlaždice <strong>Vše / Blíží se / Po datu / V pořádku</strong> slouží zároveň jako filtr.</p>",
+          "img": "12-1"
+        },
+        {
+          "title": "Označte Spotřebováno nebo Vyhozeno",
+          "text": "<p>Potravinu <strong>přetáhněte doprava</strong> → <strong>Spotřebováno</strong>, nebo <strong>doleva</strong> → <strong>Vyhozeno</strong>.</p>",
+          "img": "12-2"
+        },
+        {
+          "title": "Upravte datum v detailu",
+          "text": "<p>Klepnutím na potravinu otevřete detail s datem <strong>Spotřebovat do</strong> a tlačítky Spotřebováno / Vyhozeno. Datum označené „odhad“ upravte podle obalu – platí vždy datum na obalu.</p>",
+          "img": "12-3"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Vidí Spotřebu i rodina?",
+          "a": "Ano, Spotřeba se sdílí s domácností, takže všichni vidí, co je potřeba sníst."
+        }
+      ]
+    },
+    "en": {
+      "slug": "track-food-best-before-dates-app",
+      "title": "How to track food best-before dates on iPhone",
+      "description": "How to track best-before dates in Shoppie’s Pantry tab and mark what you ate and what you threw away.",
+      "keywords": [
+        "best before date app",
+        "track food expiry",
+        "reduce food waste app"
+      ],
+      "summary": "Food you buy appears in the Pantry tab on its own, with an estimated or your own use-by date. The tiles at the top show what’s due soon and what’s expired. Swipe right to mark food as Used Up, or left for Thrown Away.",
+      "steps": [
+        {
+          "title": "Open Pantry",
+          "text": "<p>Tap the <strong>Pantry</strong> tab. The <strong>All / Soon / Expired / Fresh</strong> tiles also work as filters.</p>",
+          "img": "12-1"
+        },
+        {
+          "title": "Mark it Used Up or Thrown Away",
+          "text": "<p><strong>Swipe right</strong> → <strong>Used Up</strong>, or <strong>swipe left</strong> → <strong>Thrown Away</strong>.</p>",
+          "img": "12-2"
+        },
+        {
+          "title": "Adjust the date in the details",
+          "text": "<p>Tap the food to open its details with the <strong>Use by</strong> date and the Used Up / Thrown Away buttons. Fix any date marked “estimate” to match the pack – the date on the package is what counts.</p>",
+          "img": "12-3"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can my family see the Pantry?",
+          "a": "Yes, Pantry is shared with your household, so everyone sees what needs eating."
+        }
+      ]
+    }
+  },
+  "updated": "2026-11-26"
+}

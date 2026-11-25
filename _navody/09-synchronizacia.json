@@ -1,0 +1,108 @@
+{
+  "id": "synchronizacia",
+  "order": 9,
+  "group": "family",
+  "related": [
+    "zdielat-zoznam",
+    "odobrat-clena"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "nakupny-zoznam-sa-nesynchronizuje",
+      "title": "Čo robiť, keď nevidíte zmeny od partnera",
+      "description": "Nákupný zoznam sa nesynchronizuje? Čo skontrolovať, keď v Shoppie nevidíte zmeny od ostatných členov domácnosti.",
+      "keywords": [
+        "nákupný zoznam sa nesynchronizuje",
+        "zdieľaný zoznam sa neaktualizuje",
+        "iCloud synchronizácia"
+      ],
+      "summary": "Zmeny sa synchronizujú cez iCloud zvyčajne do pár sekúnd. Ak ich nevidíte, skontrolujte, či máte obaja zapnutý iCloud, ste v rovnakej domácnosti a máte internet, a v zozname potiahnite nadol.",
+      "steps": [
+        {
+          "title": "Skontrolujte iCloud",
+          "text": "<p>Na oboch iPhonoch otvorte <strong>Nastavenia iPhonu → [vaše meno] → iCloud</strong> a overte, že je iCloud zapnutý.</p>"
+        },
+        {
+          "title": "Overte domácnosť a internet",
+          "text": "<p>Skontrolujte, či ste obaja v <strong>rovnakej domácnosti</strong> a či sú oba iPhony pripojené na internet.</p>"
+        },
+        {
+          "title": "Obnovte zoznam",
+          "text": "<p>Zoznam <strong>potiahnite prstom nadol</strong>. Kým sa údaje načítavajú z iCloudu, vľavo hore sa točí malé koliesko.</p>",
+          "img": "09-1"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Ako dlho trvá synchronizácia?",
+          "a": "Zvyčajne pár sekúnd, niekedy aj trochu dlhšie – napríklad pri slabom pripojení."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "nakupni-seznam-se-nesynchronizuje",
+      "title": "Co dělat, když nevidíte změny od partnera",
+      "description": "Nákupní seznam se nesynchronizuje? Co zkontrolovat, když v Shoppie nevidíte změny od ostatních členů domácnosti.",
+      "keywords": [
+        "nákupní seznam se nesynchronizuje",
+        "sdílený seznam se neaktualizuje",
+        "iCloud synchronizace"
+      ],
+      "summary": "Změny se synchronizují přes iCloud obvykle do pár sekund. Pokud je nevidíte, zkontrolujte, jestli máte oba zapnutý iCloud, jste ve stejné domácnosti a máte internet, a v seznamu stáhněte dolů.",
+      "steps": [
+        {
+          "title": "Zkontrolujte iCloud",
+          "text": "<p>Na obou iPhonech otevřete <strong>Nastavení iPhonu → [vaše jméno] → iCloud</strong> a ověřte, že je iCloud zapnutý.</p>"
+        },
+        {
+          "title": "Ověřte domácnost a internet",
+          "text": "<p>Zkontrolujte, jestli jste oba ve <strong>stejné domácnosti</strong> a jestli jsou oba iPhony připojené k internetu.</p>"
+        },
+        {
+          "title": "Obnovte seznam",
+          "text": "<p>Seznam <strong>stáhněte prstem dolů</strong>. Než se data načtou z iCloudu, vlevo nahoře se točí malé kolečko.</p>",
+          "img": "09-1"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Jak dlouho trvá synchronizace?",
+          "a": "Obvykle pár sekund, někdy i trochu déle – například při slabém připojení."
+        }
+      ]
+    },
+    "en": {
+      "slug": "shopping-list-not-syncing",
+      "title": "What to do when you don’t see your partner’s changes",
+      "description": "Shopping list not syncing? What to check when you don’t see changes from other household members in Shoppie.",
+      "keywords": [
+        "shopping list not syncing",
+        "shared list not updating",
+        "iCloud sync"
+      ],
+      "summary": "Changes sync through iCloud, usually within a few seconds. If you don’t see them, check that you both have iCloud on, are in the same household and are online, then pull down on the list.",
+      "steps": [
+        {
+          "title": "Check iCloud",
+          "text": "<p>On both iPhones, open <strong>iPhone Settings → [your name] → iCloud</strong> and make sure iCloud is on.</p>"
+        },
+        {
+          "title": "Check household and internet",
+          "text": "<p>Make sure you’re both in the <strong>same household</strong> and both iPhones are online.</p>"
+        },
+        {
+          "title": "Refresh the list",
+          "text": "<p><strong>Pull the list down</strong>. While data loads from iCloud, a small spinner turns at the top left.</p>",
+          "img": "09-1"
+        }
+      ],
+      "faq": [
+        {
+          "q": "How long does syncing take?",
+          "a": "Usually a few seconds, sometimes a little longer – for example on a weak connection."
+        }
+      ]
+    }
+  },
+  "updated": "2026-11-26"
+}

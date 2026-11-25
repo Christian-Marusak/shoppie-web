@@ -1,0 +1,124 @@
+{
+  "id": "ranna-pripomienka",
+  "order": 13,
+  "group": "pantry",
+  "related": [
+    "spotreba",
+    "automaticke-odstranenie",
+    "zaruka"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "pripomienka-datumu-spotreby",
+      "title": "Ako nastaviť rannú pripomienku, čo treba zjesť",
+      "description": "Ako v Shoppie nastaviť rannú notifikáciu s potravinami, ktorým končí dátum spotreby, a čo robiť, keď pripomienky neprichádzajú.",
+      "keywords": [
+        "pripomienka dátumu spotreby",
+        "notifikácia dátum spotreby",
+        "upozornenie na potraviny"
+      ],
+      "summary": "Shoppie vám ráno pošle jednu notifikáciu s potravinami, ktoré treba čoskoro zjesť. V Nastavenia → Notifikácie → Pripomienky spotreby si vyberiete, kedy (v deň spotreby alebo 1–7 dní vopred) a v aký čas.",
+      "steps": [
+        {
+          "title": "Zapnite Pripomienky spotreby",
+          "text": "<p>V karte <strong>Nastavenia</strong> v sekcii <strong>Notifikácie</strong> zapnite <strong>Pripomienky spotreby</strong>. Ak sú notifikácie zakázané, ťuknite na <strong>Povoliť notifikácie v Nastaveniach iPhonu</strong>.</p>",
+          "img": "13-1"
+        },
+        {
+          "title": "Vyberte, kedy a o koľkej",
+          "text": "<p>V riadku <strong>Pripomenúť</strong> zvoľte <strong>V deň spotreby</strong> alebo 1, 2, 3 či 7 dní vopred (predvolene 1 deň). V riadku <strong>Čas</strong> nastavte hodinu medzi 6:00 a 21:00 (predvolene 9:00).</p>"
+        },
+        {
+          "title": "Ráno príde jedna správa",
+          "text": "<p>V nastavený čas dostanete notifikáciu <strong>Čoskoro spotrebuj</strong> s potravinami, ktoré treba zjesť ako prvé.</p>",
+          "img": "13-2"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Prečo mi pripomienky neprichádzajú?",
+          "a": "Skontrolujte, či má Shoppie povolené notifikácie, či má potravina dátum spotreby a či notifikácie neskrýva režim Sústredenie."
+        },
+        {
+          "q": "Posiela Shoppie notifikácie cez server?",
+          "a": "Nie. Pripomienky si plánuje priamo váš iPhone, žiadne push správy z nášho servera neposielame."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "pripominka-data-spotreby",
+      "title": "Jak nastavit ranní připomínku, co sníst",
+      "description": "Jak v Shoppie nastavit ranní oznámení s potravinami, kterým končí datum spotřeby, a co dělat, když připomínky nechodí.",
+      "keywords": [
+        "připomínka data spotřeby",
+        "oznámení datum spotřeby",
+        "upozornění na potraviny"
+      ],
+      "summary": "Shoppie vám ráno pošle jedno oznámení s potravinami, které je potřeba brzy sníst. V Nastavení → Oznámení → Připomínky spotřeby si vyberete, kdy (v den spotřeby nebo 1–7 dní předem) a v kolik hodin.",
+      "steps": [
+        {
+          "title": "Zapněte Připomínky spotřeby",
+          "text": "<p>V kartě <strong>Nastavení</strong> v sekci <strong>Oznámení</strong> zapněte <strong>Připomínky spotřeby</strong>. Pokud jsou oznámení zakázaná, klepněte na <strong>Povolit oznámení v Nastavení iPhonu</strong>.</p>",
+          "img": "13-1"
+        },
+        {
+          "title": "Vyberte, kdy a v kolik",
+          "text": "<p>V řádku <strong>Připomenout</strong> zvolte <strong>V den spotřeby</strong> nebo 1, 2, 3 či 7 dní předem (výchozí 1 den). V řádku <strong>Čas</strong> nastavte hodinu mezi 6:00 a 21:00 (výchozí 9:00).</p>"
+        },
+        {
+          "title": "Ráno přijde jedna zpráva",
+          "text": "<p>V nastavený čas dostanete oznámení <strong>Brzy spotřebuj</strong> s potravinami, které je potřeba sníst jako první.</p>",
+          "img": "13-2"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Proč mi nechodí připomínky?",
+          "a": "Zkontrolujte, jestli má Shoppie povolená oznámení, jestli má potravina datum spotřeby a jestli oznámení neskrývá režim Soustředění."
+        },
+        {
+          "q": "Posílá Shoppie oznámení přes server?",
+          "a": "Ne. Připomínky si plánuje přímo váš iPhone, žádné push zprávy z našeho serveru neposíláme."
+        }
+      ]
+    },
+    "en": {
+      "slug": "best-before-reminder",
+      "title": "How to set a morning reminder of what to eat",
+      "description": "How to set Shoppie’s morning notification for food close to its best-before date, and what to do if reminders don’t arrive.",
+      "keywords": [
+        "best before reminder",
+        "food expiry notification",
+        "reminder to eat food"
+      ],
+      "summary": "Shoppie sends you one morning notification with food to eat soon. In Settings → Notifications → Use-by reminders, choose when (on the day or 1–7 days before) and at what time.",
+      "steps": [
+        {
+          "title": "Turn on Use-by reminders",
+          "text": "<p>On the <strong>Settings</strong> tab, under <strong>Notifications</strong>, turn on <strong>Use-by reminders</strong>. If notifications are blocked, tap <strong>Allow notifications in iPhone Settings</strong>.</p>",
+          "img": "13-1"
+        },
+        {
+          "title": "Choose when and what time",
+          "text": "<p>In <strong>Remind me</strong>, choose <strong>On the day</strong> or 1, 2, 3 or 7 days before (default 1 day). In <strong>Time</strong>, pick an hour between 6:00 and 21:00 (default 9:00).</p>"
+        },
+        {
+          "title": "One notification in the morning",
+          "text": "<p>At the chosen time you get a <strong>Use it up soon</strong> notification listing the food to eat first.</p>",
+          "img": "13-2"
+        }
+      ],
+      "faq": [
+        {
+          "q": "Why am I not getting reminders?",
+          "a": "Check that notifications are allowed for Shoppie, that the food has a best-before date, and that a Focus mode isn’t hiding them."
+        },
+        {
+          "q": "Does Shoppie send notifications from a server?",
+          "a": "No. Reminders are scheduled by your iPhone itself; we don’t send any push notifications."
+        }
+      ]
+    }
+  },
+  "updated": "2026-11-26"
+}
