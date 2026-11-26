@@ -89,6 +89,8 @@ def check(path):
         bad = tags - ALLOWED_TAGS
         if bad:
             errors.append(f"[{l}] nepovolené HTML značky: {', '.join(sorted(bad))}")
+        if re.search(r'href="[^"]*index\.html', L["body"]):
+            errors.append(f"[{l}] odkaz na …/index.html – použite čistú adresu (napr. ../ alebo ../navody/)")
         if L["body"].count("<h2") < 3:
             errors.append(f"[{l}] článok má menej ako 3 nadpisy h2")
         main_kw = L["keywords"][0].lower()

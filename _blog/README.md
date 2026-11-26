@@ -37,7 +37,7 @@ https://shoppieapp.eu/sk/blog/. Pravidlá tu sú záväzné.
 - `body` je HTML. Povolené značky: `p, h2, h3, ul, ol, li, strong, em, a, table, tr, th, td, blockquote`.
   Žiadne `h1` (nadpis robí šablóna), žiadne obrázky, skripty ani štýly.
 - Obsah článku a kotvy k nadpisom `h2` sa vytvoria automaticky.
-- Odkaz na úvod webu: `<a href="../index.html">Shoppie</a>`. Odkaz na podporu: `../support.html`.
+- Odkaz na úvod webu: `<a href="../">Shoppie</a>` (nikdy nie `../index.html`, Google to berie ako duplicitu). Odkaz na podporu: `../support.html`.
   Odkaz na iný článok: `iny-slug.html` (len ak ten článok existuje).
 - `date` je dátum zverejnenia. Článok s budúcim dátumom sa nezobrazí, kým ten deň nepríde.
 

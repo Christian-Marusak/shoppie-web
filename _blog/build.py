@@ -168,10 +168,10 @@ def add_heading_ids(body):
 def header(lang, current, alt_links, up):
     t = T[lang]
     items = [
-        (f"{up}index.html", t["home"], current == "home"),
-        (f"{up}index.html#roadmap", t["roadmap"], False),
-        (f"{up}navody/index.html", t["guides"], current == "guides"),
-        (f"{up}blog/index.html", t["blog"], current == "blog"),
+        (f"{up}", t["home"], current == "home"),
+        (f"{up}#roadmap", t["roadmap"], False),
+        (f"{up}navody/", t["guides"], current == "guides"),
+        (f"{up}blog/", t["blog"], current == "blog"),
         (f"{up}support.html", t["support"], False),
         (f"{up}privacy.html", t["privacy"], False),
     ]
@@ -188,7 +188,7 @@ def header(lang, current, alt_links, up):
     return f"""<a class="skip" href="#main">{t['skip']}</a>
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="{up}index.html"><img src="{a}assets/logo.svg" data-xmas="{a}assets/img/xmas/icon-christmas.png" alt="" width="32" height="32"><span>Shoppie</span></a>
+    <a class="brand" href="{up}"><img src="{a}assets/logo.svg" data-xmas="{a}assets/img/xmas/icon-christmas.png" alt="" width="32" height="32"><span>Shoppie</span></a>
     <nav class="main-nav" aria-label="{t['menu']}">{nav}</nav>
     <div class="header-end">
       <nav aria-label="{t['lang_label']}">
@@ -210,8 +210,8 @@ def footer(lang, up):
     return f"""<footer class="site-footer">
   <div class="wrap">
     <nav aria-label="Shoppie">
-      <a href="{up}navody/index.html">{t['guides']}</a> ·
-      <a href="{up}blog/index.html">{t['blog']}</a> ·
+      <a href="{up}navody/">{t['guides']}</a> ·
+      <a href="{up}blog/">{t['blog']}</a> ·
       <a href="{up}support.html">{t['support']}</a> ·
       <a href="{up}privacy.html">{t['privacy']}</a> ·
       <a href="mailto:{EMAIL}">{EMAIL}</a>
@@ -344,7 +344,7 @@ def build_article(p, lang):
         header(lang, "blog", alt_rel, "../") + f"""
 <main id="main" class="page post">
   <div class="wrap">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">{t['home']}</a> › <a href="index.html">{t['blog']}</a></nav>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../">{t['home']}</a> › <a href="./">{t['blog']}</a></nav>
     <article>
       <h1>{e(L['title'])}</h1>
       <p class="meta">{t['published']} <time datetime="{p['date']}">{fmt_date(p['date'], lang)}</time>{upd} · {minutes} {t['read']}</p>{hero or ""}
@@ -358,7 +358,7 @@ def build_article(p, lang):
         {badge(lang, '../../')}
       </aside>
     </article>
-    <p class="post-back"><a href="index.html">← {t['back']}</a></p>
+    <p class="post-back"><a href="./">← {t['back']}</a></p>
   </div>
 </main>
 """ + footer(lang, "../") + "\n</body>\n</html>\n"
@@ -377,7 +377,7 @@ def build_index(posts, lang):
     t = T[lang]
     canonical = f"{SITE}/{lang}/blog/"
     alternates = {l: f"{SITE}/{l}/blog/" for l in LANGS}
-    alt_rel = {l: f"../../{l}/blog/index.html" for l in LANGS}
+    alt_rel = {l: f"../../{l}/blog/" for l in LANGS}
     cards = "".join(
         f"""<li class="card post-card">{thumb(p)}
           <p class="meta"><time datetime="{p['date']}">{fmt_date(p['date'], lang)}</time></p>

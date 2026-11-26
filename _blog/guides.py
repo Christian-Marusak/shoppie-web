@@ -142,7 +142,7 @@ def build_guide(g, lang, by_id):
         b.header(lang, "guides", alt_rel, "../") + f"""
 <main id="main" class="page post howto">
   <div class="wrap">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">{b.T[lang]['home']}</a> › <a href="index.html">{t['h1']}</a> › {e(t['groups'][g['group']])}</nav>
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="../">{b.T[lang]['home']}</a> › <a href="./">{t['h1']}</a> › {e(t['groups'][g['group']])}</nav>
     <article>
       <h1>{e(L['title'])}</h1>
       <p class="meta">{meta}{n_steps(len(L['steps']), lang)}</p>
@@ -156,7 +156,7 @@ def build_guide(g, lang, by_id):
         {b.badge(lang, '../../')}
       </aside>
     </article>
-    <p class="post-back"><a href="index.html">← {t['back']}</a></p>
+    <p class="post-back"><a href="./">← {t['back']}</a></p>
   </div>
 </main>
 """ + b.footer(lang, "../") + "\n</body>\n</html>\n"
@@ -166,7 +166,7 @@ def build_hub(guides, lang):
     t = G[lang]
     canonical = f"{b.SITE}/{lang}/navody/"
     alternates = {l: f"{b.SITE}/{l}/navody/" for l in b.LANGS}
-    alt_rel = {l: f"../../{l}/navody/index.html" for l in b.LANGS}
+    alt_rel = {l: f"../../{l}/navody/" for l in b.LANGS}
     sections = []
     for grp in GROUP_ORDER:
         gs = [g for g in guides if g["group"] == grp]
