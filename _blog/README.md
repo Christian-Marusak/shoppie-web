@@ -61,8 +61,22 @@ https://shoppieapp.eu/sk/blog/. Pravidlá tu sú záväzné.
    - Pozri si vytvorenú fotku (`assets/blog/<id>.webp`). Ak je na nej text, logo, človek, telefón, alebo nesedí
      k téme či k `image_alt`, spusti skript znova (najviac 2-krát) alebo uprav `image_alt` podľa skutočnej fotky.
    - Ak kľúč chýba (kód 2) alebo Gemini zlyhá, pokračuj bez fotky a napíš to v záverečnej správe.
-6. Spusti `python3 _blog/check.py …` a `python3 _blog/build.py`.
-7. Ďalší postup (schválenie alebo zverejnenie) určuje zadanie úlohy.
+6. **Príspevok na Facebook a Instagram** (len slovensky; plánuje ho do Meta Business Suite iná úloha na Macu):
+   - spusti `python3 _blog/social.py _blog/posts/<súbor>.json "<scéna po anglicky>" "<nadpis SK>" "<podnadpis SK>"`.
+     Nadpis má 3–6 slov (napr. „Upracte chladničku pred Vianocami“), podnadpis 3–7 slov (napr. „5 krokov k voľným policiam“).
+     Scéna: fotka k téme, stredoeurópske prostredie, bez ľudí, rúk, telefónov a značiek.
+   - Pozri si `assets/social/<id>.jpg` a nadpis aj podnadpis skontroluj **písmeno po písmene** vrátane diakritiky.
+     Ak je v nich chyba alebo je na obrázku iný text, spusti skript znova (spolu najviac 3 pokusy). Ak sa nepodarí,
+     odstráň pole `social` aj obrázok a napíš to v záverečnej správe.
+   - Do poľa `social` v JSON článku doplň `fb` a `ig` (obyčajný text s prázdnymi riadkami `\n\n`, nie HTML):
+     - 1. riadok: „Nový článok na blogu“ + emoji a háčik – otázka alebo situácia, ktorú čitateľ pozná,
+     - 3–5 krátkych bodov s emoji na začiatku (najdôležitejšie rady z článku, žiadne nové tvrdenia),
+     - veta „Celý postup nájdete v našom novom článku.“ (alebo podobná),
+     - `fb`: potom `👉 https://shoppieapp.eu/sk/blog/<slovenský slug>.html`, `ig`: `Odkaz nájdete v profile 🔗`,
+     - na koniec 5–8 hashtagov bez diakritiky, vždy `#shoppie #slovensko` (napr. `#vianoce #menejodpadu`).
+     - Vykanie, spolu najviac 700 znakov; funkcie Shoppie len zo zoznamu nižšie.
+7. Spusti `python3 _blog/check.py …` a `python3 _blog/build.py`.
+8. Ďalší postup (schválenie alebo zverejnenie) určuje zadanie úlohy.
 
 ## Témy (striedaj ich)
 

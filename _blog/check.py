@@ -110,6 +110,42 @@ def check(path):
             slugs = {o["langs"][l]["slug"] + ".html" for o in others.values()}
             if not target.exists() and Path(href).name not in slugs:
                 errors.append(f"[{l}] neplatný odkaz: {href}")
+    errors += check_social(p)
+    return errors
+
+
+def check_social(p):
+    """Príspevok na Facebook a Instagram (pole "social", nepovinné)."""
+    s = p.get("social")
+    if s is None:
+        return []
+    errors = []
+    for k in ("headline", "subline", "image", "fb", "ig"):
+        if not isinstance(s.get(k), str) or not s.get(k).strip():
+            errors.append(f"[social] chýba pole '{k}'")
+    if errors:
+        return errors
+    if not (ROOT / s["image"]).exists():
+        errors.append(f"[social] obrázok '{s['image']}' neexistuje")
+    url = f"https://shoppieapp.eu/sk/blog/{p['langs']['sk']['slug']}.html"
+    if url not in s["fb"]:
+        errors.append(f"[social] fb musí obsahovať odkaz {url}")
+    if "Odkaz nájdete v profile" not in s["ig"] or "http" in s["ig"]:
+        errors.append("[social] ig musí mať „Odkaz nájdete v profile 🔗“ a žiadny odkaz")
+    for k in ("fb", "ig"):
+        t = s[k]
+        if len(t) > 900:
+            errors.append(f"[social] {k} má {len(t)} znakov (max. 900)")
+        if re.search(r"<[a-z/][^>]*>", t):
+            errors.append(f"[social] {k} obsahuje HTML")
+        if "#shoppie" not in t:
+            errors.append(f"[social] {k} nemá hashtag #shoppie")
+        hits = sorted({m.group(0) for m in re.finditer(TYKANIE["sk"], t, re.I)})
+        if hits:
+            errors.append(f"[social] {k} – možné tykanie: {', '.join(hits)}")
+        for sent in re.split(r"(?<=[.!?\n])\s+", t):
+            if re.search(APP_WORDS, sent, re.I) and re.search(NOT_FEATURES, sent, re.I):
+                errors.append(f"[social] {k} spomína funkciu, ktorú Shoppie nemá: „{sent[:100]}“")
     return errors
 
 
