@@ -364,13 +364,14 @@ def build_article(p, lang):
 """ + footer(lang, "../") + "\n</body>\n</html>\n"
 
 
-def thumb(p):
+def thumb(p, lang):
     img = p.get("image")
     if not img:
         return ""
     src = img.get("thumb") or img["file"]
     w, h = (640, round(640 * img["height"] / img["width"])) if img.get("thumb") else (img["width"], img["height"])
-    return f'\n          <img class="post-thumb" src="../../{src}" alt="" width="{w}" height="{h}" loading="lazy">'
+    alt = e(p["langs"][lang].get("image_alt", ""))
+    return f'\n          <img class="post-thumb" src="../../{src}" alt="{alt}" width="{w}" height="{h}" loading="lazy">'
 
 
 def build_index(posts, lang):
@@ -379,7 +380,7 @@ def build_index(posts, lang):
     alternates = {l: f"{SITE}/{l}/blog/" for l in LANGS}
     alt_rel = {l: f"../../{l}/blog/" for l in LANGS}
     cards = "".join(
-        f"""<li class="card post-card">{thumb(p)}
+        f"""<li class="card post-card">{thumb(p, lang)}
           <p class="meta"><time datetime="{p['date']}">{fmt_date(p['date'], lang)}</time></p>
           <h2><a href="{p['langs'][lang]['slug']}.html">{e(p['langs'][lang]['title'])}</a></h2>
           <p>{e(p['langs'][lang]['description'])}</p>
