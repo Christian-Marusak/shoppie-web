@@ -11,18 +11,22 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 :root {
-  --green: #2F8A4A;
-  --link: #24703C; /* tmavší odtieň zelenej kvôli kontrastu textu (WCAG AA) */
-  --green-strong: #1D5A31;
-  --grad-top: #6ECF75;
-  --grad-bottom: #268547;
-  --bg: #F3F6F2;
+  /* Farby podľa dizajn manuálu Shoppie v1.0 */
+  --green: #3E9654;        /* Brand Green Top */
+  --link: #185C2E;         /* Brand Green Deep – text odkazov (kontrast 8:1) */
+  --green-strong: #185C2E; /* Brand Green Deep */
+  --mint: #9BE3A6;         /* Fresh Mint */
+  --grad-top: #3E9654;
+  --grad-bottom: #185C2E;
+  --logotype: #185C2E;
+  --bg: #F6F9F6;
   --card: #FFFFFF;
-  --text: #111712;
-  --text-2: #4A574D;
+  --surface: #EDF4EE;
+  --text: #12261A;         /* Brand Dark Ink */
+  --text-2: #4B6354;
   --line: rgba(20, 48, 28, 0.11);
   --shadow: 0 1px 2px rgba(16, 40, 22, .05), 0 12px 32px rgba(16, 40, 22, .07);
-  --glow: rgba(72, 190, 104, .20);
+  --glow: rgba(145, 215, 152, .24);
   --tint: color-mix(in srgb, var(--green) 11%, var(--card));
   --radius: 22px;
   --max: 1120px;
@@ -32,16 +36,20 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --green: #5BC46D;
-    --link: #6BD07C;
-    --green-strong: #8BE298;
-    --bg: #070B08;
-    --card: #0F1611;
-    --text: #EEF4EF;
-    --text-2: #9AA89E;
+    --green: #44A45C;        /* Icon Check Green */
+    --link: #9BE3A6;         /* Fresh Mint */
+    --green-strong: #9BE3A6;
+    --grad-top: #9BE3A6;
+    --grad-bottom: #44A45C;
+    --logotype: #FFFFFF;
+    --bg: #0E1410;
+    --card: #162019;
+    --surface: #1F2D23;
+    --text: #F4F9F5;
+    --text-2: #A9BFB0;
     --line: rgba(170, 255, 190, 0.10);
     --shadow: 0 24px 48px rgba(0,0,0,.35);
-    --glow: rgba(91, 196, 109, .16);
+    --glow: rgba(68, 164, 92, .16);
   }
 }
 
@@ -815,3 +823,18 @@ section.get-app { padding: 32px 20px 64px; }
 .rm-emoji .ico { width: 20px; height: 20px; }
 .guides-icon .ico, .ideas-icon .ico { width: 24px; height: 24px; }
 .ideas-icon { margin: 0 auto 10px; }
+
+/* Logo, logotyp a typografia podľa dizajn manuálu Shoppie v1.0 */
+.brand, .hero-brand { font-weight: 800; letter-spacing: -0.03em; color: var(--logotype); }
+.brand { font-size: 21px; }
+.brand img { width: 40px; height: 40px; border-radius: 22.37%; }
+.hero .app-icon { border-radius: 22.37%; filter: drop-shadow(0 8px 18px rgba(24, 92, 46, .30)); }
+h1 { font-weight: 700; letter-spacing: -0.022em; }
+h2 { font-weight: 700; letter-spacing: -0.018em; }
+h3, h4 { font-weight: 600; letter-spacing: -0.012em; }
+.hero h1 { font-weight: 800; letter-spacing: -0.03em; }
+.page h1 { letter-spacing: -0.022em; }
+.eyebrow, .section-head .eyebrow { font-weight: 700; letter-spacing: .04em; }
+.main-nav a { font-weight: 500; }
+.main-nav a[aria-current="page"], .btn, .contact .btn { font-weight: 600; }
+.hero-chips li { font-weight: 500; }
