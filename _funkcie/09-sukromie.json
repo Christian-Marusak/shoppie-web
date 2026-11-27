@@ -1,0 +1,131 @@
+{
+  "id": "sukromie",
+  "order": 9,
+  "icon": "lock",
+  "updated": "2026-11-27",
+  "guides": [
+    "vymazat-udaje"
+  ],
+  "related": [
+    "spolocna-domacnost",
+    "sken-blocku",
+    "zaruky"
+  ],
+  "shots": [
+    "19-1",
+    "19-2"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "nakupny-zoznam-bez-registracie",
+      "name": "Súkromie",
+      "title": "Nákupný zoznam bez registrácie a bez reklám: súkromie v Shoppie",
+      "description": "Shoppie je nákupný zoznam bez registrácie, reklám a sledovania. Nemá server, nič nezbiera a vaše údaje sú len v iPhone a vo vašom iCloude.",
+      "keywords": [
+        "nákupný zoznam bez registrácie",
+        "aplikácia bez reklám",
+        "aplikácia nezbiera údaje",
+        "nákupný zoznam iCloud",
+        "súkromie v aplikácii"
+      ],
+      "summary": "Shoppie je nákupný zoznam bez registrácie, bez reklám a bez sledovania. Nemá žiadny server a o vás nič nezbiera. Zoznamy, história aj záruky sú len vo vašom iPhone a vo vašom súkromnom iCloude, kde ich môžete kedykoľvek vymazať.",
+      "shots_alt": [
+        "Nastavenia Shoppie so sekciou Dáta a voľbami Vymazať históriu nákupov a Vymazať spotrebu",
+        "Potvrdenie Vymazať históriu nákupov s upozornením, že sa to nedá vrátiť späť"
+      ],
+      "body": "<p>Nákupný zoznam prezradí o domácnosti viac, než by sa zdalo: čo jete, kde nakupujete aj kedy máte sviatky. Preto sme Shoppie pripravili tak, aby o vás nezbieral nič. Aplikáciu otvoríte a hneď píšete zoznam – bez registrácie, bez e-mailu a bez hesla.</p><h2>Čo Shoppie nerobí</h2><ul><li><strong>Žiadna registrácia</strong> ani prihlasovanie.</li><li><strong>Žiadna analytika, sledovanie ani reklamy.</strong></li><li><strong>Žiadne SDK ani služby tretích strán.</strong></li><li><strong>Žiadny server</strong> – aplikácia nám neposiela nijaké údaje a k vašim údajom nemáme prístup.</li></ul><p>Preto má Shoppie v App Store označenie <em>Data Not Collected</em>, teda že nezhromažďuje žiadne údaje.</p><h2>Kde sú vaše údaje</h2><p>Zoznamy, história nákupov, Spotreba, pravidelné položky, záruky, fotky bločkov aj nastavenia sú uložené vo vašom iPhone. Medzi vašimi zariadeniami sa synchronizujú cez váš súkromný iCloud (Apple CloudKit), na ktorý sa vzťahujú zásady ochrany súkromia spoločnosti Apple.</p><h2>Spoločná domácnosť a súkromie</h2><p>Ak niekoho pozvete do domácnosti cez iCloud, uvidí a môže upravovať zoznamy, históriu nákupov, Spotrebu a pravidelné položky. Záruky vrátane fotiek bločkov a vaše nastavenia ostávajú súkromné. Vlastník môže zdieľanie kedykoľvek ukončiť alebo odobrať člena a člen môže domácnosť kedykoľvek opustiť.</p><h2>Fotoaparát, bločky a pripomienky</h2><p>Fotoaparát a galéria slúžia len na dve veci: na sken bločku a na fotku bločku pri záruke. Text sa číta priamo v iPhone pomocou Apple Vision a nič sa neposiela na internet. Pripomienky dátumu spotreby a konca záruky si naplánuje priamo váš iPhone – neposielame žiadne push správy.</p><h2>Prečo sme Shoppie postavili takto</h2><p>Údaje, ktoré nemáme, nemôžu uniknúť ani byť zneužité. Nepotrebujeme vedieť, kto ste, aby vám nákupný zoznam fungoval. Shoppie je zadarmo a bez reklám, takže nemáme dôvod vás sledovať. Synchronizáciu medzi vašimi zariadeniami aj s domácnosťou zabezpečuje iCloud, ktorý už v iPhone máte.</p><h2>Ako vymazať svoje údaje</h2><ol><li>V karte <strong>Nastavenia</strong> v sekcii <strong>Dáta</strong> ťuknite na <strong>Vymazať históriu nákupov</strong> alebo <strong>Vymazať spotrebu</strong>.</li><li>Potvrďte <strong>Vymazať</strong>. Nedá sa to vrátiť späť.</li><li>Zoznamy, pravidelné položky a záruky zmažete priamo v aplikácii.</li><li>Kópiu v iCloude odstránite v <strong>Nastaveniach iPhonu → [vaše meno] → iCloud → Spravovať úložisko → Shoppie</strong>.</li></ol><p>Postup so snímkami nájdete v návode <a href=\"../navody/vymazat-udaje-shoppie-icloud.html\">Ako vymazať svoje údaje zo Shoppie a z iCloudu</a>. Celé znenie zásad je na stránke <a href=\"../privacy.html\">Ochrana súkromia</a>.</p>",
+      "faq": [
+        {
+          "q": "Treba sa do Shoppie registrovať?",
+          "a": "Nie. Shoppie nemá registráciu ani prihlasovanie. Stiahnete ho z App Store a hneď môžete písať zoznam."
+        },
+        {
+          "q": "Máte o mne nejaké údaje?",
+          "a": "Nie. Shoppie nezbiera žiadne údaje a nemá server. Všetko je len vo vašom iPhone a vo vašom súkromnom iCloude."
+        },
+        {
+          "q": "Sú v Shoppie reklamy?",
+          "a": "Nie. Shoppie je zadarmo, bez reklám, bez analytiky a bez sledovania."
+        },
+        {
+          "q": "Vidia členovia domácnosti moje záruky?",
+          "a": "Nie. Členovia vidia zoznamy, históriu nákupov, Spotrebu a pravidelné položky. Záruky vrátane fotiek bločkov a nastavenia ostávajú súkromné."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "nakupni-seznam-bez-registrace",
+      "name": "Soukromí",
+      "title": "Nákupní seznam bez registrace a bez reklam: soukromí v Shoppie",
+      "description": "Shoppie je nákupní seznam bez registrace, reklam a sledování. Nemá server, nic nesbírá a vaše data jsou jen v iPhonu a ve vašem iCloudu.",
+      "keywords": [
+        "nákupní seznam bez registrace",
+        "aplikace bez reklam",
+        "aplikace nesbírá data",
+        "nákupní seznam iCloud",
+        "soukromí v aplikaci"
+      ],
+      "summary": "Shoppie je nákupní seznam bez registrace, bez reklam a bez sledování. Nemá žádný server a nic o vás nesbírá. Seznamy, historie i záruky jsou jen ve vašem iPhonu a ve vašem soukromém iCloudu, kde je můžete kdykoli smazat.",
+      "shots_alt": [
+        "Nastavení Shoppie se sekcí Data a volbami Smazat historii nákupů a Smazat spotřebu",
+        "Potvrzení smazání historie nákupů s upozorněním, že to nelze vrátit zpět"
+      ],
+      "body": "<p>Nákupní seznam prozradí o domácnosti víc, než by se zdálo: co jíte, kde nakupujete i kdy slavíte. Proto jsme Shoppie připravili tak, aby o vás nesbíral nic. Aplikaci otevřete a hned píšete seznam – bez registrace, bez e-mailu a bez hesla.</p><h2>Co Shoppie nedělá</h2><ul><li><strong>Žádná registrace</strong> ani přihlašování.</li><li><strong>Žádná analytika, sledování ani reklamy.</strong></li><li><strong>Žádná SDK ani služby třetích stran.</strong></li><li><strong>Žádný server</strong> – aplikace nám neposílá žádná data a k vašim datům nemáme přístup.</li></ul><p>Proto má Shoppie v App Store označení <em>Data Not Collected</em>, tedy že nesbírá žádná data.</p><h2>Kde jsou vaše data</h2><p>Seznamy, historie nákupů, Spotřeba, pravidelné položky, záruky, fotky účtenek i nastavení jsou uložené ve vašem iPhonu. Mezi vašimi zařízeními se synchronizují přes váš soukromý iCloud (Apple CloudKit), na který se vztahují zásady ochrany soukromí společnosti Apple.</p><h2>Společná domácnost a soukromí</h2><p>Pokud někoho pozvete do domácnosti přes iCloud, uvidí a může upravovat seznamy, historii nákupů, Spotřebu a pravidelné položky. Záruky včetně fotek účtenek a vaše nastavení zůstávají soukromé. Vlastník může sdílení kdykoli ukončit nebo odebrat člena a člen může domácnost kdykoli opustit.</p><h2>Fotoaparát, účtenky a připomínky</h2><p>Fotoaparát a galerie slouží jen ke dvěma věcem: ke skenu účtenky a k fotce účtenky u záruky. Text se čte přímo v iPhonu pomocí Apple Vision a nic se neposílá na internet. Připomínky data spotřeby a konce záruky si naplánuje přímo váš iPhone – neposíláme žádné push zprávy.</p><h2>Proč jsme Shoppie postavili takhle</h2><p>Data, která nemáme, nemohou uniknout ani být zneužita. Nepotřebujeme vědět, kdo jste, aby vám nákupní seznam fungoval. Shoppie je zdarma a bez reklam, takže nemáme důvod vás sledovat. Synchronizaci mezi vašimi zařízeními i s domácností zajišťuje iCloud, který už v iPhonu máte.</p><h2>Jak smazat svá data</h2><ol><li>V kartě <strong>Nastavení</strong> v sekci <strong>Data</strong> klepněte na <strong>Smazat historii nákupů</strong> nebo <strong>Smazat spotřebu</strong>.</li><li>Potvrďte <strong>Smazat</strong>. Nelze to vrátit zpět.</li><li>Seznamy, pravidelné položky a záruky smažete přímo v aplikaci.</li><li>Kopii v iCloudu odstraníte v <strong>Nastavení iPhonu → [vaše jméno] → iCloud → Spravovat úložiště → Shoppie</strong>.</li></ol><p>Postup se snímky najdete v návodu <a href=\"../navody/smazat-data-shoppie-icloud.html\">Jak smazat svá data ze Shoppie a z iCloudu</a>. Celé znění zásad je na stránce <a href=\"../privacy.html\">Ochrana soukromí</a>.</p>",
+      "faq": [
+        {
+          "q": "Je potřeba se do Shoppie registrovat?",
+          "a": "Ne. Shoppie nemá registraci ani přihlašování. Stáhnete ho z App Store a hned můžete psát seznam."
+        },
+        {
+          "q": "Máte o mně nějaká data?",
+          "a": "Ne. Shoppie nesbírá žádná data a nemá server. Vše je jen ve vašem iPhonu a ve vašem soukromém iCloudu."
+        },
+        {
+          "q": "Jsou v Shoppie reklamy?",
+          "a": "Ne. Shoppie je zdarma, bez reklam, bez analytiky a bez sledování."
+        },
+        {
+          "q": "Vidí členové domácnosti moje záruky?",
+          "a": "Ne. Členové vidí seznamy, historii nákupů, Spotřebu a pravidelné položky. Záruky včetně fotek účtenek a nastavení zůstávají soukromé."
+        }
+      ]
+    },
+    "en": {
+      "slug": "private-shopping-list-app",
+      "name": "Privacy",
+      "title": "Private shopping list app: no sign-up, no ads, no tracking",
+      "description": "Shoppie is a private shopping list app with no sign-up, ads or tracking. No server, no data collected – everything stays on your iPhone and in iCloud.",
+      "keywords": [
+        "private shopping list app",
+        "shopping list without sign up",
+        "shopping list app no ads",
+        "app that collects no data",
+        "icloud shopping list"
+      ],
+      "summary": "Shoppie is a private shopping list app: no sign-up, no ads and no tracking. It has no server and collects nothing about you. Your lists, history and warranties live only on your iPhone and in your private iCloud, and you can delete them at any time.",
+      "shots_alt": [
+        "Shoppie Settings showing the Data section with Clear Shopping History and Clear Pantry",
+        "Confirmation to clear shopping history, warning that it can’t be undone"
+      ],
+      "body": "<p>A shopping list says more about your household than you might think: what you eat, where you shop, even when you celebrate. That’s why we built Shoppie to collect nothing about you. Open the app and start writing your list – no sign-up, no email, no password.</p><h2>What Shoppie doesn’t do</h2><ul><li><strong>No sign-up</strong>, nothing to register.</li><li><strong>No analytics, no tracking, no ads.</strong></li><li><strong>No third-party SDKs or services.</strong></li><li><strong>No server</strong> – the app sends us no data at all, and we have no access to yours.</li></ul><p>That’s why Shoppie is labelled <em>Data Not Collected</em> on the App Store.</p><h2>Where your data lives</h2><p>Your lists, shopping history, Pantry, regular items, warranties, receipt photos and settings are stored on your iPhone. They sync between your devices through your private iCloud (Apple CloudKit), which is covered by Apple’s privacy policy.</p><h2>Shared households and privacy</h2><p>If you invite someone to your household via iCloud, they can see and edit lists, shopping history, Pantry and regular items. Warranties, including their receipt photos, and your settings stay private. The owner can stop sharing or remove a member at any time, and a member can leave whenever they like.</p><h2>Camera, receipts and reminders</h2><p>The camera and your photo library are used for two things only: scanning receipts and adding a receipt photo to a warranty. The text is read right on your iPhone using Apple Vision, and nothing is sent to the internet. Best-before and warranty reminders are scheduled by your iPhone itself – we send no push notifications.</p><h2>Why we built Shoppie this way</h2><p>Data we don’t have can’t leak or be misused. We don’t need to know who you are for your shopping list to work. Shoppie is free and has no ads, so we have no reason to track you. Syncing between your devices and with your household is handled by iCloud, which your iPhone already has.</p><h2>How to delete your data</h2><ol><li>On the <strong>Settings</strong> tab, under <strong>Data</strong>, tap <strong>Clear Shopping History</strong> or <strong>Clear Pantry</strong>.</li><li>Confirm with <strong>Delete</strong>. This can’t be undone.</li><li>Delete lists, regular items and warranties directly in the app.</li><li>Remove the copy in iCloud in <strong>iPhone Settings → [your name] → iCloud → Manage Storage → Shoppie</strong>.</li></ol><p>For a step-by-step version with screenshots, see <a href=\"../navody/delete-shoppie-data-icloud.html\">How to delete your Shoppie data from the app and iCloud</a>. The full policy is on our <a href=\"../privacy.html\">Privacy</a> page.</p>",
+      "faq": [
+        {
+          "q": "Do I need to sign up to use Shoppie?",
+          "a": "No. There’s no sign-up and nothing to register. Download it from the App Store and start your list straight away."
+        },
+        {
+          "q": "Do you hold any data about me?",
+          "a": "No. Shoppie collects no data and has no server. Everything stays on your iPhone and in your private iCloud."
+        },
+        {
+          "q": "Are there ads in Shoppie?",
+          "a": "No. Shoppie is free, with no ads, no analytics and no tracking."
+        },
+        {
+          "q": "Can household members see my warranties?",
+          "a": "No. Members see lists, shopping history, Pantry and regular items. Warranties, including receipt photos, and settings stay private."
+        }
+      ]
+    }
+  }
+}

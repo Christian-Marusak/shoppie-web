@@ -1,0 +1,133 @@
+{
+  "id": "nakupny-zoznam",
+  "order": 1,
+  "icon": "cart",
+  "updated": "2026-11-27",
+  "guides": [
+    "vytvorit-zoznam",
+    "kolesko-oblubenych",
+    "viac-zoznamov"
+  ],
+  "related": [
+    "navrhy-kolesko",
+    "spolocna-domacnost",
+    "zoznamy-historia"
+  ],
+  "shots": [
+    "01-1",
+    "01-2"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "aplikacia-na-nakupny-zoznam",
+      "name": "Nákupný zoznam",
+      "title": "Aplikácia na nákupný zoznam pre iPhone: rýchla a bez reklám",
+      "description": "Shoppie je aplikácia na nákupný zoznam pre iPhone. Pozná asi 540 produktov, sama ich zaradí do kategórií. Zadarmo, bez reklám a registrácie.",
+      "keywords": [
+        "aplikácia na nákupný zoznam",
+        "nákupný zoznam iPhone",
+        "nákupný zoznam zadarmo",
+        "nákupný zoznam bez reklám",
+        "nákupný zoznam podľa kategórií"
+      ],
+      "summary": "Shoppie je aplikácia na nákupný zoznam pre iPhone, ktorá je pripravená hneď po spustení. Ťuknete na +, napíšete, čo chcete kúpiť, a Shoppie bežný produkt sám zaradí do kategórie. Je zadarmo, bez reklám a bez registrácie.",
+      "shots_alt": [
+        "Karta Zoznam v Shoppie s predvoleným zoznamom Potraviny a položkami podľa kategórií",
+        "Okno Pridať položku s poľom Názov, množstvom a výberom jednotky"
+      ],
+      "body": "<p>Nákupný zoznam má byť rýchlejší ako papierik na chladničke. Preto sme Shoppie pripravili tak, aby ste ho mohli používať hneď: bez zakladania, bez registrácie a bez reklám. Po spustení ste rovno v karte Zoznam s predvoleným zoznamom Potraviny a prvú položku pridáte za pár sekúnd. Zoznam sa navyše postupne prispôsobí tomu, ako nakupujete.</p><h2>Čo nákupný zoznam v Shoppie vie</h2><ul><li><strong>Rýchle pridávanie</strong> – stačí napísať názov a položka je v zozname.</li><li><strong>Automatické kategórie</strong> – Shoppie pozná asi 540 bežných produktov a sám ich zaradí, takže zoznam je prehľadne rozdelený podľa kategórií.</li><li><strong>Množstvo a jednotky</strong> – ks, bal, kg, g, l alebo ml.</li><li><strong>Viac zoznamov</strong> – napríklad samostatný zoznam na drogériu alebo na Vianoce.</li><li><strong>Koliesko obľúbených</strong> – podržaním tlačidla + pridáte časté veci jedným pohybom.</li></ul><h2>Ako to funguje</h2><ol><li>Ťuknite na zelené tlačidlo <strong>+</strong> dole. Otvorí sa okno <strong>Pridať položku</strong>.</li><li>Do poľa <strong>Názov</strong> napíšte, čo chcete kúpiť, napríklad <em>citróny</em>.</li><li>Tlačidlami − a + nastavte množstvo a vyberte jednotku.</li><li>Ťuknite na zelenú fajku <strong>✓</strong>. Kategóriu Shoppie doplní sám.</li><li>V obchode ťuknite na krúžok pri položke a presunie sa do časti <strong>V košíku</strong>.</li></ol><p>Podrobný postup so snímkami nájdete v návode <a href=\"../navody/ako-vytvorit-nakupny-zoznam-iphone.html\">Ako vytvoriť nákupný zoznam na iPhone</a>.</p><h2>Viac zoznamov pre rôzne príležitosti</h2><p>Nie všetko kupujete v jednom obchode. Ťuknite na názov zoznamu hore, vyberte <strong>Nový zoznam</strong>, zadajte názov a ikonu. Medzi zoznamami sa prepnete rovnakým ťuknutím a v časti <strong>Spravovať zoznamy</strong> ich premenujete, presuniete alebo zmažete. Postup je v návode <a href=\"../navody/viac-nakupnych-zoznamov.html\">Ako mať viac nákupných zoznamov</a>.</p><h2>Zoznam, ktorý sa učí s vami</h2><p>Keď nákup na konci dokončíte, uloží sa do Histórie. Z dokončených nákupov sa Shoppie učí, čo a ako často kupujete. Hore v zozname vám potom navrhne, čo vám asi dochádza, a koliesko obľúbených ponúkne veci, ktoré kupujete najčastejšie. Ak chcete, aby nákup videla aj rodina, môžete zoznamy zdieľať cez iCloud v spoločnej domácnosti.</p><h2>Zadarmo, bez reklám a bez registrácie</h2><p>Shoppie funguje na iPhone s iOS 26 a novším a je v slovenčine, češtine aj angličtine. Nemá reklamy, nepotrebuje účet a nič o vás nezbiera. Vaše zoznamy sú vo vašom iPhone a vo vašom súkromnom iCloude, nie na našom serveri – žiadny server totiž nemáme.</p>",
+      "faq": [
+        {
+          "q": "Je aplikácia Shoppie naozaj zadarmo?",
+          "a": "Áno. Shoppie je zadarmo, bez reklám a bez registrácie. Funguje na iPhone s iOS 26 a novším."
+        },
+        {
+          "q": "Musím kategórie nastavovať sám?",
+          "a": "Nie. Shoppie pozná asi 540 bežných produktov a kategóriu im priradí sám. Zoznam je tak prehľadný bez akéhokoľvek nastavovania."
+        },
+        {
+          "q": "Môžem mať viac nákupných zoznamov?",
+          "a": "Áno. Ťuknite na názov zoznamu hore a vyberte Nový zoznam. Aspoň jeden zoznam musí vždy zostať."
+        },
+        {
+          "q": "Kde sú moje zoznamy uložené?",
+          "a": "Vo vašom iPhone a vo vašom súkromnom iCloude. Shoppie nemá žiadny server a nič o vás nezbiera."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "aplikace-na-nakupni-seznam",
+      "name": "Nákupní seznam",
+      "title": "Aplikace na nákupní seznam pro iPhone: rychlá a bez reklam",
+      "description": "Shoppie je aplikace na nákupní seznam pro iPhone. Zná asi 540 produktů a sama je zařadí do kategorií. Zdarma, bez reklam a bez registrace.",
+      "keywords": [
+        "aplikace na nákupní seznam",
+        "nákupní seznam iPhone",
+        "nákupní seznam zdarma",
+        "nákupní seznam bez reklam",
+        "nákupní seznam podle kategorií"
+      ],
+      "summary": "Shoppie je aplikace na nákupní seznam pro iPhone, která je připravená hned po spuštění. Klepnete na +, napíšete, co chcete koupit, a Shoppie běžný produkt sám zařadí do kategorie. Je zdarma, bez reklam a bez registrace.",
+      "shots_alt": [
+        "Karta Seznam v Shoppie s výchozím seznamem Potraviny a položkami podle kategorií",
+        "Okno Přidat položku s polem Název, množstvím a výběrem jednotky"
+      ],
+      "body": "<p>Nákupní seznam má být rychlejší než lísteček na lednici. Proto jsme Shoppie připravili tak, abyste ho mohli používat hned: bez zakládání, bez registrace a bez reklam. Po spuštění jste rovnou v kartě Seznam s výchozím seznamem Potraviny a první položku přidáte během pár vteřin. Seznam se navíc postupně přizpůsobí tomu, jak nakupujete.</p><h2>Co nákupní seznam v Shoppie umí</h2><ul><li><strong>Rychlé přidávání</strong> – stačí napsat název a položka je v seznamu.</li><li><strong>Automatické kategorie</strong> – Shoppie zná asi 540 běžných produktů a sám je zařadí, takže seznam je přehledně rozdělený podle kategorií.</li><li><strong>Množství a jednotky</strong> – ks, bal, kg, g, l nebo ml.</li><li><strong>Více seznamů</strong> – například samostatný seznam na drogerii nebo na Vánoce.</li><li><strong>Kolečko oblíbených</strong> – podržením tlačítka + přidáte časté věci jedním pohybem.</li></ul><h2>Jak to funguje</h2><ol><li>Klepněte na zelené tlačítko <strong>+</strong> dole. Otevře se okno <strong>Přidat položku</strong>.</li><li>Do pole <strong>Název</strong> napište, co chcete koupit, například <em>citrony</em>.</li><li>Tlačítky − a + nastavte množství a vyberte jednotku.</li><li>Klepněte na zelenou fajfku <strong>✓</strong>. Kategorii Shoppie doplní sám.</li><li>V obchodě klepněte na kroužek u položky a přesune se do části <strong>V košíku</strong>.</li></ol><p>Podrobný postup se snímky najdete v návodu <a href=\"../navody/jak-vytvorit-nakupni-seznam-iphone.html\">Jak vytvořit nákupní seznam na iPhonu</a>.</p><h2>Více seznamů pro různé příležitosti</h2><p>Ne všechno kupujete v jednom obchodě. Klepněte na název seznamu nahoře, vyberte <strong>Nový seznam</strong>, zadejte název a ikonu. Mezi seznamy se přepnete stejným klepnutím a ve <strong>Spravovat seznamy</strong> je přejmenujete, přesunete nebo smažete. Postup najdete v návodu <a href=\"../navody/vice-nakupnich-seznamu.html\">Jak mít víc nákupních seznamů</a>.</p><h2>Seznam, který se učí s vámi</h2><p>Když nákup na konci dokončíte, uloží se do Historie. Z dokončených nákupů se Shoppie učí, co a jak často kupujete. Nahoře v seznamu vám pak navrhne, co vám asi dochází, a kolečko oblíbených nabídne věci, které kupujete nejčastěji. Pokud chcete, aby nákup viděla i rodina, můžete seznamy sdílet přes iCloud ve společné domácnosti.</p><h2>Zdarma, bez reklam a bez registrace</h2><p>Shoppie funguje na iPhonu s iOS 26 a novějším a je v češtině, slovenštině i angličtině. Nemá reklamy, nepotřebuje účet a nic o vás nesbírá. Vaše seznamy jsou ve vašem iPhonu a ve vašem soukromém iCloudu, ne na našem serveru – žádný server totiž nemáme.</p>",
+      "faq": [
+        {
+          "q": "Je aplikace Shoppie opravdu zdarma?",
+          "a": "Ano. Shoppie je zdarma, bez reklam a bez registrace. Funguje na iPhonu s iOS 26 a novějším."
+        },
+        {
+          "q": "Musím kategorie nastavovat sám?",
+          "a": "Ne. Shoppie zná asi 540 běžných produktů a kategorii jim přiřadí sám. Seznam je tak přehledný bez jakéhokoli nastavování."
+        },
+        {
+          "q": "Můžu mít víc nákupních seznamů?",
+          "a": "Ano. Klepněte na název seznamu nahoře a vyberte Nový seznam. Alespoň jeden seznam musí vždy zůstat."
+        },
+        {
+          "q": "Kde jsou moje seznamy uložené?",
+          "a": "Ve vašem iPhonu a ve vašem soukromém iCloudu. Shoppie nemá žádný server a nic o vás nesbírá."
+        }
+      ]
+    },
+    "en": {
+      "slug": "shopping-list-app-for-iphone",
+      "name": "Shopping list",
+      "title": "Shopping list app for iPhone: fast, free and ad-free",
+      "description": "Shoppie is a free shopping list app for iPhone. It knows about 540 products and sorts them into categories for you. No ads, no sign-up.",
+      "keywords": [
+        "shopping list app for iPhone",
+        "free shopping list app",
+        "grocery list app",
+        "shopping list without ads",
+        "shopping list by category"
+      ],
+      "summary": "Shoppie is a shopping list app for iPhone that is ready the moment you open it. Tap +, type what you need, and Shoppie puts common products into the right category for you. It is free, with no ads and no sign-up.",
+      "shots_alt": [
+        "The List tab in Shoppie with the default Groceries list and items grouped by category",
+        "The Add Item sheet with the Name field, quantity buttons and unit picker"
+      ],
+      "body": "<p>A shopping list should be quicker than a note on the fridge. That is why we built Shoppie so you can start straight away: nothing to set up, no sign-up and no ads. When you open it, you land on the List tab with the default Groceries list.</p><h2>What the Shoppie shopping list does</h2><ul><li><strong>Quick add</strong> – type a name and the item is on your list.</li><li><strong>Automatic categories</strong> – Shoppie knows about 540 everyday products and sorts them for you, so your list is neatly grouped by category.</li><li><strong>Quantities and units</strong> – pcs, pack, kg, g, l or ml.</li><li><strong>Multiple lists</strong> – for example a separate list for the drugstore or for Christmas.</li><li><strong>Favourites wheel</strong> – touch and hold + to add frequent items in one move.</li></ul><h2>How it works</h2><ol><li>Tap the green <strong>+</strong> button at the bottom. The <strong>Add Item</strong> sheet opens.</li><li>In <strong>Name</strong>, type what you need, for example <em>lemons</em>.</li><li>Set the quantity with the − and + buttons and pick a unit.</li><li>Tap the green <strong>✓</strong>. Shoppie fills in the category.</li><li>In the shop, tap the circle next to an item and it moves to <strong>In Cart</strong>.</li></ol><p>For a step-by-step version with screenshots, see <a href=\"../navody/how-to-make-a-shopping-list-on-iphone.html\">How to make a shopping list on iPhone</a>.</p><h2>A list for every occasion</h2><p>Not everything comes from the same shop. Tap the list name at the top, choose <strong>New List</strong>, then give it a name and an icon. Tap the name again to switch lists, and use <strong>Manage Lists</strong> to rename, reorder or delete them. The guide <a href=\"../navody/multiple-shopping-lists.html\">How to have more than one shopping list</a> walks you through it.</p><h2>A list that learns from you</h2><p>When you finish a shopping trip, it is saved to History. From finished trips, Shoppie learns what you buy and how often. It then suggests at the top of your list what you are probably running low on, and the favourites wheel offers the things you buy most. If you want your family to see the list too, share it through iCloud in a shared household.</p><h2>Free, ad-free and no sign-up</h2><p>Shoppie runs on iPhone with iOS 26 or later and comes in English, Slovak and Czech. There are no ads, you do not need an account and nothing about you is collected. Your lists live on your iPhone and in your private iCloud, not on our server – we do not have one.</p>",
+      "faq": [
+        {
+          "q": "Is Shoppie really free?",
+          "a": "Yes. Shoppie is free, with no ads and no sign-up. It works on iPhone with iOS 26 or later."
+        },
+        {
+          "q": "Do I have to set up categories myself?",
+          "a": "No. Shoppie knows about 540 everyday products and assigns their category for you. Your list stays tidy without any setup."
+        },
+        {
+          "q": "Can I have more than one shopping list?",
+          "a": "Yes. Tap the list name at the top and choose New List. At least one list always has to stay."
+        },
+        {
+          "q": "Where are my lists stored?",
+          "a": "On your iPhone and in your private iCloud. Shoppie has no server and collects nothing about you."
+        }
+      ]
+    }
+  }
+}

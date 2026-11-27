@@ -1,0 +1,131 @@
+{
+  "id": "pravidelne-nakupy",
+  "order": 7,
+  "icon": "repeat",
+  "updated": "2026-11-27",
+  "guides": [
+    "pravidelne-nakupy"
+  ],
+  "related": [
+    "navrhy-kolesko",
+    "nakupny-zoznam",
+    "spolocna-domacnost"
+  ],
+  "shots": [
+    "05-1",
+    "05-2"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "pravidelne-nakupy",
+      "name": "Pravidelné nákupy",
+      "title": "Pravidelný nákup v iPhone: položky sa do zoznamu pridajú samy",
+      "description": "Káva každé 2 týždne, plienky každý mesiac: pravidelný nákup v Shoppie nastavíte raz a položka sa v zvolený deň sama pridá do zoznamu.",
+      "keywords": [
+        "pravidelný nákup",
+        "pravidelné položky v nákupnom zozname",
+        "opakovaný nákup",
+        "pripomienka nákupu",
+        "automatický nákupný zoznam"
+      ],
+      "summary": "Pravidelný nákup v Shoppie nastavíte raz: pri položke zvolíte, ako často ju kupujete, napríklad každé 2 týždne. V zvolený deň sa sama objaví v nákupnom zozname, vám aj celej domácnosti. Kedykoľvek ju môžete pozastaviť.",
+      "shots_alt": [
+        "Ponuka v karte Zoznam s voľbou Pravidelné položky",
+        "Nastavenie pravidelnej položky so zapnutým Opakovať, intervalom a riadkom Nabudúce"
+      ],
+      "body": "<p>Niektoré veci kupujete stále dookola: kávu, prací prášok, krmivo pre psa, filtre do vody. Stačí raz zabudnúť a doma chýbajú. S pravidelnými položkami v Shoppie si nemusíte pamätať, kedy ste ich kupovali naposledy – v zvolený deň sa do nákupného zoznamu pridajú samy.</p><h2>Čo pravidelné položky vedia</h2><ul><li><strong>Pridajú sa do zoznamu samy</strong> v deň, ktorý si nastavíte.</li><li><strong>Interval si zvolíte</strong> v dňoch, týždňoch alebo mesiacoch – napríklad <em>každé 2 týždne</em>.</li><li><strong>Riadok Nabudúce</strong> ukáže, kedy sa položka pridá najbližšie.</li><li><strong>Dajú sa pozastaviť</strong> potiahnutím doprava, napríklad počas dovolenky.</li><li><strong>Zdieľajú sa s domácnosťou</strong>, takže sa objavia v zozname všetkým členom.</li></ul><h2>Ako to funguje</h2><ol><li>V karte Zoznam ťuknite vpravo hore na <strong>⋯</strong> a vyberte <strong>Pravidelné položky</strong>. Alebo podržte položku v zozname a zvoľte <strong>Pridávať pravidelne</strong>.</li><li>Ťuknite na <strong>+</strong> (Pridať pravidelnú položku) a zadajte položku.</li><li>Zapnite <strong>Opakovať</strong> a nastavte, ako často (Dni / Týždne / Mesiace).</li><li>V riadku <strong>Nabudúce</strong> skontrolujte dátum. Hotovo – zvyšok urobí Shoppie.</li></ol><p>Podrobný postup so snímkami nájdete v návode <a href=\"../navody/pravidelne-nakupy-opakovane-polozky.html\">Ako nastaviť pravidelné nákupy</a>.</p><h2>Pravidelné položky a Návrhy</h2><p>Shoppie má dve funkcie, ktoré vám pomáhajú nezabudnúť. <strong>Návrhy</strong> sa učia z vašich dokončených nákupov a samy odhadnú, čo vám asi dochádza. <strong>Pravidelné položky</strong> sú pevný plán: presne viete, kedy sa položka v zozname objaví. Pri veciach s jasným rytmom, ako sú lieky pre domáceho maznáčika alebo kapsuly do kávovaru, je pravidelný nákup istejšia voľba.</p><h2>Pravidelný nákup pre celú domácnosť</h2><p>Ak máte spoločnú domácnosť cez iCloud, pravidelné položky vidia a môžu upravovať všetci členovia. Keď sa položka v zvolený deň pridá, objaví sa v zozname každému, takže ju kúpi ten, kto ide práve do obchodu. Zmeny sa ukážu hneď.</p><h2>Pozastavenie a vypnutie</h2><p>Keď položku na čas nepotrebujete, potiahnite ju v zozname pravidelných položiek doprava a pozastavte ju. Ak funkciu nepoužívate vôbec, vypnete ju v <strong>Nastavenia → Funkcie → Pravidelné položky</strong>.</p><h2>Tipy</h2><ul><li>Začnite tromi či štyrmi vecami, ktoré vám najčastejšie dochádzajú.</li><li>Interval nastavte podľa skutočnej spotreby – ak vám káva vydrží 3 týždne, nastavte 3 týždne.</li><li>Pred dovolenkou pravidelné položky pozastavte, aby sa zoznam zbytočne neplnil.</li><li>Pravidelnú položku vytvoríte najrýchlejšie priamo zo zoznamu: podržte ju a zvoľte <strong>Pridávať pravidelne</strong>.</li><li>Pravidelné položky sa hodia aj na drogériu a veci pre domácnosť, nielen na potraviny.</li></ul>",
+      "faq": [
+        {
+          "q": "Ako nastavím pravidelný nákup?",
+          "a": "V karte Zoznam ťuknite na ⋯ → Pravidelné položky → +, zadajte položku, zapnite Opakovať a nastavte interval v dňoch, týždňoch alebo mesiacoch."
+        },
+        {
+          "q": "Pridajú sa pravidelné položky aj rodine?",
+          "a": "Áno. Pravidelné položky sa zdieľajú s domácnosťou, takže sa objavia v zozname všetkým členom."
+        },
+        {
+          "q": "Dá sa pravidelná položka pozastaviť?",
+          "a": "Áno. V zozname pravidelných položiek ju potiahnite doprava a pozastavte. Kým je pozastavená, do nákupného zoznamu sa nepridáva."
+        },
+        {
+          "q": "Dá sa funkcia vypnúť?",
+          "a": "Áno, v Nastavenia → Funkcie → Pravidelné položky."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "pravidelne-nakupy",
+      "name": "Pravidelné nákupy",
+      "title": "Pravidelné nákupy v iPhonu: položky se do seznamu přidají samy",
+      "description": "Káva každé 2 týdny, pleny každý měsíc: pravidelné nákupy v Shoppie nastavíte jednou a položka se ve zvolený den sama přidá do seznamu.",
+      "keywords": [
+        "pravidelné nákupy",
+        "pravidelné položky v nákupním seznamu",
+        "opakovaný nákup",
+        "připomínka nákupu",
+        "automatický nákupní seznam"
+      ],
+      "summary": "Pravidelné nákupy v Shoppie nastavíte jednou: u položky zvolíte, jak často ji kupujete, například každé 2 týdny. Ve zvolený den se sama objeví v nákupním seznamu, vám i celé domácnosti. Kdykoli ji můžete pozastavit.",
+      "shots_alt": [
+        "Nabídka v kartě Seznam s volbou Pravidelné položky",
+        "Nastavení pravidelné položky se zapnutým Opakovat, intervalem a řádkem Příště"
+      ],
+      "body": "<p>Některé věci kupujete pořád dokola: kávu, prací prášek, granule pro psa, filtry do vody. Stačí jednou zapomenout a doma chybí. S pravidelnými položkami v Shoppie si nemusíte pamatovat, kdy jste je kupovali naposledy – ve zvolený den se do nákupního seznamu přidají samy.</p><h2>Co pravidelné položky umí</h2><ul><li><strong>Přidají se do seznamu samy</strong> v den, který si nastavíte.</li><li><strong>Interval si zvolíte</strong> ve dnech, týdnech nebo měsících – například <em>každé 2 týdny</em>.</li><li><strong>Řádek Příště</strong> ukáže, kdy se položka přidá příště.</li><li><strong>Dají se pozastavit</strong> potažením doprava, třeba během dovolené.</li><li><strong>Sdílí se s domácností</strong>, takže se objeví v seznamu všem členům.</li></ul><h2>Jak to funguje</h2><ol><li>V kartě Seznam klepněte vpravo nahoře na <strong>⋯</strong> a vyberte <strong>Pravidelné položky</strong>. Nebo podržte položku v seznamu a zvolte <strong>Přidávat pravidelně</strong>.</li><li>Klepněte na <strong>+</strong> (Přidat pravidelnou položku) a zadejte položku.</li><li>Zapněte <strong>Opakovat</strong> a nastavte, jak často (Dny / Týdny / Měsíce).</li><li>V řádku <strong>Příště</strong> zkontrolujte datum. Hotovo – zbytek udělá Shoppie.</li></ol><p>Podrobný postup se snímky najdete v návodu <a href=\"../navody/pravidelne-nakupy-opakovane-polozky.html\">Jak nastavit pravidelné nákupy</a>.</p><h2>Pravidelné položky a Návrhy</h2><p>Shoppie má dvě funkce, které vám pomáhají nezapomenout. <strong>Návrhy</strong> se učí z vašich dokončených nákupů a samy odhadnou, co vám asi dochází. <strong>Pravidelné položky</strong> jsou pevný plán: přesně víte, kdy se položka v seznamu objeví. U věcí s jasným rytmem, jako jsou léky pro domácího mazlíčka nebo kapsle do kávovaru, jsou pravidelné nákupy jistější volba.</p><h2>Pravidelné nákupy pro celou domácnost</h2><p>Pokud máte společnou domácnost přes iCloud, pravidelné položky vidí a mohou upravovat všichni členové. Když se položka ve zvolený den přidá, objeví se v seznamu každému, takže ji koupí ten, kdo jde zrovna do obchodu. Změny se ukážou hned.</p><h2>Pozastavení a vypnutí</h2><p>Když položku na čas nepotřebujete, přetáhněte ji v seznamu pravidelných položek doprava a pozastavte ji. Pokud funkci nepoužíváte vůbec, vypnete ji v <strong>Nastavení → Funkce → Pravidelné položky</strong>.</p><h2>Tipy</h2><ul><li>Začněte třemi či čtyřmi věcmi, které vám nejčastěji docházejí.</li><li>Interval nastavte podle skutečné spotřeby – pokud vám káva vydrží 3 týdny, nastavte 3 týdny.</li><li>Před dovolenou pravidelné položky pozastavte, aby se seznam zbytečně neplnil.</li><li>Pravidelnou položku vytvoříte nejrychleji přímo ze seznamu: podržte ji a zvolte <strong>Přidávat pravidelně</strong>.</li><li>Pravidelné položky se hodí i na drogerii a věci pro domácnost, nejen na potraviny.</li></ul>",
+      "faq": [
+        {
+          "q": "Jak nastavím pravidelné nákupy?",
+          "a": "V kartě Seznam klepněte na ⋯ → Pravidelné položky → +, zadejte položku, zapněte Opakovat a nastavte interval ve dnech, týdnech nebo měsících."
+        },
+        {
+          "q": "Přidají se pravidelné položky i rodině?",
+          "a": "Ano. Pravidelné položky se sdílí s domácností, takže se objeví v seznamu všem členům."
+        },
+        {
+          "q": "Dá se pravidelná položka pozastavit?",
+          "a": "Ano. V seznamu pravidelných položek ji přetáhněte doprava a pozastavte. Dokud je pozastavená, do nákupního seznamu se nepřidává."
+        },
+        {
+          "q": "Dá se funkce vypnout?",
+          "a": "Ano, v Nastavení → Funkce → Pravidelné položky."
+        }
+      ]
+    },
+    "en": {
+      "slug": "recurring-shopping-list",
+      "name": "Regular items",
+      "title": "Recurring shopping list for iPhone: items add themselves",
+      "description": "Coffee every 2 weeks, nappies every month: set up a recurring shopping list in Shoppie once, and items appear on your list on the day you choose.",
+      "keywords": [
+        "recurring shopping list",
+        "recurring grocery items",
+        "repeat purchases reminder",
+        "regular items shopping list app",
+        "automatic shopping list"
+      ],
+      "summary": "A recurring shopping list in Shoppie takes one setup: choose how often you buy an item, say every 2 weeks. On that day it appears on your shopping list by itself, for you and your whole household. You can pause it at any time.",
+      "shots_alt": [
+        "Menu on the List tab with the Regular Items option",
+        "Regular item settings with Repeat turned on, the interval and the Next time row"
+      ],
+      "body": "<p>Some things you buy over and over: coffee, washing powder, dog food, water filters. Forget once and you run out. With regular items in Shoppie you don't need to remember when you last bought them – on the day you choose, they are added to your shopping list on their own.</p><h2>What regular items do</h2><ul><li><strong>Add themselves to your list</strong> on the day you set.</li><li><strong>Repeat on your schedule</strong> in days, weeks or months – for example <em>every 2 weeks</em>.</li><li><strong>Next time</strong> shows when the item will be added again.</li><li><strong>Can be paused</strong> with a swipe to the right, say while you're on holiday.</li><li><strong>Are shared with your household</strong>, so they show up on everyone's list.</li></ul><h2>How it works</h2><ol><li>On the List tab, tap <strong>⋯</strong> at the top right and choose <strong>Regular Items</strong>. Or touch and hold an item on your list and choose <strong>Add Regularly</strong>.</li><li>Tap <strong>+</strong> (Add Regular Item) and enter the item.</li><li>Turn on <strong>Repeat</strong> and set how often (Days / Weeks / Months).</li><li>Check the date under <strong>Next time</strong>. That's it – Shoppie does the rest.</li></ol><p>For a step-by-step version with screenshots, see <a href=\"../navody/regular-items-repeat-purchases.html\">How to set up regular items</a>.</p><h2>Regular items vs. Suggestions</h2><p>Shoppie has two ways to help you remember. <strong>Suggestions</strong> learn from your finished trips and work out what you're probably running low on. <strong>Regular items</strong> are a fixed plan: you know exactly when an item will appear on your list. For things with a steady rhythm, like pet medication or coffee pods, a recurring item is the safer bet.</p><h2>A recurring list for the whole household</h2><p>If you share a household through iCloud, every member can see and edit regular items. When an item is added on its day, it appears on everyone's list, so whoever is heading to the shop can pick it up. Changes show up straight away.</p><h2>Pausing and turning it off</h2><p>When you don't need an item for a while, swipe it to the right in your regular items to pause it. If you don't use the feature at all, turn it off in <strong>Settings → Features → Regular Items</strong>.</p><h2>Tips</h2><ul><li>Start with three or four things you run out of most often.</li><li>Match the interval to how fast you really use something – if coffee lasts 3 weeks, set 3 weeks.</li><li>Pause your regular items before a holiday so your list doesn't fill up for nothing.</li><li>The quickest way to create one is straight from your list: touch and hold the item and choose <strong>Add Regularly</strong>.</li></ul>",
+      "faq": [
+        {
+          "q": "How do I set up a recurring item?",
+          "a": "On the List tab, tap ⋯ → Regular Items → +, enter the item, turn on Repeat and set an interval in days, weeks or months."
+        },
+        {
+          "q": "Are regular items added for my family too?",
+          "a": "Yes. Regular items are shared with your household, so they appear on everyone's list."
+        },
+        {
+          "q": "Can I pause a regular item?",
+          "a": "Yes. In your regular items, swipe it to the right to pause it. While it's paused, it isn't added to your shopping list."
+        },
+        {
+          "q": "Can I turn the feature off?",
+          "a": "Yes, in Settings → Features → Regular Items."
+        }
+      ]
+    }
+  }
+}

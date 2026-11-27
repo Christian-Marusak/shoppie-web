@@ -1,0 +1,133 @@
+{
+  "id": "spolocna-domacnost",
+  "order": 2,
+  "icon": "users",
+  "updated": "2026-11-27",
+  "guides": [
+    "zdielat-zoznam",
+    "odobrat-clena",
+    "synchronizacia"
+  ],
+  "related": [
+    "nakupny-zoznam",
+    "spotreba",
+    "pravidelne-nakupy"
+  ],
+  "shots": [
+    "04-1",
+    "09-1"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "zdielany-nakupny-zoznam",
+      "name": "Spoločná domácnosť",
+      "title": "Zdieľaný nákupný zoznam pre rodinu cez iCloud",
+      "description": "Zdieľaný nákupný zoznam v Shoppie: pozvite rodinu do spoločnej domácnosti cez iCloud. Zoznamy, história aj Spotreba sa menia u všetkých hneď.",
+      "keywords": [
+        "zdieľaný nákupný zoznam",
+        "spoločný nákupný zoznam pre rodinu",
+        "zdieľať nákupný zoznam iPhone",
+        "nákupný zoznam pre domácnosť",
+        "nákupný zoznam cez iCloud"
+      ],
+      "summary": "Zdieľaný nákupný zoznam v Shoppie funguje cez spoločnú domácnosť v iCloude. Pozvite rodinu a všetci uvidia rovnaké zoznamy, históriu nákupov, Spotrebu aj pravidelné položky. Keď niekto niečo pridá alebo odškrtne, ostatní to vidia hneď.",
+      "shots_alt": [
+        "Ponuka nákupných zoznamov v Shoppie, ktoré vidia všetci členovia domácnosti",
+        "Obnovenie zoznamu potiahnutím nadol, keď sa údaje načítavajú z iCloudu"
+      ],
+      "body": "<p>Keď nakupuje viac ľudí, papierový zoznam ostane vždy doma. V Shoppie preto môžete vytvoriť spoločnú domácnosť: všetci jej členovia majú rovnaký nákupný zoznam vo svojom iPhone a zmeny vidia hneď. Kto je práve v obchode, odškrtáva, a kto je doma, môže ešte niečo pridať.</p><h2>Čo sa v domácnosti zdieľa</h2><ul><li><strong>Všetky nákupné zoznamy</strong> – Potraviny, Drogéria aj zoznam na Vianoce.</li><li><strong>História nákupov</strong> – kedy a v ktorom obchode sa nakupovalo a koľko položiek ste kúpili.</li><li><strong>Spotreba</strong> – kúpené potraviny s dátumami spotreby, takže každý vie, čo treba zjesť.</li><li><strong>Pravidelné položky</strong> – veci, ktoré sa v zvolený deň pridajú do zoznamu samy.</li></ul><p>Záruky a nastavenia sa nezdieľajú, tie zostávajú len vám.</p><h2>Ako to funguje</h2><ol><li>V karte <strong>Nastavenia</strong> nájdite sekciu <strong>Zdieľanie</strong>.</li><li>Ťuknite na <strong>Pozvať do domácnosti</strong> a pozvánku pošlite, napríklad cez Správy alebo Mail.</li><li>Pozvaný ju otvorí na svojom iPhone so Shoppie a pridá sa.</li><li>V sekcii <strong>Členovia domácnosti</strong> skontrolujte, kto sa pridal. Ďalšieho člena pozvete cez <strong>Pozvať ďalšieho</strong>.</li></ol><p>Podrobný postup nájdete v návode <a href=\"../navody/zdielat-nakupny-zoznam-s-rodinou-iphone.html\">Ako zdieľať nákupný zoznam s rodinou na iPhone</a>.</p><h2>Zmeny vidia všetci hneď</h2><p>Zdieľanie prebieha cez iCloud, takže nepotrebujete žiadnu registráciu – stačí, aby mal každý iPhone so zapnutým iCloudom. Zmeny sa zvyčajne objavia do pár sekúnd. Ak zmeny od partnera nevidíte, skontrolujte, či máte obaja zapnutý iCloud, ste v rovnakej domácnosti a máte internet, a zoznam potiahnite nadol. Viac v návode <a href=\"../navody/nakupny-zoznam-sa-nesynchronizuje.html\">Čo robiť, keď nevidíte zmeny od partnera</a>.</p><h2>Členov máte pod kontrolou</h2><p>Pozývať môže len vlastník domácnosti. Ten môže člena aj odstrániť z domácnosti alebo zdieľanie úplne zrušiť – zoznamy mu vtedy zostanú. Člen môže domácnosť kedykoľvek opustiť cez <strong>Odísť z domácnosti</strong>. Všetky možnosti nájdete pod <strong>⋯</strong> pri mene v sekcii Členovia domácnosti a v návode <a href=\"../navody/odobrat-clena-opustit-domacnost.html\">Ako odobrať člena alebo opustiť domácnosť</a>.</p><h2>Kedy sa spoločná domácnosť hodí</h2><ul><li><strong>Rodina</strong> – kto ide okolo obchodu, vidí, čo treba kúpiť.</li><li><strong>Partneri</strong> – nekúpite to isté dvakrát, lebo odškrtnuté položky vidia obaja.</li><li><strong>Spolubývajúci</strong> – spoločný zoznam na drogériu a základné potraviny.</li><li><strong>Viac iPhonov</strong> – údaje sa cez iCloud synchronizujú aj medzi vašimi vlastnými iPhonmi.</li></ul><h2>Súkromie aj pri zdieľaní</h2><p>Údaje domácnosti sú vo vašom súkromnom iCloude a v iPhonoch členov. Shoppie nemá žiadny server, nič o vás nezbiera a nezobrazuje reklamy.</p>",
+      "faq": [
+        {
+          "q": "Čo všetko sa s domácnosťou zdieľa?",
+          "a": "Zoznamy, história nákupov, Spotreba a pravidelné položky. Záruky a nastavenia sa nezdieľajú."
+        },
+        {
+          "q": "Čo potrebuje pozvaný člen?",
+          "a": "iPhone s aplikáciou Shoppie a zapnutým iCloudom. Inú registráciu nepotrebuje."
+        },
+        {
+          "q": "Ako rýchlo uvidia ostatní moje zmeny?",
+          "a": "Zvyčajne do pár sekúnd, pri slabom pripojení niekedy trochu neskôr. Potiahnutím zoznamu nadol ho obnovíte."
+        },
+        {
+          "q": "Môžem zdieľanie ukončiť?",
+          "a": "Áno. Vlastník môže člena odstrániť alebo zdieľanie zrušiť a člen môže domácnosť kedykoľvek opustiť."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "sdileny-nakupni-seznam",
+      "name": "Společná domácnost",
+      "title": "Sdílený nákupní seznam pro rodinu přes iCloud",
+      "description": "Sdílený nákupní seznam v Shoppie: pozvěte rodinu do společné domácnosti přes iCloud. Seznamy, historie i Spotřeba se mění u všech hned.",
+      "keywords": [
+        "sdílený nákupní seznam",
+        "společný nákupní seznam pro rodinu",
+        "sdílet nákupní seznam iPhone",
+        "nákupní seznam pro domácnost",
+        "nákupní seznam přes iCloud"
+      ],
+      "summary": "Sdílený nákupní seznam v Shoppie funguje přes společnou domácnost v iCloudu. Pozvěte rodinu a všichni uvidí stejné seznamy, historii nákupů, Spotřebu i pravidelné položky. Když někdo něco přidá nebo odškrtne, ostatní to vidí hned.",
+      "shots_alt": [
+        "Nabídka nákupních seznamů v Shoppie, které vidí všichni členové domácnosti",
+        "Obnovení seznamu stažením dolů, když se data načítají z iCloudu"
+      ],
+      "body": "<p>Když nakupuje víc lidí, papírový seznam zůstane vždycky doma. V Shoppie proto můžete vytvořit společnou domácnost: všichni její členové mají stejný nákupní seznam ve svém iPhonu a změny vidí hned. Kdo je zrovna v obchodě, odškrtává, a kdo je doma, může ještě něco přidat.</p><h2>Co se v domácnosti sdílí</h2><ul><li><strong>Všechny nákupní seznamy</strong> – Potraviny, Drogerie i seznam na Vánoce.</li><li><strong>Historie nákupů</strong> – kdy a v jakém obchodě se nakupovalo a kolik položek jste koupili.</li><li><strong>Spotřeba</strong> – koupené potraviny s daty spotřeby, takže každý ví, co je potřeba sníst.</li><li><strong>Pravidelné položky</strong> – věci, které se ve zvolený den přidají do seznamu samy.</li></ul><p>Záruky a nastavení se nesdílejí, ty zůstávají jen vám.</p><h2>Jak to funguje</h2><ol><li>V kartě <strong>Nastavení</strong> najděte sekci <strong>Sdílení</strong>.</li><li>Klepněte na <strong>Pozvat do domácnosti</strong> a pozvánku pošlete, například přes Zprávy nebo Mail.</li><li>Pozvaný ji otevře na svém iPhonu se Shoppie a přidá se.</li><li>V sekci <strong>Členové domácnosti</strong> zkontrolujte, kdo se přidal. Dalšího člena pozvete přes <strong>Pozvat dalšího</strong>.</li></ol><p>Podrobný postup najdete v návodu <a href=\"../navody/sdilet-nakupni-seznam-s-rodinou-iphone.html\">Jak sdílet nákupní seznam s rodinou na iPhonu</a>.</p><h2>Změny vidí všichni hned</h2><p>Sdílení probíhá přes iCloud, takže nepotřebujete žádnou registraci – stačí, aby měl každý iPhone se zapnutým iCloudem. Změny se obvykle objeví do pár sekund. Pokud změny od partnera nevidíte, zkontrolujte, jestli máte oba zapnutý iCloud, jste ve stejné domácnosti a máte internet, a seznam stáhněte dolů. Víc v návodu <a href=\"../navody/nakupni-seznam-se-nesynchronizuje.html\">Co dělat, když nevidíte změny od partnera</a>.</p><h2>Členy máte pod kontrolou</h2><p>Zvát může jen vlastník domácnosti. Ten může člena také odebrat z domácnosti nebo sdílení úplně zrušit – seznamy mu pak zůstanou. Člen může domácnost kdykoli opustit přes <strong>Odejít z domácnosti</strong>. Všechny možnosti najdete pod <strong>⋯</strong> u jména v sekci Členové domácnosti a v návodu <a href=\"../navody/odebrat-clena-opustit-domacnost.html\">Jak odebrat člena nebo opustit domácnost</a>.</p><h2>Kdy se společná domácnost hodí</h2><ul><li><strong>Rodina</strong> – kdo jde kolem obchodu, vidí, co je potřeba koupit.</li><li><strong>Partneři</strong> – nekoupíte totéž dvakrát, protože odškrtnuté položky vidí oba.</li><li><strong>Spolubydlící</strong> – společný seznam na drogerii a základní potraviny.</li><li><strong>Více iPhonů</strong> – data se přes iCloud synchronizují i mezi vašimi vlastními iPhony.</li></ul><h2>Soukromí i při sdílení</h2><p>Data domácnosti jsou ve vašem soukromém iCloudu a v iPhonech členů. Shoppie nemá žádný server, nic o vás nesbírá a nezobrazuje reklamy.</p>",
+      "faq": [
+        {
+          "q": "Co všechno se s domácností sdílí?",
+          "a": "Seznamy, historie nákupů, Spotřeba a pravidelné položky. Záruky a nastavení se nesdílejí."
+        },
+        {
+          "q": "Co potřebuje pozvaný člen?",
+          "a": "iPhone s aplikací Shoppie a zapnutým iCloudem. Jinou registraci nepotřebuje."
+        },
+        {
+          "q": "Jak rychle uvidí ostatní moje změny?",
+          "a": "Obvykle do pár sekund, při slabém připojení někdy trochu později. Stažením seznamu dolů ho obnovíte."
+        },
+        {
+          "q": "Můžu sdílení ukončit?",
+          "a": "Ano. Vlastník může člena odebrat nebo sdílení zrušit a člen může domácnost kdykoli opustit."
+        }
+      ]
+    },
+    "en": {
+      "slug": "shared-shopping-list",
+      "name": "Shared household",
+      "title": "Shared shopping list for your family via iCloud",
+      "description": "A shared shopping list in Shoppie: invite your family to a household via iCloud. Lists, history and Pantry update for everyone straight away.",
+      "keywords": [
+        "shared shopping list",
+        "family shopping list app",
+        "share shopping list iPhone",
+        "household shopping list",
+        "shopping list iCloud sync"
+      ],
+      "summary": "Shoppie's shared shopping list works through a household in iCloud. Invite your family and everyone sees the same lists, shopping history, Pantry and regular items. When someone adds or ticks off an item, the others see it straight away.",
+      "shots_alt": [
+        "The menu of shopping lists in Shoppie, visible to every household member",
+        "Pulling the list down to refresh while data loads from iCloud"
+      ],
+      "body": "<p>When several people do the shopping, the paper list always stays at home. That is why Shoppie lets you create a shared household: every member has the same shopping list on their own iPhone and sees changes straight away. Whoever is in the shop ticks things off, and whoever is at home can still add something.</p><h2>What the household shares</h2><ul><li><strong>All shopping lists</strong> – Groceries, Drugstore or your Christmas list.</li><li><strong>Shopping history</strong> – when and where each trip happened and how many items it had.</li><li><strong>Pantry</strong> – the food you bought with best-before dates, so everyone knows what needs eating.</li><li><strong>Regular items</strong> – things that add themselves to the list on the day you choose.</li></ul><p>Warranties and settings are not shared; they stay yours.</p><h2>How it works</h2><ol><li>On the <strong>Settings</strong> tab, find the <strong>Sharing</strong> section.</li><li>Tap <strong>Invite to Household</strong> and send the invitation, for example via Messages or Mail.</li><li>They open it on their iPhone with Shoppie and join.</li><li>Check who has joined under <strong>Household Members</strong>. Add more people with <strong>Invite Someone Else</strong>.</li></ol><p>For the full walkthrough, see <a href=\"../navody/share-shopping-list-with-family-iphone.html\">How to share a shopping list with your family on iPhone</a>.</p><h2>Everyone sees changes straight away</h2><p>Sharing runs through iCloud, so there is nothing to register – everyone just needs an iPhone with iCloud turned on. Changes usually appear within a few seconds. If you don't see your partner's changes, check that you both have iCloud on, are in the same household and are online, then pull the list down. More in <a href=\"../navody/shopping-list-not-syncing.html\">What to do when you don't see your partner's changes</a>.</p><h2>You stay in control of members</h2><p>Only the household owner can invite people. The owner can also remove a member or stop sharing altogether, and the lists stay with them. A member can leave at any time with <strong>Leave Household</strong>. You will find every option under <strong>⋯</strong> next to a name in Household Members, and in the guide <a href=\"../navody/remove-member-leave-household.html\">How to remove a member or leave a household</a>.</p><h2>When a shared household helps</h2><ul><li><strong>Families</strong> – whoever passes a shop can see what is needed.</li><li><strong>Couples</strong> – no more buying the same thing twice, because you both see what is ticked off.</li><li><strong>Flatmates</strong> – one list for toiletries and the basics.</li></ul><h2>Private, even when shared</h2><p>Household data lives in your private iCloud and on the members' iPhones. Shoppie has no server, collects nothing about you and shows no ads.</p>",
+      "faq": [
+        {
+          "q": "What does the household share?",
+          "a": "Lists, shopping history, Pantry and regular items. Warranties and settings are not shared."
+        },
+        {
+          "q": "What does the person I invite need?",
+          "a": "An iPhone with Shoppie and iCloud turned on. Nothing else to register."
+        },
+        {
+          "q": "How quickly do others see my changes?",
+          "a": "Usually within a few seconds, sometimes a little longer on a weak connection. Pull the list down to refresh it."
+        },
+        {
+          "q": "Can I stop sharing?",
+          "a": "Yes. The owner can remove a member or stop sharing, and a member can leave the household at any time."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "navrhy-kolesko",
+  "order": 6,
+  "icon": "sparkles",
+  "updated": "2026-11-27",
+  "guides": [
+    "navrhy",
+    "kolesko-oblubenych"
+  ],
+  "related": [
+    "nakupny-zoznam",
+    "zoznamy-historia",
+    "pravidelne-nakupy"
+  ],
+  "shots": [
+    "03-1",
+    "02-1"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "navrhy-a-koliesko-oblubenych",
+      "name": "Návrhy a koliesko",
+      "title": "Návrhy nákupu a koliesko obľúbených: zoznam, ktorý sa učí",
+      "description": "Shoppie sa učí z vašich nákupov: navrhne, čo vám asi dochádza, a koliesko obľúbených pridá časté veci jedným pohybom. Priamo v iPhone.",
+      "keywords": [
+        "návrhy nákupu",
+        "koliesko obľúbených",
+        "čo mi dochádza",
+        "rýchle pridávanie do nákupného zoznamu",
+        "aplikácia, ktorá pripomenie, čo kúpiť"
+      ],
+      "summary": "Návrhy nákupu v Shoppie vám ukážu, čo vám asi dochádza. Shoppie sa učí z dokončených nákupov a návrhy zobrazí hore v zozname. Koliesko obľúbených zas otvoríte podržaním tlačidla + a časté veci pridáte jedným pohybom prsta.",
+      "shots_alt": [
+        "Riadok „Možno ti chýba“ hore v zozname s navrhnutými položkami a tlačidlom Pridať všetko",
+        "Koliesko obľúbených s bublinami položiek okolo podržaného tlačidla +"
+      ],
+      "body": "<p>Väčšinu vecí kupujete stále dookola: mlieko, chlieb, rožky, kávu. Shoppie preto nečaká, kým si na ne spomeniete. Z vašich dokončených nákupov sa učí, čo a ako často kupujete, a pomáha vám dvoma spôsobmi – návrhmi a kolieskom obľúbených. Oboje funguje samo, bez akéhokoľvek nastavovania.</p><h2>Návrhy: čo vám asi dochádza</h2><p>Keď sa blíži čas, keď zvyčajne niečo kupujete, Shoppie to zobrazí hore v zozname v riadku <strong>„Možno ti chýba“</strong>. Nemusíte nič nastavovať – stačí nakupovať ako zvyčajne a nákup na konci dokončiť. Po niekoľkých nákupoch sa návrhy začnú objavovať samy.</p><ul><li>Ťuknutím na <strong>+</strong> pri položke pridáte jednu vec.</li><li>Ťuknutím na <strong>Pridať všetko</strong> pridáte všetky návrhy naraz.</li></ul><p>Podrobne to popisuje návod <a href=\"../navody/navrhy-co-dochadza.html\">Ako Shoppie navrhuje, čo vám dochádza</a>.</p><h2>Koliesko obľúbených: pridanie jedným pohybom</h2><p>Na veci, ktoré kupujete najčastejšie, nemusíte nič písať. Koliesko obľúbených otvoríte podržaním zeleného tlačidla <strong>+</strong> a položku pridáte bez jediného ťuknutia na klávesnicu.</p><h2>Ako to funguje</h2><ol><li>Namiesto ťuknutia <strong>podržte</strong> zelené tlačidlo <strong>+</strong>. Okolo neho sa objaví koliesko s bublinami.</li><li>Bez zdvihnutia prsta ho posuňte na bublinu s položkou, napríklad rožky.</li><li>Pustite prst. Položka je hneď v zozname.</li></ol><p>Postup so snímkami nájdete v návode <a href=\"../navody/kolesko-oblubenych-rychle-pridavanie.html\">Ako rýchlo pridávať položky cez koliesko obľúbených</a>.</p><h2>Obsah kolieska si nastavíte sami</h2><p>V <strong>Nastavenia → Zoznam → Koliesko rýchleho pridávania</strong> vyberte, čo má koliesko ponúkať:</p><ul><li><strong>Odporúčané</strong> – veci, ktoré vám Shoppie práve odporúča.</li><li><strong>Naposledy kúpené</strong> – to, čo ste kupovali naposledy.</li><li><strong>Najčastejšie</strong> – vaše najčastejšie nákupy.</li></ul><p>Koliesko sa objaví po prvom dokončenom nákupe, lebo sa učí z vašej Histórie.</p><h2>Návrhy, koliesko alebo pravidelné položky?</h2><p>Všetky tri funkcie vám šetria písanie, no každá sa hodí na niečo iné:</p><ul><li><strong>Návrhy</strong> – keď nechcete na nič zabudnúť a necháte Shoppie odhadnúť, čo vám dochádza.</li><li><strong>Koliesko obľúbených</strong> – keď viete, čo chcete, a chcete to pridať čo najrýchlejšie, napríklad priamo v obchode.</li><li><strong>Pravidelné položky</strong> – keď niečo kupujete presne v rovnaký deň, napríklad každý piatok. V zvolený deň sa pridajú do zoznamu samy.</li></ul><h2>Učí sa priamo vo vašom iPhone</h2><p>Návrhy aj koliesko sa počítajú priamo vo vašom iPhone. Vaše nákupy sa nikam neposielajú, Shoppie nemá žiadny server a nič o vás nezbiera. Čím viac nákupov dokončíte, tým presnejšie návrhy sú.</p>",
+      "faq": [
+        {
+          "q": "Prečo mi Shoppie zatiaľ nič nenavrhuje?",
+          "a": "Návrhy potrebujú niekoľko dokončených nákupov. Nakupujte ako zvyčajne a nákup na konci dokončite – návrhy sa začnú objavovať samy."
+        },
+        {
+          "q": "Prečo sa mi koliesko obľúbených nezobrazuje?",
+          "a": "Koliesko sa učí z vašich nákupov, preto sa objaví, až keď je v Histórii aspoň jeden dokončený nákup."
+        },
+        {
+          "q": "Môžem zmeniť, čo koliesko ponúka?",
+          "a": "Áno. V Nastavenia → Zoznam → Koliesko rýchleho pridávania vyberte Odporúčané, Naposledy kúpené alebo Najčastejšie."
+        },
+        {
+          "q": "Posiela Shoppie moje nákupy na server?",
+          "a": "Nie. Návrhy sa počítajú priamo vo vašom iPhone a nič sa nikam neposiela."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "navrhy-a-kolecko-oblibenych",
+      "name": "Návrhy a kolečko",
+      "title": "Návrhy nákupu a kolečko oblíbených: seznam, který se učí",
+      "description": "Shoppie se učí z vašich nákupů: navrhne, co vám asi dochází, a kolečko oblíbených přidá časté věci jedním pohybem. Přímo v iPhonu.",
+      "keywords": [
+        "návrhy nákupu",
+        "kolečko oblíbených",
+        "co mi dochází",
+        "rychlé přidávání do nákupního seznamu",
+        "aplikace, která připomene, co koupit"
+      ],
+      "summary": "Návrhy nákupu v Shoppie vám ukážou, co vám asi dochází. Shoppie se učí z dokončených nákupů a návrhy zobrazí nahoře v seznamu. Kolečko oblíbených zase otevřete podržením tlačítka + a časté věci přidáte jedním pohybem prstu.",
+      "shots_alt": [
+        "Řádek „Možná ti chybí“ nahoře v seznamu s navrženými položkami a tlačítkem Přidat vše",
+        "Kolečko oblíbených s bublinami položek kolem podrženého tlačítka +"
+      ],
+      "body": "<p>Většinu věcí kupujete pořád dokola: mléko, chleba, rohlíky, kávu. Shoppie proto nečeká, až si na ně vzpomenete. Z vašich dokončených nákupů se učí, co a jak často kupujete, a pomáhá vám dvěma způsoby – návrhy a kolečkem oblíbených. Obojí funguje samo, bez jakéhokoli nastavování.</p><h2>Návrhy: co vám asi dochází</h2><p>Když se blíží čas, kdy obvykle něco kupujete, Shoppie to zobrazí nahoře v seznamu v řádku <strong>„Možná ti chybí“</strong>. Nemusíte nic nastavovat – stačí nakupovat jako obvykle a nákup na konci dokončit. Po několika nákupech se návrhy začnou objevovat samy.</p><ul><li>Klepnutím na <strong>+</strong> u položky přidáte jednu věc.</li><li>Klepnutím na <strong>Přidat vše</strong> přidáte všechny návrhy najednou.</li></ul><p>Podrobně to popisuje návod <a href=\"../navody/navrhy-co-dochazi.html\">Jak Shoppie navrhuje, co vám dochází</a>.</p><h2>Kolečko oblíbených: přidání jedním pohybem</h2><p>Na věci, které kupujete nejčastěji, nemusíte nic psát. Kolečko oblíbených otevřete podržením zeleného tlačítka <strong>+</strong> a položku přidáte bez jediného klepnutí na klávesnici.</p><h2>Jak to funguje</h2><ol><li>Místo klepnutí <strong>podržte</strong> zelené tlačítko <strong>+</strong>. Kolem něj se objeví kolečko s bublinami.</li><li>Bez zvednutí prstu ho posuňte na bublinu s položkou, například rohlíky.</li><li>Pusťte prst. Položka je hned v seznamu.</li></ol><p>Postup se snímky najdete v návodu <a href=\"../navody/kolecko-oblibenych-rychle-pridavani.html\">Jak rychle přidávat položky přes kolečko oblíbených</a>.</p><h2>Obsah kolečka si nastavíte sami</h2><p>V <strong>Nastavení → Seznam → Kolečko rychlého přidávání</strong> vyberte, co má kolečko nabízet:</p><ul><li><strong>Doporučené</strong> – věci, které vám Shoppie právě doporučuje.</li><li><strong>Naposledy koupené</strong> – to, co jste kupovali naposledy.</li><li><strong>Nejčastější</strong> – vaše nejčastější nákupy.</li></ul><p>Kolečko se objeví po prvním dokončeném nákupu, protože se učí z vaší Historie.</p><h2>Návrhy, kolečko, nebo pravidelné položky?</h2><p>Všechny tři funkce vám šetří psaní, ale každá se hodí na něco jiného:</p><ul><li><strong>Návrhy</strong> – když nechcete na nic zapomenout a necháte Shoppie odhadnout, co vám dochází.</li><li><strong>Kolečko oblíbených</strong> – když víte, co chcete, a chcete to přidat co nejrychleji, například přímo v obchodě.</li><li><strong>Pravidelné položky</strong> – když něco kupujete přesně ve stejný den, například každý pátek. Ve zvolený den se přidají do seznamu samy.</li></ul><h2>Učí se přímo ve vašem iPhonu</h2><p>Návrhy i kolečko se počítají přímo ve vašem iPhonu. Vaše nákupy se nikam neposílají, Shoppie nemá žádný server a nic o vás nesbírá. Čím víc nákupů dokončíte, tím přesnější návrhy jsou.</p>",
+      "faq": [
+        {
+          "q": "Proč mi Shoppie zatím nic nenavrhuje?",
+          "a": "Návrhy potřebují několik dokončených nákupů. Nakupujte jako obvykle a nákup na konci dokončete – návrhy se začnou objevovat samy."
+        },
+        {
+          "q": "Proč se mi kolečko oblíbených nezobrazuje?",
+          "a": "Kolečko se učí z vašich nákupů, proto se objeví, až když je v Historii alespoň jeden dokončený nákup."
+        },
+        {
+          "q": "Můžu změnit, co kolečko nabízí?",
+          "a": "Ano. V Nastavení → Seznam → Kolečko rychlého přidávání vyberte Doporučené, Naposledy koupené nebo Nejčastější."
+        },
+        {
+          "q": "Posílá Shoppie moje nákupy na server?",
+          "a": "Ne. Návrhy se počítají přímo ve vašem iPhonu a nic se nikam neposílá."
+        }
+      ]
+    },
+    "en": {
+      "slug": "shopping-suggestions-and-favourites-wheel",
+      "name": "Suggestions and wheel",
+      "title": "Shopping suggestions and favourites wheel: a list that learns",
+      "description": "Shoppie learns from your shopping: it suggests what you're running low on, and the favourites wheel adds frequent items in one move. On your iPhone.",
+      "keywords": [
+        "shopping suggestions",
+        "favourites wheel",
+        "what am I running out of",
+        "quick add shopping list",
+        "app that reminds you what to buy"
+      ],
+      "summary": "Shopping suggestions in Shoppie show you what you are probably running low on. Shoppie learns from your finished trips and shows suggestions at the top of your list. Touch and hold + to open the favourites wheel and add frequent items with one slide of your finger.",
+      "shots_alt": [
+        "“You might need” at the top of the list with suggested items and an Add All button",
+        "The favourites wheel with item bubbles around the held + button"
+      ],
+      "body": "<p>You buy most things again and again: milk, bread, coffee, bread rolls. So Shoppie doesn't wait for you to remember them. It learns from your finished shopping trips what you buy and how often, and helps you in two ways – suggestions and the favourites wheel.</p><h2>Suggestions: what you're running low on</h2><p>When it's about time you usually buy something, Shoppie shows it at the top of your list under <strong>“You might need”</strong>. There's nothing to set up – just shop as usual and finish each trip. After a few trips, suggestions start to appear on their own.</p><ul><li>Tap <strong>+</strong> next to an item to add just that one.</li><li>Tap <strong>Add All</strong> to add every suggestion at once.</li></ul><p>The guide <a href=\"../navody/suggestions-what-you-are-running-out-of.html\">How Shoppie suggests what you're running out of</a> explains it in detail.</p><h2>Favourites wheel: add in one move</h2><p>For the things you buy most often, there's no need to type. Touch and hold the green <strong>+</strong> button to open the favourites wheel, and add an item without touching the keyboard.</p><h2>How it works</h2><ol><li>Instead of tapping, <strong>touch and hold</strong> the green <strong>+</strong> button. A wheel of bubbles appears around it.</li><li>Without lifting your finger, slide to an item bubble, for example bread rolls.</li><li>Let go. The item is on your list straight away.</li></ol><p>For screenshots, see <a href=\"../navody/quick-add-wheel-favourites.html\">How to add items fast with the favourites wheel</a>.</p><h2>Choose what the wheel offers</h2><p>In <strong>Settings → List → Quick add wheel</strong>, pick what the wheel shows:</p><ul><li><strong>Suggested</strong> – what Shoppie currently recommends.</li><li><strong>Recently bought</strong> – what you bought last.</li><li><strong>Most frequent</strong> – the things you buy most.</li></ul><p>The wheel appears after your first finished trip, because it learns from your History.</p><h2>Suggestions, the wheel or regular items?</h2><p>All three save you typing, but each suits a different situation:</p><ul><li><strong>Suggestions</strong> – when you don't want to forget anything and are happy to let Shoppie guess what is running low.</li><li><strong>Favourites wheel</strong> – when you know what you want and need to add it as fast as possible, even in the shop.</li><li><strong>Regular items</strong> – when you buy something on the same day every time, say every Friday. They add themselves to your list on the day you choose.</li></ul><h2>It learns on your iPhone</h2><p>Suggestions and the wheel are worked out on your iPhone. Your shopping is never sent anywhere, Shoppie has no server and collects nothing about you. The more trips you finish, the better the suggestions get.</p>",
+      "faq": [
+        {
+          "q": "Why doesn't Shoppie suggest anything yet?",
+          "a": "Suggestions need a few finished shopping trips. Shop as usual and finish each trip – suggestions will start to appear."
+        },
+        {
+          "q": "Why don't I see the favourites wheel?",
+          "a": "The wheel learns from your shopping, so it appears once there's at least one finished trip in History."
+        },
+        {
+          "q": "Can I change what the wheel offers?",
+          "a": "Yes. In Settings → List → Quick add wheel, choose Suggested, Recently bought or Most frequent."
+        },
+        {
+          "q": "Does Shoppie send my shopping to a server?",
+          "a": "No. Suggestions are calculated on your iPhone and nothing is sent anywhere."
+        }
+      ]
+    }
+  }
+}

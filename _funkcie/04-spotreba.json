@@ -1,0 +1,133 @@
+{
+  "id": "spotreba",
+  "order": 4,
+  "icon": "pantry",
+  "updated": "2026-11-27",
+  "guides": [
+    "spotreba",
+    "ranna-pripomienka",
+    "automaticke-odstranenie"
+  ],
+  "related": [
+    "sken-blocku",
+    "spolocna-domacnost",
+    "zoznamy-historia"
+  ],
+  "shots": [
+    "12-1",
+    "12-3"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "spotreba",
+      "name": "Spotreba",
+      "title": "Sledovanie dátumu spotreby v iPhone: Spotreba v Shoppie",
+      "description": "Shoppie sám zapíše kúpené potraviny aj s odhadovaným dátumom spotreby a ráno vám pripomenie, čo treba zjesť. Menej vyhodeného jedla.",
+      "keywords": [
+        "sledovanie dátumu spotreby",
+        "aplikácia na dátum spotreby",
+        "pripomienka dátumu spotreby",
+        "potraviny po dátume spotreby",
+        "menej vyhodeného jedla"
+      ],
+      "summary": "Sledovanie dátumu spotreby v Shoppie funguje samo: kúpené potraviny sa objavia v karte Spotreba s odhadovaným dátumom, ktorý môžete upraviť. Ráno vám Shoppie pripomenie, čo treba zjesť, a ak chcete, potraviny po dátume zo Spotreby sám odstráni.",
+      "shots_alt": [
+        "Karta Spotreba s dlaždicami Všetky, Blíži sa, Po dátume a V poriadku a zoznamom potravín",
+        "Detail potraviny s dátumom Spotrebovať do a tlačidlami Spotrebované a Vyhodené"
+      ],
+      "body": "<p>Jogurt vzadu v chladničke, syr, na ktorý ste zabudli, chlieb, ktorý stihol oschnúť. Spotreba v Shoppie vám pomáha mať prehľad o tom, čo doma máte a čo treba zjesť ako prvé. Bez prepisovania a bez tabuliek.</p><h2>Čo Spotreba vie</h2><ul><li><strong>Potraviny sa objavia samy</strong> – po dokončení nákupu alebo po naskenovaní bločku.</li><li><strong>Odhadne dátum spotreby</strong>, ktorý môžete kedykoľvek upraviť podľa obalu.</li><li><strong>Dlaždice Všetky / Blíži sa / Po dátume / V poriadku</strong> ukážu, čo sa blíži, a slúžia aj ako filter.</li><li><strong>Ráno vám pripomenie</strong>, čo treba čoskoro zjesť.</li><li>Ak chcete, <strong>potraviny po dátume sám odstráni</strong> – táto možnosť je predvolene vypnutá.</li></ul><h2>Ako to funguje</h2><ol><li>Ťuknite na kartu <strong>Spotreba</strong>.</li><li>Ťuknutím na potravinu otvoríte detail s dátumom <strong>Spotrebovať do</strong>. Dátum označený „odhad“ upravte podľa obalu.</li><li>Keď potravinu zjete, potiahnite ju <strong>doprava</strong> → <strong>Spotrebované</strong>. Ak ju musíte vyhodiť, potiahnite ju <strong>doľava</strong> → <strong>Vyhodené</strong>.</li><li>V <strong>Nastavenia → Notifikácie</strong> zapnite <strong>Pripomienky spotreby</strong>.</li></ol><p>Podrobný postup so snímkami nájdete v návode <a href=\"../navody/datum-spotreby-potravin-aplikacia.html\">Ako sledovať dátum spotreby potravín v iPhone</a>.</p><h2>Ranná pripomienka, čo treba zjesť</h2><p>Shoppie vám ráno pošle jednu notifikáciu s potravinami, ktoré treba zjesť ako prvé. V riadku <strong>Pripomenúť</strong> si vyberiete <strong>V deň spotreby</strong> alebo 1, 2, 3 či 7 dní vopred, v riadku <strong>Čas</strong> hodinu medzi 6:00 a 21:00. Pripomienky si plánuje priamo váš iPhone, žiadne správy z nášho servera neposielame. Viac v návode <a href=\"../navody/pripomienka-datumu-spotreby.html\">Ako nastaviť rannú pripomienku</a>.</p><h2>Automatické odstránenie po dátume</h2><p>Nechcete potraviny po dátume odstraňovať ručne? V <strong>Nastavenia → Spotreba → Odstrániť zo Spotreby</strong> namiesto <strong>Nikdy</strong> vyberte, po koľkých dňoch majú zmiznúť (po 1, 2, 3 alebo 7 dňoch), a v riadku <strong>Započítať ako</strong> zvoľte Spotrebované alebo Vyhodené. Nastavenie platí pre celú domácnosť a funguje aj pri odhadovaných dátumoch. Postup nájdete v návode <a href=\"../navody/automaticke-odstranenie-potravin-po-datume.html\">Ako zapnúť automatické odstránenie potravín</a>.</p><h2>Spotreba pre celú domácnosť</h2><p>Ak máte spoločnú domácnosť cez iCloud, Spotrebu vidia všetci členovia. Keď partner potravinu označí ako spotrebovanú, zmena sa vám ukáže hneď. Všetko ostáva vo vašich iPhonoch a v súkromnom iCloude.</p><h2>Tipy, ako vyhodiť menej jedla</h2><ul><li>Odhadovaný dátum po nákupe rýchlo skontrolujte podľa obalu – platí vždy dátum na obale.</li><li>Pripomienku si nastavte deň alebo dva vopred, aby ste stihli naplánovať varenie.</li><li>Pred nákupom pozrite dlaždicu <strong>Blíži sa</strong> a nekupujte, čo už doma máte.</li></ul>",
+      "faq": [
+        {
+          "q": "Musím potraviny do Spotreby zapisovať ručne?",
+          "a": "Nie. Kúpené potraviny sa v Spotrebe objavia samy po dokončení nákupu alebo po naskenovaní bločku, aj s odhadovaným dátumom spotreby."
+        },
+        {
+          "q": "Dá sa odhadovaný dátum spotreby zmeniť?",
+          "a": "Áno. Ťuknite na potravinu a v detaile upravte dátum Spotrebovať do. Platí vždy dátum na obale."
+        },
+        {
+          "q": "Odstráni Shoppie potraviny po dátume sám?",
+          "a": "Len ak to zapnete v Nastavenia → Spotreba → Odstrániť zo Spotreby. Predvolene je nastavené Nikdy."
+        },
+        {
+          "q": "Vidí Spotrebu aj rodina?",
+          "a": "Áno. Spotreba sa zdieľa so spoločnou domácnosťou cez iCloud, takže všetci vidia, čo treba zjesť."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "spotreba",
+      "name": "Spotřeba",
+      "title": "Hlídání data spotřeby v iPhonu: Spotřeba v Shoppie",
+      "description": "Shoppie sám zapíše koupené potraviny i s odhadovaným datem spotřeby a ráno vám připomene, co je potřeba sníst. Méně vyhozeného jídla.",
+      "keywords": [
+        "hlídání data spotřeby",
+        "aplikace na datum spotřeby",
+        "připomínka data spotřeby",
+        "potraviny po datu spotřeby",
+        "méně vyhozeného jídla"
+      ],
+      "summary": "Hlídání data spotřeby v Shoppie funguje samo: koupené potraviny se objeví v kartě Spotřeba s odhadovaným datem, které můžete upravit. Ráno vám Shoppie připomene, co je potřeba sníst, a pokud chcete, potraviny po datu ze Spotřeby sám odstraní.",
+      "shots_alt": [
+        "Karta Spotřeba s dlaždicemi Vše, Blíží se, Po datu a V pořádku a seznamem potravin",
+        "Detail potraviny s datem Spotřebovat do a tlačítky Spotřebováno a Vyhozeno"
+      ],
+      "body": "<p>Jogurt vzadu v lednici, sýr, na který jste zapomněli, pečivo, které stihlo okorat. Spotřeba v Shoppie vám pomáhá mít přehled o tom, co doma máte a co je potřeba sníst jako první. Bez přepisování a bez tabulek.</p><h2>Co Spotřeba umí</h2><ul><li><strong>Potraviny se objeví samy</strong> – po dokončení nákupu nebo po naskenování účtenky.</li><li><strong>Odhadne datum spotřeby</strong>, které můžete kdykoli upravit podle obalu.</li><li><strong>Dlaždice Vše / Blíží se / Po datu / V pořádku</strong> ukážou, co se blíží, a slouží i jako filtr.</li><li><strong>Ráno vám připomene</strong>, co je potřeba brzy sníst.</li><li>Pokud chcete, <strong>potraviny po datu sám odstraní</strong> – tato možnost je ve výchozím stavu vypnutá.</li></ul><h2>Jak to funguje</h2><ol><li>Klepněte na kartu <strong>Spotřeba</strong>.</li><li>Klepnutím na potravinu otevřete detail s datem <strong>Spotřebovat do</strong>. Datum označené „odhad“ upravte podle obalu.</li><li>Když potravinu sníte, přetáhněte ji <strong>doprava</strong> → <strong>Spotřebováno</strong>. Pokud ji musíte vyhodit, přetáhněte ji <strong>doleva</strong> → <strong>Vyhozeno</strong>.</li><li>V <strong>Nastavení → Oznámení</strong> zapněte <strong>Připomínky spotřeby</strong>.</li></ol><p>Podrobný postup se snímky najdete v návodu <a href=\"../navody/datum-spotreby-potravin-aplikace.html\">Jak sledovat datum spotřeby potravin v iPhonu</a>.</p><h2>Ranní připomínka, co sníst</h2><p>Shoppie vám ráno pošle jedno oznámení s potravinami, které je potřeba sníst jako první. V řádku <strong>Připomenout</strong> si vyberete <strong>V den spotřeby</strong> nebo 1, 2, 3 či 7 dní předem, v řádku <strong>Čas</strong> hodinu mezi 6:00 a 21:00. Připomínky si plánuje přímo váš iPhone, žádné zprávy z našeho serveru neposíláme. Více v návodu <a href=\"../navody/pripominka-data-spotreby.html\">Jak nastavit ranní připomínku</a>.</p><h2>Automatické odstranění po datu</h2><p>Nechcete potraviny po datu mazat ručně? V <strong>Nastavení → Spotřeba → Odstranit ze Spotřeby</strong> místo <strong>Nikdy</strong> vyberte, po kolika dnech mají zmizet (po 1, 2, 3 nebo 7 dnech), a v řádku <strong>Započítat jako</strong> zvolte Spotřebováno, nebo Vyhozeno. Nastavení platí pro celou domácnost a funguje i u odhadovaných dat. Postup najdete v návodu <a href=\"../navody/automaticke-odstraneni-potravin-po-datu.html\">Jak zapnout automatické odstranění potravin</a>.</p><h2>Spotřeba pro celou domácnost</h2><p>Pokud máte společnou domácnost přes iCloud, Spotřebu vidí všichni členové. Když partner potravinu označí jako spotřebovanou, změna se vám ukáže hned. Vše zůstává ve vašich iPhonech a v soukromém iCloudu.</p><h2>Tipy, jak vyhodit méně jídla</h2><ul><li>Odhadované datum po nákupu rychle zkontrolujte podle obalu – platí vždy datum na obalu.</li><li>Připomínku si nastavte den nebo dva předem, abyste stihli naplánovat vaření.</li><li>Před nákupem se podívejte na dlaždici <strong>Blíží se</strong> a nekupujte, co už doma máte.</li></ul>",
+      "faq": [
+        {
+          "q": "Musím potraviny do Spotřeby zapisovat ručně?",
+          "a": "Ne. Koupené potraviny se ve Spotřebě objeví samy po dokončení nákupu nebo po naskenování účtenky, i s odhadovaným datem spotřeby."
+        },
+        {
+          "q": "Dá se odhadované datum spotřeby změnit?",
+          "a": "Ano. Klepněte na potravinu a v detailu upravte datum Spotřebovat do. Platí vždy datum na obalu."
+        },
+        {
+          "q": "Odstraní Shoppie potraviny po datu sám?",
+          "a": "Jen pokud to zapnete v Nastavení → Spotřeba → Odstranit ze Spotřeby. Výchozí nastavení je Nikdy."
+        },
+        {
+          "q": "Vidí Spotřebu i rodina?",
+          "a": "Ano. Spotřeba se sdílí se společnou domácností přes iCloud, takže všichni vidí, co je potřeba sníst."
+        }
+      ]
+    },
+    "en": {
+      "slug": "food-expiry-tracker",
+      "name": "Pantry",
+      "title": "Food expiry tracker app for iPhone: Shoppie Pantry",
+      "description": "Shoppie logs the food you buy with an estimated best-before date and reminds you each morning what to eat first. Less food in the bin.",
+      "keywords": [
+        "food expiry tracker app",
+        "best-before date tracker",
+        "expiry date reminder",
+        "food past its best-before date",
+        "reduce food waste app"
+      ],
+      "summary": "Shoppie's Pantry is a food expiry tracker app that fills itself: food you buy appears with an estimated best-before date you can edit. Each morning Shoppie reminds you what to eat first, and if you like, it removes food past its date on its own.",
+      "shots_alt": [
+        "Pantry tab with All, Soon, Expired and Fresh tiles above a list of food",
+        "Food details with the Use by date and the Used Up and Thrown Away buttons"
+      ],
+      "body": "<p>The yoghurt at the back of the fridge, the cheese you forgot about, the bread that went stale. Pantry in Shoppie helps you see what you have at home and what needs eating first – without typing everything in or keeping a spreadsheet.</p><h2>What Pantry does</h2><ul><li><strong>Food shows up on its own</strong> when you finish a shopping trip or scan a receipt.</li><li><strong>Estimates a best-before date</strong>, which you can change to match the pack at any time.</li><li><strong>The All / Soon / Expired / Fresh tiles</strong> show what is due and also work as filters.</li><li><strong>Reminds you in the morning</strong> what to eat soon.</li><li>If you want, it <strong>removes food past its date</strong> automatically – this is off by default.</li></ul><h2>How it works</h2><ol><li>Tap the <strong>Pantry</strong> tab.</li><li>Tap a food to open its details with the <strong>Use by</strong> date. Fix any date marked “estimate” to match the pack.</li><li>When you finish something, <strong>swipe right</strong> → <strong>Used Up</strong>. If it has to go, <strong>swipe left</strong> → <strong>Thrown Away</strong>.</li><li>In <strong>Settings → Notifications</strong>, turn on <strong>Use-by reminders</strong>.</li></ol><p>For a step-by-step version with screenshots, see <a href=\"../navody/track-food-best-before-dates-app.html\">How to track food best-before dates on iPhone</a>.</p><h2>A morning reminder of what to eat</h2><p>Shoppie sends one notification in the morning listing the food to eat first. In <strong>Remind me</strong>, choose <strong>On the day</strong> or 1, 2, 3 or 7 days before; in <strong>Time</strong>, pick an hour between 6:00 and 21:00. Your iPhone schedules the reminders itself – we don't send any push notifications from a server. More in <a href=\"../navody/best-before-reminder.html\">How to set a morning reminder</a>.</p><h2>Auto-remove food past its date</h2><p>Rather not clear out expired food by hand? In <strong>Settings → Pantry → Remove from Pantry</strong>, change <strong>Never</strong> to after 1, 2, 3 or 7 days, then use <strong>Count as</strong> to choose Used Up or Thrown Away. The setting applies to the whole household and works with estimated dates too. See <a href=\"../navody/auto-remove-food-after-best-before.html\">How to turn on auto-remove</a>.</p><h2>One Pantry for the whole household</h2><p>If you share a household through iCloud, every member sees the same Pantry. When your partner marks the milk as used up, you see it straight away. Everything stays on your iPhones and in your private iCloud.</p><h2>Tips for wasting less food</h2><ul><li>Check the estimated date against the pack after shopping – the date on the package is what counts.</li><li>Set the reminder a day or two early so you have time to plan a meal.</li><li>Glance at the <strong>Soon</strong> tile before you shop, so you don't buy what you already have.</li></ul>",
+      "faq": [
+        {
+          "q": "Do I have to add food to Pantry by hand?",
+          "a": "No. Food appears in Pantry on its own when you finish a trip or scan a receipt, with an estimated best-before date."
+        },
+        {
+          "q": "Can I change the estimated date?",
+          "a": "Yes. Tap the food and edit the Use by date in its details. The date on the package is what counts."
+        },
+        {
+          "q": "Does Shoppie remove expired food automatically?",
+          "a": "Only if you turn it on in Settings → Pantry → Remove from Pantry. The default is Never."
+        },
+        {
+          "q": "Can my family see the Pantry?",
+          "a": "Yes. Pantry is shared with your household through iCloud, so everyone sees what needs eating."
+        }
+      ]
+    }
+  }
+}

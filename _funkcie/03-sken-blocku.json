@@ -1,0 +1,133 @@
+{
+  "id": "sken-blocku",
+  "order": 3,
+  "icon": "receipt",
+  "updated": "2026-11-27",
+  "guides": [
+    "sken-blocku",
+    "sken-nerozpoznal",
+    "historia-nakupov"
+  ],
+  "related": [
+    "spotreba",
+    "zaruky",
+    "sukromie"
+  ],
+  "shots": [
+    "10-2",
+    "10-3"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "sken-blocku",
+      "name": "Sken bločku",
+      "title": "Skenovanie bločkov v iPhone: produkty aj ceny za pár sekúnd",
+      "description": "Shoppie naskenuje bloček z nákupu a rozpozná produkty aj ceny vrátane zliav. Priamo v iPhone, bez internetu a bez posielania dát.",
+      "keywords": [
+        "skenovanie bločkov",
+        "aplikácia na bločky",
+        "naskenovať bloček iPhone",
+        "bloček z nákupu",
+        "sken bločku offline"
+      ],
+      "summary": "Skenovanie bločkov v Shoppie premení papierový bloček na zoznam produktov s cenami. Stačí ho odfotiť: Shoppie rozpozná položky aj zľavy, nákup uloží do Histórie a potraviny presunie do Spotreby. Všetko prebieha priamo v iPhone, aj bez internetu.",
+      "shots_alt": [
+        "Shoppie ponúka odfotiť bloček alebo ho vybrať z galérie",
+        "Výsledok skenu bločku s obchodom, dátumom, sumou a položkami s cenami"
+      ],
+      "body": "<p>Papierové bločky sa rýchlo strácajú a blednú. Skenovanie bločkov v Shoppie z nich za pár sekúnd urobí prehľadný záznam: čo ste kúpili, za koľko a v ktorom obchode. A keďže sken pozná aj potraviny, rovno vám pomôže sledovať, čo treba zjesť.</p><h2>Čo sken bločku vie</h2><ul><li><strong>Rozpozná produkty aj ceny</strong> vrátane zliav, ktoré sú na bločku.</li><li><strong>Prečíta obchod, dátum a sumu</strong> nákupu.</li><li><strong>Uloží nákup do Histórie</strong>, kde ho kedykoľvek nájdete.</li><li><strong>Presunie potraviny do Spotreby</strong> s odhadovaným dátumom spotreby.</li><li>Ak chcete, <strong>vyčistí nákupný zoznam</strong> – kúpené položky z neho odstráni.</li></ul><h2>Ako to funguje</h2><ol><li>V karte Zoznam ťuknite na ikonu <strong>Skenovať bloček</strong>.</li><li>Bloček odfoťte alebo ho vyberte z galérie.</li><li>Skontrolujte položky – názov môžete prepísať, zmeniť kategóriu alebo položku vynechať.</li><li>Ťuknite na <strong>Uložiť</strong>. Hotovo.</li></ol><p>Podrobný postup so snímkami nájdete v návode <a href=\"../navody/ako-naskenovat-blocek-iphone.html\">Ako naskenovať bloček v iPhone</a>.</p><h2>Prečo sa oplatí bločky skenovať</h2><p>Naskenovaný nákup vám šetrí prácu na viacerých miestach naraz. Potraviny sa bez prepisovania objavia v Spotrebe a Shoppie vám ráno pripomenie, čo treba zjesť skôr, než sa pokazí. V Histórii zas rýchlo zistíte, kedy ste čo kupovali, a potiahnutím položky doprava ju znova pridáte do zoznamu. Z dokončených nákupov sa Shoppie navyše učí, čo vám dochádza.</p><h2>Súkromie: bloček neopustí váš iPhone</h2><p>Text sa číta priamo v iPhone pomocou technológie Apple Vision, takže sken funguje na každom iPhone s iOS 26 aj bez internetu. Na iPhonoch s Apple Intelligence pomáha s názvami produktov aj model Apple priamo v zariadení. Fotka bločku sa nikam neposiela a Shoppie nemá žiadny server ani účty.</p><h2>Tipy na čo najlepší výsledok</h2><ul><li>Bloček vyrovnajte a odfoťte celý.</li><li>Foťte pri dobrom svetle a bez rozmazania.</li><li>Skenujte čo najskôr po nákupe – termopapier časom bledne.</li><li>Skratky z bločku pred uložením prepíšte na zrozumiteľné názvy.</li></ul>",
+      "faq": [
+        {
+          "q": "Funguje skenovanie bločkov bez internetu?",
+          "a": "Áno. Bloček sa číta priamo v iPhone a nič sa neodosiela, takže sken funguje aj v režime lietadlo."
+        },
+        {
+          "q": "Rozpozná Shoppie aj zľavy na bločku?",
+          "a": "Áno, sken rozpozná produkty aj ceny vrátane zliav, ktoré sú na bločku uvedené."
+        },
+        {
+          "q": "Kam sa naskenovaný nákup uloží?",
+          "a": "Do Histórie nákupov. Potraviny sa zároveň objavia v Spotrebe s odhadovaným dátumom spotreby."
+        },
+        {
+          "q": "Čo ak sken nerozpozná všetko správne?",
+          "a": "Pred uložením môžete názov prepísať, zmeniť kategóriu alebo položku vynechať. Najviac pomôže ostrá fotka celého bločku pri dobrom svetle."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "sken-uctenky",
+      "name": "Sken účtenky",
+      "title": "Skenování účtenek v iPhonu: produkty i ceny během pár vteřin",
+      "description": "Shoppie naskenuje účtenku z nákupu a rozpozná produkty i ceny včetně slev. Přímo v iPhonu, bez internetu a bez odesílání dat.",
+      "keywords": [
+        "skenování účtenek",
+        "aplikace na účtenky",
+        "naskenovat účtenku iPhone",
+        "účtenka z nákupu",
+        "sken účtenky offline"
+      ],
+      "summary": "Skenování účtenek v Shoppie promění papírovou účtenku v seznam produktů s cenami. Stačí ji vyfotit: Shoppie rozpozná položky i slevy, nákup uloží do Historie a potraviny přesune do Spotřeby. Vše probíhá přímo v iPhonu, i bez internetu.",
+      "shots_alt": [
+        "Shoppie nabízí vyfotit účtenku nebo ji vybrat z galerie",
+        "Výsledek skenu účtenky s obchodem, datem, částkou a položkami s cenami"
+      ],
+      "body": "<p>Papírové účtenky se rychle ztrácejí a blednou. Skenování účtenek v Shoppie z nich během pár vteřin udělá přehledný záznam: co jste koupili, za kolik a v jakém obchodě. A protože sken pozná i potraviny, rovnou vám pomůže hlídat, co je potřeba sníst.</p><h2>Co sken účtenky umí</h2><ul><li><strong>Rozpozná produkty i ceny</strong> včetně slev uvedených na účtence.</li><li><strong>Přečte obchod, datum a částku</strong> nákupu.</li><li><strong>Uloží nákup do Historie</strong>, kde ho kdykoli najdete.</li><li><strong>Přesune potraviny do Spotřeby</strong> s odhadovaným datem spotřeby.</li><li>Pokud chcete, <strong>vyčistí nákupní seznam</strong> – koupené položky z něj odstraní.</li></ul><h2>Jak to funguje</h2><ol><li>V kartě Seznam klepněte na ikonu <strong>Skenovat účtenku</strong>.</li><li>Účtenku vyfoťte nebo ji vyberte z galerie.</li><li>Zkontrolujte položky – název můžete přepsat, změnit kategorii nebo položku vynechat.</li><li>Klepněte na <strong>Uložit</strong>. Hotovo.</li></ol><p>Podrobný postup se snímky najdete v návodu <a href=\"../navody/jak-naskenovat-uctenku-iphone.html\">Jak naskenovat účtenku v iPhonu</a>.</p><h2>Proč se vyplatí účtenky skenovat</h2><p>Naskenovaný nákup vám ušetří práci na více místech najednou. Potraviny se bez přepisování objeví ve Spotřebě a Shoppie vám ráno připomene, co je potřeba sníst dřív, než se zkazí. V Historii zase rychle zjistíte, kdy jste co kupovali, a přetažením položky doprava ji znovu přidáte do seznamu. Z dokončených nákupů se Shoppie navíc učí, co vám dochází.</p><h2>Soukromí: účtenka neopustí váš iPhone</h2><p>Text se čte přímo v iPhonu pomocí technologie Apple Vision, takže sken funguje na každém iPhonu s iOS 26 i bez internetu. Na iPhonech s Apple Intelligence pomáhá s názvy produktů i model Apple přímo v zařízení. Fotka účtenky se nikam neposílá a Shoppie nemá žádný server ani účty.</p><h2>Tipy na co nejlepší výsledek</h2><ul><li>Účtenku narovnejte a vyfoťte celou.</li><li>Foťte při dobrém světle a bez rozmazání.</li><li>Skenujte co nejdřív po nákupu – termopapír časem bledne.</li><li>Zkratky z účtenky před uložením přepište na srozumitelné názvy.</li></ul>",
+      "faq": [
+        {
+          "q": "Funguje skenování účtenek bez internetu?",
+          "a": "Ano. Účtenka se čte přímo v iPhonu a nic se neodesílá, takže sken funguje i v režimu letadlo."
+        },
+        {
+          "q": "Rozpozná Shoppie i slevy na účtence?",
+          "a": "Ano, sken rozpozná produkty i ceny včetně slev, které jsou na účtence uvedené."
+        },
+        {
+          "q": "Kam se naskenovaný nákup uloží?",
+          "a": "Do Historie nákupů. Potraviny se zároveň objeví ve Spotřebě s odhadovaným datem spotřeby."
+        },
+        {
+          "q": "Co když sken nerozpozná vše správně?",
+          "a": "Před uložením můžete název přepsat, změnit kategorii nebo položku vynechat. Nejvíc pomůže ostrá fotka celé účtenky při dobrém světle."
+        }
+      ]
+    },
+    "en": {
+      "slug": "receipt-scanner",
+      "name": "Receipt scanning",
+      "title": "Receipt scanner for iPhone: items and prices in seconds",
+      "description": "Shoppie scans your grocery receipt and recognises items and prices, discounts included. On your iPhone, offline, with nothing uploaded.",
+      "keywords": [
+        "receipt scanner",
+        "receipt scanner app iphone",
+        "scan grocery receipt",
+        "offline receipt scanner",
+        "receipt to shopping history"
+      ],
+      "summary": "Shoppie's receipt scanner turns a paper receipt into a list of items with prices. Just take a photo: Shoppie recognises the items and discounts, saves the trip to History and moves food into Pantry. It all happens on your iPhone, even offline.",
+      "shots_alt": [
+        "Shoppie offers to photograph a receipt or pick one from your photos",
+        "Receipt scan result showing store, date, total and items with prices"
+      ],
+      "body": "<p>Paper receipts get lost and fade. Shoppie's receipt scanner turns them into a clear record in seconds: what you bought, how much it cost and where. And because the scan recognises food, it also helps you keep track of what needs eating.</p><h2>What the receipt scanner does</h2><ul><li><strong>Recognises items and prices</strong>, including discounts printed on the receipt.</li><li><strong>Reads the store, date and total</strong>.</li><li><strong>Saves the trip to History</strong>, so you can find it any time.</li><li><strong>Moves food into Pantry</strong> with an estimated best-before date.</li><li>If you like, <strong>clears your shopping list</strong> by removing the items you bought.</li></ul><h2>How it works</h2><ol><li>On the List tab, tap the <strong>Scan receipt</strong> icon.</li><li>Take a photo of the receipt or choose one from your photos.</li><li>Check the items – rename one, change its category or leave it out.</li><li>Tap <strong>Save</strong>. Done.</li></ol><p>For a step-by-step version with screenshots, see <a href=\"../navody/how-to-scan-a-receipt-iphone.html\">How to scan a receipt on iPhone</a>.</p><h2>Why scanning receipts pays off</h2><p>One scan saves you work in several places. Food shows up in Pantry without any typing, and Shoppie reminds you in the morning what to eat before it goes off. In History you can quickly see when you bought something, and swiping an item to the right adds it back to your list. Shoppie also learns from finished trips what you are running low on.</p><h2>Privacy: the receipt never leaves your iPhone</h2><p>Text is read on your iPhone using Apple Vision, so scanning works on any iPhone with iOS 26, even without a connection. On iPhones with Apple Intelligence, Apple's on-device model also helps with product names. The photo is never uploaded, and Shoppie has no server and no accounts.</p><h2>Tips for the best result</h2><ul><li>Flatten the receipt and capture all of it.</li><li>Use good light and keep the photo sharp.</li><li>Scan soon after shopping – thermal paper fades.</li><li>Before saving, rename abbreviations into clear names.</li></ul>",
+      "faq": [
+        {
+          "q": "Does the receipt scanner work offline?",
+          "a": "Yes. The receipt is read on your iPhone and nothing is sent anywhere, so it even works in Airplane Mode."
+        },
+        {
+          "q": "Does Shoppie recognise discounts on the receipt?",
+          "a": "Yes, the scan picks up items and prices, including discounts printed on the receipt."
+        },
+        {
+          "q": "Where is a scanned trip saved?",
+          "a": "In your shopping History. Food also appears in Pantry with an estimated best-before date."
+        },
+        {
+          "q": "What if the scan gets something wrong?",
+          "a": "Before saving you can rename an item, change its category or leave it out. A sharp photo of the whole receipt in good light helps most."
+        }
+      ]
+    }
+  }
+}

@@ -22,7 +22,7 @@ IMG = b.ROOT / "assets" / "navody"
 e = b.e
 
 G = {
-    "sk": dict(nav="Návody", title="Návody – Shoppie", h1="Návody",
+    "sk": dict(nav="Návody", title="Návody – Shoppie", h1="Návody", eyebrow="Krok za krokom",
                desc="Krátke návody krok za krokom: ako používať nákupný zoznam Shoppie na iPhone – zdieľanie s rodinou, sken bločku, Spotreba, záruky a ďalšie.",
                lead="Krátke návody krok za krokom, ako z aplikácie Shoppie vyťažiť čo najviac.",
                step="Krok", steps="krokov", steps_few="kroky", updated="Aktualizované", summary="Stručne",
@@ -30,7 +30,7 @@ G = {
                shot="Snímka obrazovky", more="Ďalšie otázky nájdete na stránke", support="Podpora",
                groups={"list": "Nákupný zoznam", "family": "Rodina a domácnosť", "receipts": "Bločky",
                        "pantry": "Spotreba a pripomienky", "warranties": "Záruky", "other": "Ostatné"}),
-    "cs": dict(nav="Návody", title="Návody – Shoppie", h1="Návody",
+    "cs": dict(nav="Návody", title="Návody – Shoppie", h1="Návody", eyebrow="Krok za krokem",
                desc="Krátké návody krok za krokem: jak používat nákupní seznam Shoppie na iPhonu – sdílení s rodinou, sken účtenky, Spotřeba, záruky a další.",
                lead="Krátké návody krok za krokem, jak z aplikace Shoppie vytěžit co nejvíc.",
                step="Krok", steps="kroků", steps_few="kroky", updated="Aktualizováno", summary="Stručně",
@@ -38,7 +38,7 @@ G = {
                shot="Snímek obrazovky", more="Další otázky najdete na stránce", support="Podpora",
                groups={"list": "Nákupní seznam", "family": "Rodina a domácnost", "receipts": "Účtenky",
                        "pantry": "Spotřeba a připomínky", "warranties": "Záruky", "other": "Ostatní"}),
-    "en": dict(nav="Guides", title="Guides – Shoppie", h1="Guides",
+    "en": dict(nav="Guides", title="Guides – Shoppie", h1="Guides", eyebrow="Step by step",
                desc="Short step-by-step guides on using the Shoppie shopping list on iPhone – family sharing, receipt scanning, Pantry, warranties and more.",
                lead="Short step-by-step guides to get the most out of Shoppie.",
                step="Step", steps="steps", steps_few="steps", updated="Updated", summary="In short",
@@ -187,6 +187,7 @@ def build_hub(guides, lang):
         b.header(lang, "guides", alt_rel, "../") + f"""
 <main id="main" class="page howto-hub">
   <div class="wrap">
+    <p class="eyebrow">{t['eyebrow']}</p>
     <h1>{t['h1']}</h1>
     <p class="lead">{t['lead']}</p>{''.join(sections)}
   </div>

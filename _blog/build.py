@@ -41,7 +41,7 @@ MONTHS = {
 T = {
     "sk": dict(
         locale="sk_SK", skip="Preskočiť na obsah", menu="Hlavné menu", lang_label="Jazyk",
-        home="Úvod", roadmap="Čo chystáme", guides="Návody", blog="Blog", support="Podpora", privacy="Súkromie",
+        home="Úvod", features="Funkcie", roadmap="Čo chystáme", guides="Návody", blog="Blog", support="Podpora", privacy="Súkromie",
         blog_title="Blog – Shoppie",
         blog_desc="Tipy na nákupy, šetrenie a menej vyhadzovania jedla od tvorcov aplikácie Shoppie.",
         blog_lead="Tipy na nákupy, šetrenie a menej vyhadzovania jedla. Pravidelne nové články.",
@@ -49,7 +49,7 @@ T = {
         read="min čítania", published="Publikované", updated="Aktualizované",
         summary="Stručne", toc="Obsah článku", faq="Časté otázky", back="Späť na blog",
         read_more="Čítať článok",
-        cta_h="Vyskúšajte Shoppie",
+        cta_h="Vyskúšajte Shoppie", blog_eyebrow="Tipy na nákupy a domácnosť",
         cta_p="Nákupný zoznam pre iPhone, ktorý sa učí. Zadarmo, bez reklám a bez registrácie.",
         badge_alt="Stiahnuť v App Store", rss="RSS kanál blogu Shoppie",
         og_alt="Shoppie – nákupný zoznam pre iPhone, ukážky aplikácie",
@@ -57,7 +57,7 @@ T = {
     ),
     "cs": dict(
         locale="cs_CZ", skip="Přeskočit na obsah", menu="Hlavní menu", lang_label="Jazyk",
-        home="Úvod", roadmap="Co chystáme", guides="Návody", blog="Blog", support="Podpora", privacy="Soukromí",
+        home="Úvod", features="Funkce", roadmap="Co chystáme", guides="Návody", blog="Blog", support="Podpora", privacy="Soukromí",
         blog_title="Blog – Shoppie",
         blog_desc="Tipy na nákupy, šetření a méně vyhazování jídla od tvůrců aplikace Shoppie.",
         blog_lead="Tipy na nákupy, šetření a méně vyhazování jídla. Pravidelně nové články.",
@@ -65,7 +65,7 @@ T = {
         read="min čtení", published="Publikováno", updated="Aktualizováno",
         summary="Stručně", toc="Obsah článku", faq="Časté otázky", back="Zpět na blog",
         read_more="Číst článek",
-        cta_h="Vyzkoušejte Shoppie",
+        cta_h="Vyzkoušejte Shoppie", blog_eyebrow="Tipy na nákupy a domácnost",
         cta_p="Nákupní seznam pro iPhone, který se učí. Zdarma, bez reklam a bez registrace.",
         badge_alt="Stáhnout v App Store", rss="RSS kanál blogu Shoppie",
         og_alt="Shoppie – nákupní seznam pro iPhone, ukázky aplikace",
@@ -73,7 +73,7 @@ T = {
     ),
     "en": dict(
         locale="en_GB", skip="Skip to content", menu="Main menu", lang_label="Language",
-        home="Home", roadmap="What’s coming", guides="Guides", blog="Blog", support="Support", privacy="Privacy",
+        home="Home", features="Features", roadmap="What’s coming", guides="Guides", blog="Blog", support="Support", privacy="Privacy",
         blog_title="Blog – Shoppie",
         blog_desc="Tips on grocery shopping, saving money and wasting less food from the makers of Shoppie.",
         blog_lead="Tips on grocery shopping, saving money and wasting less food. New articles regularly.",
@@ -81,7 +81,7 @@ T = {
         read="min read", published="Published", updated="Updated",
         summary="In short", toc="Contents", faq="Frequently asked questions", back="Back to the blog",
         read_more="Read the article",
-        cta_h="Try Shoppie",
+        cta_h="Try Shoppie", blog_eyebrow="Shopping and household tips",
         cta_p="The iPhone shopping list that learns. Free, no ads and no sign-up.",
         badge_alt="Download on the App Store", rss="Shoppie blog RSS feed",
         og_alt="Shoppie – shopping list for iPhone, app screenshots",
@@ -169,6 +169,7 @@ def header(lang, current, alt_links, up):
     t = T[lang]
     items = [
         (f"{up}", t["home"], current == "home"),
+        (f"{up}funkcie/", t["features"], current == "features"),
         (f"{up}#roadmap", t["roadmap"], False),
         (f"{up}navody/", t["guides"], current == "guides"),
         (f"{up}blog/", t["blog"], current == "blog"),
@@ -210,6 +211,7 @@ def footer(lang, up):
     return f"""<footer class="site-footer">
   <div class="wrap">
     <nav aria-label="Shoppie">
+      <a href="{up}funkcie/">{t['features']}</a> ·
       <a href="{up}navody/">{t['guides']}</a> ·
       <a href="{up}blog/">{t['blog']}</a> ·
       <a href="{up}support.html">{t['support']}</a> ·
@@ -396,6 +398,7 @@ def build_index(posts, lang):
         header(lang, "blog", alt_rel, "../") + f"""
 <main id="main" class="page blog">
   <div class="wrap">
+    <p class="eyebrow">{t['blog_eyebrow']}</p>
     <h1>{t['blog']}</h1>
     <p class="lead">{t['blog_lead']}</p>
     <ul class="post-list">{cards}</ul>
@@ -481,6 +484,9 @@ def main():
         (d / "feed.xml").write_text(build_feed(pub, lang), encoding="utf-8")
     import guides
     g_groups, g_lastmod = guides.build_all()
+    import features
+    f_groups, f_lastmod = features.build_all(guides.load())
+    g_groups, g_lastmod = f_groups + g_groups, {**g_lastmod, **f_lastmod}
     (ROOT / "sitemap.xml").write_text(build_sitemap(pub, g_groups, g_lastmod), encoding="utf-8")
     drafts = [p["id"] for p in posts if p.get("draft")]
     print(f"Hotovo: {len(pub)} zverejnených článkov" + (f", koncepty: {', '.join(drafts)}" if drafts else ""))

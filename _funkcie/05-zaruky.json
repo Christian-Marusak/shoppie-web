@@ -1,0 +1,132 @@
+{
+  "id": "zaruky",
+  "order": 5,
+  "icon": "shield",
+  "updated": "2026-11-27",
+  "guides": [
+    "zaruka",
+    "karta-zaruky"
+  ],
+  "related": [
+    "sken-blocku",
+    "sukromie",
+    "spotreba"
+  ],
+  "shots": [
+    "15-2",
+    "15-3"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "zaruky",
+      "name": "Záruky",
+      "title": "Aplikácia na záruky v iPhone: záruka aj s fotkou bločku",
+      "description": "Shoppie uloží záruku aj s fotkou bločku a mesiac pred jej koncom vám pripomenie, že ešte môžete reklamovať. Súkromne, priamo v iPhone.",
+      "keywords": [
+        "aplikácia na záruky",
+        "uložiť záruku",
+        "fotka bločku na reklamáciu",
+        "pripomienka konca záruky",
+        "záručný list v mobile"
+      ],
+      "summary": "Shoppie funguje ako aplikácia na záruky: ku každej veci uložíte obchod, dátum nákupu, dĺžku záruky a fotku bločku. Mesiac pred koncom záruky vám Shoppie pripomenie, že ešte môžete reklamovať. Záruky sú súkromné a kartu môžete skryť.",
+      "shots_alt": [
+        "Okno Nová záruka s poľami produkt, Obchod, Kúpené a Záruka",
+        "Sekcia Bloček s možnosťami Odfotiť a Vybrať z galérie pri ukladaní záruky"
+      ],
+      "body": "<p>Práčka prestane žmýkať, slúchadlá stíchnu na jednej strane – a bloček nikde. Záruky v Shoppie vám pomôžu mať doklad vždy po ruke: uložíte si ho do iPhonu hneď po nákupe a Shoppie vám pripomenie, kým ešte môžete reklamovať.</p><h2>Čo karta Záruky vie</h2><ul><li><strong>Uloží záruku ku každej veci</strong> – produkt, obchod, dátum nákupu a dĺžku záruky.</li><li><strong>Priloží fotku bločku</strong> z fotoaparátu alebo z galérie. Ťuknutím ju zobrazíte na celú obrazovku.</li><li><strong>Pripomenie koniec záruky</strong> približne mesiac (30 dní) vopred.</li><li><strong>Dá sa skryť</strong>, ak záruky nepoužívate. Skrytím sa nič nezmaže.</li></ul><h2>Ako to funguje</h2><ol><li>Kartu zapnite v <strong>Nastavenia → Funkcie → Záruky</strong> – dole pribudne karta <strong>Záruky</strong>.</li><li>V karte Záruky ťuknite na <strong>+</strong>.</li><li>V okne <strong>Nová záruka</strong> vyplňte produkt, <strong>Obchod</strong>, dátum <strong>Kúpené</strong> a dĺžku <strong>Záruka</strong>.</li><li>V sekcii <strong>Bloček</strong> zvoľte <strong>Odfotiť</strong> alebo <strong>Vybrať z galérie</strong> a uložte zelenou fajkou ✓.</li></ol><p>Podrobný postup so snímkami nájdete v návode <a href=\"../navody/ulozit-zaruku-a-blocek-v-iphone.html\">Ako uložiť záruku aj s fotkou bločku</a>.</p><h2>Pripomienka pred koncom záruky</h2><p>Približne 30 dní pred koncom záruky vám Shoppie pošle notifikáciu, v čase nastavenom v <strong>Nastavenia → Notifikácie → Čas</strong>. Pripomienka funguje, keď máte povolené notifikácie a zapnuté <strong>Pripomienky spotreby</strong>. Máte tak dosť času vec skontrolovať a prípadnú reklamáciu vybaviť. V EÚ je záruka na nový tovar aspoň 24 mesiacov.</p><h2>Súkromné záruky, ktoré sa nezdieľajú</h2><p>Aj keď máte spoločnú domácnosť cez iCloud, záruky a ich fotky ostávajú len vaše. So zvyškom domácnosti sa nezdieľajú. Fotka bločku je len vo vašom iPhone a vo vašom súkromnom iCloude – Shoppie nemá žiadny server.</p><h2>Skrytie karty Záruky</h2><p>Karta Záruky je predvolene skrytá, aby nezavadzala tým, ktorí ju nepotrebujú. Zobrazíte alebo skryjete ju prepínačom <strong>Záruky</strong> v sekcii <strong>Funkcie</strong> v nastaveniach. Keď ju znova zapnete, všetky záruky aj pripomienky tam budú. Viac v návode <a href=\"../navody/skryt-zobrazit-kartu-zaruky.html\">Ako skryť alebo zobraziť kartu Záruky</a>.</p><h2>Tipy</h2><ul><li>Záruku uložte hneď po nákupe, kým je bloček čitateľný – termopapier časom bledne.</li><li>Bloček odfoťte celý a pri dobrom svetle.</li><li>Pri drahších veciach, ako je elektronika alebo spotrebiče, skontrolujte, či obchod neponúka dlhšiu záruku, a zadajte jej skutočnú dĺžku.</li><li>Do názvu produktu pridajte aj značku a model, aby ste správnu záruku neskôr rýchlo našli.</li><li>Pri reklamácii stačí otvoriť záruku a fotku bločku ukázať priamo v obchode.</li></ul>",
+      "faq": [
+        {
+          "q": "Kedy mi príde pripomienka konca záruky?",
+          "a": "Približne mesiac (30 dní) pred koncom záruky, v čase nastavenom v Nastavenia → Notifikácie → Čas. Potrebujete povolené notifikácie a zapnuté Pripomienky spotreby."
+        },
+        {
+          "q": "Vidí moje záruky aj rodina?",
+          "a": "Nie. Záruky aj ich fotky sú súkromné a so spoločnou domácnosťou sa nezdieľajú."
+        },
+        {
+          "q": "Zmažú sa záruky, keď kartu skryjem?",
+          "a": "Nie. Skrytie karty nič nemaže. Keď ju znova zapnete, záruky aj pripomienky tam budú."
+        },
+        {
+          "q": "Kde nájdem kartu Záruky?",
+          "a": "Je predvolene skrytá. Zapnete ju v Nastavenia → Funkcie → Záruky a dole pribudne karta Záruky."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "zaruky",
+      "name": "Záruky",
+      "title": "Aplikace na záruky v iPhonu: záruka i s fotkou účtenky",
+      "description": "Shoppie uloží záruku i s fotkou účtenky a měsíc před jejím koncem vám připomene, že ještě můžete reklamovat. Soukromě, přímo v iPhonu.",
+      "keywords": [
+        "aplikace na záruky",
+        "uložit záruku",
+        "fotka účtenky na reklamaci",
+        "připomínka konce záruky",
+        "záruční list v mobilu"
+      ],
+      "summary": "Shoppie funguje jako aplikace na záruky: ke každé věci uložíte obchod, datum nákupu, délku záruky a fotku účtenky. Měsíc před koncem záruky vám Shoppie připomene, že ještě můžete reklamovat. Záruky jsou soukromé a kartu můžete skrýt.",
+      "shots_alt": [
+        "Okno Nová záruka s poli produkt, Obchod, Koupeno a Záruka",
+        "Sekce Účtenka s možnostmi Vyfotit a Vybrat z galerie při ukládání záruky"
+      ],
+      "body": "<p>Pračka přestane ždímat, sluchátka ztichnou na jedné straně – a účtenka nikde. Záruky v Shoppie vám pomohou mít doklad vždy po ruce: uložíte si ho do iPhonu hned po nákupu a Shoppie vám připomene, dokud ještě můžete reklamovat.</p><h2>Co karta Záruky umí</h2><ul><li><strong>Uloží záruku ke každé věci</strong> – produkt, obchod, datum nákupu a délku záruky.</li><li><strong>Přiloží fotku účtenky</strong> z fotoaparátu nebo z galerie. Klepnutím ji zobrazíte na celou obrazovku.</li><li><strong>Připomene konec záruky</strong> přibližně měsíc (30 dní) předem.</li><li><strong>Dá se skrýt</strong>, pokud záruky nepoužíváte. Skrytím se nic nesmaže.</li></ul><h2>Jak to funguje</h2><ol><li>Kartu zapněte v <strong>Nastavení → Funkce → Záruky</strong> – dole přibude karta <strong>Záruky</strong>.</li><li>V kartě Záruky klepněte na <strong>+</strong>.</li><li>V okně <strong>Nová záruka</strong> vyplňte produkt, <strong>Obchod</strong>, datum <strong>Koupeno</strong> a délku <strong>Záruka</strong>.</li><li>V sekci <strong>Účtenka</strong> zvolte <strong>Vyfotit</strong> nebo <strong>Vybrat z galerie</strong> a uložte zelenou fajfkou ✓.</li></ol><p>Podrobný postup se snímky najdete v návodu <a href=\"../navody/ulozit-zaruku-a-uctenku-v-iphonu.html\">Jak uložit záruku i s fotkou účtenky</a>.</p><h2>Připomínka před koncem záruky</h2><p>Přibližně 30 dní před koncem záruky vám Shoppie pošle oznámení, v čase nastaveném v <strong>Nastavení → Oznámení → Čas</strong>. Připomínka funguje, když máte povolená oznámení a zapnuté <strong>Připomínky spotřeby</strong>. Máte tak dost času věc zkontrolovat a případnou reklamaci vyřídit. V EU je záruka na nové zboží nejméně 24 měsíců.</p><h2>Soukromé záruky, které se nesdílí</h2><p>I když máte společnou domácnost přes iCloud, záruky a jejich fotky zůstávají jen vaše. Se zbytkem domácnosti se nesdílí. Fotka účtenky je jen ve vašem iPhonu a ve vašem soukromém iCloudu – Shoppie nemá žádný server.</p><h2>Skrytí karty Záruky</h2><p>Karta Záruky je ve výchozím stavu skrytá, aby nepřekážela těm, kdo ji nepotřebují. Zobrazíte nebo skryjete ji přepínačem <strong>Záruky</strong> v sekci <strong>Funkce</strong> v nastavení. Když ji znovu zapnete, všechny záruky i připomínky tam budou. Více v návodu <a href=\"../navody/skryt-zobrazit-kartu-zaruky.html\">Jak skrýt nebo zobrazit kartu Záruky</a>.</p><h2>Tipy</h2><ul><li>Záruku uložte hned po nákupu, dokud je účtenka čitelná – termopapír časem bledne.</li><li>Účtenku vyfoťte celou a při dobrém světle.</li><li>U dražších věcí, jako je elektronika nebo spotřebiče, zkontrolujte, jestli obchod nenabízí delší záruku, a zadejte její skutečnou délku.</li><li>Do názvu produktu přidejte i značku a model, abyste správnou záruku později rychle našli.</li><li>Při reklamaci stačí otevřít záruku a fotku účtenky ukázat přímo v obchodě.</li></ul>",
+      "faq": [
+        {
+          "q": "Kdy mi přijde připomínka konce záruky?",
+          "a": "Přibližně měsíc (30 dní) před koncem záruky, v čase nastaveném v Nastavení → Oznámení → Čas. Potřebujete povolená oznámení a zapnuté Připomínky spotřeby."
+        },
+        {
+          "q": "Vidí moje záruky i rodina?",
+          "a": "Ne. Záruky i jejich fotky jsou soukromé a se společnou domácností se nesdílí."
+        },
+        {
+          "q": "Smažou se záruky, když kartu skryji?",
+          "a": "Ne. Skrytí karty nic nemaže. Když ji znovu zapnete, záruky i připomínky tam budou."
+        },
+        {
+          "q": "Kde najdu kartu Záruky?",
+          "a": "Ve výchozím stavu je skrytá. Zapnete ji v Nastavení → Funkce → Záruky a dole přibude karta Záruky."
+        }
+      ]
+    },
+    "en": {
+      "slug": "warranty-tracker",
+      "name": "Warranties",
+      "title": "Warranty tracker app for iPhone: keep the receipt photo too",
+      "description": "Shoppie saves each warranty with a photo of the receipt and reminds you a month before it ends, while you can still claim. Private, on iPhone.",
+      "keywords": [
+        "warranty tracker app",
+        "save warranty with receipt",
+        "warranty expiry reminder",
+        "receipt photo for warranty claim",
+        "keep track of warranties"
+      ],
+      "summary": "Shoppie works as a warranty tracker app: for anything you buy, save the store, purchase date, warranty length and a photo of the receipt. About a month before the warranty ends, Shoppie reminds you while you can still claim. Warranties are private, and you can hide the tab.",
+      "shots_alt": [
+        "New Warranty form with product, Store, Purchased and Warranty fields",
+        "Receipt section with Take Photo and Choose from Library options when saving a warranty"
+      ],
+      "body": "<p>The washing machine stops spinning, one earbud goes quiet – and the receipt is nowhere to be found. Warranties in Shoppie keep your proof of purchase on your iPhone from the day you buy something, and Shoppie reminds you while you can still make a claim.</p><h2>What the Warranties tab does</h2><ul><li><strong>Saves a warranty for anything you buy</strong> – product, store, purchase date and warranty length.</li><li><strong>Attaches a receipt photo</strong> from the camera or your photo library. Tap it to see it full screen.</li><li><strong>Reminds you before it ends</strong>, about a month (30 days) ahead.</li><li><strong>Can be hidden</strong> if you don't use it. Hiding it deletes nothing.</li></ul><h2>How it works</h2><ol><li>Turn the tab on in <strong>Settings → Features → Warranties</strong> – a <strong>Warranties</strong> tab appears at the bottom.</li><li>On the Warranties tab, tap <strong>+</strong>.</li><li>In <strong>New Warranty</strong>, fill in the product, <strong>Store</strong>, <strong>Purchased</strong> date and <strong>Warranty</strong> length.</li><li>Under <strong>Receipt</strong>, choose <strong>Take Photo</strong> or <strong>Choose from Library</strong>, then save with the green ✓.</li></ol><p>For a step-by-step version with screenshots, see <a href=\"../navody/save-warranty-and-receipt-on-iphone.html\">How to save a warranty with a receipt photo</a>.</p><h2>A reminder before the warranty ends</h2><p>About 30 days before a warranty runs out, Shoppie sends you a notification at the time set in <strong>Settings → Notifications → Time</strong>. It works when notifications are allowed and <strong>Use-by reminders</strong> are on. That leaves you enough time to check the item and sort out a claim if something is wrong. In the EU, new goods come with a warranty of at least 24 months.</p><h2>Private warranties, never shared</h2><p>Even if you share a household through iCloud, your warranties and their photos stay yours. They are never shared with the rest of the household. The receipt photo lives only on your iPhone and in your private iCloud – Shoppie has no server.</p><h2>Hiding the Warranties tab</h2><p>The Warranties tab is hidden by default, so it stays out of the way for anyone who doesn't need it. Show or hide it with the <strong>Warranties</strong> switch in the <strong>Features</strong> section of Settings. When you turn it back on, all your warranties and reminders are still there. More in <a href=\"../navody/show-hide-warranties-tab.html\">How to show or hide the Warranties tab</a>.</p><h2>Tips</h2><ul><li>Save the warranty right after buying, while the receipt is still legible – thermal paper fades.</li><li>Photograph the whole receipt in good light.</li><li>For pricier things like electronics or appliances, check whether the store offers a longer warranty and enter the real length.</li><li>Add the brand and model to the product name so you can find the right warranty quickly later.</li></ul>",
+      "faq": [
+        {
+          "q": "When will I get a warranty reminder?",
+          "a": "About a month (30 days) before the warranty ends, at the time set in Settings → Notifications → Time. Notifications need to be allowed and Use-by reminders turned on."
+        },
+        {
+          "q": "Can my family see my warranties?",
+          "a": "No. Warranties and their photos are private and never shared with your household."
+        },
+        {
+          "q": "Are my warranties deleted when I hide the tab?",
+          "a": "No. Hiding the tab deletes nothing. When you turn it back on, your warranties and reminders are still there."
+        },
+        {
+          "q": "Where is the Warranties tab?",
+          "a": "It is hidden by default. Turn it on in Settings → Features → Warranties and it appears at the bottom."
+        }
+      ]
+    }
+  }
+}

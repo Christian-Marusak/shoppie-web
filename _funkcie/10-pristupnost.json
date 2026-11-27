@@ -1,0 +1,132 @@
+{
+  "id": "pristupnost",
+  "order": 10,
+  "icon": "access",
+  "updated": "2026-11-27",
+  "guides": [
+    "pristupnost",
+    "zmenit-jazyk"
+  ],
+  "related": [
+    "nakupny-zoznam",
+    "spolocna-domacnost",
+    "sukromie"
+  ],
+  "shots": [
+    "18-1",
+    "18-2"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "pristupny-nakupny-zoznam",
+      "name": "Prístupnosť a jazyky",
+      "title": "Prístupný nákupný zoznam: VoiceOver, veľké písmo, tmavý režim",
+      "description": "Prístupný nákupný zoznam pre iPhone: Shoppie podporuje VoiceOver, veľké písmo, tmavý režim, režim na šírku aj iPhone Duo. Po slovensky, česky aj anglicky.",
+      "keywords": [
+        "prístupný nákupný zoznam",
+        "VoiceOver nákupný zoznam",
+        "nákupný zoznam veľké písmo",
+        "nákupný zoznam po slovensky",
+        "tmavý režim iPhone aplikácia"
+      ],
+      "summary": "Shoppie je prístupný nákupný zoznam: podporuje VoiceOver, veľké písmo aj tmavý režim, funguje na šírku a na iPhone Duo. Všetko sa riadi nastaveniami iPhonu, takže v aplikácii netreba nič zapínať. Je v slovenčine, češtine a angličtine.",
+      "shots_alt": [
+        "Nákupný zoznam v Shoppie so zväčšeným písmom: Mlieko, Chlieb a Vajcia s množstvom",
+        "Shoppie v tmavom režime so zoznamom Potraviny, návrhmi a tlačidlom Dokončiť"
+      ],
+      "body": "<p>Nákupný zoznam používa celá rodina – od detí až po starých rodičov. Preto sme Shoppie pripravili tak, aby sa dal pohodlne používať s väčším písmom, s čítačkou obrazovky aj večer v tme. Nemusíte nič hľadať v nastaveniach aplikácie: Shoppie sa prispôsobí tomu, ako máte nastavený iPhone.</p><h2>Čo Shoppie podporuje</h2><ul><li><strong>VoiceOver</strong> – položky, tlačidlá aj návrhy sú popísané, takže zoznam si môžete dať prečítať.</li><li><strong>Veľké písmo</strong> – Shoppie prevezme veľkosť textu z iPhonu.</li><li><strong>Tmavý režim</strong> – šetrí oči pri písaní zoznamu večer.</li><li><strong>Režim na šírku</strong> – zoznam máte prehľadne aj pri otočenom telefóne.</li><li><strong>iPhone Duo</strong> – na rozloženom iPhone Duo využije Shoppie celý veľký vnútorný displej.</li></ul><h2>Ako to funguje</h2><ol><li>Veľké písmo nastavíte v <strong>Nastaveniach iPhonu → Zobrazenie a jas → Veľkosť textu</strong>.</li><li>Tmavý režim zapnete v <strong>Nastaveniach iPhonu → Zobrazenie a jas</strong> voľbou <strong>Tmavý</strong>.</li><li>Čítačku obrazovky zapnete v <strong>Nastaveniach iPhonu → Prístupnosť → VoiceOver</strong>.</li><li>Otvorte Shoppie – zmeny sa prejavia samy.</li></ol><p>Podrobne so snímkami: <a href=\"../navody/pristupnost-voiceover-velke-pismo-tmavy-rezim.html\">Shoppie pre každého: VoiceOver, veľké písmo a tmavý režim</a>.</p><h2>Veľké písmo bez stiesnenia</h2><p>Pri veľmi veľkom písme sa tlačidlo <strong>Dokončiť</strong> zmení na ikonu ✓, aby ostalo viac miesta na text položiek. Robí presne to isté a jej popis sa ukáže po podržaní. Názvy položiek, kategórie aj množstvá tak ostávajú čitateľné.</p><h2>Slovenčina, čeština aj angličtina</h2><p>Shoppie je v slovenčine, češtine a angličtine a jazyk sa riadi iPhonom. Ak chcete mať Shoppie v inom jazyku než zvyšok telefónu, otvorte <strong>Nastavenia iPhonu → Apky → Shoppie → Preferovaný jazyk</strong> a vyberte <strong>Slovenčina</strong>, <strong>Čeština</strong> alebo <strong>English</strong>. Shoppie sa prepne pri ďalšom otvorení. Návod nájdete v článku <a href=\"../navody/zmenit-jazyk-aplikacie-iphone.html\">Ako zmeniť jazyk Shoppie</a>.</p><h2>Tipy pre pohodlnejšie používanie</h2><ul><li>Veľkosť textu v Nastaveniach iPhonu platí pre všetky aplikácie, takže ju stačí nastaviť raz.</li><li>Tmavý režim môže iPhone zapínať automaticky večer – Shoppie sa prepne spolu s ním.</li><li>Na rozloženom iPhone Duo sa zoznam roztiahne na celý vnútorný displej.</li></ul><h2>Pohodlne pre celú domácnosť</h2><p>Keďže sa všetko riadi nastaveniami každého iPhonu, v spoločnej domácnosti si každý člen nastaví Shoppie po svojom. Babka môže mať veľké písmo, vnúča tmavý režim a jeden z rodičov angličtinu – a všetci vidia ten istý zoznam.</p>",
+      "faq": [
+        {
+          "q": "Funguje Shoppie s VoiceOver?",
+          "a": "Áno. Položky, tlačidlá aj návrhy sú popísané, takže s VoiceOver môžete zoznam písať aj odškrtávať."
+        },
+        {
+          "q": "Funguje Shoppie aj na šírku?",
+          "a": "Áno, Shoppie funguje aj v režime na šírku a podporuje aj iPhone Duo, kde využije celý vnútorný displej."
+        },
+        {
+          "q": "Kde v Shoppie zapnem tmavý režim?",
+          "a": "Netreba ho zapínať v aplikácii. Shoppie sa riadi nastavením iPhonu v Nastavenia → Zobrazenie a jas → Tmavý."
+        },
+        {
+          "q": "Môžem mať Shoppie v inom jazyku ako iPhone?",
+          "a": "Áno. V Nastaveniach iPhonu → Apky → Shoppie → Preferovaný jazyk vyberte slovenčinu, češtinu alebo angličtinu."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "pristupny-nakupni-seznam",
+      "name": "Přístupnost a jazyky",
+      "title": "Přístupný nákupní seznam: VoiceOver, velké písmo, tmavý režim",
+      "description": "Přístupný nákupní seznam pro iPhone: Shoppie podporuje VoiceOver, velké písmo, tmavý režim, režim na šířku i iPhone Duo. Česky, slovensky i anglicky.",
+      "keywords": [
+        "přístupný nákupní seznam",
+        "VoiceOver nákupní seznam",
+        "nákupní seznam velké písmo",
+        "nákupní seznam česky",
+        "tmavý režim iPhone aplikace"
+      ],
+      "summary": "Shoppie je přístupný nákupní seznam: podporuje VoiceOver, velké písmo i tmavý režim, funguje na šířku i na iPhonu Duo. Vše se řídí nastavením iPhonu, takže v aplikaci není nic potřeba zapínat. Je v češtině, slovenštině a angličtině.",
+      "shots_alt": [
+        "Nákupní seznam v Shoppie se zvětšeným písmem: mléko, chléb a vejce s množstvím",
+        "Shoppie v tmavém režimu se seznamem Potraviny, návrhy a tlačítkem Dokončit"
+      ],
+      "body": "<p>Nákupní seznam používá celá rodina – od dětí až po prarodiče. Proto jsme Shoppie připravili tak, aby se dal pohodlně používat s větším písmem, se čtečkou obrazovky i večer potmě. Nemusíte nic hledat v nastavení aplikace: Shoppie se přizpůsobí tomu, jak máte nastavený iPhone.</p><h2>Co Shoppie podporuje</h2><ul><li><strong>VoiceOver</strong> – položky, tlačítka i návrhy jsou popsané, takže si seznam můžete nechat přečíst.</li><li><strong>Velké písmo</strong> – Shoppie převezme velikost textu z iPhonu.</li><li><strong>Tmavý režim</strong> – šetří oči při psaní seznamu večer.</li><li><strong>Režim na šířku</strong> – seznam máte přehledně i při otočeném telefonu.</li><li><strong>iPhone Duo</strong> – na rozloženém iPhonu Duo využije Shoppie celý velký vnitřní displej.</li></ul><h2>Jak to funguje</h2><ol><li>Velké písmo nastavíte v <strong>Nastavení iPhonu → Zobrazení a jas → Velikost textu</strong>.</li><li>Tmavý režim zapnete v <strong>Nastavení iPhonu → Zobrazení a jas</strong> volbou <strong>Tmavý</strong>.</li><li>Čtečku obrazovky zapnete v <strong>Nastavení iPhonu → Zpřístupnění → VoiceOver</strong>.</li><li>Otevřete Shoppie – změny se projeví samy.</li></ol><p>Podrobně se snímky: <a href=\"../navody/pristupnost-voiceover-velke-pismo-tmavy-rezim.html\">Shoppie pro každého: VoiceOver, velké písmo a tmavý režim</a>.</p><h2>Velké písmo bez stísnění</h2><p>Při velmi velkém písmu se tlačítko <strong>Dokončit</strong> změní na ikonu ✓, aby zůstalo víc místa na text položek. Dělá přesně totéž a její popis se ukáže po podržení. Názvy položek, kategorie i množství tak zůstávají čitelné.</p><h2>Čeština, slovenština i angličtina</h2><p>Shoppie je v češtině, slovenštině a angličtině a jazyk se řídí iPhonem. Pokud chcete mít Shoppie v jiném jazyce než zbytek telefonu, otevřete <strong>Nastavení iPhonu → Aplikace → Shoppie → Preferovaný jazyk</strong> a vyberte <strong>Čeština</strong>, <strong>Slovenčina</strong> nebo <strong>English</strong>. Shoppie se přepne při dalším otevření. Návod najdete v článku <a href=\"../navody/zmenit-jazyk-aplikace-iphone.html\">Jak změnit jazyk Shoppie</a>.</p><h2>Tipy pro pohodlnější používání</h2><ul><li>Velikost textu v Nastavení iPhonu platí pro všechny aplikace, takže ji stačí nastavit jednou.</li><li>Tmavý režim může iPhone zapínat automaticky večer – Shoppie se přepne spolu s ním.</li><li>Na rozloženém iPhonu Duo se seznam roztáhne na celý vnitřní displej.</li></ul><h2>Pohodlně pro celou domácnost</h2><p>Protože se vše řídí nastavením každého iPhonu, ve společné domácnosti si každý člen nastaví Shoppie po svém. Babička může mít velké písmo, vnouče tmavý režim a jeden z rodičů angličtinu – a všichni vidí stejný seznam.</p>",
+      "faq": [
+        {
+          "q": "Funguje Shoppie s VoiceOver?",
+          "a": "Ano. Položky, tlačítka i návrhy jsou popsané, takže s VoiceOver můžete seznam psát i odškrtávat."
+        },
+        {
+          "q": "Funguje Shoppie i na šířku?",
+          "a": "Ano, Shoppie funguje i v režimu na šířku a podporuje i iPhone Duo, kde využije celý vnitřní displej."
+        },
+        {
+          "q": "Kde v Shoppie zapnu tmavý režim?",
+          "a": "V aplikaci ho zapínat nemusíte. Shoppie se řídí nastavením iPhonu v Nastavení → Zobrazení a jas → Tmavý."
+        },
+        {
+          "q": "Můžu mít Shoppie v jiném jazyce než iPhone?",
+          "a": "Ano. V Nastavení iPhonu → Aplikace → Shoppie → Preferovaný jazyk vyberte češtinu, slovenštinu nebo angličtinu."
+        }
+      ]
+    },
+    "en": {
+      "slug": "accessible-shopping-list-app",
+      "name": "Accessibility and languages",
+      "title": "Accessible shopping list for iPhone: VoiceOver and larger text",
+      "description": "An accessible shopping list for iPhone: Shoppie supports VoiceOver, larger text, Dark Mode, landscape and iPhone Duo – in English, Slovak and Czech.",
+      "keywords": [
+        "accessible shopping list",
+        "voiceover shopping list",
+        "shopping list app large text",
+        "dark mode shopping list",
+        "slovak czech shopping list app"
+      ],
+      "summary": "Shoppie is an accessible shopping list for iPhone: it supports VoiceOver, larger text and Dark Mode, and works in landscape and on iPhone Duo. It all follows your iPhone settings, so there’s nothing to switch on in the app. It’s available in English, Slovak and Czech.",
+      "shots_alt": [
+        "Shoppie shopping list with larger text: milk, bread and eggs with quantities",
+        "Shoppie in Dark Mode showing the Groceries list, suggestions and the Finish button"
+      ],
+      "body": "<p>A shopping list is used by the whole family, from kids to grandparents. That’s why we built Shoppie to be comfortable with larger text, with a screen reader and late in the evening in the dark. There’s nothing to hunt for in the app’s settings: Shoppie simply adapts to how your iPhone is set up.</p><h2>What Shoppie supports</h2><ul><li><strong>VoiceOver</strong> – items, buttons and suggestions are all labelled, so your list can be read aloud.</li><li><strong>Larger text</strong> – Shoppie follows your iPhone’s text size.</li><li><strong>Dark Mode</strong> – easy on the eyes when you write your list at night.</li><li><strong>Landscape</strong> – your list stays clear with the phone turned sideways.</li><li><strong>iPhone Duo</strong> – unfolded, Shoppie uses the entire large inner display.</li></ul><h2>How it works</h2><ol><li>Set larger text in <strong>iPhone Settings → Display &amp; Brightness → Text Size</strong>.</li><li>Turn on Dark Mode in <strong>iPhone Settings → Display &amp; Brightness</strong> by choosing <strong>Dark</strong>.</li><li>Turn on the screen reader in <strong>iPhone Settings → Accessibility → VoiceOver</strong>.</li><li>Open Shoppie – the changes apply on their own.</li></ol><p>For a step-by-step version with screenshots, see <a href=\"../navody/accessibility-voiceover-larger-text-dark-mode.html\">Shoppie for everyone: VoiceOver, larger text and Dark Mode</a>.</p><h2>Larger text without the squeeze</h2><p>With very large text, the <strong>Finish</strong> button turns into a ✓ icon to leave more room for your items. It does exactly the same, and holding it shows the label. Item names, categories and quantities stay easy to read.</p><h2>English, Slovak and Czech</h2><p>Shoppie is available in English, Slovak and Czech and follows your iPhone’s language. To use a different language just for Shoppie, open <strong>iPhone Settings → Apps → Shoppie → Preferred Language</strong> and choose <strong>English</strong>, <strong>Slovenčina</strong> or <strong>Čeština</strong>. Shoppie switches the next time you open it. See <a href=\"../navody/change-app-language-iphone.html\">How to change Shoppie’s language</a>.</p><h2>Tips for everyday comfort</h2><ul><li>The text size in iPhone Settings applies to all apps, so you only need to set it once.</li><li>Your iPhone can switch to Dark Mode automatically in the evening – Shoppie switches with it.</li><li>On an unfolded iPhone Duo, your list spreads across the whole inner display.</li></ul><h2>Comfortable for the whole household</h2><p>Because everything follows each iPhone’s own settings, every member of a shared household can set Shoppie up their way. Grandma can have larger text, the kids Dark Mode and one parent Slovak – and everyone still sees the same list.</p>",
+      "faq": [
+        {
+          "q": "Does Shoppie work with VoiceOver?",
+          "a": "Yes. Items, buttons and suggestions are all labelled, so you can write and tick off your list with VoiceOver."
+        },
+        {
+          "q": "Does Shoppie work in landscape?",
+          "a": "Yes, Shoppie works in landscape and supports iPhone Duo, where it uses the whole inner display."
+        },
+        {
+          "q": "Where do I turn on Dark Mode in Shoppie?",
+          "a": "You don’t need to – Shoppie follows your iPhone setting in Settings → Display & Brightness → Dark."
+        },
+        {
+          "q": "Can Shoppie use a different language from my iPhone?",
+          "a": "Yes. In iPhone Settings → Apps → Shoppie → Preferred Language, choose English, Slovak or Czech."
+        }
+      ]
+    }
+  }
+}

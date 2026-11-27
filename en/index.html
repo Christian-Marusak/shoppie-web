@@ -75,7 +75,7 @@
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="./"><img src="../assets/logo.svg" data-xmas="../assets/img/xmas/icon-christmas.png" alt="" width="32" height="32"><span>Shoppie</span></a>
-    <nav class="main-nav" aria-label="Main menu"><a href="./" aria-current="page">Home</a><a href="./#roadmap">What’s coming</a><a href="navody/">Guides</a><a href="blog/">Blog</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+    <nav class="main-nav" aria-label="Main menu"><a href="./" aria-current="page">Home</a><a href="funkcie/">Features</a><a href="./#roadmap">What’s coming</a><a href="navody/">Guides</a><a href="blog/">Blog</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
     <div class="header-end">
       <nav aria-label="Language">
         <ul class="lang">
@@ -84,25 +84,33 @@
       </nav>
       <details class="menu-toggle">
         <summary aria-label="Menu"><span class="burger" aria-hidden="true"></span></summary>
-        <nav class="menu-panel" aria-label="Main menu" onclick="this.parentNode.open = false"><a href="./" aria-current="page">Home</a><a href="./#roadmap">What’s coming</a><a href="navody/">Guides</a><a href="blog/">Blog</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+        <nav class="menu-panel" aria-label="Main menu" onclick="this.parentNode.open = false"><a href="./" aria-current="page">Home</a><a href="funkcie/">Features</a><a href="./#roadmap">What’s coming</a><a href="navody/">Guides</a><a href="blog/">Blog</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
       </details>
     </div>
   </div>
 </header>
 <main id="main">
   <section class="hero">
-    <div class="wrap">
-      <img class="app-icon" src="../assets/logo.svg" data-xmas="../assets/img/xmas/icon-christmas.png" alt="Shoppie" width="128" height="128">
-      <h1>Shoppie</h1>
-      <p class="subtitle">The shopping list that learns</p>
-      <p class="facts">Free · No ads · No sign-up · For iPhone with iOS 26 or later</p>
-      <a class="store-badge" href="https://apps.apple.com/sk/app/id6832107172"><img src="../assets/badges/app-store-en.svg" alt="Download on the App Store" width="162" height="54"></a>
-      <p class="hero-links"><a href="support.html">Support</a> <a href="privacy.html">Privacy</a></p>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="hero-brand"><img class="app-icon" src="../assets/logo.svg" data-xmas="../assets/img/xmas/icon-christmas.png" alt="" width="52" height="52"><span>Shoppie</span></p>
+        <h1>The shopping list that <em>learns</em>.</h1>
+        <p class="lede">A fast list, suggestions based on your shopping, receipt scanning and a clear view of what to eat first. For the whole household.</p>
+        <ul class="hero-chips"><li>Free</li><li>No ads</li><li>No sign-up</li><li>For iPhone with iOS 26 or later</li></ul>
+        <div class="hero-cta">
+          <a class="store-badge" href="https://apps.apple.com/sk/app/id6832107172"><img src="../assets/badges/app-store-en.svg" alt="Download on the App Store" width="162" height="54"></a>
+          <p class="hero-links"><a href="support.html">Support</a> <a href="privacy.html">Privacy</a></p>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <img class="phone phone-back" src="../assets/navody/12-1-en.webp" alt="" width="600" height="1304">
+        <img class="phone phone-front" src="../assets/navody/01-1-en.webp" alt="" width="600" height="1304" fetchpriority="high">
+      </div>
     </div>
   </section>
 
   <section aria-labelledby="shots-h">
-    <h2 id="shots-h" class="section-title">Take a look</h2>
+    <div class="section-head"><p class="eyebrow">Preview</p><h2 id="shots-h">Take a look</h2></div>
     <ul class="shots" aria-label="Screenshots – swipe sideways on mobile" tabindex="0">
     <li><img src="../assets/img/en/en_1.webp" width="600" height="1304" alt="Groceries list with suggestions of what is running low" loading="lazy"></li>
     <li><img src="../assets/img/en/en_2.webp" width="600" height="1304" alt="Quick-add wheel with favourite items after holding the + button" loading="lazy"></li>
@@ -115,23 +123,25 @@
 
   <section aria-labelledby="feat-h">
     <div class="wrap">
-      <h2 id="feat-h" class="section-title">What Shoppie does</h2>
+      <div class="section-head"><p class="eyebrow">Features</p><h2 id="feat-h">What Shoppie does</h2></div>
       <ul class="features">
-        <li class="card"><span class="emoji" aria-hidden="true">🛒</span><h3>Quick adding</h3><p>Tap + and type what you need. Shoppie knows about 540 common products and sorts them into categories for you. You can add a quantity too.</p></li>
-        <li class="card"><span class="emoji" aria-hidden="true">🎡</span><h3>Favourites wheel</h3><p>Press and hold + and pick what you buy most often from the wheel. You choose what the wheel offers.</p></li>
-        <li class="card"><span class="emoji" aria-hidden="true">✨</span><h3>Knows what you’re running low on</h3><p>Shoppie learns from your shopping and suggests what you probably need.</p></li>
-        <li class="card"><span class="emoji" aria-hidden="true">🧾</span><h3>Receipt scanning</h3><p>Snap a receipt and Shoppie recognises products and prices, including discounts. Right on your iPhone, even offline.</p></li>
-        <li class="card"><span class="emoji" aria-hidden="true">🥛</span><h3>Pantry</h3><p>Food you buy shows up on its own with a best-before date. Each morning Shoppie reminds you what to eat soon, and it can remove expired food for you.</p></li>
-        <li class="card"><span class="emoji" aria-hidden="true">🔁</span><h3>Recurring items</h3><p>Coffee every 2 weeks, toilet paper every month. They’re added to your list on the day you choose.</p></li>
-        <li class="card"><span class="emoji" aria-hidden="true">🛡️</span><h3>Warranties</h3><p>All your warranties in one place, with a photo of the receipt. You get a reminder before a warranty ends.</p></li>
-        <li class="card"><span class="emoji" aria-hidden="true">👨‍👩‍👧</span><h3>Shared household</h3><p>Invite your family via iCloud. Everyone sees changes to your lists right away.</p></li>
-        <li class="card"><span class="emoji" aria-hidden="true">🕘</span><h3>History and multiple lists</h3><p>Every shopping trip with the store and number of items. Swipe right to add an item again. Keep as many lists as you need.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true"><svg class="ico"><use href="../assets/icons.svg#cart"/></svg></span><h3><a href="funkcie/shopping-list-app-for-iphone.html">Quick adding</a></h3><p>Tap + and type what you need. Shoppie knows about 540 common products and sorts them into categories for you. You can add a quantity too.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true"><svg class="ico"><use href="../assets/icons.svg#wheel"/></svg></span><h3><a href="funkcie/shopping-suggestions-and-favourites-wheel.html">Favourites wheel</a></h3><p>Press and hold + and pick what you buy most often from the wheel. You choose what the wheel offers.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true"><svg class="ico"><use href="../assets/icons.svg#sparkles"/></svg></span><h3><a href="funkcie/shopping-suggestions-and-favourites-wheel.html">Knows what you’re running low on</a></h3><p>Shoppie learns from your shopping and suggests what you probably need.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true"><svg class="ico"><use href="../assets/icons.svg#receipt"/></svg></span><h3><a href="funkcie/receipt-scanner.html">Receipt scanning</a></h3><p>Snap a receipt and Shoppie recognises products and prices, including discounts. Right on your iPhone, even offline.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true"><svg class="ico"><use href="../assets/icons.svg#pantry"/></svg></span><h3><a href="funkcie/food-expiry-tracker.html">Pantry</a></h3><p>Food you buy shows up on its own with a best-before date. Each morning Shoppie reminds you what to eat soon, and it can remove expired food for you.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true"><svg class="ico"><use href="../assets/icons.svg#repeat"/></svg></span><h3><a href="funkcie/recurring-shopping-list.html">Recurring items</a></h3><p>Coffee every 2 weeks, toilet paper every month. They’re added to your list on the day you choose.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true"><svg class="ico"><use href="../assets/icons.svg#shield"/></svg></span><h3><a href="funkcie/warranty-tracker.html">Warranties</a></h3><p>All your warranties in one place, with a photo of the receipt. You get a reminder before a warranty ends.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true"><svg class="ico"><use href="../assets/icons.svg#users"/></svg></span><h3><a href="funkcie/shared-shopping-list.html">Shared household</a></h3><p>Invite your family via iCloud. Everyone sees changes to your lists right away.</p></li>
+        <li class="card"><span class="emoji" aria-hidden="true"><svg class="ico"><use href="../assets/icons.svg#history"/></svg></span><h3><a href="funkcie/multiple-shopping-lists-history.html">History and multiple lists</a></h3><p>Every shopping trip with the store and number of items. Swipe right to add an item again. Keep as many lists as you need.</p></li>
       </ul>
+      <p class="features-more"><a href="funkcie/">All features →</a></p>
     </div>
   </section>
 
   <section class="duo-section" aria-labelledby="duo-h">
     <div class="duo-sticky">
+      <p class="eyebrow">iPhone Duo</p>
       <h2 id="duo-h">Designed for iPhone Duo too</h2>
       <p class="hint-scroll">Keep scrolling to unfold it. Shoppie moves from the outer display to the large inner display.</p>
       <p class="hint-static">On an unfolded iPhone Duo, Shoppie uses the entire large inner display.</p>
@@ -148,7 +158,7 @@
 
   <section aria-labelledby="extras-h">
     <div class="wrap">
-      <h2 id="extras-h" class="section-title">And more</h2>
+      <div class="section-head"><p class="eyebrow">Details</p><h2 id="extras-h">And more</h2></div>
       <ul class="extras">
         <li>Slovak, Czech and English</li>
         <li>Dark Mode</li>
@@ -164,6 +174,7 @@
 
   <section aria-labelledby="priv-h">
     <div class="wrap privacy-note">
+      <p class="eyebrow">Privacy</p>
       <h2 id="priv-h">Your data stays yours</h2>
       <p>Shoppie collects no data. No accounts, no ads, no tracking. Everything stays on your iPhone and in your iCloud.</p>
       <a href="privacy.html">Privacy Policy</a>
@@ -172,29 +183,29 @@
 
   <section class="roadmap" id="roadmap" aria-labelledby="roadmap-h">
     <div class="wrap">
-      <h2 id="roadmap-h" class="section-title">What’s coming</h2>
+      <div class="section-head"><p class="eyebrow">Roadmap</p><h2 id="roadmap-h">What’s coming</h2></div>
       <p class="rm-sub">Shoppie keeps getting better. This is our path – the further it goes, the more it fades into the mist.</p>
       <ol class="rm-path">
         <li class="rm-stage rm-now">
           <h3>Available now</h3>
           <ul>
-          <li class="rm-item"><span class="rm-emoji" aria-hidden="true">✅</span><div><h4>Version 1.0</h4><p>A shared shopping list for the whole household with quick add, suggestions based on your shopping, receipt scanning, Pantry and warranties.</p></div></li>
+          <li class="rm-item"><span class="rm-emoji" aria-hidden="true"><svg class="ico"><use href="../assets/icons.svg#check"/></svg></span><div><h4>Version 1.0</h4><p>A shared shopping list for the whole household with quick add, suggestions based on your shopping, receipt scanning, Pantry and warranties.</p></div></li>
           </ul>
         </li>
         <li class="rm-stage rm-next">
           <h3>Coming next</h3>
           <ul>
-          <li class="rm-item"><span class="rm-emoji" aria-hidden="true">📱</span><div><h4>Home Screen widget</h4><p>See your shopping list and tick off items right from your iPhone’s Home Screen, without opening the app.</p></div></li>
-          <li class="rm-item"><span class="rm-emoji" aria-hidden="true">📝</span><div><h4>Item notes</h4><p>Add a note to an item, such as which brand or flavour to buy, so there are no mix-ups in the shop.</p></div></li>
-          <li class="rm-item"><span class="rm-emoji" aria-hidden="true">📊</span><div><h4>Shopping overview</h4><p>See what you buy, how often, and how much you’ve spent, based on your scanned receipts.</p></div></li>
+          <li class="rm-item"><span class="rm-emoji" aria-hidden="true"><svg class="ico"><use href="../assets/icons.svg#phone"/></svg></span><div><h4>Home Screen widget</h4><p>See your shopping list and tick off items right from your iPhone’s Home Screen, without opening the app.</p></div></li>
+          <li class="rm-item"><span class="rm-emoji" aria-hidden="true"><svg class="ico"><use href="../assets/icons.svg#note"/></svg></span><div><h4>Item notes</h4><p>Add a note to an item, such as which brand or flavour to buy, so there are no mix-ups in the shop.</p></div></li>
+          <li class="rm-item"><span class="rm-emoji" aria-hidden="true"><svg class="ico"><use href="../assets/icons.svg#chart"/></svg></span><div><h4>Shopping overview</h4><p>See what you buy, how often, and how much you’ve spent, based on your scanned receipts.</p></div></li>
           </ul>
         </li>
         <li class="rm-stage rm-later">
           <h3>Later</h3>
           <ul>
-          <li class="rm-item rm-fog-1"><span class="rm-emoji" aria-hidden="true">🛒</span><div><h4>In-store mode</h4><p>When you arrive at the shop, your list adapts for shopping and sorts items in the order you walk through the store.</p></div></li>
-          <li class="rm-item rm-fog-2"><span class="rm-emoji" aria-hidden="true">🔒</span><div><h4>Shopping from the Lock Screen</h4><p>See and tick off the remaining items without unlocking your phone.</p></div></li>
-          <li class="rm-item rm-fog-3"><span class="rm-emoji" aria-hidden="true">💶</span><div><h4>Prices and budget</h4><p>Find out roughly what your shopping will cost and how well you’re keeping to your monthly food budget.</p></div></li>
+          <li class="rm-item rm-fog-1"><span class="rm-emoji" aria-hidden="true"><svg class="ico"><use href="../assets/icons.svg#cart"/></svg></span><div><h4>In-store mode</h4><p>When you arrive at the shop, your list adapts for shopping and sorts items in the order you walk through the store.</p></div></li>
+          <li class="rm-item rm-fog-2"><span class="rm-emoji" aria-hidden="true"><svg class="ico"><use href="../assets/icons.svg#lock"/></svg></span><div><h4>Shopping from the Lock Screen</h4><p>See and tick off the remaining items without unlocking your phone.</p></div></li>
+          <li class="rm-item rm-fog-3"><span class="rm-emoji" aria-hidden="true"><svg class="ico"><use href="../assets/icons.svg#euro"/></svg></span><div><h4>Prices and budget</h4><p>Find out roughly what your shopping will cost and how well you’re keeping to your monthly food budget.</p></div></li>
           </ul>
         </li>
         <li class="rm-stage rm-end">
@@ -207,6 +218,7 @@
 
   <section class="get-app" aria-labelledby="get-h">
     <div class="wrap">
+      <p class="eyebrow">Free</p>
       <h2 id="get-h">Get Shoppie</h2>
       <p>Shoppie is available on the App Store for iPhone. Free, no ads and no sign-up.</p>
       <a class="store-badge" href="https://apps.apple.com/sk/app/id6832107172"><img src="../assets/badges/app-store-en.svg" alt="Download on the App Store" width="162" height="54"></a>
@@ -216,6 +228,7 @@
 <footer class="site-footer">
   <div class="wrap">
     <nav aria-label="Shoppie">
+      <a href="funkcie/">Features</a> ·
       <a href="navody/">Guides</a> ·
       <a href="blog/">Blog</a> ·
       <a href="support.html">Support</a> ·

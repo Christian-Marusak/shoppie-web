@@ -1,0 +1,133 @@
+{
+  "id": "zoznamy-historia",
+  "order": 8,
+  "icon": "lists",
+  "updated": "2026-11-27",
+  "guides": [
+    "viac-zoznamov",
+    "historia-nakupov"
+  ],
+  "related": [
+    "nakupny-zoznam",
+    "spolocna-domacnost",
+    "navrhy-kolesko",
+    "sken-blocku"
+  ],
+  "shots": [
+    "04-1",
+    "06-2"
+  ],
+  "langs": {
+    "sk": {
+      "slug": "viac-nakupnych-zoznamov-historia",
+      "name": "Zoznamy a história",
+      "title": "Viac nákupných zoznamov a história nákupov v iPhone",
+      "description": "Viac nákupných zoznamov v iPhone: potraviny, drogéria aj Vianoce zvlášť. Dokončené nákupy Shoppie uloží do Histórie s obchodom a počtom položiek.",
+      "keywords": [
+        "viac nákupných zoznamov",
+        "história nákupov",
+        "nákupný zoznam na Vianoce",
+        "čo som kúpil minule",
+        "samostatný nákupný zoznam"
+      ],
+      "summary": "V Shoppie môžete mať viac nákupných zoznamov – napríklad na potraviny, drogériu alebo samostatný zoznam „Vianoce“ – a prepínať ich ťuknutím na názov. Dokončený nákup sa uloží do Histórie s obchodom a počtom položiek a potiahnutím doprava položku znova pridáte do zoznamu.",
+      "shots_alt": [
+        "Ponuka zoznamov v Shoppie so zoznamami Potraviny a Drogéria a voľbami Nový zoznam a Spravovať zoznamy",
+        "Karta História so zoznamom nákupov podľa dátumu s obchodom, počtom položiek a sumou"
+      ],
+      "body": "<p>Jeden zoznam na všetko sa rýchlo zaplní. V Shoppie si preto môžete vytvoriť viac nákupných zoznamov – na potraviny, drogériu, chatu alebo samostatný zoznam „Vianoce“ – a prepínať medzi nimi jedným ťuknutím. Keď nákup dokončíte, uloží sa do Histórie, takže vždy viete, čo ste kupovali minule.</p><h2>Viac zoznamov pre rôzne nákupy</h2><ul><li><strong>Samostatné zoznamy</strong> na potraviny, drogériu, chatu či Vianoce.</li><li><strong>Vlastný názov a ikona</strong> pre každý zoznam, aby ste ich hneď rozlíšili.</li><li><strong>Prepínanie ťuknutím na názov</strong> zoznamu hore v karte Zoznam.</li><li>V ponuke <strong>Spravovať zoznamy</strong> zoznamy premenujete, presuniete alebo zmažete.</li></ul><h2>Ako to funguje</h2><ol><li>Hore v karte Zoznam ťuknite na <strong>názov zoznamu</strong> (napríklad <em>Potraviny ˅</em>).</li><li>Ťuknite na <strong>Nový zoznam</strong>, zadajte <strong>Názov</strong> a vyberte <strong>Ikonu</strong>.</li><li>Potvrďte zelenou fajkou ✓ a pridajte položky.</li><li>V obchode položky odškrtávajte a nakoniec ťuknite na <strong>Dokončiť</strong> → <strong>Dokončiť nákup</strong>.</li></ol><p>Podrobný postup so snímkami nájdete v návodoch <a href=\"../navody/viac-nakupnych-zoznamov.html\">Ako mať viac nákupných zoznamov</a> a <a href=\"../navody/dokoncit-nakup-historia-nakupov.html\">Ako dokončiť nákup a nájsť ho v histórii</a>.</p><h2>História nákupov: čo ste kúpili minule</h2><p>Po dokončení nákupu sa odškrtnuté položky uložia do Histórie a zo zoznamu zmiznú. V karte <strong>História</strong> vidíte všetky nákupy s dátumom, obchodom a počtom položiek. Otvorte nákup a položku <strong>potiahnite doprava</strong> → <strong>Pridať do zoznamu</strong>. Celý nákup naraz vrátite tlačidlom <strong>Pridať všetko do zoznamu</strong> – praktické, keď nakupujete každý týždeň podobne.</p><h2>Prečo sa oplatí nákup dokončiť</h2><p>Dokončený nákup nie je len záznam. Shoppie sa z neho učí, čo a ako často kupujete, a podľa toho navrhuje, čo vám asi dochádza. Ak k nákupu naskenujete bloček, uloží sa do Histórie aj s cenami a potraviny sa objavia v Spotrebe s odhadovaným dátumom spotreby.</p><h2>Zoznamy a história pre celú domácnosť</h2><p>Ak máte spoločnú domácnosť cez iCloud, členovia vidia všetky zoznamy aj históriu nákupov a zmeny sa ukážu hneď. Jeden môže dopĺňať zoznam „Vianoce“, druhý zatiaľ nakupuje potraviny – a obaja vidia, čo je už kúpené.</p><h2>Tipy</h2><ul><li>Zoznam „Vianoce“ si založte s predstihom a dopĺňajte ho postupne.</li><li>Nákup dokončite hneď po zaplatení, nech je História presná.</li><li>Na chatu či dovolenku si založte vlastný zoznam a po návrate ho v ponuke Spravovať zoznamy zmažte.</li><li>Pred veľkým nákupom otvorte Históriu a minulý nákup vráťte do zoznamu tlačidlom Pridať všetko do zoznamu.</li><li>Aspoň jeden zoznam musí ostať – posledný sa zmazať nedá.</li></ul>",
+      "faq": [
+        {
+          "q": "Koľko nákupných zoznamov môžem mať?",
+          "a": "Toľko, koľko potrebujete – napríklad na potraviny, drogériu, chatu aj samostatný zoznam na Vianoce. Aspoň jeden zoznam musí ostať."
+        },
+        {
+          "q": "Vidí moje zoznamy aj rodina?",
+          "a": "Áno, ak máte spoločnú domácnosť cez iCloud. Členovia vidia všetky zoznamy aj históriu nákupov a zmeny hneď."
+        },
+        {
+          "q": "Čo všetko uvidím v Histórii?",
+          "a": "Každý dokončený nákup s dátumom, obchodom a počtom položiek. Po otvorení nákupu vidíte aj jednotlivé položky."
+        },
+        {
+          "q": "Ako znova pridám niečo, čo som už kupoval?",
+          "a": "V Histórii otvorte nákup a položku potiahnite doprava → Pridať do zoznamu. Celý nákup vrátite tlačidlom Pridať všetko do zoznamu."
+        }
+      ]
+    },
+    "cs": {
+      "slug": "vice-nakupnich-seznamu-historie",
+      "name": "Seznamy a historie",
+      "title": "Více nákupních seznamů a historie nákupů v iPhonu",
+      "description": "Více nákupních seznamů v iPhonu: potraviny, drogerie i Vánoce zvlášť. Dokončené nákupy Shoppie uloží do Historie s obchodem a počtem položek.",
+      "keywords": [
+        "více nákupních seznamů",
+        "historie nákupů",
+        "nákupní seznam na Vánoce",
+        "co jsem koupil minule",
+        "samostatný nákupní seznam"
+      ],
+      "summary": "V Shoppie můžete mít více nákupních seznamů – třeba na potraviny, drogerii nebo samostatný seznam „Vánoce“ – a přepínat je klepnutím na název. Dokončený nákup se uloží do Historie s obchodem a počtem položek a přetažením doprava položku znovu přidáte do seznamu.",
+      "shots_alt": [
+        "Nabídka seznamů v Shoppie se seznamy Potraviny a Drogerie a volbami Nový seznam a Spravovat seznamy",
+        "Karta Historie se seznamem nákupů podle data s obchodem, počtem položek a částkou"
+      ],
+      "body": "<p>Jeden seznam na všechno se rychle zaplní. V Shoppie si proto můžete vytvořit více nákupních seznamů – na potraviny, drogerii, chalupu nebo samostatný seznam „Vánoce“ – a přepínat mezi nimi jedním klepnutím. Když nákup dokončíte, uloží se do Historie, takže vždy víte, co jste kupovali minule.</p><h2>Více seznamů pro různé nákupy</h2><ul><li><strong>Samostatné seznamy</strong> na potraviny, drogerii, chalupu nebo Vánoce.</li><li><strong>Vlastní název a ikona</strong> pro každý seznam, abyste je hned rozlišili.</li><li><strong>Přepínání klepnutím na název</strong> seznamu nahoře v kartě Seznam.</li><li>V nabídce <strong>Spravovat seznamy</strong> seznamy přejmenujete, přesunete nebo smažete.</li></ul><h2>Jak to funguje</h2><ol><li>Nahoře v kartě Seznam klepněte na <strong>název seznamu</strong> (například <em>Potraviny ˅</em>).</li><li>Klepněte na <strong>Nový seznam</strong>, zadejte <strong>Název</strong> a vyberte <strong>Ikonu</strong>.</li><li>Potvrďte zelenou fajfkou ✓ a přidejte položky.</li><li>V obchodě položky odškrtávejte a nakonec klepněte na <strong>Dokončit</strong> → <strong>Dokončit nákup</strong>.</li></ol><p>Podrobný postup se snímky najdete v návodech <a href=\"../navody/vice-nakupnich-seznamu.html\">Jak mít víc nákupních seznamů</a> a <a href=\"../navody/dokoncit-nakup-historie-nakupu.html\">Jak dokončit nákup a najít ho v historii</a>.</p><h2>Historie nákupů: co jste koupili minule</h2><p>Po dokončení nákupu se odškrtnuté položky uloží do Historie a ze seznamu zmizí. V kartě <strong>Historie</strong> vidíte všechny nákupy s datem, obchodem a počtem položek. Otevřete nákup a položku <strong>přetáhněte doprava</strong> → <strong>Přidat do seznamu</strong>. Celý nákup najednou vrátíte tlačítkem <strong>Přidat vše do seznamu</strong> – praktické, když nakupujete každý týden podobně.</p><h2>Proč se vyplatí nákup dokončit</h2><p>Dokončený nákup není jen záznam. Shoppie se z něj učí, co a jak často kupujete, a podle toho navrhuje, co vám asi dochází. Pokud k nákupu naskenujete účtenku, uloží se do Historie i s cenami a potraviny se objeví ve Spotřebě s odhadovaným datem spotřeby.</p><h2>Seznamy a historie pro celou domácnost</h2><p>Pokud máte společnou domácnost přes iCloud, členové vidí všechny seznamy i historii nákupů a změny se ukážou hned. Jeden může doplňovat seznam „Vánoce“, druhý mezitím nakupuje potraviny – a oba vidí, co už je koupené.</p><h2>Tipy</h2><ul><li>Seznam „Vánoce“ si založte s předstihem a doplňujte ho postupně.</li><li>Nákup dokončete hned po zaplacení, ať je Historie přesná.</li><li>Na chalupu či dovolenou si založte vlastní seznam a po návratu ho v nabídce Spravovat seznamy smažte.</li><li>Před velkým nákupem otevřete Historii a minulý nákup vraťte do seznamu tlačítkem Přidat vše do seznamu.</li><li>Alespoň jeden seznam musí zůstat – poslední smazat nejde.</li></ul>",
+      "faq": [
+        {
+          "q": "Kolik nákupních seznamů můžu mít?",
+          "a": "Kolik potřebujete – třeba na potraviny, drogerii, chalupu i samostatný seznam na Vánoce. Alespoň jeden seznam musí zůstat."
+        },
+        {
+          "q": "Vidí moje seznamy i rodina?",
+          "a": "Ano, pokud máte společnou domácnost přes iCloud. Členové vidí všechny seznamy i historii nákupů a změny hned."
+        },
+        {
+          "q": "Co všechno uvidím v Historii?",
+          "a": "Každý dokončený nákup s datem, obchodem a počtem položek. Po otevření nákupu vidíte i jednotlivé položky."
+        },
+        {
+          "q": "Jak znovu přidám něco, co jsem už kupoval?",
+          "a": "V Historii otevřete nákup a položku přetáhněte doprava → Přidat do seznamu. Celý nákup vrátíte tlačítkem Přidat vše do seznamu."
+        }
+      ]
+    },
+    "en": {
+      "slug": "multiple-shopping-lists-history",
+      "name": "Lists and history",
+      "title": "Multiple shopping lists and shopping history on iPhone",
+      "description": "Keep multiple shopping lists on your iPhone – groceries, toiletries, Christmas. Shoppie saves finished trips to History with the store and item count.",
+      "keywords": [
+        "multiple shopping lists",
+        "shopping history app",
+        "christmas shopping list",
+        "what did I buy last time",
+        "separate shopping lists"
+      ],
+      "summary": "Shoppie lets you keep multiple shopping lists – say groceries, toiletries and a separate “Christmas” list – and switch between them by tapping the list name. A finished trip is saved to History with the store and item count, and swiping an item to the right adds it back to your list.",
+      "shots_alt": [
+        "Shoppie’s list menu showing the Groceries and Drugstore lists with New List and Manage Lists",
+        "The History tab listing past trips by date with store, number of items and total"
+      ],
+      "body": "<p>One list for everything fills up fast. That’s why Shoppie lets you create multiple shopping lists – for groceries, toiletries, a weekend away or a separate “Christmas” list – and switch between them with a single tap. When you finish a trip, it’s saved to History, so you always know what you bought last time.</p><h2>Separate lists for different kinds of shopping</h2><ul><li><strong>Separate lists</strong> for groceries, toiletries, the cottage or Christmas.</li><li><strong>Your own name and icon</strong> for each list, so you can tell them apart at a glance.</li><li><strong>Switch by tapping the list name</strong> at the top of the List tab.</li><li>In <strong>Manage Lists</strong> you can rename, reorder or delete them.</li></ul><h2>How it works</h2><ol><li>At the top of the List tab, tap the <strong>list name</strong> (for example <em>Groceries ˅</em>).</li><li>Tap <strong>New List</strong>, enter a <strong>Name</strong> and pick an <strong>Icon</strong>.</li><li>Confirm with the green ✓ and add your items.</li><li>Tick items off in the shop, then tap <strong>Finish</strong> → <strong>Finish Shopping</strong>.</li></ol><p>For step-by-step versions with screenshots, see <a href=\"../navody/multiple-shopping-lists.html\">How to have more than one shopping list</a> and <a href=\"../navody/finish-shopping-shopping-history.html\">How to finish shopping and find it in your history</a>.</p><h2>Shopping history: what you bought last time</h2><p>When you finish a trip, ticked items are saved to History and removed from the list. The <strong>History</strong> tab shows every trip with the date, store and number of items. Open a trip and <strong>swipe an item to the right</strong> → <strong>Add to List</strong>. To bring back the whole trip, use <strong>Add All to List</strong> – handy when your weekly shop looks much the same.</p><h2>Why finishing a trip pays off</h2><p>A finished trip is more than a record. Shoppie learns from it what you buy and how often, and suggests what you’re probably running low on. If you scan the receipt, the trip is saved to History with prices, and food appears in Pantry with an estimated best-before date.</p><h2>Lists and history for the whole household</h2><p>If you share a household via iCloud, members see all lists and the shopping history, and changes show up straight away. One person can keep adding to the “Christmas” list while another does the grocery run – and both can see what’s already been bought.</p><h2>Tips</h2><ul><li>Start your “Christmas” list early and add to it as you go.</li><li>Finish the trip right after paying so your History stays accurate.</li><li>At least one list has to stay – you can’t delete the last one.</li></ul>",
+      "faq": [
+        {
+          "q": "How many shopping lists can I have?",
+          "a": "As many as you need – groceries, toiletries, the cottage and a separate Christmas list, for example. At least one list has to stay."
+        },
+        {
+          "q": "Can my family see my lists?",
+          "a": "Yes, if you share a household via iCloud. Members see all lists and the shopping history, and changes appear straight away."
+        },
+        {
+          "q": "What does History show?",
+          "a": "Every finished trip with the date, store and number of items. Open a trip to see the individual items."
+        },
+        {
+          "q": "How do I add something I bought before?",
+          "a": "In History, open the trip and swipe the item to the right → Add to List. To bring back the whole trip, tap Add All to List."
+        }
+      ]
+    }
+  }
+}
